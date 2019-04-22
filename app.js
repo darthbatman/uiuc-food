@@ -19,42 +19,48 @@ var getCoordinateForAddress = deasync(function(address, cb) {
 	});
 });
 
-// TODO: make call to get eateries.html (Reference Postman)
 function getAllEateries(cb) {
-	var $ = cheerio.load(fs.readFileSync('data/eateries.html'));
-	var eateryRecords = $('.event-detail-box');
+	request.post({
+	  headers: {'content-type' : 'application/x-www-form-urlencoded'},
+	  url:     'https://www.visitchampaigncounty.org/business/getlistingsrecords',
+	  body:    "catid=54&perpage=1000&display=grid"
+	}, function(error, response, body){
+	  	fs.writeFileSync('data/eateries.html', body);
+	  	var $ = cheerio.load(fs.readFileSync('data/eateries.html'));
+		var eateryRecords = $('.event-detail-box');
 
-	var eateries = [];
+		var eateries = [];
 
-	for (var i = 0; i < eateryRecords.length; i++) {
-		console.log(i);
-		var eateryRecord = eateryRecords[i];
-		var eateryName = eateryRecord.children[1].children[1].children[0].data.trim();
-		var eateryLocation = {
-			address: eateryRecord.children[2].data.trim(),
-			coordinate: {}
-		};
-		eateryLocation.coordinate = getCoordinateForAddress(eateryLocation.address);
-		if (eateryLocation.coordinate.message) {
-			eateryLocation.coordinate = {};
-		}
-		var eateryIndex = -1;
-		for (var j = 0; j < eateries.length; j++) {
-			if (eateries[j].name == eateryName) {
-				eateryIndex = j;
-				break;
+		for (var i = 0; i < eateryRecords.length; i++) {
+			console.log(i);
+			var eateryRecord = eateryRecords[i];
+			var eateryName = eateryRecord.children[1].children[0].children[0].data.trim();
+			var eateryLocation = {
+				address: eateryRecord.children[2].data.trim(),
+				coordinate: {}
+			};
+			eateryLocation.coordinate = getCoordinateForAddress(eateryLocation.address);
+			if (eateryLocation.coordinate.message) {
+				eateryLocation.coordinate = {};
+			}
+			var eateryIndex = -1;
+			for (var j = 0; j < eateries.length; j++) {
+				if (eateries[j].name == eateryName) {
+					eateryIndex = j;
+					break;
+				}
+			}
+			if (eateryIndex == -1) {
+				eateries.push({
+					name: eateryName,
+					locations: [eateryLocation]
+				});
+			} else {
+				eateries[j].locations.push(eateryLocation);
 			}
 		}
-		if (eateryIndex == -1) {
-			eateries.push({
-				name: eateryName,
-				locations: [eateryLocation]
-			});
-		} else {
-			eateries[j].locations.push(eateryLocation);
-		}
-	}
-	cb(eateries);
+		cb(eateries);
+	});
 }
 
 // TODO: figure out fast-food/chain by online searching
