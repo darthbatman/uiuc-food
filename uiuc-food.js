@@ -56,11 +56,9 @@ function getEateries(start, count, cb) {
             var eateryRecord = eateryRecords[i];
             var eateryName = eateryRecord.children[1].children[0].children[0].data.trim();
             var eateryLocation = {
-                address: eateryRecord.children[2].data.trim() + ' Champaign, Illinois',
+                address: eateryRecord.children[2].data.trim() + ' ' + eateryRecord.children[4].data.trim(),
                 coordinate: {}
             };
-            console.log(eateryName);
-            console.log(eateryLocation);
             var geocodedResult = geocoder.getCoordinateForAddress(eateryLocation.address);
             eateryLocation.coordinate = geocodedResult[0];
             if (eateryLocation.coordinate.message) {

@@ -10,10 +10,10 @@
                 }
             },
             {
-                "address": "Champaign County Historical Museum, 102 East University Avenue, Champaign, IL 61820, United States of America",
+                "address": "Pancheros, 102 East University Avenue, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.1164795,
-                    "longitude": -88.238607
+                    "latitude": 40.1168398,
+                    "longitude": -88.2070716
                 }
             },
             {
@@ -45,10 +45,10 @@
                 }
             },
             {
-                "address": "Super Pantry, 1511 North Prospect Avenue, Champaign, IL 61820-1201, United States of America",
+                "address": "North Prospect Avenue, Champaign, IL 61822, United States of America",
                 "coordinate": {
-                    "latitude": 40.131874,
-                    "longitude": -88.2587446
+                    "latitude": 40.1333162,
+                    "longitude": -88.2579207
                 }
             }
         ]
@@ -81,10 +81,10 @@
         "name": "Industrial Donut",
         "locations": [
             {
-                "address": "Commerce Drive, Rantoul, IL 61866, United States of America",
+                "address": "501 Commerce Street, Savoy, TX 75479, United States of America",
                 "coordinate": {
-                    "latitude": 40.2981522,
-                    "longitude": -88.1512129
+                    "latitude": 33.5941408,
+                    "longitude": -96.3648861
                 }
             }
         ]
@@ -129,10 +129,10 @@
         "name": "Monarch Brewing Company",
         "locations": [
             {
-                "address": "Independence Street, Dewey, IL 61840, United States of America",
+                "address": "212 South Independence Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.31927,
-                    "longitude": -88.286201
+                    "latitude": 40.0241479,
+                    "longitude": -88.5712403
                 }
             }
         ]
@@ -165,10 +165,10 @@
         "name": "ET's Downtown Rantoul",
         "locations": [
             {
-                "address": "107 East Sangamon Avenue, Rantoul, IL 61866, United States of America",
+                "address": "107 West Sangamon Avenue, Rantoul, IL 61866, United States of America",
                 "coordinate": {
-                    "latitude": 40.3106806,
-                    "longitude": -88.1586749
+                    "latitude": 40.3105089,
+                    "longitude": -88.1606206
                 }
             }
         ]
@@ -179,8 +179,8 @@
             {
                 "address": "Wedge, 415 North Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1198474,
-                    "longitude": -88.2437841
+                    "latitude": 40.1198394,
+                    "longitude": -88.2437618
                 }
             }
         ]
@@ -189,10 +189,10 @@
         "name": "Ott's Drive-In",
         "locations": [
             {
-                "address": "400 North Century Boulevard, Rantoul, IL 61866, United States of America",
+                "address": "400 South Century Boulevard, Rantoul, IL 61866, United States of America",
                 "coordinate": {
-                    "latitude": 40.314431,
-                    "longitude": -88.155743
+                    "latitude": 40.306263,
+                    "longitude": -88.155891
                 }
             }
         ]
@@ -237,10 +237,10 @@
         "name": "The Pink Pig",
         "locations": [
             {
-                "address": "County Road 1600 N, Mayview, IL 61802, United States of America",
+                "address": "Co Rd 1600 N, Ogden, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.113352,
-                    "longitude": -88.136527
+                    "latitude": 40.111431,
+                    "longitude": -87.960546
                 }
             }
         ]
@@ -249,10 +249,10 @@
         "name": "Pekara Bakery & Bistro",
         "locations": [
             {
-                "address": "West Springfield Avenue, Champaign, IL 61822, United States of America",
+                "address": "811 West Springfield Avenue, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.112964,
-                    "longitude": -88.2901946
+                    "latitude": 40.1125573,
+                    "longitude": -88.2568443
                 }
             },
             {
@@ -280,10 +280,10 @@
         "name": "Big Grove Tavern",
         "locations": [
             {
-                "address": "403 1/2 East Main Street, Urbana, IL 61802, United States of America",
+                "address": "1 Main Street, Dewey, IL 61840, United States of America",
                 "coordinate": {
-                    "latitude": 40.1122318,
-                    "longitude": -88.2033538
+                    "latitude": 40.319928,
+                    "longitude": -88.283743
                 }
             }
         ]
@@ -400,10 +400,10 @@
         "name": "JT Walker's Restaurant",
         "locations": [
             {
-                "address": "401 East Main Street, Urbana, IL 61802, United States of America",
+                "address": "JT Walker's Restaurant and Sports Bar, 401 East Main Street, Mahomet, IL 61853, United States of America",
                 "coordinate": {
-                    "latitude": 40.1123225,
-                    "longitude": -88.2035677
+                    "latitude": 40.1950047,
+                    "longitude": -88.4039758
                 }
             }
         ]
@@ -412,10 +412,10 @@
         "name": "Project 47 Smokehouse",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Lombard St, Mahomet, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.194922,
+                    "longitude": -88.399403
                 }
             }
         ]
@@ -568,10 +568,10 @@
         "name": "Blaze Pizza",
         "locations": [
             {
-                "address": "Illini Union, 1401 West Green Street, Urbana, IL 61801, United States of America",
+                "address": "Panda Express, 1401 West Green Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1093924,
-                    "longitude": -88.2272187
+                    "latitude": 40.1105736,
+                    "longitude": -88.2291636
                 }
             },
             {
@@ -599,10 +599,10 @@
         "name": "The Tastee Cup",
         "locations": [
             {
-                "address": "123 South Vine Street, Urbana, IL 61801, United States of America",
+                "address": "123 South Vine Street, Arthur, IL 61928, United States of America",
                 "coordinate": {
-                    "latitude": 40.1122439,
-                    "longitude": -88.2050868
+                    "latitude": 39.7163284,
+                    "longitude": -88.4725456
                 }
             }
         ]
@@ -611,10 +611,10 @@
         "name": "The Snack Shack",
         "locations": [
             {
-                "address": "Champaign Rd, Perry, IL, United States of America",
+                "address": "S Vorcey, Tolono, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.368885,
-                    "longitude": -90.770003
+                    "latitude": 39.98177,
+                    "longitude": -88.261257
                 }
             }
         ]
@@ -647,10 +647,10 @@
         "name": "Roselen's Coffees and Delights",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "1045 East Columbia Street, Arthur, IL 61911, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.710308,
+                    "longitude": -88.4604423
                 }
             }
         ]
@@ -659,10 +659,10 @@
         "name": "Pies by Inge",
         "locations": [
             {
-                "address": "212 West Washington Street, Champaign, IL 61820, United States of America",
+                "address": "212 West Washington Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1202709,
-                    "longitude": -88.2455114
+                    "latitude": 40.0255564,
+                    "longitude": -88.5729129
                 }
             }
         ]
@@ -695,10 +695,10 @@
         "name": "El Oasis",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.074573,
+                    "longitude": -88.169093
                 }
             }
         ]
@@ -707,10 +707,10 @@
         "name": "Double Dip",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Long, Tolono, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.990102,
+                    "longitude": -88.262452
                 }
             }
         ]
@@ -719,10 +719,10 @@
         "name": "Sidney Dairy Barn",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Main St, Sidney, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.192668,
+                    "longitude": -87.982699
                 }
             }
         ]
@@ -743,10 +743,10 @@
         "name": "Dairy Queen",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.026295,
+                    "longitude": -88.567956
                 }
             },
             {
@@ -804,7 +804,7 @@
                 }
             },
             {
-                "address": "Culver's, 2302 South Neil Street, Savoy, IL 61820-7406, United States of America",
+                "address": "Culver's, 2302 South Neil Street, Savoy, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.085422,
                     "longitude": -88.2461882
@@ -828,10 +828,10 @@
         "name": "Quenchers Smoothies & Ice Cream",
         "locations": [
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             }
         ]
@@ -852,10 +852,10 @@
         "name": "Lenny's Ice Cream Gallery",
         "locations": [
             {
-                "address": "308 Main Street, Foosland, IL 61845, United States of America",
+                "address": "308 South Main Street, Gifford, IL 61847, United States of America",
                 "coordinate": {
-                    "latitude": 40.3606588,
-                    "longitude": -88.4292256
+                    "latitude": 40.3053295,
+                    "longitude": -88.0214735
                 }
             }
         ]
@@ -876,10 +876,10 @@
         "name": "Cool Bliss Popped Bliss",
         "locations": [
             {
-                "address": "East Springfield Avenue, Champaign, IL 61820, United States of America",
+                "address": "22 East Springfield Avenue, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1126525,
-                    "longitude": -88.235695
+                    "latitude": 40.1126849,
+                    "longitude": -88.2420275
                 }
             }
         ]
@@ -900,10 +900,10 @@
         "name": "Cookies by Design",
         "locations": [
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             }
         ]
@@ -924,7 +924,7 @@
         "name": "Cocomero",
         "locations": [
             {
-                "address": "709 South Wright Street, Champaign, IL 61820, United States of America",
+                "address": "709 South Wright Street, Urbana, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.1101496,
                     "longitude": -88.2289947
@@ -979,10 +979,10 @@
         "name": "Wood N' Hog Barbecue",
         "locations": [
             {
-                "address": "4th Street, Fisher, IL 61843, United States of America",
+                "address": "North 4th Street, St. Joseph, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.316089,
-                    "longitude": -88.35111
+                    "latitude": 40.114875,
+                    "longitude": -88.0392484
                 }
             }
         ]
@@ -1058,10 +1058,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Convenience Pl, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.138036,
+                    "longitude": -88.242713
                 }
             },
             {
@@ -1084,10 +1084,10 @@
                 }
             },
             {
-                "address": "102 East University Avenue, Champaign, IL 61820, United States of America",
+                "address": "E University Ave, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1164139,
-                    "longitude": -88.2385537
+                    "latitude": 40.116481,
+                    "longitude": -88.207507
                 }
             }
         ]
@@ -1120,10 +1120,10 @@
         "name": "Monical's Pizza",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "707 West Bridge Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0293072,
+                    "longitude": -88.5801921
                 }
             }
         ]
@@ -1139,10 +1139,10 @@
                 }
             },
             {
-                "address": "102 West Vine Street, Champaign, IL 61820, United States of America",
+                "address": "West Vine Street, Tolono, IL 61880, United States of America",
                 "coordinate": {
-                    "latitude": 40.1222129,
-                    "longitude": -88.2437303
+                    "latitude": 39.988534,
+                    "longitude": -88.265291
                 }
             },
             {
@@ -1153,10 +1153,10 @@
                 }
             },
             {
-                "address": "320 Champaign Avenue, Allerton, IL 61810, United States of America",
+                "address": "320 East Champaign Avenue, Rantoul, IL 61866, United States of America",
                 "coordinate": {
-                    "latitude": 39.8968862,
-                    "longitude": -87.9377113
+                    "latitude": 40.308283,
+                    "longitude": -88.1548117
                 }
             },
             {
@@ -1191,7 +1191,7 @@
         "name": "McAlister's Deli",
         "locations": [
             {
-                "address": "McAlister's Deli, 421 West Town Center Boulevard, Champaign, IL 61820, United States of America",
+                "address": "McAlister's Deli, 421 West Town Center Boulevard, Champaign, IL 61822-1234, United States of America",
                 "coordinate": {
                     "latitude": 40.1413435,
                     "longitude": -88.2501235
@@ -1258,10 +1258,10 @@
         "name": "Hickory River Smokehouse",
         "locations": [
             {
-                "address": "Champaign County, IL, United States of America",
+                "address": "1706 North Cunningham Avenue, Urbana, IL 61802, United States of America",
                 "coordinate": {
-                    "latitude": 40.11065,
-                    "longitude": -88.19725
+                    "latitude": 40.1288365,
+                    "longitude": -88.1984587
                 }
             }
         ]
@@ -1306,10 +1306,10 @@
         "name": "Fazoli's",
         "locations": [
             {
-                "address": "Fazoli's, 2029 North Prospect Avenue, Champaign, IL 61821, United States of America",
+                "address": "North Prospect Avenue, Champaign, IL 61822, United States of America",
                 "coordinate": {
-                    "latitude": 40.1398705,
-                    "longitude": -88.2585772
+                    "latitude": 40.1343767,
+                    "longitude": -88.2579158
                 }
             }
         ]
@@ -1318,10 +1318,10 @@
         "name": "El Toro of St. Joseph",
         "locations": [
             {
-                "address": "221 Lincoln Street, Broadlands, IL 61816, United States of America",
+                "address": "221 Lincoln Street, St. Joseph, IL 61873, United States of America",
                 "coordinate": {
-                    "latitude": 39.9063769,
-                    "longitude": -87.9960465
+                    "latitude": 40.1113413,
+                    "longitude": -88.0414414
                 }
             }
         ]
@@ -1330,7 +1330,7 @@
         "name": "El Toro II",
         "locations": [
             {
-                "address": "723 South Neil Street, Champaign, IL 61820, United States of America",
+                "address": "723 South Neil Street, Champaign, IL 61820-5193, United States of America",
                 "coordinate": {
                     "latitude": 40.1070936,
                     "longitude": -88.243905
@@ -1392,10 +1392,10 @@
         "name": "Classic Events Catering",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Stone Creek Blvd, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.088513,
+                    "longitude": -88.17433
                 }
             }
         ]
@@ -1423,10 +1423,10 @@
         "name": "Chester's BBQ",
         "locations": [
             {
-                "address": "South Neil Street, Champaign, IL 61820-6974, United States of America",
+                "address": "302 South Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.0944676,
-                    "longitude": -88.2451767
+                    "latitude": 40.1138186,
+                    "longitude": -88.2433839
                 }
             }
         ]
@@ -1447,10 +1447,10 @@
         "name": "Buffalo Wild Wings",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Savoy, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.068677,
+                    "longitude": -88.253105
                 }
             },
             {
@@ -1485,10 +1485,10 @@
         "name": "Hendrick House",
         "locations": [
             {
-                "address": "904 West Green Street, Champaign, IL 61821, United States of America",
+                "address": "904 West Green Street, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.11022,
-                    "longitude": -88.2583685
+                    "latitude": 40.1106586,
+                    "longitude": -88.2194882
                 }
             }
         ]
@@ -1497,10 +1497,10 @@
         "name": "Crudo Wine Bar",
         "locations": [
             {
-                "address": "116 North Walnut Street, Champaign, IL 61820, United States of America",
+                "address": "116 North Walnut Street, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.1166996,
-                    "longitude": -88.24239
+                    "latitude": 40.1127372,
+                    "longitude": -88.2062015
                 }
             }
         ]
@@ -1557,10 +1557,10 @@
         "name": "The Vault",
         "locations": [
             {
-                "address": "South East Avenue, Gifford, IL 61847, United States of America",
+                "address": "East Ave, Ogden, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.303741,
-                    "longitude": -88.017918
+                    "latitude": 40.113999,
+                    "longitude": -87.956049
                 }
             }
         ]
@@ -1593,10 +1593,10 @@
         "name": "Ice Daddy's",
         "locations": [
             {
-                "address": "Champaign Rd, Perry, IL, United States of America",
+                "address": "S Vorcey, Tolono, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.368885,
-                    "longitude": -90.770003
+                    "latitude": 39.98177,
+                    "longitude": -88.261257
                 }
             }
         ]
@@ -1605,10 +1605,10 @@
         "name": "Scratch",
         "locations": [
             {
-                "address": "227 Lincoln Street, Ogden, IL 61859, United States of America",
+                "address": "227 Lincoln Street, St. Joseph, IL 61873, United States of America",
                 "coordinate": {
-                    "latitude": 40.1115352,
-                    "longitude": -87.9538702
+                    "latitude": 40.1113415,
+                    "longitude": -88.0413817
                 }
             }
         ]
@@ -1617,10 +1617,10 @@
         "name": "Greenhouse Cafe",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "515 Old Timber Rd, Monticello, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.999887,
+                    "longitude": -88.657932
                 }
             }
         ]
@@ -1641,10 +1641,10 @@
         "name": "Bergie's - The Occasional Place",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "106 South Charter Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0250077,
+                    "longitude": -88.5728666
                 }
             }
         ]
@@ -1689,10 +1689,10 @@
         "name": "Breaking Taco",
         "locations": [
             {
-                "address": "University of Illinois Research Forest, Augerville, IL, United States of America",
+                "address": "E Main St, Mahomet, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1323218,
-                    "longitude": -88.1414061
+                    "latitude": 40.194475,
+                    "longitude": -88.401174
                 }
             }
         ]
@@ -1737,10 +1737,10 @@
         "name": "Garbanzo Mediterranean Fresh",
         "locations": [
             {
-                "address": "Illini Union, 1401 West Green Street, Urbana, IL 61801, United States of America",
+                "address": "Panda Express, 1401 West Green Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1093924,
-                    "longitude": -88.2272187
+                    "latitude": 40.1105736,
+                    "longitude": -88.2291636
                 }
             }
         ]
@@ -1761,10 +1761,10 @@
         "name": "Watson's Shack & Rail",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Neil St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.117329,
+                    "longitude": -88.243593
                 }
             }
         ]
@@ -1797,7 +1797,7 @@
         "name": "Y Eatery",
         "locations": [
             {
-                "address": "1001 South Wright Street, Champaign, IL 61820, United States of America",
+                "address": "1001 South Wright Street, Urbana, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.106721,
                     "longitude": -88.228936
@@ -1809,10 +1809,10 @@
         "name": "Xinh Xinh Café",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "S Vine St, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.112378,
+                    "longitude": -88.204901
                 }
             }
         ]
@@ -1893,7 +1893,7 @@
         "name": "Tumble Inn",
         "locations": [
             {
-                "address": "South Neil Street, Champaign, IL 61820-6974, United States of America",
+                "address": "South Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.0944676,
                     "longitude": -88.2451767
@@ -1929,10 +1929,10 @@
         "name": "Toro Loco",
         "locations": [
             {
-                "address": "Champaign County, IL, United States of America",
+                "address": "1601 North Cunningham Avenue, Urbana, IL 61802, United States of America",
                 "coordinate": {
-                    "latitude": 40.11065,
-                    "longitude": -88.19725
+                    "latitude": 40.127545,
+                    "longitude": -88.199438
                 }
             }
         ]
@@ -1989,7 +1989,7 @@
         "name": "The Ribeye",
         "locations": [
             {
-                "address": "1701 South Neil Street, Champaign, IL 61820, United States of America",
+                "address": "1701 South Neil Street, Champaign, IL 61820-6974, United States of America",
                 "coordinate": {
                     "latitude": 40.0961586,
                     "longitude": -88.245412
@@ -2013,10 +2013,10 @@
         "name": "The Clark Bar",
         "locations": [
             {
-                "address": "207 West Clark Street, Thomasboro, IL 61878, United States of America",
+                "address": "207 West Clark Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.2415747,
-                    "longitude": -88.1858613
+                    "latitude": 40.1152379,
+                    "longitude": -88.2454011
                 }
             }
         ]
@@ -2025,10 +2025,10 @@
         "name": "Thara Thai",
         "locations": [
             {
-                "address": "Bloomington Road, Champaign, IL 61821-2405, United States of America",
+                "address": "Bloomington Road, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.160386,
-                    "longitude": -88.314752
+                    "latitude": 40.1315666,
+                    "longitude": -88.2565565
                 }
             }
         ]
@@ -2051,8 +2051,8 @@
             {
                 "address": "North Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1340649,
-                    "longitude": -88.2436534
+                    "latitude": 40.137024,
+                    "longitude": -88.243695
                 }
             }
         ]
@@ -2061,10 +2061,10 @@
         "name": "Wienerschnitzel/Tastee Freez",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Springfield Ave, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.112967,
+                    "longitude": -88.282872
                 }
             }
         ]
@@ -2085,10 +2085,10 @@
         "name": "Tang Dynasty",
         "locations": [
             {
-                "address": "Lincoln Square, Champaign County, IL, United States of America",
+                "address": "S Lincoln Ave, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11059,
-                    "longitude": -88.20699
+                    "latitude": 40.111895,
+                    "longitude": -88.219248
                 }
             }
         ]
@@ -2097,17 +2097,17 @@
         "name": "Subway",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Cunningham Ave, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.116318,
+                    "longitude": -88.204968
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "122 North Charter Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0256958,
+                    "longitude": -88.5727564
                 }
             },
             {
@@ -2118,10 +2118,10 @@
                 }
             },
             {
-                "address": "802 West University Avenue, Champaign, IL 61820, United States of America",
+                "address": "West University Avenue, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.1163666,
-                    "longitude": -88.2561143
+                    "latitude": 40.116394,
+                    "longitude": -88.223856
                 }
             },
             {
@@ -2146,10 +2146,10 @@
                 }
             },
             {
-                "address": "4200 West Springfield Avenue, Champaign, IL 61822, United States of America",
+                "address": "W Springfield Ave, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1133029,
-                    "longitude": -88.3103054
+                    "latitude": 40.113295,
+                    "longitude": -88.309715
                 }
             },
             {
@@ -2167,17 +2167,17 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Eastwood Dr, Mahomet, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.196205,
+                    "longitude": -88.398791
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "1005 Purnell Drive, Mahomet, IL 61853, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.1851811,
+                    "longitude": -88.3690748
                 }
             },
             {
@@ -2188,10 +2188,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Walmart Supercenter, 505 South Dunlap Avenue, Savoy, IL 61874, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.048925,
+                    "longitude": -88.2562207
                 }
             },
             {
@@ -2209,7 +2209,7 @@
                 }
             },
             {
-                "address": "610 East Daniel Street, Urbana, IL 61820, United States of America",
+                "address": "610 East Daniel Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.1080539,
                     "longitude": -88.2300656
@@ -2244,7 +2244,7 @@
                 }
             },
             {
-                "address": "Subway, 1401 South Neil Street, Champaign, IL 61820-6974, United States of America",
+                "address": "Subway, 1401 South Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.0997323,
                     "longitude": -88.2447646
@@ -2258,10 +2258,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Village Green Pl, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.083951,
+                    "longitude": -88.296465
                 }
             }
         ]
@@ -2277,10 +2277,10 @@
                 }
             },
             {
-                "address": "601 North Mattis Avenue, Champaign, IL 61822, United States of America",
+                "address": "601 North Mattis Avenue, Champaign, IL 61821, United States of America",
                 "coordinate": {
-                    "latitude": 40.122359,
-                    "longitude": -88.277039
+                    "latitude": 40.1218238,
+                    "longitude": -88.276801
                 }
             }
         ]
@@ -2339,10 +2339,10 @@
                 }
             },
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             },
             {
@@ -2396,7 +2396,7 @@
         "name": "Sweet Indulgence",
         "locations": [
             {
-                "address": "Sweet Indulgence, 1121 West Windsor Road, Champaign, IL 61820, United States of America",
+                "address": "Sweet Indulgence, 1121 West Windsor Road, Champaign, IL 61821-7028, United States of America",
                 "coordinate": {
                     "latitude": 40.0832148,
                     "longitude": -88.264687
@@ -2432,7 +2432,7 @@
         "name": "Sushi Ichiban",
         "locations": [
             {
-                "address": "619 South Wright Street, Champaign, IL 61820, United States of America",
+                "address": "619 South Wright Street, Urbana, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.1113373,
                     "longitude": -88.229
@@ -2482,7 +2482,7 @@
         "name": "Starbucks",
         "locations": [
             {
-                "address": "Carriage Center, Champaign, IL, United States of America",
+                "address": "Carriage Center, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.0919027,
                     "longitude": -88.247023
@@ -2515,10 +2515,10 @@
         "name": "Stagecoach at Gordyville",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Co Rd 3000 N, Gifford, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.312649,
+                    "longitude": -88.040452
                 }
             }
         ]
@@ -2635,10 +2635,10 @@
         "name": "Sammer's Bar & Grill",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Garrard St, Rantoul, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.310821,
+                    "longitude": -88.157302
                 }
             }
         ]
@@ -2647,10 +2647,10 @@
         "name": "Sam's Café",
         "locations": [
             {
-                "address": "115 North Walnut Street, Champaign, IL 61820, United States of America",
+                "address": "115 North Walnut Street, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.1167429,
-                    "longitude": -88.2425973
+                    "latitude": 40.1127215,
+                    "longitude": -88.2064173
                 }
             }
         ]
@@ -2659,10 +2659,10 @@
         "name": "Roch's",
         "locations": [
             {
-                "address": "101 Main Street, Penfield, IL 61862, United States of America",
+                "address": "101 North Main Street, South Bend, IN 46601, United States of America",
                 "coordinate": {
-                    "latitude": 40.304983,
-                    "longitude": -87.947655
+                    "latitude": 41.676486,
+                    "longitude": -86.252097
                 }
             }
         ]
@@ -2671,10 +2671,10 @@
         "name": "Rich's Family Restaurant",
         "locations": [
             {
-                "address": "Ellen Street, Homer, IL 61849, United States of America",
+                "address": "305 Ellen, Ogden, IL 61859, United States of America",
                 "coordinate": {
-                    "latitude": 40.039478,
-                    "longitude": -87.960624
+                    "latitude": 40.1167503,
+                    "longitude": -87.960341
                 }
             }
         ]
@@ -2750,10 +2750,10 @@
         "name": "R & I Restaurant",
         "locations": [
             {
-                "address": "127 South Vine Street, Urbana, IL 61801, United States of America",
+                "address": "127 South Vine Street, Arthur, IL 61928, United States of America",
                 "coordinate": {
-                    "latitude": 40.1122201,
-                    "longitude": -88.2050873
+                    "latitude": 39.7163505,
+                    "longitude": -88.4725457
                 }
             }
         ]
@@ -2826,10 +2826,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "777 West Bridge Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0293964,
+                    "longitude": -88.5804199
                 }
             }
         ]
@@ -2874,10 +2874,10 @@
         "name": "Philo Tavern",
         "locations": [
             {
-                "address": "101 West Washington Street, Champaign, IL 61820, United States of America",
+                "address": "101 Washington Street, Philo, IL 61864, United States of America",
                 "coordinate": {
-                    "latitude": 40.120109,
-                    "longitude": -88.243688
+                    "latitude": 40.006909,
+                    "longitude": -88.159776
                 }
             }
         ]
@@ -2974,7 +2974,7 @@
         "name": "Panda Express",
         "locations": [
             {
-                "address": "Apricot Lane, 627 South Wright Street, Urbana, IL 61820, United States of America",
+                "address": "Apricot Lane, 627 South Wright Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.1104074,
                     "longitude": -88.2292426
@@ -3024,10 +3024,10 @@
         "name": "Outback Steakhouse",
         "locations": [
             {
-                "address": "Outback Steakhouse, 2402 North Prospect Avenue, Champaign, IL 61821, United States of America",
+                "address": "North Prospect Avenue, Champaign, IL 61822, United States of America",
                 "coordinate": {
-                    "latitude": 40.1449448,
-                    "longitude": -88.2572441
+                    "latitude": 40.1343767,
+                    "longitude": -88.2579158
                 }
             }
         ]
@@ -3060,10 +3060,10 @@
         "name": "Oishi",
         "locations": [
             {
-                "address": "Illinois Title Loans, 1301 North Prospect Avenue, Champaign, IL 61822, United States of America",
+                "address": "Prospect, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1292865,
-                    "longitude": -88.2583467
+                    "latitude": 40.319478,
+                    "longitude": -88.212826
                 }
             }
         ]
@@ -3072,10 +3072,10 @@
         "name": "North Forty",
         "locations": [
             {
-                "address": "301 Main Street, Royal, IL 61871, United States of America",
+                "address": "South Main Street, Gifford, IL 61847, United States of America",
                 "coordinate": {
-                    "latitude": 40.192633,
-                    "longitude": -87.967512
+                    "latitude": 40.302923,
+                    "longitude": -88.021358
                 }
             }
         ]
@@ -3103,10 +3103,10 @@
                 }
             },
             {
-                "address": "Niro's Gyros, 2001 West Springfield Avenue, Champaign, IL 61821, United States of America",
+                "address": "West Springfield Avenue, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.1125515,
-                    "longitude": -88.2804357
+                    "latitude": 40.112804,
+                    "longitude": -88.2177181
                 }
             }
         ]
@@ -3115,10 +3115,10 @@
         "name": "My Thai",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Springfield Ave, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.112988,
+                    "longitude": -88.284832
                 }
             }
         ]
@@ -3139,10 +3139,10 @@
         "name": "Monticello Red Wheel",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "803 Iron Horse Place, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0542142,
+                    "longitude": -88.5612799
                 }
             }
         ]
@@ -3206,10 +3206,10 @@
         "name": "McDonald's",
         "locations": [
             {
-                "address": "306 South Market Street, Champaign, IL 61820, United States of America",
+                "address": "306 South Market Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1136389,
-                    "longitude": -88.2425891
+                    "latitude": 40.0214166,
+                    "longitude": -88.5744101
                 }
             }
         ]
@@ -3225,10 +3225,10 @@
                 }
             },
             {
-                "address": "McDonald's, 1705 South Philo Road, Urbana, IL 61801, United States of America",
+                "address": "Philo Road, Urbana, IL 61802, United States of America",
                 "coordinate": {
-                    "latitude": 40.0973688,
-                    "longitude": -88.1911835
+                    "latitude": 40.092884,
+                    "longitude": -88.190658
                 }
             },
             {
@@ -3239,10 +3239,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Purnell Dr, Mahomet, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.186992,
+                    "longitude": -88.369879
                 }
             },
             {
@@ -3281,7 +3281,7 @@
                 }
             },
             {
-                "address": "McDonald's, 1605 South Neil Street, Champaign, IL 61820-6974, United States of America",
+                "address": "McDonald's, 1605 South Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.0975376,
                     "longitude": -88.2452377
@@ -3307,8 +3307,8 @@
             {
                 "address": "Manzella's, 115 South First Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1158414,
-                    "longitude": -88.2389746
+                    "latitude": 40.1158474,
+                    "longitude": -88.2389717
                 }
             }
         ]
@@ -3341,10 +3341,10 @@
         "name": "Main Street Pub",
         "locations": [
             {
-                "address": "113 West Main Street, Sidney, IL 61877, United States of America",
+                "address": "113 West Main Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.0258726,
-                    "longitude": -88.073654
+                    "latitude": 40.0247184,
+                    "longitude": -88.5722324
                 }
             }
         ]
@@ -3353,10 +3353,10 @@
         "name": "Main Street Belly Deli",
         "locations": [
             {
-                "address": "118 Main Street, Broadlands, IL 61816, United States of America",
+                "address": "118 South Main Street, Homer, IL 61849, United States of America",
                 "coordinate": {
-                    "latitude": 39.9062791,
-                    "longitude": -87.9946654
+                    "latitude": 40.0353966,
+                    "longitude": -87.9581637
                 }
             }
         ]
@@ -3377,10 +3377,10 @@
         "name": "Los Toros Numero 2",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "1204 Bear Lane, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0101707,
+                    "longitude": -88.5759391
                 }
             }
         ]
@@ -3437,10 +3437,10 @@
         "name": "Lincoln Street Lounge",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Lincoln St, Broadlands, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.909858,
+                    "longitude": -87.996241
                 }
             }
         ]
@@ -3449,10 +3449,10 @@
         "name": "Le Peep",
         "locations": [
             {
-                "address": "2209 South Neil Street, Champaign, IL 61820, United States of America",
+                "address": "S Neil St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.0881143,
-                    "longitude": -88.2460932
+                    "latitude": 40.089439,
+                    "longitude": -88.24611
                 }
             }
         ]
@@ -3461,21 +3461,21 @@
         "name": "Latte Da!",
         "locations": [
             {
-                "address": "Champaign Public Library, 200 West Green Street, Champaign, IL 61820-5193, United States of America",
+                "address": "200 Green Street, Savoy, IL 61874, United States of America",
                 "coordinate": {
-                    "latitude": 40.1112756,
-                    "longitude": -88.2459135
+                    "latitude": 40.056481,
+                    "longitude": -88.253195
                 }
             },
             {
-                "address": "602 West University Avenue, Champaign, IL 61820, United States of America",
+                "address": "602 West University Avenue, Urbana, IL 61801, United States of America",
                 "coordinate": {
-                    "latitude": 40.116363,
-                    "longitude": -88.2519687
+                    "latitude": 40.1165317,
+                    "longitude": -88.2146293
                 }
             },
             {
-                "address": "Latte Da!, 210 West Green Street, Urbana, IL 61801, United States of America",
+                "address": "Latte Da!, 210 West Green Street, Urbana, IL 61801-9998, United States of America",
                 "coordinate": {
                     "latitude": 40.1112515,
                     "longitude": -88.2091841
@@ -3494,10 +3494,10 @@
         "name": "Lai Lai Wok",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "E Green St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.110336,
+                    "longitude": -88.23352
                 }
             }
         ]
@@ -3506,10 +3506,10 @@
         "name": "La Luna Café",
         "locations": [
             {
-                "address": "208 Main Street, Thomasboro, IL 61878, United States of America",
+                "address": "208 North Main Street, St. Joseph, IL 61873, United States of America",
                 "coordinate": {
-                    "latitude": 40.2437038,
-                    "longitude": -88.1849159
+                    "latitude": 40.1124662,
+                    "longitude": -88.0415847
                 }
             }
         ]
@@ -3518,10 +3518,10 @@
         "name": "La Cascada Mexican Grill",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "1063 East Columbia Street, Arthur, IL 61911, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.710308,
+                    "longitude": -88.4604196
                 }
             }
         ]
@@ -3554,10 +3554,10 @@
         "name": "Kusu Kusu Asian Grill",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Watson, Tolono, IL 61880, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.9883813,
+                    "longitude": -88.2621999
                 }
             }
         ]
@@ -3635,10 +3635,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Gregory Dr, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.10416,
+                    "longitude": -88.22868
                 }
             },
             {
@@ -3666,10 +3666,10 @@
         "name": "Kato's Cajun",
         "locations": [
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             }
         ]
@@ -3721,7 +3721,7 @@
         "name": "Jerusalem Restaurant",
         "locations": [
             {
-                "address": "601 South Wright Street, Urbana, IL 61820, United States of America",
+                "address": "601 South Wright Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.111385,
                     "longitude": -88.229002
@@ -3733,10 +3733,10 @@
         "name": "Jack's Tavern",
         "locations": [
             {
-                "address": "106 Main Street, Thomasboro, IL 61878, United States of America",
+                "address": "106 East Main Street, Tolono, IL 61880, United States of America",
                 "coordinate": {
-                    "latitude": 40.2436969,
-                    "longitude": -88.1858689
+                    "latitude": 39.9854892,
+                    "longitude": -88.2592163
                 }
             }
         ]
@@ -3884,10 +3884,10 @@
                 }
             },
             {
-                "address": "309 Market Street, Bondville, IL 61815, United States of America",
+                "address": "309 North Market Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1146312,
-                    "longitude": -88.3694646
+                    "latitude": 40.0270919,
+                    "longitude": -88.5732897
                 }
             }
         ]
@@ -3896,10 +3896,10 @@
         "name": "Green Jade",
         "locations": [
             {
-                "address": "Green Jade, 1109 West Windsor Road, Champaign, IL 61821, United States of America",
+                "address": "West Windsor Road, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.0832018,
-                    "longitude": -88.2642054
+                    "latitude": 40.0838944,
+                    "longitude": -88.2872878
                 }
             }
         ]
@@ -3944,10 +3944,10 @@
         "name": "Golden Kitchen",
         "locations": [
             {
-                "address": "West Center Street, Gifford, IL 61847, United States of America",
+                "address": "402 West Center Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.307152,
-                    "longitude": -88.022831
+                    "latitude": 40.0279758,
+                    "longitude": -88.5742401
                 }
             }
         ]
@@ -3956,10 +3956,10 @@
         "name": "Game On Sports Tavern",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Sadorus, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1164205,
-                    "longitude": -88.2433829
+                    "latitude": 39.9669758,
+                    "longitude": -88.3464425
                 }
             }
         ]
@@ -3992,10 +3992,10 @@
         "name": "Freeman's Tavern",
         "locations": [
             {
-                "address": "108 West Main Street, Urbana, IL 61801, United States of America",
+                "address": "108 West Main Street, Front Royal, VA 22630, United States of America",
                 "coordinate": {
-                    "latitude": 40.1126883,
-                    "longitude": -88.2078676
+                    "latitude": 38.9185145,
+                    "longitude": -78.1949394
                 }
             }
         ]
@@ -4028,10 +4028,10 @@
         "name": "Filippo's Pizza & Italian Food",
         "locations": [
             {
-                "address": "200 South Market Street, Champaign, IL 61820, United States of America",
+                "address": "200 South Market Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11499,
-                    "longitude": -88.242291
+                    "latitude": 40.02434,
+                    "longitude": -88.573945
                 }
             },
             {
@@ -4059,10 +4059,10 @@
         "name": "El Patio",
         "locations": [
             {
-                "address": "University of Illinois Research Forest, Augerville, IL, United States of America",
+                "address": "Village Way, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.1323218,
-                    "longitude": -88.1414061
+                    "latitude": 40.139723,
+                    "longitude": -88.24653
                 }
             }
         ]
@@ -4071,10 +4071,10 @@
         "name": "East End Tavern",
         "locations": [
             {
-                "address": "116 East Washington Street, Champaign, IL 61820, United States of America",
+                "address": "116 East Washington Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1200828,
-                    "longitude": -88.2383082
+                    "latitude": 40.0253968,
+                    "longitude": -88.5712022
                 }
             }
         ]
@@ -4090,10 +4090,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N Tanner St, Rantoul, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.315505,
+                    "longitude": -88.158867
                 }
             },
             {
@@ -4130,10 +4130,10 @@
         "name": "Daly's Sports Bar",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Washington St, Philo, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.007069,
+                    "longitude": -88.159657
                 }
             }
         ]
@@ -4154,10 +4154,10 @@
         "name": "Chinatown Buffet",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "713 West Marketview Drive, Champaign, IL 61822, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.1372722,
+                    "longitude": -88.2544364
                 }
             }
         ]
@@ -4173,10 +4173,10 @@
                 }
             },
             {
-                "address": "205 West Warren Street, St. Joseph, IL 61873, United States of America",
+                "address": "East Warren Street, St. Joseph, IL 61873, United States of America",
                 "coordinate": {
-                    "latitude": 40.1131007,
-                    "longitude": -88.0423038
+                    "latitude": 40.1131907,
+                    "longitude": -88.0429983
                 }
             }
         ]
@@ -4185,10 +4185,10 @@
         "name": "China Garden",
         "locations": [
             {
-                "address": "Xinh Xinh Cafe, 114 North Vine Street, Urbana, IL 61802, United States of America",
+                "address": "China Garden, 114 North Vine Street, Urbana, IL 61802, United States of America",
                 "coordinate": {
-                    "latitude": 40.1131957,
-                    "longitude": -88.2030928
+                    "latitude": 40.1134587,
+                    "longitude": -88.2030915
                 }
             }
         ]
@@ -4223,10 +4223,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "E Daniel St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.108044,
+                    "longitude": -88.230322
                 }
             },
             {
@@ -4237,10 +4237,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Oregon St, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.106921,
+                    "longitude": -88.22182
                 }
             },
             {
@@ -4251,7 +4251,7 @@
                 }
             },
             {
-                "address": "Espresso Royale, 1411 South Neil Street, Champaign, IL 61820, United States of America",
+                "address": "Espresso Royale, 1411 South Neil Street, Champaign, IL 61820-6974, United States of America",
                 "coordinate": {
                     "latitude": 40.0995347,
                     "longitude": -88.2447961
@@ -4263,10 +4263,10 @@
         "name": "Charlie's Grub & Suds",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "102 North Main, Homer, LA 71040, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 32.7920224,
+                    "longitude": -93.0465914
                 }
             }
         ]
@@ -4294,10 +4294,10 @@
         "name": "Buzzard's Fine Dining & Other Things",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "S Third St, Mahomet, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.317752,
+                    "longitude": -88.349669
                 }
             }
         ]
@@ -4306,10 +4306,10 @@
         "name": "Butcher Boy Burgers",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "S Garrard St, Rantoul, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.306106,
+                    "longitude": -88.157401
                 }
             }
         ]
@@ -4318,10 +4318,10 @@
         "name": "Burrito King",
         "locations": [
             {
-                "address": "Jurassic Grill, 404 East Green Street, Champaign, IL 61801, United States of America",
+                "address": "East Green Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1103981,
-                    "longitude": -88.2331124
+                    "latitude": 40.110205,
+                    "longitude": -88.240265
                 }
             }
         ]
@@ -4351,10 +4351,10 @@
                 }
             },
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "1325 N Dunlap St, Savoy, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.070709,
+                    "longitude": -88.248991
                 }
             },
             {
@@ -4451,10 +4451,10 @@
         "name": "Billy Bob's BBQ",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "105 Broadway Street, Ogden, IL 61859, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.1130921,
+                    "longitude": -87.956329
                 }
             }
         ]
@@ -4607,10 +4607,10 @@
         "name": "JT Walker's Brewery",
         "locations": [
             {
-                "address": "402 East Main Street, Urbana, IL 61802, United States of America",
+                "address": "402 East Main Street, Mahomet, IL 61853, United States of America",
                 "coordinate": {
-                    "latitude": 40.1127241,
-                    "longitude": -88.2032391
+                    "latitude": 40.1949836,
+                    "longitude": -88.4028961
                 }
             }
         ]
@@ -4679,10 +4679,10 @@
         "name": "Great Steak & Potato",
         "locations": [
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             }
         ]
@@ -4703,10 +4703,10 @@
         "name": "Jurassic Grill",
         "locations": [
             {
-                "address": "Jurassic Grill, 404 East Green Street, Champaign, IL 61801, United States of America",
+                "address": "East Green Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1103981,
-                    "longitude": -88.2331124
+                    "latitude": 40.110205,
+                    "longitude": -88.240265
                 }
             }
         ]
@@ -4739,10 +4739,10 @@
         "name": "Wine on Vine",
         "locations": [
             {
-                "address": "105 South Vine Street, Urbana, IL 61801, United States of America",
+                "address": "105 South Vine Street, Arthur, IL 61928, United States of America",
                 "coordinate": {
-                    "latitude": 40.1123512,
-                    "longitude": -88.2050845
+                    "latitude": 39.7162291,
+                    "longitude": -88.4725446
                 }
             }
         ]
@@ -4751,10 +4751,10 @@
         "name": "Itsa Pizza",
         "locations": [
             {
-                "address": "North Vine Street, Urbana, IL 61821, United States of America",
+                "address": "507 North Vine Street, Arthur, IL 61911, United States of America",
                 "coordinate": {
-                    "latitude": 40.114339,
-                    "longitude": -88.205037
+                    "latitude": 39.7220456,
+                    "longitude": -88.472622
                 }
             }
         ]
@@ -4763,7 +4763,7 @@
         "name": "SIPYARD",
         "locations": [
             {
-                "address": "204 West Main Street, Urbana, IL 61801, United States of America",
+                "address": "204 West Main Street, Urbana, IL 61801-9998, United States of America",
                 "coordinate": {
                     "latitude": 40.1127047,
                     "longitude": -88.209159
@@ -4775,10 +4775,10 @@
         "name": "Central Tavern",
         "locations": [
             {
-                "address": "403 Main Street, Royal, IL 61802, United States of America",
+                "address": "Main Street, Thomasboro, IL 61878, United States of America",
                 "coordinate": {
-                    "latitude": 40.1926399,
-                    "longitude": -87.9662682
+                    "latitude": 40.24362,
+                    "longitude": -88.185474
                 }
             }
         ]
@@ -4799,10 +4799,10 @@
         "name": "Pauly's BBQ",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "310 East Columbia Street, Arthur, IL 61911, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.7104503,
+                    "longitude": -88.4690487
                 }
             }
         ]
@@ -4823,10 +4823,10 @@
         "name": "Wild Hare Bar and Grill",
         "locations": [
             {
-                "address": "109 South Third Street, Champaign, IL 61820, United States of America",
+                "address": "Third Street, Freetown, Sierra Leone",
                 "coordinate": {
-                    "latitude": 40.1157161,
-                    "longitude": -88.235531
+                    "latitude": 8.4840437,
+                    "longitude": -13.2272863
                 }
             }
         ]
@@ -4835,10 +4835,10 @@
         "name": "Smoked Food Truck",
         "locations": [
             {
-                "address": "Champaign Rd, Perry, IL, United States of America",
+                "address": "S Vorcey, Tolono, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.368885,
-                    "longitude": -90.770003
+                    "latitude": 39.98177,
+                    "longitude": -88.261257
                 }
             }
         ]
@@ -4847,10 +4847,10 @@
         "name": "Kona Ice",
         "locations": [
             {
-                "address": "Champaign Rd, Perry, IL, United States of America",
+                "address": "S Vorcey, Tolono, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.368885,
-                    "longitude": -90.770003
+                    "latitude": 39.98177,
+                    "longitude": -88.261257
                 }
             }
         ]
@@ -4967,10 +4967,10 @@
         "name": "FieldHouse 219",
         "locations": [
             {
-                "address": "219 West Washington Street, Champaign, IL 61820, United States of America",
+                "address": "219 West Washington Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1201068,
-                    "longitude": -88.2455926
+                    "latitude": 40.025396,
+                    "longitude": -88.5729772
                 }
             }
         ]
@@ -4979,10 +4979,10 @@
         "name": "Farren's Pub & Eatery",
         "locations": [
             {
-                "address": "308 North Randolph Street, Champaign, IL 61820, United States of America",
+                "address": "308 Randolph Street, Fisher, IL 61843, United States of America",
                 "coordinate": {
-                    "latitude": 40.1184456,
-                    "longitude": -88.2450703
+                    "latitude": 40.315738,
+                    "longitude": -88.3465026
                 }
             }
         ]
@@ -4991,10 +4991,10 @@
         "name": "Evo Café",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "S 6th St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.110158,
+                    "longitude": -88.230465
                 }
             }
         ]
@@ -5051,10 +5051,10 @@
         "name": "Downtown Monticello",
         "locations": [
             {
-                "address": "101 West Washington Street, Champaign, IL 61820, United States of America",
+                "address": "101 West Washington Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.120109,
-                    "longitude": -88.243688
+                    "latitude": 40.025313,
+                    "longitude": -88.57208
                 }
             }
         ]
@@ -5135,10 +5135,10 @@
         "name": "Common Ground Food Co-op",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "300 East Rd, Fairmount, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.967599,
+                    "longitude": -87.881839
                 }
             }
         ]
@@ -5219,10 +5219,10 @@
         "name": "Brown Bag Deli & Restaurant",
         "locations": [
             {
-                "address": "212 West Washington Street, Champaign, IL 61820, United States of America",
+                "address": "212 West Washington Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.1202709,
-                    "longitude": -88.2455114
+                    "latitude": 40.0255564,
+                    "longitude": -88.5729129
                 }
             }
         ]
@@ -5231,10 +5231,10 @@
         "name": "Brass Rail",
         "locations": [
             {
-                "address": "East University Avenue, Champaign, IL 61820, United States of America",
+                "address": "15 East University Avenue, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.116314,
-                    "longitude": -88.241855
+                    "latitude": 40.116227,
+                    "longitude": -88.242824
                 }
             }
         ]
@@ -5279,10 +5279,10 @@
         "name": "Bo Bo's BBQ",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "W Springfield Ave, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.112859,
+                    "longitude": -88.271342
                 }
             }
         ]
@@ -5327,10 +5327,10 @@
         "name": "Auntie Anne's",
         "locations": [
             {
-                "address": "Market St, Table Grove, IL, United States of America",
+                "address": "S Market St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.364861,
-                    "longitude": -90.42403
+                    "latitude": 40.116313,
+                    "longitude": -88.241855
                 }
             }
         ]
@@ -5391,10 +5391,10 @@
                 }
             },
             {
-                "address": "Arby's, 509 North Cunningham Avenue, Urbana, IL 61801, United States of America",
+                "address": "North Cunningham Avenue, Urbana, IL 61802, United States of America",
                 "coordinate": {
-                    "latitude": 40.1178104,
-                    "longitude": -88.2048116
+                    "latitude": 40.132746,
+                    "longitude": -88.196331
                 }
             },
             {
@@ -5429,10 +5429,10 @@
         "name": "Apple Dumpling",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "N High Cross Rd, Urbana, IL, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.133411,
+                    "longitude": -88.162975
                 }
             }
         ]
@@ -5477,10 +5477,10 @@
         "name": "3 Ravens",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "108 South Charter Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0250149,
+                    "longitude": -88.5728654
                 }
             }
         ]
@@ -5525,7 +5525,7 @@
         "name": "Siam Terrace",
         "locations": [
             {
-                "address": "Siam Terrace, 212 West Main Street, Urbana, IL 61801-9998, United States of America",
+                "address": "Siam Terrace, 212 West Main Street, Urbana, IL 61801, United States of America",
                 "coordinate": {
                     "latitude": 40.1125742,
                     "longitude": -88.2095509
@@ -5537,10 +5537,10 @@
         "name": "Yoder's Kitchen",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "Yoder's Kitchen, 1195 East Columbia Street, Arthur, IL 61911, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.709607,
+                    "longitude": -88.458551
                 }
             }
         ]
@@ -5597,10 +5597,10 @@
         "name": "Steeple Gallery",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "102 East Lafayette Street, Monticello, IL 61856, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 40.0240523,
+                    "longitude": -88.571324
                 }
             }
         ]
@@ -5611,8 +5611,8 @@
             {
                 "address": "2010 North Neil Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
-                    "latitude": 40.1402896,
-                    "longitude": -88.2458186
+                    "latitude": 40.1397293,
+                    "longitude": -88.2442899
                 }
             }
         ]
@@ -5633,7 +5633,7 @@
         "name": "Villa Italian Kitchen",
         "locations": [
             {
-                "address": "Market Place Shopping Center, Champaign, IL 61802, United States of America",
+                "address": "Market Place Shopping Center, Champaign, IL, United States of America",
                 "coordinate": {
                     "latitude": 40.14117,
                     "longitude": -88.2430531
@@ -5645,10 +5645,10 @@
         "name": "The Pop Stop",
         "locations": [
             {
-                "address": "Main St, Maunie, IL, United States of America",
+                "address": "Main St, Champaign, IL, United States of America",
                 "coordinate": {
-                    "latitude": 38.032025,
-                    "longitude": -88.045942
+                    "latitude": 40.118167,
+                    "longitude": -88.243474
                 }
             }
         ]
@@ -5693,10 +5693,10 @@
         "name": "Longview Tavern",
         "locations": [
             {
-                "address": "Champaign, IL, United States of America",
+                "address": "210 East Logan Street, Longview, IL 61852, United States of America",
                 "coordinate": {
-                    "latitude": 40.11642,
-                    "longitude": -88.24338
+                    "latitude": 39.8849568,
+                    "longitude": -88.0641262
                 }
             }
         ]
