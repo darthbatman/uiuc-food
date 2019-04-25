@@ -137,6 +137,44 @@ function saveEateriesInBounds() {
     fs.writeFileSync('data/generated/eateriesInBounds.json', JSON.stringify(eateriesInBounds, null, 4));
 }
 
+function saveFilteredEateriesInBoundsJSON() {
+    var body = fs.readFileSync('data/generated/eateriesInBounds.json');
+    var eateries = JSON.parse(body);
+    var fastFoodEateryNames = [];
+    for (var i = 0; i < eateries.length; i++) {
+        if (isFastFood(eateries[i].name)) {
+            fastFoodEateryNames.push(eateries[i].name);
+        }
+    }
+    var filteredEateries = eateries.filter((eatery) => !fastFoodEateryNames.includes(eatery.name));
+    fs.writeFileSync('data/generated/filteredEateriesInBounds.json', JSON.stringify(filteredEateries, null, 4));
+}
+
+function saveFilteredEateriesInBoundsCSV() {
+    var csvWriter = createCsvWriter({
+        path: 'data/generated/filteredEateriesInBounds.csv',
+        header: [
+            {id: 'name', title: 'NAME'},
+            {id: 'latitude', title: 'LATITUDE'},
+            {id: 'longitude', title: 'LONGITUDE'}
+        ]
+    });
+
+    var csvRecords = [];
+    var filteredEateries = JSON.parse(fs.readFileSync('data/generated/filteredEateriesInBounds.json'));
+    for (var i = 0; i < filteredEateries.length; i++) {
+     if (filteredEateries[i].locations[0].coordinate.latitude != undefined) {
+         csvRecords.push({ 
+             name: filteredEateries[i].name,
+             latitude: filteredEateries[i].locations[0].coordinate.latitude,
+             longitude: filteredEateries[i].locations[0].coordinate.longitude
+         })
+     }
+    }
+     
+    csvWriter.writeRecords(csvRecords);
+}
+
 function saveFilteredEateriesJSON() {
     var body = fs.readFileSync('data/generated/eateries.json');
     var eateries = JSON.parse(body);
@@ -181,5 +219,7 @@ module.exports = {
     saveFilteredEateriesJSON,
     saveFilteredEateriesCSV,
     eateryIsInExtendedCampus,
-    saveEateriesInBounds
+    saveEateriesInBounds,
+    saveFilteredEateriesInBoundsJSON,
+    saveFilteredEateriesInBoundsCSV
 };
