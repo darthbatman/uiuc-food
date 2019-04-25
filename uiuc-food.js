@@ -7,8 +7,8 @@ const classifyPoint = require("robust-point-in-polygon");
 const DOMParser = require('xmldom').DOMParser;
 const geoJSON = require('togeojson');
 
-const geocoder = require('./geocoder.js');
-const format = require('./format.js');
+const geocoder = require('./lib/geocoder.js');
+const format = require('./lib/format.js');
 
 const URL_CHAMPAIGN_URBANA_EATERIES = 'https://www.visitchampaigncounty.org/business/getlistingsrecords';
 const HEADER_NAME_CONTENT = 'Content-Type';
