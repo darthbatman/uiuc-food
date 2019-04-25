@@ -2,6 +2,10 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const request = require('request');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const csvToJSON = require('csvtojson');
+const classifyPoint = require("robust-point-in-polygon");
+const DOMParser = require('xmldom').DOMParser;
+const geoJSON = require('togeojson');
 
 const geocoder = require('./geocoder.js');
 const format = require('./format.js');
@@ -15,8 +19,44 @@ const FORM_DATA_NAME_PERPAGE = 'perpage';
 const FORM_DATA_VALUE_PERPAGE = '1000';
 const FORM_DATA_NAME_DISPLAY = 'display';
 const FORM_DATA_VALUE_DISPLAY = 'grid';
-const HTML_FILE_EATERIES = 'data/eateries.html';
+const FILE_HTML_EATERIES = 'data/obtained/eateries.html';
+const FILE_CSV_FAST_FOOD = 'data/obtained/FastFoodRestaurants.csv';
 const CLASS_EVENT_DETAIL_BOX = '.event-detail-box';
+
+function saveAllUniqueFastFoodRestaurants() {
+    csvToJSON()
+    .fromFile(FILE_CSV_FAST_FOOD)
+    .then((jsonObj)=>{
+        var fastFoodNames = [...new Set(jsonObj.map(item => item.name.toLowerCase()))];
+        var fastFoodEateryNames = {
+            fastFoodEateryNames: fastFoodNames
+        };
+        fs.writeFileSync('data/generated/fastFoodEateryNames.json', JSON.stringify(fastFoodEateryNames, null, 4));
+    })
+}
+
+function eateryIsInExtendedCampus(eatery) {
+    var kml = new DOMParser().parseFromString(fs.readFileSync('data/generated/extendedCampus.kml', 'utf8'));
+    var convertedWithStyles = geoJSON.kml(kml, { styles: true });
+    var features = convertedWithStyles.features;
+
+    for (var j = 0; j < eatery.locations.length; j++) {
+        var point = eatery.locations[j].coordinate;
+        for (var i = 0; i < features.length; i++) {
+            var polygon = features[i].geometry.coordinates[0];
+            if (classifyPoint(polygon, [point.longitude, point.latitude]) != 1) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function isFastFood(eatery) {
+    var body = fs.readFileSync('data/generated/fastFoodEateryNames.json');
+    body = JSON.parse(body);
+    return body.fastFoodEateryNames.includes(eatery.toLowerCase());
+}
 
 function getEateries(start, count, cb) {
     if (typeof start == 'function') {
@@ -41,7 +81,7 @@ function getEateries(start, count, cb) {
         url: URL_CHAMPAIGN_URBANA_EATERIES,
         body: format.formatFormData(formData)
     }, function(error, response, body){
-        fs.writeFileSync(HTML_FILE_EATERIES, body);
+        fs.writeFileSync(FILE_HTML_EATERIES, body);
         var $ = cheerio.load(body);
         var eateryRecords = $(CLASS_EVENT_DETAIL_BOX);
 
@@ -85,66 +125,61 @@ function getEateries(start, count, cb) {
     });
 }
 
-// TODO: figure out fast-food/chain by online searching
-function getAllFastFoodEateryNames(eateries, cb) {
+function saveEateriesInBounds() {
+    var body = fs.readFileSync('data/generated/eateries.json');
+    var eateries = JSON.parse(body);
+    var eateriesInBounds = [];
+    for (var i = 0; i < eateries.length; i++) {
+        if (eateryIsInExtendedCampus(eateries[i])) {
+            eateriesInBounds.push(eateries[i]);
+        }
+    }
+    fs.writeFileSync('data/generated/eateriesInBounds.json', JSON.stringify(eateriesInBounds, null, 4));
+}
+
+function saveFilteredEateriesJSON() {
+    var body = fs.readFileSync('data/generated/eateries.json');
+    var eateries = JSON.parse(body);
     var fastFoodEateryNames = [];
     for (var i = 0; i < eateries.length; i++) {
-        if (eateries[i].locations.length > 1) {
+        if (isFastFood(eateries[i].name)) {
             fastFoodEateryNames.push(eateries[i].name);
         }
     }
-    // manually remove non-chains
-    var nonFastFoodMultipleLocationEateries = ['Lil Porgy\'s BBQ',
-        'Rainbow Garden', 'Pekara Bakery & Bistro', 'Niro\'s Gyros',
-        'Merry Ann\'s Diner', 'Latte Da!', 'Ko Fusion',
-        'Filippo\'s Pizza & Italian Food', 'China King',
-        'Black Dog Smoke & Ale House'];
-    for (var i = 0; i < nonFastFoodMultipleLocationEateries.length; i++) {
-        var index = fastFoodEateryNames.indexOf(nonFastFoodMultipleLocationEateries[i]);
-        if (index !== -1) fastFoodEateryNames.splice(index, 1);
-    }
-    cb(fastFoodEateryNames);
+    var filteredEateries = eateries.filter((eatery) => !fastFoodEateryNames.includes(eatery.name));
+    fs.writeFileSync('data/generated/filteredEateries.json', JSON.stringify(filteredEateries, null, 4));
 }
 
-// getAllEateries(function(eateries) {
-//  fs.writeFileSync('data/eateries.json', JSON.stringify(eateries, null, 4));
-//  getAllFastFoodEateryNames(eateries, function(fastFoodEateryNames) {
-//      var filteredEateries = eateries.filter((eatery) => !fastFoodEateryNames.includes(eatery.name));
-//      fs.writeFileSync('data/filteredEateries.json', JSON.stringify(filteredEateries, null, 4));
-//  });
-// });
+function saveFilteredEateriesCSV() {
+    var csvWriter = createCsvWriter({
+        path: 'data/generated/filteredEateries.csv',
+        header: [
+            {id: 'name', title: 'NAME'},
+            {id: 'latitude', title: 'LATITUDE'},
+            {id: 'longitude', title: 'LONGITUDE'}
+        ]
+    });
 
-// let filteredEateries = JSON.parse(fs.readFileSync('data/filteredEateries.json'));
-// for (var i = 0; i < filteredEateries.length; i++) {
-//  if (filteredEateries[i].locations[0].coordinate.latitude == undefined) {
-//      filteredEateries[i].locations[0].coordinate = getCoordinateForAddress(filteredEateries[i].locations[0].address);
-//  }
-// }
-// fs.writeFileSync('data/filteredEateries.json', JSON.stringify(filteredEateries, null, 4));
-
-// var csvWriter = createCsvWriter({
-//     path: 'data/filteredEateries.csv',
-//     header: [
-//         {id: 'name', title: 'NAME'},
-//         {id: 'latitude', title: 'LATITUDE'},
-//         {id: 'longitude', title: 'LONGITUDE'}
-//     ]
-// });
-
-// var csvRecords = [];
-// var filteredEateries = JSON.parse(fs.readFileSync('data/filteredEateries.json'));
-// for (var i = 0; i < filteredEateries.length; i++) {
-//  if (filteredEateries[i].locations[0].coordinate.latitude != undefined) {
-//      csvRecords.push({ 
-//          name: filteredEateries[i].name,
-//          latitude: filteredEateries[i].locations[0].coordinate.latitude,
-//          longitude: filteredEateries[i].locations[0].coordinate.longitude
-//      })
-//  }
-// }
- 
-// csvWriter.writeRecords(csvRecords);
+    var csvRecords = [];
+    var filteredEateries = JSON.parse(fs.readFileSync('data/generated/filteredEateries.json'));
+    for (var i = 0; i < filteredEateries.length; i++) {
+     if (filteredEateries[i].locations[0].coordinate.latitude != undefined) {
+         csvRecords.push({ 
+             name: filteredEateries[i].name,
+             latitude: filteredEateries[i].locations[0].coordinate.latitude,
+             longitude: filteredEateries[i].locations[0].coordinate.longitude
+         })
+     }
+    }
+     
+    csvWriter.writeRecords(csvRecords);
+}
 
 module.exports = {
-    getEateries
+    getEateries,
+    isFastFood,
+    saveFilteredEateriesJSON,
+    saveFilteredEateriesCSV,
+    eateryIsInExtendedCampus,
+    saveEateriesInBounds
 };
