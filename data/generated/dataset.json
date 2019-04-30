@@ -9,7 +9,9 @@
                     "longitude": -88.22991
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.9
     },
     {
         "name": "Jenkins Catering",
@@ -33,7 +35,9 @@
                     "longitude": -88.2252161
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Pekara Bakery & Bistro",
@@ -52,7 +56,9 @@
                     "longitude": -88.2434103
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.9
     },
     {
         "name": "Neil St. Blues",
@@ -64,7 +70,9 @@
                     "longitude": -88.2437783
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 4.1
     },
     {
         "name": "Nando Milano Trattoria",
@@ -76,7 +84,9 @@
                     "longitude": -88.2434254
                 }
             }
-        ]
+        ],
+        "price": 35,
+        "rating": 0
     },
     {
         "name": "Hamilton Walker's",
@@ -88,7 +98,9 @@
                     "longitude": -88.243638
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.9
     },
     {
         "name": "Pizzeria Antica",
@@ -100,7 +112,9 @@
                     "longitude": -88.24282
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 2.9
     },
     {
         "name": "The Bread Company",
@@ -112,7 +126,9 @@
                     "longitude": -88.223744
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.7
     },
     {
         "name": "Naya",
@@ -124,7 +140,9 @@
                     "longitude": -88.2367212
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 0
     },
     {
         "name": "Collective Pour",
@@ -148,7 +166,9 @@
                     "longitude": -88.2299343
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3
     },
     {
         "name": "Smackin' The Truck",
@@ -160,7 +180,9 @@
                     "longitude": -88.2433829
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Blaze Pizza",
@@ -179,7 +201,9 @@
                     "longitude": -88.2578753
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Oh, Honey Pie Truck",
@@ -191,7 +215,9 @@
                     "longitude": -88.243624
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Cream & Flutter",
@@ -203,7 +229,9 @@
                     "longitude": -88.2421783
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Insomnia Cookies",
@@ -215,7 +243,9 @@
                     "longitude": -88.2316942
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Cold Stone Creamery",
@@ -227,7 +257,9 @@
                     "longitude": -88.2315244
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Cocomero",
@@ -239,7 +271,9 @@
                     "longitude": -88.2289947
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.5
     },
     {
         "name": "Baskin Robbins",
@@ -258,7 +292,9 @@
                     "longitude": -88.2435797
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3
     },
     {
         "name": "Bevier Café",
@@ -270,7 +306,9 @@
                     "longitude": -88.2242089
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Rosati's Authentic Chicago Pizza",
@@ -282,7 +320,9 @@
                     "longitude": -88.2217175
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4
     },
     {
         "name": "Potbelly's",
@@ -294,7 +334,9 @@
                     "longitude": -88.2318659
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Jupiter's Pizzeria and Billiards",
@@ -306,7 +348,9 @@
                     "longitude": -88.2414231
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.1
     },
     {
         "name": "J. Gumbo's Cajun and Creole Cooking Co.",
@@ -318,7 +362,9 @@
                     "longitude": -88.2213205
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.9
     },
     {
         "name": "Great Harvest Bread Company",
@@ -330,7 +376,9 @@
                     "longitude": -88.24338
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Chipotle",
@@ -349,7 +397,9 @@
                     "longitude": -88.2307897
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.1
     },
     {
         "name": "Black Dog Smoke & Ale House",
@@ -368,7 +418,9 @@
                     "longitude": -88.207375
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4.9
     },
     {
         "name": "Hendrick House",
@@ -380,7 +432,9 @@
                     "longitude": -88.2194882
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.6
     },
     {
         "name": "Blind Pig Brewery",
@@ -392,7 +446,9 @@
                     "longitude": -88.2434108
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.6
     },
     {
         "name": "Timpone's",
@@ -404,7 +460,9 @@
                     "longitude": -88.223744
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.9
     },
     {
         "name": "Cafe Sababa",
@@ -416,7 +474,9 @@
                     "longitude": -88.2318309
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Vinny's Pizza",
@@ -428,7 +488,9 @@
                     "longitude": -88.2399968
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.2
     },
     {
         "name": "Maize Mexican Grill",
@@ -440,7 +502,9 @@
                     "longitude": -88.2389625
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.7
     },
     {
         "name": "Garbanzo Mediterranean Fresh",
@@ -452,7 +516,9 @@
                     "longitude": -88.2291636
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 0
     },
     {
         "name": "Watson's Shack & Rail",
@@ -464,7 +530,9 @@
                     "longitude": -88.243593
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 0
     },
     {
         "name": "Miga",
@@ -476,7 +544,9 @@
                     "longitude": -88.2437783
                 }
             }
-        ]
+        ],
+        "price": 70,
+        "rating": 3.3
     },
     {
         "name": "Auntie Lee Chinese Kitchen",
@@ -488,7 +558,9 @@
                     "longitude": -88.240425
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 2.5
     },
     {
         "name": "Y Eatery",
@@ -500,7 +572,9 @@
                     "longitude": -88.228936
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.6
     },
     {
         "name": "Wingin' Out",
@@ -512,7 +586,9 @@
                     "longitude": -88.2351344
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Tortica's",
@@ -536,7 +612,9 @@
                     "longitude": -88.238824
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 2.9
     },
     {
         "name": "Sushi Rock",
@@ -548,7 +626,9 @@
                     "longitude": -88.2299831
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.9
     },
     {
         "name": "Sushi Kame",
@@ -560,7 +640,9 @@
                     "longitude": -88.2441267
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4.1
     },
     {
         "name": "Sushi Ichiban",
@@ -572,7 +654,9 @@
                     "longitude": -88.229
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Spoon House Korean Kitchen",
@@ -584,7 +668,9 @@
                     "longitude": -88.2294153
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.3
     },
     {
         "name": "South China Restaurant",
@@ -596,7 +682,9 @@
                     "longitude": -88.240438
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.1
     },
     {
         "name": "Kung Fu BBQ",
@@ -608,7 +696,9 @@
                     "longitude": -88.2317231
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.6
     },
     {
         "name": "Chopstix",
@@ -620,7 +710,9 @@
                     "longitude": -88.2366394
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.4
     },
     {
         "name": "Pho Cafe",
@@ -632,7 +724,9 @@
                     "longitude": -88.2301051
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.1
     },
     {
         "name": "Perkin's Restaurant & Bakery",
@@ -644,7 +738,9 @@
                     "longitude": -88.2243934
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 2.6
     },
     {
         "name": "Peking Garden",
@@ -656,7 +752,9 @@
                     "longitude": -88.2448957
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.6
     },
     {
         "name": "Ozu Ramen",
@@ -668,7 +766,9 @@
                     "longitude": -88.230584
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 0
     },
     {
         "name": "Noodles & Co.",
@@ -680,7 +780,9 @@
                     "longitude": -88.2307897
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Niro's Gyros",
@@ -699,7 +801,9 @@
                     "longitude": -88.2177181
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Murphy's Pub",
@@ -711,7 +815,9 @@
                     "longitude": -88.2300402
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.2
     },
     {
         "name": "Mia Za's",
@@ -723,7 +829,9 @@
                     "longitude": -88.2292323
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.6
     },
     {
         "name": "Merry Ann's Diner",
@@ -742,7 +850,9 @@
                     "longitude": -88.244247
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.9
     },
     {
         "name": "Manzella's Italian Patio",
@@ -754,7 +864,9 @@
                     "longitude": -88.2389717
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.8
     },
     {
         "name": "Manolo's Pizza & Empanadas",
@@ -766,7 +878,9 @@
                     "longitude": -88.2219766
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Mandarin Wok",
@@ -778,7 +892,9 @@
                     "longitude": -88.2333562
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.3
     },
     {
         "name": "Latte Da!",
@@ -811,7 +927,9 @@
                     "longitude": -88.2281835
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 0
     },
     {
         "name": "Lai Lai Wok",
@@ -823,7 +941,9 @@
                     "longitude": -88.23352
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.8
     },
     {
         "name": "Kyoto Sushi",
@@ -835,7 +955,9 @@
                     "longitude": -88.2301051
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4.1
     },
     {
         "name": "Ko Fusion",
@@ -861,7 +983,9 @@
                     "longitude": -88.2272187
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 4.2
     },
     {
         "name": "Koto Ramen",
@@ -873,7 +997,9 @@
                     "longitude": -88.231656
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 0
     },
     {
         "name": "Joe's Brewery",
@@ -885,7 +1011,9 @@
                     "longitude": -88.2319433
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Jerusalem Restaurant",
@@ -897,7 +1025,9 @@
                     "longitude": -88.229002
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.4
     },
     {
         "name": "Fat Sandwich Company",
@@ -909,7 +1039,9 @@
                     "longitude": -88.2316942
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4
     },
     {
         "name": "Intermezzo Café at Krannert",
@@ -921,7 +1053,9 @@
                     "longitude": -88.2228056
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.4
     },
     {
         "name": "Hot Wok Express",
@@ -933,7 +1067,9 @@
                     "longitude": -88.222541
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.2
     },
     {
         "name": "Home of Gourmet Chinese & Thai",
@@ -945,7 +1081,9 @@
                     "longitude": -88.2301372
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Fresh International Market",
@@ -957,7 +1095,9 @@
                     "longitude": -88.2435837
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 4.2
     },
     {
         "name": "Fernando's",
@@ -981,7 +1121,9 @@
                     "longitude": -88.2290018
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.1
     },
     {
         "name": "Espresso Royale",
@@ -1035,7 +1177,9 @@
                     "longitude": -88.2447961
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.3
     },
     {
         "name": "Caffe Bene",
@@ -1054,7 +1198,9 @@
                     "longitude": -88.2213205
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3
     },
     {
         "name": "Burrito King",
@@ -1066,7 +1212,9 @@
                     "longitude": -88.240265
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Brothers Bar & Grill",
@@ -1078,7 +1226,9 @@
                     "longitude": -88.2300807
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 2.5
     },
     {
         "name": "Bo Bo China",
@@ -1090,7 +1240,9 @@
                     "longitude": -88.2331124
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 2.9
     },
     {
         "name": "Basil Thai Café",
@@ -1102,7 +1254,9 @@
                     "longitude": -88.2217175
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.6
     },
     {
         "name": "Bangkok Thai & Pho 911",
@@ -1114,7 +1268,9 @@
                     "longitude": -88.2332646
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.3
     },
     {
         "name": "Bab Plus Korean",
@@ -1126,7 +1282,9 @@
                     "longitude": -88.2213205
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 0
     },
     {
         "name": "BrewLab Coffee",
@@ -1138,7 +1296,9 @@
                     "longitude": -88.2319178
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 3.1
     },
     {
         "name": "Flying Machine Avionics",
@@ -1150,7 +1310,9 @@
                     "longitude": -88.2385343
                 }
             }
-        ]
+        ],
+        "price": 0,
+        "rating": 3.1
     },
     {
         "name": "Jurassic Grill",
@@ -1162,7 +1324,9 @@
                     "longitude": -88.240265
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.2
     },
     {
         "name": "Latea Lounge",
@@ -1174,7 +1338,9 @@
                     "longitude": -88.230584
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 0
     },
     {
         "name": "Mid-Summer Lounge",
@@ -1186,7 +1352,9 @@
                     "longitude": -88.2299343
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 0
     },
     {
         "name": "Destihl Brew Works",
@@ -1198,7 +1366,9 @@
                     "longitude": -88.2437783
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 4.1
     },
     {
         "name": "Golden Harbor",
@@ -1210,7 +1380,9 @@
                     "longitude": -88.2435837
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4.6
     },
     {
         "name": "Fiesta Café",
@@ -1222,7 +1394,9 @@
                     "longitude": -88.2384771
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "Evo Café",
@@ -1234,7 +1408,9 @@
                     "longitude": -88.230465
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.7
     },
     {
         "name": "The Himalayan Chimney",
@@ -1258,7 +1434,9 @@
                     "longitude": -88.2424063
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.9
     },
     {
         "name": "Empire Chinese Restaurant",
@@ -1270,7 +1448,9 @@
                     "longitude": -88.2332646
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.6
     },
     {
         "name": "Dragon Fire",
@@ -1282,7 +1462,9 @@
                     "longitude": -88.2433829
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 0
     },
     {
         "name": "Cracked: The Egg Came First",
@@ -1294,7 +1476,9 @@
                     "longitude": -88.2300075
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 4.1
     },
     {
         "name": "Cowboy Monkey",
@@ -1306,7 +1490,9 @@
                     "longitude": -88.2431617
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Caffé Paradiso",
@@ -1318,7 +1504,9 @@
                     "longitude": -88.2194361
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Bombay Indian Grill",
@@ -1330,7 +1518,9 @@
                     "longitude": -88.23338
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.9
     },
     {
         "name": "Aroma Cafe",
@@ -1342,7 +1532,9 @@
                     "longitude": -88.2434106
                 }
             }
-        ]
+        ],
+        "price": 40,
+        "rating": 3.8
     },
     {
         "name": "Ambar India",
@@ -1366,7 +1558,9 @@
                     "longitude": -88.2290013
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Seven Saints",
@@ -1378,7 +1572,9 @@
                     "longitude": -88.2419945
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 4.4
     },
     {
         "name": "The Pop Stop",
@@ -1390,7 +1586,9 @@
                     "longitude": -88.243474
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.3
     },
     {
         "name": "Legends Bar & Grill",
@@ -1402,7 +1600,9 @@
                     "longitude": -88.2315951
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "Sakanaya",
@@ -1414,7 +1614,9 @@
                     "longitude": -88.2330881
                 }
             }
-        ]
+        ],
+        "price": 25,
+        "rating": 3.7
     },
     {
         "name": "Quality Bar",
@@ -1426,6 +1628,8 @@
                     "longitude": -88.2434097
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.8
     }
 ]

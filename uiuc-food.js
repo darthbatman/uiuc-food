@@ -9,6 +9,7 @@ const geoJSON = require('togeojson');
 
 const geocoder = require('./lib/geocoder.js');
 const format = require('./lib/format.js');
+const eateryInfo = require('./lib/eateryInfo.js');
 
 const URL_CHAMPAIGN_URBANA_EATERIES = 'https://www.visitchampaigncounty.org/business/getlistingsrecords';
 const HEADER_NAME_CONTENT = 'Content-Type';
@@ -22,6 +23,21 @@ const FORM_DATA_VALUE_DISPLAY = 'grid';
 const FILE_HTML_EATERIES = 'data/obtained/eateries.html';
 const FILE_CSV_FAST_FOOD = 'data/obtained/FastFoodRestaurants.csv';
 const CLASS_EVENT_DETAIL_BOX = '.event-detail-box';
+
+function saveAllEateriesWithInformation() {
+    var eateries = JSON.parse(fs.readFileSync('data/generated/filteredEateriesInBounds.json'));
+    for (var i = 0; i < eateries.length; i++) {
+        var data = eateryInfo.getEateryInformation(eateries[i], [ 'rating', 'price' ]);
+        if (data.message != undefined) {
+            eateries[i].price = undefined;
+            eateries[i].rating = undefined;
+        } else {
+            eateries[i].price = data.price;
+            eateries[i].rating = data.rating;
+        }
+    }
+    // fs.writeFileSync('data/generated/filteredEateriesWithInfoInBounds.json', JSON.stringify(eateries, null, 4));
+}
 
 function saveAllUniqueFastFoodRestaurants() {
     csvToJSON()
@@ -80,7 +96,7 @@ function getEateries(start, count, cb) {
         },
         url: URL_CHAMPAIGN_URBANA_EATERIES,
         body: format.formatFormData(formData)
-    }, function(error, response, body){
+    }, function(error, response, body) {
         fs.writeFileSync(FILE_HTML_EATERIES, body);
         var $ = cheerio.load(body);
         var eateryRecords = $(CLASS_EVENT_DETAIL_BOX);
@@ -221,5 +237,6 @@ module.exports = {
     eateryIsInExtendedCampus,
     saveEateriesInBounds,
     saveFilteredEateriesInBoundsJSON,
-    saveFilteredEateriesInBoundsCSV
+    saveFilteredEateriesInBoundsCSV,
+    saveAllEateriesWithInformation
 };
