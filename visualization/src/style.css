@@ -16,5 +16,10 @@
 }
  
 .circle {
-    fill: #222;
+    fill: red;
+    opacity: 0.7;
+}
+
+.circle:hover + .text {
+	visibility: visible;
 }

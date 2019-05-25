@@ -14,18 +14,6 @@
         "rating": 3.9
     },
     {
-        "name": "Jenkins Catering",
-        "locations": [
-            {
-                "address": "Champaign, IL, United States of America",
-                "coordinate": {
-                    "latitude": 40.1164205,
-                    "longitude": -88.2433829
-                }
-            }
-        ]
-    },
-    {
         "name": "The Red Herring Vegetarian Restaurant",
         "locations": [
             {
@@ -143,18 +131,6 @@
         ],
         "price": 0,
         "rating": 0
-    },
-    {
-        "name": "Collective Pour",
-        "locations": [
-            {
-                "address": "340 North Neil Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1186919,
-                    "longitude": -88.2434444
-                }
-            }
-        ]
     },
     {
         "name": "Howdy Burger",
@@ -517,8 +493,8 @@
                 }
             }
         ],
-        "price": 25,
-        "rating": 0
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Watson's Shack & Rail",
@@ -589,18 +565,6 @@
         ],
         "price": 10,
         "rating": 3.5
-    },
-    {
-        "name": "Tortica's",
-        "locations": [
-            {
-                "address": "WPGU-FM (Urbana), 408 East Green Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.110428,
-                    "longitude": -88.2325805
-                }
-            }
-        ]
     },
     {
         "name": "Szechuan China",
@@ -1100,18 +1064,6 @@
         "rating": 4.2
     },
     {
-        "name": "Fernando's",
-        "locations": [
-            {
-                "address": "101 North Neil Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.116876,
-                    "longitude": -88.243624
-                }
-            }
-        ]
-    },
-    {
         "name": "Cravings",
         "locations": [
             {
@@ -1413,18 +1365,6 @@
         "rating": 3.7
     },
     {
-        "name": "The Himalayan Chimney",
-        "locations": [
-            {
-                "address": "134 West Church Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1183572,
-                    "longitude": -88.2441538
-                }
-            }
-        ]
-    },
-    {
         "name": "Esquire Lounge",
         "locations": [
             {
@@ -1546,7 +1486,9 @@
                     "longitude": -88.2290016
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "A-Ri-Rang",

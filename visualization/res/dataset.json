@@ -14,18 +14,6 @@
         "rating": 3.9
     },
     {
-        "name": "Jenkins Catering",
-        "locations": [
-            {
-                "address": "Champaign, IL, United States of America",
-                "coordinate": {
-                    "latitude": 40.1164205,
-                    "longitude": -88.2433829
-                }
-            }
-        ]
-    },
-    {
         "name": "The Red Herring Vegetarian Restaurant",
         "locations": [
             {
@@ -75,20 +63,6 @@
         "rating": 4.1
     },
     {
-        "name": "Nando Milano Trattoria",
-        "locations": [
-            {
-                "address": "204 North Neil Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1176084,
-                    "longitude": -88.2434254
-                }
-            }
-        ],
-        "price": 35,
-        "rating": 0
-    },
-    {
         "name": "Hamilton Walker's",
         "locations": [
             {
@@ -129,32 +103,6 @@
         ],
         "price": 25,
         "rating": 3.7
-    },
-    {
-        "name": "Naya",
-        "locations": [
-            {
-                "address": "212 East Green Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1103163,
-                    "longitude": -88.2367212
-                }
-            }
-        ],
-        "price": 0,
-        "rating": 0
-    },
-    {
-        "name": "Collective Pour",
-        "locations": [
-            {
-                "address": "340 North Neil Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1186919,
-                    "longitude": -88.2434444
-                }
-            }
-        ]
     },
     {
         "name": "Howdy Burger",
@@ -384,13 +332,6 @@
         "name": "Chipotle",
         "locations": [
             {
-                "address": "Chipotle, 903 West Anthony Drive, Champaign, IL 61821, United States of America",
-                "coordinate": {
-                    "latitude": 40.137435,
-                    "longitude": -88.2586673
-                }
-            },
-            {
                 "address": "Chipotle, 528 East Green Street, Champaign, IL 61820, United States of America",
                 "coordinate": {
                     "latitude": 40.1104224,
@@ -517,22 +458,8 @@
                 }
             }
         ],
-        "price": 25,
-        "rating": 0
-    },
-    {
-        "name": "Watson's Shack & Rail",
-        "locations": [
-            {
-                "address": "N Neil St, Champaign, IL, United States of America",
-                "coordinate": {
-                    "latitude": 40.117329,
-                    "longitude": -88.243593
-                }
-            }
-        ],
-        "price": 0,
-        "rating": 0
+        "price": 10,
+        "rating": 3.8
     },
     {
         "name": "Miga",
@@ -589,18 +516,6 @@
         ],
         "price": 10,
         "rating": 3.5
-    },
-    {
-        "name": "Tortica's",
-        "locations": [
-            {
-                "address": "WPGU-FM (Urbana), 408 East Green Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.110428,
-                    "longitude": -88.2325805
-                }
-            }
-        ]
     },
     {
         "name": "Szechuan China",
@@ -757,20 +672,6 @@
         "rating": 3.6
     },
     {
-        "name": "Ozu Ramen",
-        "locations": [
-            {
-                "address": "Jipbap Taste of Korea, 601 South Sixth Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1113787,
-                    "longitude": -88.230584
-                }
-            }
-        ],
-        "price": 0,
-        "rating": 0
-    },
-    {
         "name": "Noodles & Co.",
         "locations": [
             {
@@ -897,41 +798,6 @@
         "rating": 3.3
     },
     {
-        "name": "Latte Da!",
-        "locations": [
-            {
-                "address": "200 Green Street, Savoy, IL 61874, United States of America",
-                "coordinate": {
-                    "latitude": 40.056481,
-                    "longitude": -88.253195
-                }
-            },
-            {
-                "address": "602 West University Avenue, Urbana, IL 61801, United States of America",
-                "coordinate": {
-                    "latitude": 40.1165317,
-                    "longitude": -88.2146293
-                }
-            },
-            {
-                "address": "Latte Da!, 210 West Green Street, Urbana, IL 61801-9998, United States of America",
-                "coordinate": {
-                    "latitude": 40.1112515,
-                    "longitude": -88.2091841
-                }
-            },
-            {
-                "address": "Lincoln Hall, 702 South Wright Street, Urbana, IL 61801, United States of America",
-                "coordinate": {
-                    "latitude": 40.10677,
-                    "longitude": -88.2281835
-                }
-            }
-        ],
-        "price": 10,
-        "rating": 0
-    },
-    {
         "name": "Lai Lai Wok",
         "locations": [
             {
@@ -958,48 +824,6 @@
         ],
         "price": 25,
         "rating": 4.1
-    },
-    {
-        "name": "Ko Fusion",
-        "locations": [
-            {
-                "address": "1 Main Street, Dewey, IL 61840, United States of America",
-                "coordinate": {
-                    "latitude": 40.319928,
-                    "longitude": -88.283743
-                }
-            },
-            {
-                "address": "W Gregory Dr, Urbana, IL, United States of America",
-                "coordinate": {
-                    "latitude": 40.10416,
-                    "longitude": -88.22868
-                }
-            },
-            {
-                "address": "Illini Union, 1401 West Green Street, Urbana, IL 61801, United States of America",
-                "coordinate": {
-                    "latitude": 40.1093924,
-                    "longitude": -88.2272187
-                }
-            }
-        ],
-        "price": 40,
-        "rating": 4.2
-    },
-    {
-        "name": "Koto Ramen",
-        "locations": [
-            {
-                "address": "Koto Ramen, 508 East Green Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1104504,
-                    "longitude": -88.231656
-                }
-            }
-        ],
-        "price": 0,
-        "rating": 0
     },
     {
         "name": "Joe's Brewery",
@@ -1098,18 +922,6 @@
         ],
         "price": 40,
         "rating": 4.2
-    },
-    {
-        "name": "Fernando's",
-        "locations": [
-            {
-                "address": "101 North Neil Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.116876,
-                    "longitude": -88.243624
-                }
-            }
-        ]
     },
     {
         "name": "Cravings",
@@ -1273,20 +1085,6 @@
         "rating": 3.3
     },
     {
-        "name": "Bab Plus Korean",
-        "locations": [
-            {
-                "address": "bb.q premium chicken, 700 South Gregory Street, Urbana, IL 61801, United States of America",
-                "coordinate": {
-                    "latitude": 40.1063145,
-                    "longitude": -88.2213205
-                }
-            }
-        ],
-        "price": 10,
-        "rating": 0
-    },
-    {
         "name": "BrewLab Coffee",
         "locations": [
             {
@@ -1327,34 +1125,6 @@
         ],
         "price": 10,
         "rating": 3.2
-    },
-    {
-        "name": "Latea Lounge",
-        "locations": [
-            {
-                "address": "Jipbap Taste of Korea, 601 South Sixth Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1113787,
-                    "longitude": -88.230584
-                }
-            }
-        ],
-        "price": 40,
-        "rating": 0
-    },
-    {
-        "name": "Mid-Summer Lounge",
-        "locations": [
-            {
-                "address": "625 East Green Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1102146,
-                    "longitude": -88.2299343
-                }
-            }
-        ],
-        "price": 40,
-        "rating": 0
     },
     {
         "name": "Destihl Brew Works",
@@ -1413,18 +1183,6 @@
         "rating": 3.7
     },
     {
-        "name": "The Himalayan Chimney",
-        "locations": [
-            {
-                "address": "134 West Church Street, Champaign, IL 61820, United States of America",
-                "coordinate": {
-                    "latitude": 40.1183572,
-                    "longitude": -88.2441538
-                }
-            }
-        ]
-    },
-    {
         "name": "Esquire Lounge",
         "locations": [
             {
@@ -1451,20 +1209,6 @@
         ],
         "price": 10,
         "rating": 3.6
-    },
-    {
-        "name": "Dragon Fire",
-        "locations": [
-            {
-                "address": "Champaign, IL, United States of America",
-                "coordinate": {
-                    "latitude": 40.1164205,
-                    "longitude": -88.2433829
-                }
-            }
-        ],
-        "price": 10,
-        "rating": 0
     },
     {
         "name": "Cracked: The Egg Came First",
@@ -1546,7 +1290,9 @@
                     "longitude": -88.2290016
                 }
             }
-        ]
+        ],
+        "price": 10,
+        "rating": 3.5
     },
     {
         "name": "A-Ri-Rang",

@@ -26,6 +26,7 @@ const CLASS_EVENT_DETAIL_BOX = '.event-detail-box';
 
 function saveAllEateriesWithInformation() {
     var eateries = JSON.parse(fs.readFileSync('data/generated/filteredEateriesInBounds.json'));
+    var eateriesToSave = [];
     for (var i = 0; i < eateries.length; i++) {
         var data = eateryInfo.getEateryInformation(eateries[i], [ 'rating', 'price' ]);
         if (data.message != undefined) {
@@ -34,9 +35,10 @@ function saveAllEateriesWithInformation() {
         } else {
             eateries[i].price = data.price;
             eateries[i].rating = data.rating;
+            eateriesToSave.push(eateries[i]);
         }
     }
-    // fs.writeFileSync('data/generated/filteredEateriesWithInfoInBounds.json', JSON.stringify(eateries, null, 4));
+    fs.writeFileSync('data/generated/filteredEateriesWithInfoInBounds.json', JSON.stringify(eateriesToSave, null, 4));
 }
 
 function saveAllUniqueFastFoodRestaurants() {
