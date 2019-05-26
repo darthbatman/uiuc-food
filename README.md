@@ -1,2 +1,2 @@
 # uiuc-food
-All restaurants, cafes, etc. in the UIUC extended campus.
+Data exploration of all restaurants, cafes, etc. in the UIUC extended campus.
