@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
- 
+
+/* PAGE */
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#chart-container {
+	width: 100%;
+	text-align: center;
+}
+
+/* CHART */
+
 .circle {
     opacity: 0.7;
 }
@@ -14,5 +28,41 @@
 }
 
 #title {
+	font-size: 28px;
+}
+
+.tooltip {
+	border: 1px solid black;
+	border-radius: 4px;
+	font-family: 'Rubik', sans-serif;
+	background-color: white;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.tooltip-title {
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.tooltip-content {
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.tooltip-row {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 1px dotted black;
+}
+
+.tooltip-data-name {
+	font-size: 14px;
+}
+
+.tooltip-data-value {
 	font-size: 28px;
 }
