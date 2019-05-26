@@ -1,13 +1,4 @@
-/*
-*  Reference: http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/
-*  Dataset: ../res/dataset.json
-*  Make something similar to above linked GPA visualization.
-*  Use D3.js for visualization.
-*  Ability to select/change axes.
-*  Show RATING vs. PRICE, RATING vs. CUISINE, CUISINE vs. PRICE etc.
-*/
-
-const width = 800;
+const width = 1000;
 const height = 800;
 const padding = 60;
 const dataFile = '../res/dataset.json';
@@ -164,7 +155,7 @@ function tooltip(eatery) {
 
 svg.append('g')
   .attr('class', 'axis')
-  .attr('transform', `translate(0, ${(width - padding)})`)
+  .attr('transform', `translate(0, ${(height - padding)})`)
   .call(xAxis);
 
 svg.append('g')
@@ -173,7 +164,9 @@ svg.append('g')
   .call(yAxis);
 
 d3.json(dataFile)
-  .then((data) => {
+  .then((eateries) => {
+    // sort to ensure eateries with smaller radius are drawn later
+    eateries.sort((a, b) => d3.ascending(a.price, b.price));
     const minRadius = 2;
     const maxRadius = 10;
 
@@ -187,7 +180,7 @@ d3.json(dataFile)
     const priceOffset = 20;
 
     const radius = d3.scaleLinear()
-      .domain([0, d3.max(data, eatery => eatery.price)])
+      .domain([0, d3.max(eateries, eatery => eatery.price)])
       .range([minRadius, maxRadius]);
 
     svg.append('text')
@@ -219,7 +212,7 @@ d3.json(dataFile)
     svg.call(tip);
 
     svg.selectAll('g')
-      .data(data)
+      .data(eateries)
       .enter()
       .append('g')
       .attr('transform', eatery => `translate(${xPosition(eatery)}, ${yPosition(eatery)})`)
