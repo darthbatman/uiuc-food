@@ -6,18 +6,12 @@ const dataFile = '../res/dataset.json';
 const lowerBoundX = 2.4;
 const upperBoundX = 5.0;
 const lowerBoundY = 0.0;
-const upperBoundY = 1.5;
+const upperBoundY = 1.75;
 
 const svg = d3.select('#chart')
   .append('svg')
   .attr('width', width)
   .attr('height', height);
-
-const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
-const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
-
-const xAxis = d3.axisBottom(x);
-const yAxis = d3.axisLeft(y);
 
 /* HELPER METHODS */
 
@@ -153,6 +147,32 @@ function tooltip(eatery) {
           </div>`;
 }
 
+const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
+const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
+
+const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
+const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
+
+const xGridlines = d3.axisBottom(x)
+  .tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5])
+  .tickFormat('')
+  .tickSize(-height + padding + padding);
+
+const yGridlines = d3.axisLeft(y)
+  .tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75])
+  .tickFormat('')
+  .tickSize(-width + padding + padding);
+
+svg.append('g')
+  .attr('class', 'grid')
+  .attr('transform', `translate(0, ${(height - padding)})`)
+  .call(xGridlines);
+
+svg.append('g')
+  .attr('class', 'grid')
+  .attr('transform', `translate(${padding}, 0)`)
+  .call(yGridlines);
+
 svg.append('g')
   .attr('class', 'axis')
   .attr('transform', `translate(0, ${(height - padding)})`)
@@ -211,7 +231,7 @@ d3.json(dataFile)
       .html(eatery => tooltip(eatery));
     svg.call(tip);
 
-    svg.selectAll('g')
+    svg.selectAll('eatery')
       .data(eateries)
       .enter()
       .append('g')
