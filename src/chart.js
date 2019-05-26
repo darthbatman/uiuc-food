@@ -1,3 +1,22 @@
+const LandmarkCoordinate = {
+  MainQuad: {
+    latitude: 40.107544,
+    longitude: -88.22724,
+  },
+  EngineeringQuad: {
+    latitude: 40.1119845,
+    longitude: -88.2277056,
+  },
+  SouthQuad: {
+    latitude: 40.1035088,
+    longitude: -88.2295807,
+  },
+  IlliniUnion: {
+    latitude: 40.1092142,
+    longitude: -88.2294112,
+  },
+};
+
 const width = 1000;
 const height = 800;
 const padding = 60;
@@ -65,18 +84,15 @@ function distanceBetween(c1, c2) {
 }
 
 /**
- * Calculates distance in miles (mi) between a coordinate and UIUC Main Quad.
+ * Calculates distance in miles (mi) between a coordinate and a given landmark.
  *
  * @param {object} c - The coordinate
- * @return {number} The distance in miles between c and UIUC Main Quad
+ * @param {object} landmarkCoordinate - The coordinate of the landmark
+ * @return {number} The distance in miles between c and the landmark
  */
-function distanceFromMainQuad(c) {
-  const mainQuadCoordinate = {
-    latitude: 40.107544,
-    longitude: -88.22724,
-  };
+function distanceFromLandmark(c, landmarkCoordinate) {
   const milesPerMeter = 0.000621371;
-  return distanceBetween(c, mainQuadCoordinate) * milesPerMeter;
+  return distanceBetween(c, landmarkCoordinate) * milesPerMeter;
 }
 
 /**
@@ -100,7 +116,7 @@ function xPosition(eatery) {
 function yPosition(eatery) {
   const min = padding;
   const max = height - padding;
-  const dist = distanceFromMainQuad(eatery.locations[0].coordinate);
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, LandmarkCoordinate.MainQuad);
   return (((upperBoundY - dist) / upperBoundY) * (max - min) + min);
 }
 
@@ -126,7 +142,7 @@ function color(eatery) {
  * @return {string} The populated tooltip as HTML
  */
 function tooltip(eatery) {
-  const dist = distanceFromMainQuad(eatery.locations[0].coordinate);
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, LandmarkCoordinate.MainQuad);
   const formattedDist = Number.parseFloat(dist).toPrecision(2);
   return `<div class="tooltip">
             <div class='tooltip-title'>${eatery.name}</div>
@@ -190,7 +206,7 @@ d3.json(dataFile)
     const minRadius = 2;
     const maxRadius = 10;
 
-    const chartTitle = 'UIUC Food';
+    const chartTitle = 'Distance from Main Quad vs. Rating';
     const chartXLabel = 'Rating (out of 5)';
     const chartYLabel = 'Distance from Main Quad (mi)';
 
