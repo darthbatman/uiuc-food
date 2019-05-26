@@ -22,6 +22,14 @@ html, body {
 	visibility: visible;
 }
 
+.axis {
+	color: black;
+}
+
+.grid {
+	color: #d0dae8;
+}
+
 .label {
 	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
