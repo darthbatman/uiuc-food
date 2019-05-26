@@ -9,7 +9,7 @@
 
 const width = 800;
 const height = 800;
-const padding = 80;
+const padding = 60;
 const dataFile = '../res/dataset.json';
 
 const lowerBoundX = 2.4;
@@ -141,19 +141,23 @@ function color(eatery) {
  * @return {string} The populated tooltip as HTML
  */
 function tooltip(eatery) {
-  return `<div style="text-align: center;">${eatery.name}</div>
-          <div class="row" style="text-align: center; margin-top: 5px; padding-top: 5px; margin-bottom: 5px; padding-bottom: 5px; border-top: dotted 1px black; border-bottom: dotted 1px black;">
-            <div class="col-xs-6">
-            <span style="font-size: 14px;">Price</span><br>
-              <span style="font-size: 28px;">$${eatery.price}</span>
-            </div>
-            <div class="col-xs-6">
-              <span style="font-size: 14px;">Distance from Main Quad</span><br>
-              <span style="font-size: 28px;">${Number.parseFloat(distanceFromMainQuad(eatery.locations[0].coordinate)).toPrecision(2)} mi</span>
-            </div>
-            <div class="col-xs-6">
-              <span style="font-size: 14px;">Rating</span><br>
-              <span style="font-size: 28px;">${eatery.rating}/5</span>
+  const dist = distanceFromMainQuad(eatery.locations[0].coordinate);
+  const formattedDist = Number.parseFloat(dist).toPrecision(2);
+  return `<div class="tooltip">
+            <div class='tooltip-title'>${eatery.name}</div>
+            <div class="tooltip-content">
+              <div class="tooltip-row">
+              <span class="tooltip-data-name">Price</span><br>
+                <span class="tooltip-data-value">$${eatery.price}</span>
+              </div>
+              <div class="tooltip-row">
+                <span class="tooltip-data-name">Distance from Main Quad</span><br>
+                <span class="tooltip-data-value">${formattedDist} mi</span>
+              </div>
+              <div class="tooltip-row">
+                <span class="tooltip-data-name">Rating</span><br>
+                <span class="tooltip-data-value">${eatery.rating}/5</span>
+              </div>
             </div>
           </div>`;
 }
@@ -170,32 +174,44 @@ svg.append('g')
 
 d3.json(dataFile)
   .then((data) => {
-    const r = d3.scaleLinear()
+    const minRadius = 2;
+    const maxRadius = 10;
+
+    const chartTitle = 'UIUC Food';
+    const chartXLabel = 'Rating (out of 5)';
+    const chartYLabel = 'Distance from Main Quad (mi)';
+
+    const counterAxisLabelOffset = 20;
+
+    const priceMultiplier = 700;
+    const priceOffset = 20;
+
+    const radius = d3.scaleLinear()
       .domain([0, d3.max(data, eatery => eatery.price)])
-      .range([0, 8]);
+      .range([minRadius, maxRadius]);
 
     svg.append('text')
       .attr('class', 'label')
       .attr('id', 'title')
-      .attr('text-anchor', 'end')
-      .attr('dx', 440)
-      .attr('y', 40)
-      .text('UIUC Food');
+      .style('text-anchor', 'middle')
+      .attr('x', width / 2)
+      .attr('y', counterAxisLabelOffset)
+      .text(chartTitle);
 
     svg.append('text')
       .attr('class', 'label')
-      .attr('text-anchor', 'end')
-      .attr('dx', 400)
-      .attr('y', height - 4)
-      .text('Rating');
+      .style('text-anchor', 'middle')
+      .attr('x', width / 2)
+      .attr('y', height - counterAxisLabelOffset)
+      .text(chartXLabel);
 
     svg.append('text')
       .attr('class', 'label')
-      .attr('text-anchor', 'end')
-      .attr('dx', -300)
-      .attr('dy', 12)
+      .style('text-anchor', 'middle')
+      .attr('x', -1 * (height / 2))
+      .attr('y', counterAxisLabelOffset)
       .attr('transform', 'rotate(-90)')
-      .text('Distance from Main Quad (mi)');
+      .text(chartYLabel);
 
     const tip = d3.tip()
       .attr('class', 'd3-tip')
@@ -206,9 +222,9 @@ d3.json(dataFile)
       .data(data)
       .enter()
       .append('g')
-      .attr('transform', eatery => `translate(${xPosition(eatery)},${yPosition(eatery)})`)
+      .attr('transform', eatery => `translate(${xPosition(eatery)}, ${yPosition(eatery)})`)
       .append('circle')
-      .attr('r', eatery => (eatery.price !== 0 ? r(700 / (eatery.price) + 20) : 0))
+      .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
       .attr('fill', eatery => color(eatery))
       .attr('class', 'circle')
       .on('mouseover', (eatery) => {
