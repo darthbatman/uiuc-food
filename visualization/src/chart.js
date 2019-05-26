@@ -10,8 +10,8 @@ const upperBoundY = 1.75;
 
 const svg = d3.select('#chart')
   .append('svg')
-  .attr('width', width)
-  .attr('height', height);
+  .attr('preserveAspectRatio', 'xMinYMin meet')
+  .attr('viewBox', `0 0 ${width} ${height}`);
 
 /* HELPER METHODS */
 
