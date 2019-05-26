@@ -17,11 +17,6 @@ const upperBoundX = 5.0;
 const lowerBoundY = 0.0;
 const upperBoundY = 1.5;
 
-const mainQuadCoordinate = {
-  latitude: 40.107544,
-  longitude: -88.22724,
-};
-
 const svg = d3.select('#chart')
   .append('svg')
   .attr('width', width)
@@ -33,6 +28,8 @@ const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - pa
 const xAxis = d3.axisBottom(x);
 const yAxis = d3.axisLeft(y);
 
+/* HELPER METHODS */
+
 /**
  * Converts a degree value to radians.
  *
@@ -40,8 +37,28 @@ const yAxis = d3.axisLeft(y);
  * @return {number} The radian value
  */
 function radians(degrees) {
-  return degrees * Math.PI / 180;
+  const piDegrees = 180;
+  return degrees * Math.PI / piDegrees;
 }
+
+/**
+ * Gets color on gradient based on value.
+ *
+ * @param {object} start - The color the gradient starts at
+ * @param {object} end - The color the gradient end at
+ * @param {number} val - The value
+ * @param {number} min - The min bound for val
+ * @param {number} max - The max bound for val
+*/
+function gradientColor(start, end, val, min, max) {
+  if (val >= max) return `rgb(${end.r}, ${end.g}, ${end.b})`;
+  const r = start.r + (end.r - start.r) * (val / (max - min));
+  const g = start.g + (end.g - start.g) * (val / (max - min));
+  const b = start.b + (end.b - start.b) * (val / (max - min));
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+/* IMPLEMENTATION METHODS */
 
 /**
  * Calculates distance in meters (m) between two map coordinates.
@@ -69,6 +86,10 @@ function distanceBetween(c1, c2) {
  * @return {number} The distance in miles between c and UIUC Main Quad
  */
 function distanceFromMainQuad(c) {
+  const mainQuadCoordinate = {
+    latitude: 40.107544,
+    longitude: -88.22724,
+  };
   const milesPerMeter = 0.000621371;
   return distanceBetween(c, mainQuadCoordinate) * milesPerMeter;
 }
@@ -80,7 +101,9 @@ function distanceFromMainQuad(c) {
  * @return {number} The x position
  */
 function xPosition(eatery) {
-  return (((eatery.rating - 2.4) / 2.6) * width + padding);
+  const min = padding;
+  const max = width - padding;
+  return (((eatery.rating - lowerBoundX) / (upperBoundX - lowerBoundX)) * (max - min) + min);
 }
 
 /**
@@ -90,7 +113,10 @@ function xPosition(eatery) {
  * @return {number} The x position
  */
 function yPosition(eatery) {
-  return (((1.5 - distanceFromMainQuad(eatery.locations[0].coordinate)) / 1.5) * height - padding);
+  const min = padding;
+  const max = height - padding;
+  const dist = distanceFromMainQuad(eatery.locations[0].coordinate);
+  return (((upperBoundY - dist) / upperBoundY) * (max - min) + min);
 }
 
 /**
@@ -102,11 +128,10 @@ function yPosition(eatery) {
 function color(eatery) {
   const distFromOrigin = Math.sqrt((xPosition(eatery) ** 2)
     + ((height - yPosition(eatery)) ** 2));
-  if (distFromOrigin >= 900) return 'rgb(255, 75, 66)';
-  const r = 244 + (255 - 244) * (distFromOrigin / 900);
-  const g = 152 - (152 - 75) * (distFromOrigin / 900);
-  const b = 66;
-  return `rgb(${r}, ${g}, ${b})`;
+  const distUpperBound = 900;
+  const minColor = { r: 244, g: 244, b: 66 };
+  const maxColor = { r: 255, g: 75, b: 66 };
+  return gradientColor(minColor, maxColor, distFromOrigin, 0, distUpperBound);
 }
 
 /**
@@ -183,7 +208,7 @@ d3.json(dataFile)
       .append('g')
       .attr('transform', eatery => `translate(${xPosition(eatery)},${yPosition(eatery)})`)
       .append('circle')
-      .attr('r', eatery => (eatery.price !== 0 ? r(1000 / eatery.price) : 0))
+      .attr('r', eatery => (eatery.price !== 0 ? r(700 / (eatery.price) + 20) : 0))
       .attr('fill', eatery => color(eatery))
       .attr('class', 'circle')
       .on('mouseover', (eatery) => {
