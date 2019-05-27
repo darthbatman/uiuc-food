@@ -29,6 +29,9 @@ const Landmark = {
   },
 };
 
+const minColor = { r: 244, g: 244, b: 66 };
+const maxColor = { r: 255, g: 75, b: 66 };
+
 const width = 1000;
 const height = 800;
 const padding = 60;
@@ -43,6 +46,16 @@ const svg = d3.select('#chart')
   .append('svg')
   .attr('preserveAspectRatio', 'xMinYMin meet')
   .attr('viewBox', `0 0 ${width} ${height}`);
+
+const legendOne = d3.select('#legend-one')
+  .append('svg')
+  .attr('preserveAspectRatio', 'xMinYMin meet')
+  .attr('viewBox', '9.5 8.5 17 3');
+
+const legendTwo = d3.select('#legend-two')
+  .append('svg')
+  .attr('preserveAspectRatio', 'xMinYMin meet')
+  .attr('viewBox', '8 8.5 17 3');
 
 /* HELPER METHODS */
 
@@ -179,6 +192,75 @@ function tooltip(eatery, landmark) {
 }
 
 /**
+ * Draws the legend.
+ */
+function drawLegend() {
+  const minColor = { r: 244, g: 244, b: 66 };
+  const maxColor = { r: 255, g: 75, b: 66 };
+  legendOne.append('g')
+    .attr('transform', 'translate(10, 10)')
+    .append('circle')
+    .attr('r', '0.5')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+  legendOne.append('g')
+    .attr('transform', 'translate(13, 10)')
+    .append('circle')
+    .attr('r', '0.75')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+  legendOne.append('g')
+    .attr('transform', 'translate(16.5, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+  legendOne.append('g')
+    .attr('transform', 'translate(20.5, 10)')
+    .append('circle')
+    .attr('r', '1.25')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+  legendOne.append('g')
+    .attr('transform', 'translate(25, 10)')
+    .append('circle')
+    .attr('r', '1.5')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+
+  legendTwo.append('g')
+    .attr('transform', 'translate(10, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 0, 0, 1))
+    .attr('class', 'circle');
+  legendTwo.append('g')
+    .attr('transform', 'translate(13.5, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 0.25, 0, 1))
+    .attr('class', 'circle');
+  legendTwo.append('g')
+    .attr('transform', 'translate(17, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
+    .attr('class', 'circle');
+  legendTwo.append('g')
+    .attr('transform', 'translate(20.5, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 0.75, 0, 1))
+    .attr('class', 'circle');
+  legendTwo.append('g')
+    .attr('transform', 'translate(24, 10)')
+    .append('circle')
+    .attr('r', '1.0')
+    .attr('fill', gradientColor(minColor, maxColor, 1, 0, 1))
+    .attr('class', 'circle');
+}
+
+/**
  * Draws the chart.
  *
  * @param {enum} landmark - The landmark
@@ -287,9 +369,17 @@ function drawChart(landmark) {
           tip.hide(eatery, i);
         });
     });
+
+  drawLegend();
 }
 
 drawChart(Landmark.MainQuad);
+
+new Selectr('#landmark-selector', {
+  searchable: false,
+  width: 300
+});
+
 
 /* EVENT LISTENERS */
 
