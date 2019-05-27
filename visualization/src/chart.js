@@ -129,7 +129,7 @@ const chartOptions = {
       upper: 1.75,
     },
   },
-  dataFile: '../res/dataset.json',
+  dataFile: './res/dataset.json',
   landmark: landmarks[0],
   colorRange: {
     start: { r: 244, g: 244, b: 66 },
