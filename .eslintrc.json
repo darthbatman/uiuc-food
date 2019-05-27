@@ -9,7 +9,8 @@
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly",
         "d3": true,
-        "document": true
+        "document": true,
+        "Selectr": true
     },
     "parserOptions": {
         "ecmaVersion": 2018
