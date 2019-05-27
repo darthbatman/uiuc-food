@@ -1,19 +1,31 @@
-const LandmarkCoordinate = {
+const Landmark = {
   MainQuad: {
-    latitude: 40.107544,
-    longitude: -88.22724,
+    name: 'Main Quad',
+    coordinate: {
+      latitude: 40.107544,
+      longitude: -88.22724,
+    },
   },
   EngineeringQuad: {
-    latitude: 40.1119845,
-    longitude: -88.2277056,
+    name: 'Engineering Quad',
+    coordinate: {
+      latitude: 40.1119845,
+      longitude: -88.2277056,
+    },
   },
   SouthQuad: {
-    latitude: 40.1035088,
-    longitude: -88.2295807,
+    name: 'South Quad',
+    coordinate: {
+      latitude: 40.1035088,
+      longitude: -88.2295807,
+    },
   },
   IlliniUnion: {
-    latitude: 40.1092142,
-    longitude: -88.2294112,
+    name: 'Illini Union',
+    coordinate: {
+      latitude: 40.1092142,
+      longitude: -88.2294112,
+    },
   },
 };
 
@@ -87,12 +99,12 @@ function distanceBetween(c1, c2) {
  * Calculates distance in miles (mi) between a coordinate and a given landmark.
  *
  * @param {object} c - The coordinate
- * @param {object} landmarkCoordinate - The coordinate of the landmark
+ * @param {enum} landmark - The andmark
  * @return {number} The distance in miles between c and the landmark
  */
-function distanceFromLandmark(c, landmarkCoordinate) {
+function distanceFromLandmark(c, landmark) {
   const milesPerMeter = 0.000621371;
-  return distanceBetween(c, landmarkCoordinate) * milesPerMeter;
+  return distanceBetween(c, landmark.coordinate) * milesPerMeter;
 }
 
 /**
@@ -111,12 +123,13 @@ function xPosition(eatery) {
  * Calculates the y position of the eatery on the chart.
  *
  * @param {object} eatery - The eatery
+ * @param {enum} landmark - The landmark
  * @return {number} The x position
  */
-function yPosition(eatery) {
+function yPosition(eatery, landmark) {
   const min = padding;
   const max = height - padding;
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, LandmarkCoordinate.MainQuad);
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, landmark);
   return (((upperBoundY - dist) / upperBoundY) * (max - min) + min);
 }
 
@@ -124,11 +137,12 @@ function yPosition(eatery) {
  * Gets the color of the eatery on the chart.
  *
  * @param {object} eatery - The eatery
+* @param {enum} landmark - The landmark
  * @return {string} The color as an rgb string
  */
-function color(eatery) {
+function color(eatery, landmark) {
   const distFromOrigin = Math.sqrt((xPosition(eatery) ** 2)
-    + ((height - yPosition(eatery)) ** 2));
+    + ((height - yPosition(eatery, landmark)) ** 2));
   const distUpperBound = 900;
   const minColor = { r: 244, g: 244, b: 66 };
   const maxColor = { r: 255, g: 75, b: 66 };
@@ -139,10 +153,11 @@ function color(eatery) {
  * Gets the populated tooltip of the eatery on the chart.
  *
  * @param {object} eatery - The eatery
+ * @param {enum} landmark - The landmark
  * @return {string} The populated tooltip as HTML
  */
-function tooltip(eatery) {
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, LandmarkCoordinate.MainQuad);
+function tooltip(eatery, landmark) {
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, landmark);
   const formattedDist = Number.parseFloat(dist).toPrecision(2);
   return `<div class="tooltip">
             <div class='tooltip-title'>${eatery.name}</div>
@@ -152,7 +167,7 @@ function tooltip(eatery) {
                 <span class="tooltip-data-value">$${eatery.price}</span>
               </div>
               <div class="tooltip-row">
-                <span class="tooltip-data-name">Distance from Main Quad</span><br>
+                <span class="tooltip-data-name">Distance from ${landmark.name}</span><br>
                 <span class="tooltip-data-value">${formattedDist} mi</span>
               </div>
               <div class="tooltip-row">
@@ -163,104 +178,136 @@ function tooltip(eatery) {
           </div>`;
 }
 
-const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
-const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
+/**
+ * Draws the chart.
+ *
+ * @param {enum} landmark - The landmark
+ */
+function drawChart(landmark) {
+  d3.selectAll('g').remove();
+  d3.selectAll('text').remove();
+  const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
+  const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
 
-const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
-const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
+  const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
+  const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
 
-const xGridlines = d3.axisBottom(x)
-  .tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5])
-  .tickFormat('')
-  .tickSize(-height + padding + padding);
+  const xGridlines = d3.axisBottom(x)
+    .tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5])
+    .tickFormat('')
+    .tickSize(-height + padding + padding);
 
-const yGridlines = d3.axisLeft(y)
-  .tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75])
-  .tickFormat('')
-  .tickSize(-width + padding + padding);
+  const yGridlines = d3.axisLeft(y)
+    .tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75])
+    .tickFormat('')
+    .tickSize(-width + padding + padding);
 
-svg.append('g')
-  .attr('class', 'grid')
-  .attr('transform', `translate(0, ${(height - padding)})`)
-  .call(xGridlines);
+  svg.append('g')
+    .attr('class', 'grid')
+    .attr('transform', `translate(0, ${(height - padding)})`)
+    .call(xGridlines);
 
-svg.append('g')
-  .attr('class', 'grid')
-  .attr('transform', `translate(${padding}, 0)`)
-  .call(yGridlines);
+  svg.append('g')
+    .attr('class', 'grid')
+    .attr('transform', `translate(${padding}, 0)`)
+    .call(yGridlines);
 
-svg.append('g')
-  .attr('class', 'axis')
-  .attr('transform', `translate(0, ${(height - padding)})`)
-  .call(xAxis);
+  svg.append('g')
+    .attr('class', 'axis')
+    .attr('transform', `translate(0, ${(height - padding)})`)
+    .call(xAxis);
 
-svg.append('g')
-  .attr('class', 'axis')
-  .attr('transform', `translate(${padding}, 0)`)
-  .call(yAxis);
+  svg.append('g')
+    .attr('class', 'axis')
+    .attr('transform', `translate(${padding}, 0)`)
+    .call(yAxis);
 
-d3.json(dataFile)
-  .then((eateries) => {
-    // sort to ensure eateries with smaller radius are drawn later
-    eateries.sort((a, b) => d3.ascending(a.price, b.price));
-    const minRadius = 2;
-    const maxRadius = 10;
+  d3.json(dataFile)
+    .then((eateries) => {
+      // sort to ensure eateries with smaller radius are drawn later
+      eateries.sort((a, b) => d3.ascending(a.price, b.price));
+      const minRadius = 2;
+      const maxRadius = 10;
 
-    const chartTitle = 'Distance from Main Quad vs. Rating';
-    const chartXLabel = 'Rating (out of 5)';
-    const chartYLabel = 'Distance from Main Quad (mi)';
+      const chartTitle = `Distance from ${landmark.name} vs. Rating`;
+      const chartXLabel = 'Rating (out of 5)';
+      const chartYLabel = `Distance from ${landmark.name} (mi)`;
 
-    const counterAxisLabelOffset = 20;
+      const counterAxisLabelOffset = 20;
 
-    const priceMultiplier = 700;
-    const priceOffset = 20;
+      const priceMultiplier = 700;
+      const priceOffset = 20;
 
-    const radius = d3.scaleLinear()
-      .domain([0, d3.max(eateries, eatery => eatery.price)])
-      .range([minRadius, maxRadius]);
+      const radius = d3.scaleLinear()
+        .domain([0, d3.max(eateries, eatery => eatery.price)])
+        .range([minRadius, maxRadius]);
 
-    svg.append('text')
-      .attr('class', 'label')
-      .attr('id', 'title')
-      .style('text-anchor', 'middle')
-      .attr('x', width / 2)
-      .attr('y', counterAxisLabelOffset)
-      .text(chartTitle);
+      svg.append('text')
+        .attr('class', 'label')
+        .attr('id', 'title')
+        .style('text-anchor', 'middle')
+        .attr('x', width / 2)
+        .attr('y', counterAxisLabelOffset)
+        .text(chartTitle);
 
-    svg.append('text')
-      .attr('class', 'label')
-      .style('text-anchor', 'middle')
-      .attr('x', width / 2)
-      .attr('y', height - counterAxisLabelOffset)
-      .text(chartXLabel);
+      svg.append('text')
+        .attr('class', 'label')
+        .style('text-anchor', 'middle')
+        .attr('x', width / 2)
+        .attr('y', height - counterAxisLabelOffset)
+        .text(chartXLabel);
 
-    svg.append('text')
-      .attr('class', 'label')
-      .style('text-anchor', 'middle')
-      .attr('x', -1 * (height / 2))
-      .attr('y', counterAxisLabelOffset)
-      .attr('transform', 'rotate(-90)')
-      .text(chartYLabel);
+      svg.append('text')
+        .attr('class', 'label')
+        .style('text-anchor', 'middle')
+        .attr('x', -1 * (height / 2))
+        .attr('y', counterAxisLabelOffset)
+        .attr('transform', 'rotate(-90)')
+        .text(chartYLabel);
 
-    const tip = d3.tip()
-      .attr('class', 'd3-tip')
-      .html(eatery => tooltip(eatery));
-    svg.call(tip);
+      const tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .html(eatery => tooltip(eatery, landmark));
+      svg.call(tip);
 
-    svg.selectAll('eatery')
-      .data(eateries)
-      .enter()
-      .append('g')
-      .attr('transform', eatery => `translate(${xPosition(eatery)}, ${yPosition(eatery)})`)
-      .append('circle')
-      .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
-      .attr('fill', eatery => color(eatery))
-      .attr('class', 'circle')
-      .on('mouseover', (eatery) => {
-        tip.direction('e');
-        tip.show(eatery);
-      })
-      .on('mouseout', (eatery, i) => {
-        tip.hide(eatery, i);
-      });
-  });
+      svg.selectAll('eatery')
+        .data(eateries)
+        .enter()
+        .append('g')
+        .attr('transform', eatery => `translate(${xPosition(eatery)}, ${yPosition(eatery, landmark)})`)
+        .append('circle')
+        .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
+        .attr('fill', eatery => color(eatery, landmark))
+        .attr('class', 'circle')
+        .on('mouseover', (eatery) => {
+          tip.direction('e');
+          tip.show(eatery);
+        })
+        .on('mouseout', (eatery, i) => {
+          tip.hide(eatery, i);
+        });
+    });
+}
+
+drawChart(Landmark.MainQuad);
+
+/* EVENT LISTENERS */
+
+document.getElementById('landmark-selector').addEventListener('change', () => {
+  switch (document.getElementById('landmark-selector').value) {
+    case Landmark.MainQuad.name:
+      drawChart(Landmark.MainQuad);
+      break;
+    case Landmark.EngineeringQuad.name:
+      drawChart(Landmark.EngineeringQuad);
+      break;
+    case Landmark.SouthQuad.name:
+      drawChart(Landmark.SouthQuad);
+      break;
+    case Landmark.IlliniUnion.name:
+      drawChart(Landmark.IlliniUnion);
+      break;
+    default:
+      break;
+  }
+});
