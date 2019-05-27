@@ -74,6 +74,22 @@ const landmarks = [
  */
 
 /**
+ * A range
+ *
+ * @typedef {Object} Range
+ * @property {number} lower - the lower bound
+ * @property {number} upper - the upper bound
+ */
+
+/**
+ * Chart bounds
+ *
+ * @typedef {Object} Bounds
+ * @property {Range} x - x bounds
+ * @property {Range} y - y bounds
+ */
+
+/**
  * A color
  * @typedef {Object} Color
  * @property {number} r - The red component
@@ -86,49 +102,40 @@ const landmarks = [
  * @typedef {Object} ColorRange
  * @property {Color} start - The starting color
  * @property {Color} end - The ending color
- * @property {number} b - The blue component
  */
 
 /**
  * Chart options
  * @typedef {Object} ChartOptions
  * @property {Dimensions} The dimensions
+ * @property {Bounds} The bounds
  * @property {string} dataFile - The name of the data file
+ * @property {Landmark} landmark - The landmark
  * @property {ColorRange} colorRange - The color range
  */
-
 const chartOptions = {
   dimensions: {
     width: 1000,
     height: 800,
     padding: 60,
   },
+  bounds: {
+    x: {
+      lower: 2.4,
+      upper: 5.0,
+    },
+    y: {
+      lower: 0.0,
+      upper: 1.75,
+    },
+  },
   dataFile: '../res/dataset.json',
+  landmark: landmarks[0],
   colorRange: {
     start: { r: 244, g: 244, b: 66 },
     end: { r: 255, g: 75, b: 66 },
   },
 };
-
-const lowerBoundX = 2.4;
-const upperBoundX = 5.0;
-const lowerBoundY = 0.0;
-const upperBoundY = 1.75;
-
-const svg = d3.select('#chart')
-  .append('svg')
-  .attr('preserveAspectRatio', 'xMinYMin meet')
-  .attr('viewBox', `0 0 ${chartOptions.dimensions.width} ${chartOptions.dimensions.height}`);
-
-const legendOne = d3.select('#legend-one')
-  .append('svg')
-  .attr('preserveAspectRatio', 'xMinYMin meet')
-  .attr('viewBox', '9.5 8.5 17 3');
-
-const legendTwo = d3.select('#legend-two')
-  .append('svg')
-  .attr('preserveAspectRatio', 'xMinYMin meet')
-  .attr('viewBox', '8 8.5 17 3');
 
 /* HELPER METHODS */
 
@@ -171,8 +178,6 @@ function gradientColor(start, end, val, min, max) {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
-/* IMPLEMENTATION METHODS */
-
 /**
  * Calculates distance in meters (m) between two map coordinates.
  * Adapted from: https://stackoverflow.com/questions/1502590/calculate-distance-between-two-points-in-google-maps-v3
@@ -191,6 +196,8 @@ function distanceBetween(c1, c2) {
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return earthMeanRadius * c;
 }
+
+/* IMPLEMENTATION METHODS */
 
 /**
  * Calculates distance in miles (mi) between a coordinate and a given landmark.
@@ -214,35 +221,35 @@ function distanceFromLandmark(c, landmark) {
 function xPosition(eatery, options) {
   const min = options.dimensions.padding;
   const max = options.dimensions.width - options.dimensions.padding;
-  return (((eatery.rating - lowerBoundX) / (upperBoundX - lowerBoundX)) * (max - min) + min);
+  const xb = options.bounds.x;
+  return (((eatery.rating - xb.lower) / (xb.upper - xb.lower)) * (max - min) + min);
 }
 
 /**
  * Calculates the y position of the eatery on the chart.
  *
  * @param {Eatery} eatery - The eatery
- * @param {enum} landmark - The landmark
  * @param {ChartOptions} options - The chart options
  * @return {number} The x position
  */
-function yPosition(eatery, landmark, options) {
+function yPosition(eatery, options) {
   const min = options.dimensions.padding;
   const max = options.dimensions.height - options.dimensions.padding;
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, landmark);
-  return (((upperBoundY - dist) / upperBoundY) * (max - min) + min);
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, options.landmark);
+  const yb = options.bounds.y;
+  return (((yb.upper - dist) / yb.upper) * (max - min) + min);
 }
 
 /**
  * Gets the color of the eatery on the chart.
  *
  * @param {Eatery} eatery - The eatery
- * @param {Landmark} landmark - The landmark
  * @param {ChartOptions} options - The chart options
  * @return {string} The color as an rgb string
  */
-function color(eatery, landmark, options) {
+function color(eatery, options) {
   const distFromOrigin = Math.sqrt((xPosition(eatery, options) ** 2)
-    + ((chartOptions.dimensions.height - yPosition(eatery, landmark, options)) ** 2));
+    + ((chartOptions.dimensions.height - yPosition(eatery, options)) ** 2));
   const distUpperBound = 900;
   const cr = options.colorRange;
   return gradientColor(cr.start, cr.end, distFromOrigin, 0, distUpperBound);
@@ -252,11 +259,11 @@ function color(eatery, landmark, options) {
  * Gets the populated tooltip of the eatery on the chart.
  *
  * @param {Eatery} eatery - The eatery
- * @param {enum} landmark - The landmark
+ * @param {ChartOptions} options - The chart options
  * @return {string} The populated tooltip as HTML
  */
-function tooltip(eatery, landmark) {
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, landmark);
+function tooltip(eatery, options) {
+  const dist = distanceFromLandmark(eatery.locations[0].coordinate, options.landmark);
   const formattedDist = Number.parseFloat(dist).toPrecision(2);
   return `<div class="tooltip">
             <div class='tooltip-title'>${eatery.name}</div>
@@ -266,7 +273,7 @@ function tooltip(eatery, landmark) {
                 <span class="tooltip-data-value">$${eatery.price}</span>
               </div>
               <div class="tooltip-row">
-                <span class="tooltip-data-name">Distance from ${landmark.name}</span><br>
+                <span class="tooltip-data-name">Distance from ${options.landmark.name}</span><br>
                 <span class="tooltip-data-value">${formattedDist} mi</span>
               </div>
               <div class="tooltip-row">
@@ -278,81 +285,53 @@ function tooltip(eatery, landmark) {
 }
 
 /**
- * Draws the legend.
+ * Draws the legend circle.
+ *
+ * @param {D3Selection} legend - The legend
+ * @param {number} numCircles - The number of circles
+ * @param {boolean} varySize - Is the size legend
+ * @param {ChartOptions} options - The chart options
  */
-function drawLegend() {
-  const minColor = { r: 244, g: 244, b: 66 };
-  const maxColor = { r: 255, g: 75, b: 66 };
-  legendOne.append('g')
-    .attr('transform', 'translate(10, 10)')
-    .append('circle')
-    .attr('r', '0.5')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
-  legendOne.append('g')
-    .attr('transform', 'translate(13, 10)')
-    .append('circle')
-    .attr('r', '0.75')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
-  legendOne.append('g')
-    .attr('transform', 'translate(16.5, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
-  legendOne.append('g')
-    .attr('transform', 'translate(20.5, 10)')
-    .append('circle')
-    .attr('r', '1.25')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
-  legendOne.append('g')
-    .attr('transform', 'translate(25, 10)')
-    .append('circle')
-    .attr('r', '1.5')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
+function drawLegendCircles(legend, numCircles, varySize, options) {
+  const xTranslations = [10, 13, 16.5, 20.5, 25];
+  let i;
+  for (i = 0; i < numCircles; i += 1) {
+    if (varySize) {
+      legend.append('g')
+        .attr('transform', `translate(${xTranslations[i]}, 10)`)
+        .append('circle')
+        .attr('r', `${0.5 + 0.25 * i}`)
+        .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0.5, 0, 1))
+        .attr('class', 'circle');
+    } else {
+      legend.append('g')
+        .attr('transform', `translate(${10 + 3.5 * i}, 10)`)
+        .append('circle')
+        .attr('r', '1.0')
+        .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0 + 0.25 * i, 0, 1))
+        .attr('class', 'circle');
+    }
+  }
+}
 
-  legendTwo.append('g')
-    .attr('transform', 'translate(10, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 0, 0, 1))
-    .attr('class', 'circle');
-  legendTwo.append('g')
-    .attr('transform', 'translate(13.5, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 0.25, 0, 1))
-    .attr('class', 'circle');
-  legendTwo.append('g')
-    .attr('transform', 'translate(17, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 0.5, 0, 1))
-    .attr('class', 'circle');
-  legendTwo.append('g')
-    .attr('transform', 'translate(20.5, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 0.75, 0, 1))
-    .attr('class', 'circle');
-  legendTwo.append('g')
-    .attr('transform', 'translate(24, 10)')
-    .append('circle')
-    .attr('r', '1.0')
-    .attr('fill', gradientColor(minColor, maxColor, 1, 0, 1))
-    .attr('class', 'circle');
+/**
+ * Draws the legends.
+ *
+ * @param {D3Selection} sizeLegend - The circle size legend
+ * @param {D3Selection} colorLegend - The circle color legend
+ * @param {ChartOptions} options - The chart options
+ */
+function drawLegends(sizeLegend, colorLegend, options) {
+  drawLegendCircles(sizeLegend, 5, true, options);
+  drawLegendCircles(colorLegend, 5, false, options);
 }
 
 /**
  * Draws the chart.
  *
- * @param {Landmark} landmark - The landmark
  * @param {ChartOptions} options - The chart options
  */
-function drawChart(landmark, options) {
+function drawChart(options, svg, sizeLegend, colorLegend) {
   d3.selectAll('g').remove();
   d3.selectAll('text').remove();
 
@@ -360,8 +339,11 @@ function drawChart(landmark, options) {
   const { height } = options.dimensions;
   const { padding } = options.dimensions;
 
-  const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
-  const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
+  const xb = options.bounds.x;
+  const yb = options.bounds.y;
+
+  const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
+  const y = d3.scaleLinear().domain([yb.lower, yb.upper]).range([height - padding, padding]);
 
   const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
   const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
@@ -403,9 +385,9 @@ function drawChart(landmark, options) {
       const minRadius = 2;
       const maxRadius = 10;
 
-      const chartTitle = `Distance from ${landmark.name} vs. Rating`;
+      const chartTitle = `Distance from ${options.landmark.name} vs. Rating`;
       const chartXLabel = 'Rating (out of 5)';
-      const chartYLabel = `Distance from ${landmark.name} (mi)`;
+      const chartYLabel = `Distance from ${options.landmark.name} (mi)`;
 
       const counterAxisLabelOffset = 20;
 
@@ -441,17 +423,17 @@ function drawChart(landmark, options) {
 
       const tip = d3.tip()
         .attr('class', 'd3-tip')
-        .html(eatery => tooltip(eatery, landmark));
+        .html(eatery => tooltip(eatery, options));
       svg.call(tip);
 
       svg.selectAll('eatery')
         .data(eateries)
         .enter()
         .append('g')
-        .attr('transform', eatery => `translate(${xPosition(eatery, options)}, ${yPosition(eatery, landmark, options)})`)
+        .attr('transform', eatery => `translate(${xPosition(eatery, options)}, ${yPosition(eatery, options)})`)
         .append('circle')
         .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
-        .attr('fill', eatery => color(eatery, landmark, options))
+        .attr('fill', eatery => color(eatery, options))
         .attr('class', 'circle')
         .on('mouseover', (eatery) => {
           tip.direction('e');
@@ -462,24 +444,44 @@ function drawChart(landmark, options) {
         });
     });
 
-  drawLegend();
+  drawLegends(sizeLegend, colorLegend, options);
 }
 
-drawChart(landmarks[0], chartOptions);
+/**
+ * Initializes the chart.
+ *
+ * @param {ChartOptions} options - The chart options
+ */
+function initializeChart(options) {
+  const svg = d3.select('#chart')
+    .append('svg')
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr('viewBox', `0 0 ${options.dimensions.width} ${options.dimensions.height}`);
 
-const landmarkSelector = new Selectr('#landmark-selector', {
-  searchable: false,
-  width: 300,
-});
+  const sizeLegend = d3.select('#legend-one')
+    .append('svg')
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr('viewBox', '9.5 8.5 17 3');
 
-/* EVENT LISTENERS */
-
-landmarkSelector.el.addEventListener('change', () => {
-  let i;
-  for (i = 0; i < landmarks.length; i += 1) {
-    if (landmarkSelector.getValue() === landmarks[i].name) {
-      drawChart(landmarks[i], chartOptions);
-      break;
+  const colorLegend = d3.select('#legend-two')
+    .append('svg')
+    .attr('preserveAspectRatio', 'xMinYMin meet')
+    .attr('viewBox', '8 8.5 17 3');
+  const landmarkSelector = new Selectr('#landmark-selector', {
+    searchable: false,
+    width: 300,
+  });
+  landmarkSelector.el.addEventListener('change', () => {
+    let i;
+    for (i = 0; i < landmarks.length; i += 1) {
+      if (landmarkSelector.getValue() === landmarks[i].name) {
+        chartOptions.landmark = landmarks[i];
+        drawChart(chartOptions, svg, sizeLegend, colorLegend);
+        break;
+      }
     }
-  }
-});
+  });
+  drawChart(options, svg, sizeLegend, colorLegend);
+}
+
+initializeChart(chartOptions);
