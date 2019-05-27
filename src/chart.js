@@ -1,41 +1,114 @@
-const Landmark = {
-  MainQuad: {
+/* GLOBALS */
+
+/**
+ * A map coordinate
+ * @typedef {Object} Coordinate
+ * @property {number} latitude - The latitude
+ * @property {number} longitude - The longitude
+ */
+
+/**
+ * A location
+ * @typedef {Object} Location
+ * @property {string} address - The address
+ * @property {Coordinate} coordinate - The coordinate
+ */
+
+/**
+ * An eatery
+ * @typedef {Object} Eatery
+ * @property {string} name - The name
+ * @property {Location[]} locations - An array of locations
+ * @property {number} price - The price
+ * @property {number} rating - The rating
+ */
+
+/**
+ * A geographic landmark
+ * @typedef {Object} Landmark
+ * @property {string} name - The name
+ * @property {Coordinate} coordinate - The coordinate
+ */
+
+/**
+ * Array of Landmarks.
+ */
+const landmarks = [
+  {
     name: 'Main Quad',
     coordinate: {
       latitude: 40.107544,
       longitude: -88.22724,
     },
   },
-  EngineeringQuad: {
+  {
     name: 'Engineering Quad',
     coordinate: {
       latitude: 40.1119845,
       longitude: -88.2277056,
     },
   },
-  SouthQuad: {
+  {
     name: 'South Quad',
     coordinate: {
       latitude: 40.1035088,
       longitude: -88.2295807,
     },
   },
-  IlliniUnion: {
+  {
     name: 'Illini Union',
     coordinate: {
       latitude: 40.1092142,
       longitude: -88.2294112,
     },
   },
+];
+
+/**
+ * Chart dimensions
+ *
+ * @typedef {Object} Dimensions
+ * @property {number} width - The width
+ * @property {number} height - The height
+ * @property {number} padding - The padding
+ */
+
+/**
+ * A color
+ * @typedef {Object} Color
+ * @property {number} r - The red component
+ * @property {number} g - The green component
+ * @property {number} b - The blue component
+ */
+
+/**
+ * A color range
+ * @typedef {Object} ColorRange
+ * @property {Color} start - The starting color
+ * @property {Color} end - The ending color
+ * @property {number} b - The blue component
+ */
+
+/**
+ * Chart options
+ * @typedef {Object} ChartOptions
+ * @property {Dimensions} The dimensions
+ * @property {string} dataFile - The name of the data file
+ * @property {ColorRange} colorRange - The color range
+ */
+
+const chartOptions = {
+  dimensions: {
+    width: 1000,
+    height: 800,
+    padding: 60,
+  },
+  dataFile: '../res/dataset.json',
+  colorRange: {
+    start: { r: 244, g: 244, b: 66 },
+    end: { r: 255, g: 75, b: 66 },
+  },
 };
-
-const minColor = { r: 244, g: 244, b: 66 };
-const maxColor = { r: 255, g: 75, b: 66 };
-
-const width = 1000;
-const height = 800;
-const padding = 60;
-const dataFile = '../res/dataset.json';
 
 const lowerBoundX = 2.4;
 const upperBoundX = 5.0;
@@ -45,7 +118,7 @@ const upperBoundY = 1.75;
 const svg = d3.select('#chart')
   .append('svg')
   .attr('preserveAspectRatio', 'xMinYMin meet')
-  .attr('viewBox', `0 0 ${width} ${height}`);
+  .attr('viewBox', `0 0 ${chartOptions.dimensions.width} ${chartOptions.dimensions.height}`);
 
 const legendOne = d3.select('#legend-one')
   .append('svg')
@@ -71,16 +144,27 @@ function radians(degrees) {
 }
 
 /**
+ * Gets RGB string for color.
+ *
+ * @param {Color} c - A color
+ * @return {string} The RGB string
+*/
+function rgbString(c) {
+  return `rgb(${c.r}, ${c.g}, ${c.b})`;
+}
+
+/**
  * Gets color on gradient based on value.
  *
- * @param {object} start - The color the gradient starts at
- * @param {object} end - The color the gradient end at
+ * @param {Color} start - The color the gradient starts at
+ * @param {Color} end - The color the gradient end at
  * @param {number} val - The value
  * @param {number} min - The min bound for val
  * @param {number} max - The max bound for val
+ * @return {string} The RGB string for the color on gradient
 */
 function gradientColor(start, end, val, min, max) {
-  if (val >= max) return `rgb(${end.r}, ${end.g}, ${end.b})`;
+  if (val >= max) return rgbString(end);
   const r = start.r + (end.r - start.r) * (val / (max - min));
   const g = start.g + (end.g - start.g) * (val / (max - min));
   const b = start.b + (end.b - start.b) * (val / (max - min));
@@ -93,8 +177,8 @@ function gradientColor(start, end, val, min, max) {
  * Calculates distance in meters (m) between two map coordinates.
  * Adapted from: https://stackoverflow.com/questions/1502590/calculate-distance-between-two-points-in-google-maps-v3
  *
- * @param {object} c1 - The first map coordinate
- * @param {object} c2 - The second map coordinate
+ * @param {Coordinate} c1 - The first map coordinate
+ * @param {Coordinate} c2 - The second map coordinate
  * @return {number} The distance in meters between c1 and c2
  */
 function distanceBetween(c1, c2) {
@@ -111,8 +195,8 @@ function distanceBetween(c1, c2) {
 /**
  * Calculates distance in miles (mi) between a coordinate and a given landmark.
  *
- * @param {object} c - The coordinate
- * @param {enum} landmark - The andmark
+ * @param {Coordiante} c - The coordinate
+ * @param {Landmark} landmark - The landmark
  * @return {number} The distance in miles between c and the landmark
  */
 function distanceFromLandmark(c, landmark) {
@@ -123,25 +207,27 @@ function distanceFromLandmark(c, landmark) {
 /**
  * Calculates the x position of the eatery on the chart.
  *
- * @param {object} eatery - The eatery
+ * @param {Eatery} eatery - The eatery
+ * @param {ChartOptions} options - The chart options
  * @return {number} The x position
  */
-function xPosition(eatery) {
-  const min = padding;
-  const max = width - padding;
+function xPosition(eatery, options) {
+  const min = options.dimensions.padding;
+  const max = options.dimensions.width - options.dimensions.padding;
   return (((eatery.rating - lowerBoundX) / (upperBoundX - lowerBoundX)) * (max - min) + min);
 }
 
 /**
  * Calculates the y position of the eatery on the chart.
  *
- * @param {object} eatery - The eatery
+ * @param {Eatery} eatery - The eatery
  * @param {enum} landmark - The landmark
+ * @param {ChartOptions} options - The chart options
  * @return {number} The x position
  */
-function yPosition(eatery, landmark) {
-  const min = padding;
-  const max = height - padding;
+function yPosition(eatery, landmark, options) {
+  const min = options.dimensions.padding;
+  const max = options.dimensions.height - options.dimensions.padding;
   const dist = distanceFromLandmark(eatery.locations[0].coordinate, landmark);
   return (((upperBoundY - dist) / upperBoundY) * (max - min) + min);
 }
@@ -149,23 +235,23 @@ function yPosition(eatery, landmark) {
 /**
  * Gets the color of the eatery on the chart.
  *
- * @param {object} eatery - The eatery
-* @param {enum} landmark - The landmark
+ * @param {Eatery} eatery - The eatery
+ * @param {Landmark} landmark - The landmark
+ * @param {ChartOptions} options - The chart options
  * @return {string} The color as an rgb string
  */
-function color(eatery, landmark) {
-  const distFromOrigin = Math.sqrt((xPosition(eatery) ** 2)
-    + ((height - yPosition(eatery, landmark)) ** 2));
+function color(eatery, landmark, options) {
+  const distFromOrigin = Math.sqrt((xPosition(eatery, options) ** 2)
+    + ((chartOptions.dimensions.height - yPosition(eatery, landmark, options)) ** 2));
   const distUpperBound = 900;
-  const minColor = { r: 244, g: 244, b: 66 };
-  const maxColor = { r: 255, g: 75, b: 66 };
-  return gradientColor(minColor, maxColor, distFromOrigin, 0, distUpperBound);
+  const cr = options.colorRange;
+  return gradientColor(cr.start, cr.end, distFromOrigin, 0, distUpperBound);
 }
 
 /**
  * Gets the populated tooltip of the eatery on the chart.
  *
- * @param {object} eatery - The eatery
+ * @param {Eatery} eatery - The eatery
  * @param {enum} landmark - The landmark
  * @return {string} The populated tooltip as HTML
  */
@@ -263,11 +349,17 @@ function drawLegend() {
 /**
  * Draws the chart.
  *
- * @param {enum} landmark - The landmark
+ * @param {Landmark} landmark - The landmark
+ * @param {ChartOptions} options - The chart options
  */
-function drawChart(landmark) {
+function drawChart(landmark, options) {
   d3.selectAll('g').remove();
   d3.selectAll('text').remove();
+
+  const { width } = options.dimensions;
+  const { height } = options.dimensions;
+  const { padding } = options.dimensions;
+
   const x = d3.scaleLinear().domain([lowerBoundX, upperBoundX]).range([padding, width - padding]);
   const y = d3.scaleLinear().domain([lowerBoundY, upperBoundY]).range([height - padding, padding]);
 
@@ -304,7 +396,7 @@ function drawChart(landmark) {
     .attr('transform', `translate(${padding}, 0)`)
     .call(yAxis);
 
-  d3.json(dataFile)
+  d3.json(options.dataFile)
     .then((eateries) => {
       // sort to ensure eateries with smaller radius are drawn later
       eateries.sort((a, b) => d3.ascending(a.price, b.price));
@@ -356,10 +448,10 @@ function drawChart(landmark) {
         .data(eateries)
         .enter()
         .append('g')
-        .attr('transform', eatery => `translate(${xPosition(eatery)}, ${yPosition(eatery, landmark)})`)
+        .attr('transform', eatery => `translate(${xPosition(eatery, options)}, ${yPosition(eatery, landmark, options)})`)
         .append('circle')
         .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
-        .attr('fill', eatery => color(eatery, landmark))
+        .attr('fill', eatery => color(eatery, landmark, options))
         .attr('class', 'circle')
         .on('mouseover', (eatery) => {
           tip.direction('e');
@@ -373,31 +465,21 @@ function drawChart(landmark) {
   drawLegend();
 }
 
-drawChart(Landmark.MainQuad);
+drawChart(landmarks[0], chartOptions);
 
-new Selectr('#landmark-selector', {
+const landmarkSelector = new Selectr('#landmark-selector', {
   searchable: false,
-  width: 300
+  width: 300,
 });
-
 
 /* EVENT LISTENERS */
 
-document.getElementById('landmark-selector').addEventListener('change', () => {
-  switch (document.getElementById('landmark-selector').value) {
-    case Landmark.MainQuad.name:
-      drawChart(Landmark.MainQuad);
+landmarkSelector.el.addEventListener('change', () => {
+  let i;
+  for (i = 0; i < landmarks.length; i += 1) {
+    if (landmarkSelector.getValue() === landmarks[i].name) {
+      drawChart(landmarks[i], chartOptions);
       break;
-    case Landmark.EngineeringQuad.name:
-      drawChart(Landmark.EngineeringQuad);
-      break;
-    case Landmark.SouthQuad.name:
-      drawChart(Landmark.SouthQuad);
-      break;
-    case Landmark.IlliniUnion.name:
-      drawChart(Landmark.IlliniUnion);
-      break;
-    default:
-      break;
+    }
   }
 });
