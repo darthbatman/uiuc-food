@@ -3,65 +3,69 @@
   	<title>UIUC Food</title>
   	<link rel="icon" type="image/x-icon" href="res/favicon.ico" />
 	<link href="https://cdn.jsdelivr.net/gh/mobius1/selectr@latest/dist/selectr.min.css" rel="stylesheet" type="text/css">
-<script src="https://cdn.jsdelivr.net/gh/mobius1/selectr@latest/dist/selectr.min.js" type="text/javascript"></script>
+	<script src="https://cdn.jsdelivr.net/gh/mobius1/selectr@latest/dist/selectr.min.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="src/style.css">
   </head>
   <body>
-  	<div class="jumbotron">
-	  <h1 class="display-4">UIUC Food</h1>
-	  <p class="lead">A look into the eateries in and around the University of Illinois at Urbana-Champaign campus.</p>
-	  <hr class="my-4">
-	  <p>Rishi Masand<br>2019</p>
-	  <a class="btn btn-primary btn-lg" href="https://github.com/darthbatman/uiuc-food" role="button">View on GitHub (Coming Soon)</a>
-	</div>
+  	<div class="container">
+	  	<div class="jumbotron">
+		  <h1 class="display-4">UIUC Food</h1>
+		  <p class="lead">A look into the eateries in and around the University of Illinois at Urbana-Champaign campus.</p>
+		  <hr class="my-4">
+		  <p>Rishi Masand<br>2019</p>
+		  <a class="btn btn-primary btn-lg" href="https://github.com/darthbatman/uiuc-food" role="button">View on GitHub (Coming Soon)</a>
+		</div>
 
-	<div class="information">
-		<h4>About</h4>
-		<p class="about">The following is a data exploration of all restaurants, cafes, etc. in the UIUC extended campus. The project was inspired by attempting to eat all the eateries local to the Champaign-Urbana area while attending the University of Illinois. The visualization was inspired by one of Professor Wade Fagen-Ulmschneider's data discoveries: <a href="http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/">Every Gen Ed at UIUC, by GPA</a>.</p>
-		<h4>Legend</h4>
-		<div id="legend-one-container">
-			<div id="legend-one"></div>
-			<div class="legend-text">
-				<div class="circle-info-top">
-					<p class="legend-left">More expensive eateries</p>
-					<p class="legend-right">Cheaper eateries</p>
+		<div class="information">
+			<h4>About</h4>
+			<p class="about">The following is a data exploration of all restaurants, cafes, etc. in the UIUC extended campus. The project was inspired by attempting to eat all the eateries local to the Champaign-Urbana area while attending the University of Illinois. The visualization was inspired by one of Professor Wade Fagen-Ulmschneider's data discoveries: <a href="http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/">Every Gen Ed at UIUC, by GPA</a>.</p>
+			<h4>Legend</h4>
+			<div id="legends-container">
+				<div id="legend-one-container">
+					<div id="legend-one"></div>
+					<div class="legend-text">
+						<div class="circle-info-top">
+							<p class="legend-left">More expensive eateries</p>
+							<p class="legend-right">Cheaper eateries</p>
+						</div>
+						<div class="circle-info-bottom">
+							<p class="legend-bottom">The cheaper the eatery, the larger the radius of the circle.</p>
+						</div>
+					</div>
 				</div>
-				<div class="circle-info-bottom">
-					<p class="legend-bottom">The cheaper the eatery, the larger the radius of the circle.</p>
+				<div id="legend-two-container">
+					<div id="legend-two"></div>
+					<div class="legend-text">
+						<div class="circle-info-top">
+							<p class="legend-left">Meets criteria better</p>
+							<p class="legend-right">Meets criteria worse</p>
+						</div>
+						<div class="circle-info-bottom">
+							<p class="legend-bottom">The better the eatery meets the criteria along the axes of the graph, the more yellow the circle.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="legend-two-container">
-			<div id="legend-two"></div>
-			<div class="legend-text">
-				<div class="circle-info-top">
-					<p class="legend-left">Meets criteria better</p>
-					<p class="legend-right">Meets criteria worse</p>
+
+		<div class="chart-items">
+			<h4>Settings</h4>
+			<div class="settings">
+				<p class="about">Landmark</p>
+				<div class="selector-container">
+					<select id="landmark-selector" class="selectpicker">
+					  <option>Main Quad</option>
+					  <option>Engineering Quad</option>
+					  <option>Illini Union</option>
+					  <option>South Quad</option>
+					</select>
 				</div>
-				<div class="circle-info-bottom">
-					<p class="legend-bottom">The better the eatery meets the criteria along the axes of the graph, the more yellow the circle.</p>
-				</div>
+			</div>
+		  	<div id="chart-container">
+		    	<div id="chart"></div>
 			</div>
 		</div>
 	</div>
-
-	<div class="chart-items">
-	  	<div id="chart-container">
-	    	<div id="chart"></div>
-		</div>
-
-		<div class="settings">
-			<p class="lead">Settings</p>
-			<p class="about">Landmark</p>
-			<select id="landmark-selector" class="selectpicker">
-			  <option>Main Quad</option>
-			  <option>Engineering Quad</option>
-			  <option>Illini Union</option>
-			  <option>South Quad</option>
-			</select>
-		</div>
-	</div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
     <script src="src/chart.js"></script>
