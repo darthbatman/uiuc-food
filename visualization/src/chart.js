@@ -172,9 +172,9 @@ function rgbString(c) {
 */
 function gradientColor(start, end, val, min, max) {
   if (val >= max) return rgbString(end);
-  const r = start.r + (end.r - start.r) * (val / (max - min));
-  const g = start.g + (end.g - start.g) * (val / (max - min));
-  const b = start.b + (end.b - start.b) * (val / (max - min));
+  const r = Math.round(start.r + (end.r - start.r) * (val / (max - min)));
+  const g = Math.round(start.g + (end.g - start.g) * (val / (max - min)));
+  const b = Math.round(start.b + (end.b - start.b) * (val / (max - min)));
   return `rgb(${r}, ${g}, ${b})`;
 }
 
@@ -302,7 +302,6 @@ function drawLegendCircles(legend, numCircles, varySize, options) {
         .append('circle')
         .attr('r', `${0.5 + 0.25 * i}`)
         .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0.5, 0, 1))
-        .style('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0.5, 0, 1))
         .attr('class', 'circle');
     } else {
       legend.append('g')
@@ -310,7 +309,6 @@ function drawLegendCircles(legend, numCircles, varySize, options) {
         .append('circle')
         .attr('r', '1.0')
         .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0 + 0.25 * i, 0, 1))
-        .style('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0 + 0.25 * i, 0, 1))
         .attr('class', 'circle');
     }
   }
@@ -436,7 +434,6 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
         .append('circle')
         .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
         .attr('fill', eatery => color(eatery, options))
-        .style('fill', eatery => color(eatery, options))
         .attr('class', 'circle')
         .on('mouseover', (eatery) => {
           tip.direction('e');
