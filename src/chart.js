@@ -125,8 +125,8 @@ const chartOptions = {
       upper: 5.0,
     },
     y: {
-      lower: 0.0,
-      upper: 1.75,
+      lower: 1.75,
+      upper: 0.0,
     },
   },
   dataFile: './res/dataset.json',
@@ -302,6 +302,7 @@ function drawLegendCircles(legend, numCircles, varySize, options) {
         .append('circle')
         .attr('r', `${0.5 + 0.25 * i}`)
         .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0.5, 0, 1))
+        .style('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0.5, 0, 1))
         .attr('class', 'circle');
     } else {
       legend.append('g')
@@ -309,6 +310,7 @@ function drawLegendCircles(legend, numCircles, varySize, options) {
         .append('circle')
         .attr('r', '1.0')
         .attr('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0 + 0.25 * i, 0, 1))
+        .style('fill', gradientColor(options.colorRange.start, options.colorRange.end, 0 + 0.25 * i, 0, 1))
         .attr('class', 'circle');
     }
   }
@@ -434,6 +436,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
         .append('circle')
         .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
         .attr('fill', eatery => color(eatery, options))
+        .style('fill', eatery => color(eatery, options))
         .attr('class', 'circle')
         .on('mouseover', (eatery) => {
           tip.direction('e');
