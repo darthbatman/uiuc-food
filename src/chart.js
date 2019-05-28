@@ -125,15 +125,15 @@ const chartOptions = {
       upper: 5.0,
     },
     y: {
-      lower: 1.75,
-      upper: 0.0,
+      lower: 0.0,
+      upper: 1.75,
     },
   },
   dataFile: './res/dataset.json',
   landmark: landmarks[0],
   colorRange: {
-    start: { r: 244, g: 244, b: 66 },
-    end: { r: 255, g: 75, b: 66 },
+    start: { r: 255, g: 75, b: 66 },
+    end: { r: 244, g: 223, b: 66 },
   },
 };
 
@@ -237,7 +237,7 @@ function yPosition(eatery, options) {
   const max = options.dimensions.height - options.dimensions.padding;
   const dist = distanceFromLandmark(eatery.locations[0].coordinate, options.landmark);
   const yb = options.bounds.y;
-  return (((yb.upper - dist) / yb.upper) * (max - min) + min);
+  return (((dist) / yb.upper) * (max - min) + min);
 }
 
 /**
@@ -345,7 +345,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
   const yb = options.bounds.y;
 
   const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
-  const y = d3.scaleLinear().domain([yb.lower, yb.upper]).range([height - padding, padding]);
+  const y = d3.scaleLinear().domain([yb.upper, yb.lower]).range([height - padding, padding]);
 
   const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
   const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
