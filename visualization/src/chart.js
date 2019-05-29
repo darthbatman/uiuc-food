@@ -453,21 +453,21 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
  * @param {ChartOptions} options - The chart options
  */
 function initializeChart(options) {
-  const svg = d3.select('#chart')
+  const svg = d3.select('.chart')
     .append('svg')
     .attr('preserveAspectRatio', 'xMinYMin meet')
     .attr('viewBox', `0 0 ${options.dimensions.width} ${options.dimensions.height}`);
 
-  const sizeLegend = d3.select('#legend-one')
+  const sizeLegend = d3.select('.legend-one')
     .append('svg')
     .attr('preserveAspectRatio', 'xMinYMin meet')
     .attr('viewBox', '9.5 8.5 17 3');
 
-  const colorLegend = d3.select('#legend-two')
+  const colorLegend = d3.select('.legend-two')
     .append('svg')
     .attr('preserveAspectRatio', 'xMinYMin meet')
     .attr('viewBox', '8 8.5 17 3');
-  const landmarkSelector = new Selectr('#landmark-selector', {
+  const landmarkSelector = new Selectr('.landmark-selector', {
     searchable: false,
     width: 300,
   });
