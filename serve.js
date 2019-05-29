@@ -1,14 +1,17 @@
-var express = require('express');
-var app = express();
-var http = require('http').Server(app);
+const express = require('express');
 
-app.use('/src', express.static(__dirname + '/src'));
-app.use('/res', express.static(__dirname + '/res'));
+const app = express();
+const http = require('http').Server(app);
 
-app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.html');
+app.use('/css', express.static(`${__dirname}/css`));
+app.use('/img', express.static(`${__dirname}/img`));
+app.use('/js', express.static(`${__dirname}/js`));
+app.use('/res', express.static(`${__dirname}/res`));
+
+app.get('/', (req, res) => {
+  res.sendFile(`${__dirname}/index.html`);
 });
 
-http.listen(8080, function() {
-	console.log('Listening on *:8080');
+http.listen(8080, () => {
+  console.log('Listening on *:8080');
 });
