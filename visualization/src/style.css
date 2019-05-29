@@ -17,7 +17,6 @@ body {
 h4 {
     color: #373a3c;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.1;
     margin-bottom: .5rem;
@@ -32,7 +31,6 @@ p {
     color: #373a3c;
     display: block;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
@@ -56,10 +54,17 @@ p {
     margin-bottom: .5rem;
 }
 
+.med-text {
+    font-size: 1.25rem;
+}
+
+.large-text {
+    font-size: 1.5rem;
+}
+
 .lead {
     color: #373a3c;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.25rem;
     font-weight: 200;
     line-height: 1.1;
     margin-bottom: .5rem;
@@ -70,7 +75,6 @@ p {
     border-color: #007bff;
     border-radius: .3rem;
     color: #fff;
-    font-size: 1.25rem;
     line-height: 1.5;
     padding: .8rem 1rem;
     text-decoration: none;
@@ -89,7 +93,6 @@ p {
     color: #373a3c;
     display: block;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 15px;
     max-width: 1140px;
@@ -112,7 +115,6 @@ p {
     color: #373a3c;
     display: block;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -135,7 +137,6 @@ p {
 .about {
     color: #373a3c;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -158,7 +159,6 @@ p {
     display: block;
     float: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top: 4%;
@@ -181,7 +181,6 @@ p {
     display: block;
     float: right;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 15px;
     margin-top: 4%;
@@ -203,7 +202,6 @@ p {
     color: #373a3c;
     float: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 0.87rem;
     font-weight: 700;
     line-height: 1.5;
     position: relative;
@@ -213,7 +211,6 @@ p {
     color: #373a3c;
     float: right;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 0.87rem;
     font-weight: 700;
     line-height: 1.5;
     position: relative;
@@ -224,6 +221,7 @@ p {
 }
 
 .circle-info-top {
+    font-size: 0.87rem;
     max-height: 30px;
     padding: 4%;
     position: relative;
@@ -238,7 +236,6 @@ p {
     color: #373a3c;
     display: block;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 15px;
     max-width: 96%;

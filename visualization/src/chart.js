@@ -400,7 +400,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
 
       svg.append('text')
         .attr('class', 'label')
-        .attr('id', 'title')
+        .attr('class', 'large-text')
         .style('text-anchor', 'middle')
         .attr('x', width / 2)
         .attr('y', counterAxisLabelOffset)
