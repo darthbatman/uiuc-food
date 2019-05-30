@@ -132,7 +132,7 @@ const chartOptions = {
   dataFile: './res/dataset.json',
   landmark: landmarks[0],
   colorRange: {
-    start: { r: 255, g: 75, b: 66 },
+    start: { r: 255, g: 65, b: 66 },
     end: { r: 244, g: 223, b: 66 },
   },
 };
@@ -250,7 +250,7 @@ function yPosition(eatery, options) {
 function color(eatery, options) {
   const distFromOrigin = Math.sqrt((xPosition(eatery, options) ** 2)
     + ((chartOptions.dimensions.height - yPosition(eatery, options)) ** 2));
-  const distUpperBound = 900;
+  const distUpperBound = 1000;
   const cr = options.colorRange;
   return gradientColor(cr.start, cr.end, distFromOrigin, 0, distUpperBound);
 }
