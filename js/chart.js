@@ -395,7 +395,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
       const priceOffset = 20;
 
       const radius = d3.scaleLinear()
-        .domain([0, d3.max(eateries, eatery => eatery.price)])
+        .domain([0, d3.max(eateries, eatery => (eatery.reviews > -1 ? eatery.reviews : 20))])
         .range([minRadius, maxRadius]);
 
       svg.append('text')
@@ -432,7 +432,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
         .append('g')
         .attr('transform', eatery => `translate(${xPosition(eatery, options)}, ${yPosition(eatery, options)})`)
         .append('circle')
-        .attr('r', eatery => (eatery.price !== 0 ? radius(priceMultiplier / (eatery.price) + priceOffset) : 0))
+        .attr('r', eatery => radius(eatery.reviews > -1 ? 2 * eatery.reviews + 100 : 20))
         .attr('fill', eatery => color(eatery, options))
         .attr('class', 'circle')
         .on('mouseover', (eatery) => {

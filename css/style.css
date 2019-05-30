@@ -84,7 +84,8 @@ body {
 }
 
 .legend-subtitle-top-container {
-    font-size: 0.87rem;
+    font-size: 0.8rem;
+    margin-bottom: 10%;
     max-height: 1.875rem;
     padding: 4%;
 }
