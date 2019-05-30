@@ -11,7 +11,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.9
+        "rating": 4.1,
+        "reviews": 220
     },
     {
         "name": "The Red Herring Vegetarian Restaurant",
@@ -25,7 +26,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4.4,
+        "reviews": 123
     },
     {
         "name": "Pekara Bakery & Bistro",
@@ -46,7 +48,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.9
+        "rating": 4.2,
+        "reviews": 108
     },
     {
         "name": "Neil St. Blues",
@@ -60,7 +63,8 @@
             }
         ],
         "price": 40,
-        "rating": 4.1
+        "rating": 4.4,
+        "reviews": 139
     },
     {
         "name": "Hamilton Walker's",
@@ -74,7 +78,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.9
+        "rating": 4.3,
+        "reviews": 382
     },
     {
         "name": "Pizzeria Antica",
@@ -88,7 +93,8 @@
             }
         ],
         "price": 0,
-        "rating": 2.9
+        "rating": 4.5,
+        "reviews": 230
     },
     {
         "name": "The Bread Company",
@@ -102,7 +108,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.7
+        "rating": 4.6,
+        "reviews": 316
     },
     {
         "name": "Howdy Burger",
@@ -116,7 +123,8 @@
             }
         ],
         "price": 10,
-        "rating": 3
+        "rating": 4.3,
+        "reviews": 62
     },
     {
         "name": "Smackin' The Truck",
@@ -130,7 +138,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 3.7,
+        "reviews": -1
     },
     {
         "name": "Blaze Pizza",
@@ -151,7 +160,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.5,
+        "reviews": 411
     },
     {
         "name": "Oh, Honey Pie Truck",
@@ -165,7 +175,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 3.7,
+        "reviews": -1
     },
     {
         "name": "Cream & Flutter",
@@ -179,7 +190,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.4,
+        "reviews": 102
     },
     {
         "name": "Insomnia Cookies",
@@ -193,7 +205,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 3.5,
+        "reviews": 115
     },
     {
         "name": "Cold Stone Creamery",
@@ -207,7 +220,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4.1,
+        "reviews": 121
     },
     {
         "name": "Cocomero",
@@ -221,7 +235,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.5
+        "rating": 4.4,
+        "reviews": 297
     },
     {
         "name": "Baskin Robbins",
@@ -242,7 +257,8 @@
             }
         ],
         "price": 10,
-        "rating": 3
+        "rating": 3.7,
+        "reviews": 42
     },
     {
         "name": "Bevier Café",
@@ -256,7 +272,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4.5,
+        "reviews": 22
     },
     {
         "name": "Rosati's Authentic Chicago Pizza",
@@ -270,7 +287,8 @@
             }
         ],
         "price": 25,
-        "rating": 4
+        "rating": 4,
+        "reviews": 165
     },
     {
         "name": "Potbelly's",
@@ -284,7 +302,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4.2,
+        "reviews": 234
     },
     {
         "name": "Jupiter's Pizzeria and Billiards",
@@ -298,7 +317,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.1
+        "rating": 4.3,
+        "reviews": 415
     },
     {
         "name": "J. Gumbo's Cajun and Creole Cooking Co.",
@@ -312,7 +332,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.9
+        "rating": 4.5,
+        "reviews": 164
     },
     {
         "name": "Great Harvest Bread Company",
@@ -326,7 +347,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.3,
+        "reviews": 38
     },
     {
         "name": "Chipotle",
@@ -340,7 +362,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.1
+        "rating": 4.1,
+        "reviews": -1
     },
     {
         "name": "Black Dog Smoke & Ale House",
@@ -361,7 +384,8 @@
             }
         ],
         "price": 25,
-        "rating": 4.9
+        "rating": 4.6,
+        "reviews": 1
     },
     {
         "name": "Hendrick House",
@@ -375,7 +399,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.6
+        "rating": 4.1,
+        "reviews": 51
     },
     {
         "name": "Blind Pig Brewery",
@@ -389,7 +414,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.6
+        "rating": 4.7,
+        "reviews": 163
     },
     {
         "name": "Timpone's",
@@ -403,7 +429,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.9
+        "rating": 4.3,
+        "reviews": 153
     },
     {
         "name": "Cafe Sababa",
@@ -417,7 +444,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 5,
+        "reviews": 4
     },
     {
         "name": "Vinny's Pizza",
@@ -431,7 +459,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.2
+        "rating": 4.3,
+        "reviews": 99
     },
     {
         "name": "Maize Mexican Grill",
@@ -445,7 +474,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.7
+        "rating": 4.6,
+        "reviews": 736
     },
     {
         "name": "Garbanzo Mediterranean Fresh",
@@ -459,7 +489,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.3,
+        "reviews": 12
     },
     {
         "name": "Miga",
@@ -473,7 +504,8 @@
             }
         ],
         "price": 70,
-        "rating": 3.3
+        "rating": 4.4,
+        "reviews": 177
     },
     {
         "name": "Auntie Lee Chinese Kitchen",
@@ -487,7 +519,8 @@
             }
         ],
         "price": 10,
-        "rating": 2.5
+        "rating": 3.1,
+        "reviews": 40
     },
     {
         "name": "Y Eatery",
@@ -501,7 +534,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.6
+        "rating": 4.1,
+        "reviews": 15
     },
     {
         "name": "Wingin' Out",
@@ -515,7 +549,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 2.7,
+        "reviews": 92
     },
     {
         "name": "Szechuan China",
@@ -529,7 +564,8 @@
             }
         ],
         "price": 10,
-        "rating": 2.9
+        "rating": 3.6,
+        "reviews": 104
     },
     {
         "name": "Sushi Rock",
@@ -543,7 +579,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.9
+        "rating": 4.2,
+        "reviews": 82
     },
     {
         "name": "Sushi Kame",
@@ -557,7 +594,8 @@
             }
         ],
         "price": 25,
-        "rating": 4.1
+        "rating": 4.4,
+        "reviews": 216
     },
     {
         "name": "Sushi Ichiban",
@@ -571,7 +609,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 3.9,
+        "reviews": 195
     },
     {
         "name": "Spoon House Korean Kitchen",
@@ -585,7 +624,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.3
+        "rating": 4.3,
+        "reviews": 103
     },
     {
         "name": "South China Restaurant",
@@ -599,7 +639,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.1
+        "rating": 4.5,
+        "reviews": -1
     },
     {
         "name": "Kung Fu BBQ",
@@ -613,7 +654,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.6
+        "rating": 3.7,
+        "reviews": 83
     },
     {
         "name": "Chopstix",
@@ -627,7 +669,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.4
+        "rating": 3.5,
+        "reviews": 105
     },
     {
         "name": "Pho Cafe",
@@ -641,7 +684,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.1
+        "rating": 4.2,
+        "reviews": 138
     },
     {
         "name": "Perkin's Restaurant & Bakery",
@@ -655,7 +699,8 @@
             }
         ],
         "price": 10,
-        "rating": 2.6
+        "rating": 4.1,
+        "reviews": 567
     },
     {
         "name": "Peking Garden",
@@ -669,7 +714,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.6
+        "rating": 4.2,
+        "reviews": 135
     },
     {
         "name": "Noodles & Co.",
@@ -683,7 +729,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4.1,
+        "reviews": 251
     },
     {
         "name": "Niro's Gyros",
@@ -704,7 +751,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4,
+        "reviews": 164
     },
     {
         "name": "Murphy's Pub",
@@ -718,7 +766,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.2
+        "rating": 4.3,
+        "reviews": 590
     },
     {
         "name": "Mia Za's",
@@ -732,7 +781,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.6
+        "rating": 4.4,
+        "reviews": 393
     },
     {
         "name": "Merry Ann's Diner",
@@ -753,7 +803,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.9
+        "rating": 3.9,
+        "reviews": -1
     },
     {
         "name": "Manzella's Italian Patio",
@@ -767,7 +818,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.8
+        "rating": 4.5,
+        "reviews": 189
     },
     {
         "name": "Manolo's Pizza & Empanadas",
@@ -781,7 +833,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4.4,
+        "reviews": 214
     },
     {
         "name": "Mandarin Wok",
@@ -795,7 +848,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.3
+        "rating": 4.1,
+        "reviews": 103
     },
     {
         "name": "Lai Lai Wok",
@@ -809,7 +863,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.8
+        "rating": 4.2,
+        "reviews": 174
     },
     {
         "name": "Kyoto Sushi",
@@ -823,7 +878,8 @@
             }
         ],
         "price": 25,
-        "rating": 4.1
+        "rating": 4.5,
+        "reviews": -1
     },
     {
         "name": "Joe's Brewery",
@@ -837,7 +893,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4.1,
+        "reviews": 284
     },
     {
         "name": "Jerusalem Restaurant",
@@ -851,7 +908,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.4
+        "rating": 4.3,
+        "reviews": 89
     },
     {
         "name": "Fat Sandwich Company",
@@ -865,7 +923,8 @@
             }
         ],
         "price": 10,
-        "rating": 4
+        "rating": 4,
+        "reviews": 116
     },
     {
         "name": "Intermezzo Café at Krannert",
@@ -879,7 +938,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.4
+        "rating": 4.4,
+        "reviews": 25
     },
     {
         "name": "Hot Wok Express",
@@ -893,7 +953,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.2
+        "rating": 3.8,
+        "reviews": 160
     },
     {
         "name": "Home of Gourmet Chinese & Thai",
@@ -907,7 +968,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 3.8,
+        "reviews": 56
     },
     {
         "name": "Fresh International Market",
@@ -921,7 +983,8 @@
             }
         ],
         "price": 40,
-        "rating": 4.2
+        "rating": 4.5,
+        "reviews": 339
     },
     {
         "name": "Cravings",
@@ -935,7 +998,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.1
+        "rating": 4.3,
+        "reviews": 338
     },
     {
         "name": "Espresso Royale",
@@ -991,7 +1055,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.3
+        "rating": 3.3,
+        "reviews": -1
     },
     {
         "name": "Caffe Bene",
@@ -1012,7 +1077,8 @@
             }
         ],
         "price": 10,
-        "rating": 3
+        "rating": 3,
+        "reviews": -1
     },
     {
         "name": "Burrito King",
@@ -1026,7 +1092,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4,
+        "reviews": 271
     },
     {
         "name": "Brothers Bar & Grill",
@@ -1040,7 +1107,8 @@
             }
         ],
         "price": 10,
-        "rating": 2.5
+        "rating": 4,
+        "reviews": 162
     },
     {
         "name": "Bo Bo China",
@@ -1054,7 +1122,8 @@
             }
         ],
         "price": 10,
-        "rating": 2.9
+        "rating": 3.7,
+        "reviews": 72
     },
     {
         "name": "Basil Thai Café",
@@ -1068,7 +1137,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.6
+        "rating": 3.7,
+        "reviews": 129
     },
     {
         "name": "Bangkok Thai & Pho 911",
@@ -1082,7 +1152,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.3
+        "rating": 4.5,
+        "reviews": 359
     },
     {
         "name": "BrewLab Coffee",
@@ -1096,7 +1167,8 @@
             }
         ],
         "price": 0,
-        "rating": 3.1
+        "rating": 4.7,
+        "reviews": 139
     },
     {
         "name": "Flying Machine Avionics",
@@ -1110,7 +1182,8 @@
             }
         ],
         "price": 0,
-        "rating": 3.1
+        "rating": 4.8,
+        "reviews": 122
     },
     {
         "name": "Jurassic Grill",
@@ -1124,7 +1197,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.2
+        "rating": 4.3,
+        "reviews": 152
     },
     {
         "name": "Destihl Brew Works",
@@ -1138,7 +1212,8 @@
             }
         ],
         "price": 40,
-        "rating": 4.1
+        "rating": 4.6,
+        "reviews": 574
     },
     {
         "name": "Golden Harbor",
@@ -1152,7 +1227,8 @@
             }
         ],
         "price": 25,
-        "rating": 4.6
+        "rating": 4.6,
+        "reviews": 706
     },
     {
         "name": "Fiesta Café",
@@ -1166,7 +1242,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4.2,
+        "reviews": 394
     },
     {
         "name": "Evo Café",
@@ -1180,7 +1257,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.7
+        "rating": 4,
+        "reviews": 100
     },
     {
         "name": "Esquire Lounge",
@@ -1194,7 +1272,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.9
+        "rating": 4.4,
+        "reviews": 670
     },
     {
         "name": "Empire Chinese Restaurant",
@@ -1208,7 +1287,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.6
+        "rating": 3.6,
+        "reviews": 60
     },
     {
         "name": "Cracked: The Egg Came First",
@@ -1222,7 +1302,8 @@
             }
         ],
         "price": 10,
-        "rating": 4.1
+        "rating": 4.5,
+        "reviews": 90
     },
     {
         "name": "Cowboy Monkey",
@@ -1236,7 +1317,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4.1,
+        "reviews": 189
     },
     {
         "name": "Caffé Paradiso",
@@ -1250,7 +1332,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.4,
+        "reviews": 186
     },
     {
         "name": "Bombay Indian Grill",
@@ -1264,7 +1347,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.9
+        "rating": 4.1,
+        "reviews": 114
     },
     {
         "name": "Aroma Cafe",
@@ -1278,7 +1362,8 @@
             }
         ],
         "price": 40,
-        "rating": 3.8
+        "rating": 4.6,
+        "reviews": 217
     },
     {
         "name": "Ambar India",
@@ -1292,7 +1377,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 3.9,
+        "reviews": 268
     },
     {
         "name": "A-Ri-Rang",
@@ -1306,7 +1392,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.6,
+        "reviews": 97
     },
     {
         "name": "Seven Saints",
@@ -1320,7 +1407,8 @@
             }
         ],
         "price": 25,
-        "rating": 4.4
+        "rating": 4.6,
+        "reviews": 980
     },
     {
         "name": "The Pop Stop",
@@ -1334,7 +1422,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.3
+        "rating": 4.5,
+        "reviews": 2
     },
     {
         "name": "Legends Bar & Grill",
@@ -1348,7 +1437,8 @@
             }
         ],
         "price": 10,
-        "rating": 3.5
+        "rating": 4.2,
+        "reviews": 373
     },
     {
         "name": "Sakanaya",
@@ -1362,7 +1452,8 @@
             }
         ],
         "price": 25,
-        "rating": 3.7
+        "rating": 4.7,
+        "reviews": 582
     },
     {
         "name": "Quality Bar",
@@ -1376,6 +1467,7 @@
             }
         ],
         "price": 10,
-        "rating": 3.8
+        "rating": 4.5,
+        "reviews": 220
     }
 ]
