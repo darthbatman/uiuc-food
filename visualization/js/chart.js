@@ -391,9 +391,6 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
 
       const counterAxisLabelOffset = 20;
 
-      const priceMultiplier = 700;
-      const priceOffset = 20;
-
       const radius = d3.scaleLinear()
         .domain([0, d3.max(eateries, eatery => (eatery.reviews > -1 ? eatery.reviews : 20))])
         .range([minRadius, maxRadius]);
