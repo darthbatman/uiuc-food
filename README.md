@@ -14,6 +14,6 @@ Files in `data/generated` folder were used for intermediate steps and were manip
 
 ### Notes
 
-If calling `getEateryInformation()` from `lib/eateryInfo.js`, make sure to define the `ZOMATO_USER_KEY` environment variable.
+If calling `getEateryInformation()` from `lib/zomatoEateryInfo.js`, make sure to define the `ZOMATO_USER_KEY` environment variable.
 
 e.g. `$ ZOMATO_USER_KEY=<user-key> node something.js`
