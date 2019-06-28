@@ -1,2 +1,3 @@
+data/* linguist-vendored
 lib/* linguist-language=JavaScript
 visualization/js/* linguist-language=JavaScript
