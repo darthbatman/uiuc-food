@@ -1,43 +1,43 @@
 -- AMERICAN --
 
-Apple Dumplin’
+Apple Dumplin'
 2014 N. Highcross Rd., Urbana
 2173440076
 
 Big Grove Tavern
 1 E. Main St., Champaign
-217723973505
+2172393505
 biggrovetavern.com
 
 Courier Cafe
 111 N. Race St, Urbana
-217732871811
+2173281811
 couriersilvercreek.com
 
 Dancing Dog Eatery & Juicery
 126 W Main St., Urbana
-21755271344
+2175521344
 dancingdogeatery.com
 
-Flesor’s Candy Kitchen
+Flesor's Candy Kitchen
 101 W Sale St, Tuscola
-21772533753
+2172533753
 ﬂesorscandy.com
 
-Hank’s Table
+Hank's Table
 122 N. Neil Street, Champaign
 2173519463
 
-Irma Lou’s Kitchen
+Irma Lou's Kitchen
 127 W Sale St., Tuscola
 Irmalous.com
 
-J. Gumbo’s
+J. Gumbo's
 700 S. Gregory, Urbana
 2173374840
 jgumbos.com
 
-Jo’s Country Diner
+Jo's Country Diner
 398 1L-133, Arthur
 2175432457
 
@@ -67,7 +67,7 @@ Red Wheel Restaurant
 1724 E. Grove Avenue, Rantoul
 2178921100
 
-Rich’s Family Restaurant
+Rich's Family Restaurant
 305 W Ellen Street, Ogden
 2175822777
 
@@ -86,7 +86,7 @@ Sun Singer Wine & Spirits
 2173511115
 sunsingerwines.com
 
-Urbana’s Garden Restaurant
+Urbana's Garden Restaurant
 810 Killarney, Urbana
 2173281514
 urbanagardenrestaurant.com
@@ -96,7 +96,7 @@ Vault
 2175824000
 ogdenvault.com
 
-Yoder’s Kitchen
+Yoder's Kitchen
 1195 E. Columbia St., Arthur
 2176432714
 yoderskitchen.com
@@ -116,14 +116,14 @@ Asian Taste
 2173846070
 asiantastechampaign.com
 
-Aunlie Lee’s Chinese Kitchen
+Aunlie Lee's Chinese Kitchen
 49 B E. Green St., Champaign
 2176937928
 auntieleechampaign.com
 
 B Won
 2006 S. Neil St, Champaign
-217735272966
+2173522966
 bwonkorean.com
 
 Bub Plus Korean
@@ -135,7 +135,7 @@ Bangkok Thai & Pho 911
 410 E. Green St, Champaign
 2179541641
 1104 N. Cunningham Ave, Urbana
-217760775828
+2176075828
 
 Basil Thai
 701 S. Gregory St, Urbana
@@ -146,7 +146,7 @@ Best Wok
 2173565757
 bestwokchampaign.com
 
-BoBo’s China
+BoBo's China
 404 E. Green St, Champaign
 2173522272
 bobochinail.com
@@ -211,7 +211,7 @@ goodfellakoreanbistro.com
 
 Green Jade
 1109 W Windsor Rd., Champaign
-217735575988
+2173555988
 greenjadechampaign.com
 
 Green Onion Asian Market
@@ -282,7 +282,7 @@ midsummerlounge.com
 
 Ming Garden
 1804 Sangamon Dr., Champaign
-21735243056
+2173520056
 
 Moki Sushi
 2017 S. Neil St, Champaign
@@ -460,14 +460,14 @@ Caffe Bene
 524 E. Green St, Champaign
 2176072611
 700 S. Gregory St, Urbana
-217791778000
+2179178000
 
 Caffe Paradis0
 801 S. Lincoln Ave, Urbana
 2173846066
 enjoyparadiso.com
 
-Carmella’s Creme
+Carmella's Creme
 1611 W Springfield Ave, Champaign
 2175310224
 
@@ -558,18 +558,17 @@ PVP Bakery
 611E. Green St, Champaign
 2178191265
 
-Rick’s Bakery
+Rick's Bakery
 124 W Main St, Urbana
 2173449383
 ricksbakeryurbana.com
 
-Roselen’s Coffees & Delights
+Roselen's Coffees & Delights
 1045 E. Columbia St., Arthur
 2175433106
 roselenscoffeesanddelights.com
 
-Strawberry Fields Natural Food
-Store & Cafe
+Strawberry Fields Natural Food Store & Cafe
 306 W Springfield Ave, Urbana
 2173281655
 strawberryfields.com
@@ -596,7 +595,7 @@ The Second Cup
 336 S. Century Blvd., Rantoul
 2178925579
 
-Worker’s Cufé G
+Worker's Cufé G
 2410 N. Fifth St, Champaign
 2176376333
 
@@ -608,19 +607,19 @@ Ye Olde Donut Shoppe
 
 3 Ravens
 108 S. Charter St., Monticello
-21776273333
+2177623333
 3ravens.pub
 
-Angela’s Food & Spirits
+Angela's Food & Spirits
 120 N. Walnut St, Arthur
 2175434059
 
-Attie’s Bur & Grill
+Attie's Bur & Grill
 2600 S. Stone Creek Blvd., Urbana
 2173679876
 atties.net
 
-Baxter’s American Grille
+Baxter's American Grille
 100 Trade Centre Dr., Champaign
 2172399299
 baxtersgrille.com
@@ -644,17 +643,17 @@ Brothers Bar & Grill
 2173285531
 brothersbar.com/champaign
 
-Bud’s Bar
+Bud's Bar
 122 N. Kentucky Ave, Rantoul
 2178929655
 budsbar.business.site
 
-Bunny’s Tavern
+Bunny's Tavern
 119 W Water St, Urbana
 2173678175
 bunnystavern.com
 
-Buzzard’s Place
+Buzzard's Place
 111-1/2 S. Third St., Fisher
 2178976158
 
@@ -671,7 +670,7 @@ theclarkbar.com
 Cowboy Monkey
 6 Taylor St, Champaign
 2173982688
-cowboy-monkeycom
+cowboy-monkey.com
 
 Crane Alley
 115 W Main St, Urbana
@@ -688,7 +687,7 @@ Esquire Lounge
 2173985858
 esquirelounge.com
 
-Farren’s Pub & Eatery
+Farren's Pub & Eatery
 117 N. Walnut St, Champaign
 2173596977
 farrenspub.com
@@ -708,45 +707,45 @@ Fieldhouse 219
 2176311155
 ﬂeldhouse219.com
 
-Freeman’s Tavern
+Freeman's Tavern
 108 W Main, Royal
 2175833220
 
-Goldy’s Bar & Grill
+Goldy's Bar & Grill
 123 S. Mattis Ave., Champaign
 2173592177
 
-Guido’s Bur & Grill
+Guido's Bur & Grill
 2 E. Main St, Champaign
 2173593148
 guidosbar.com
 
-Gulliver’s
+Gulliver's
 2400 W Bradley Ave, Champaign
 2173551480
 
-Houlihan’s
+Houlihan's
 1902 S. First St, Champaign
 2178195005
 houlihans.com
 
-It’ll Do
+It'll Do
 102 N. Long St., Tolono
 2174855500
 itlldo2.net
 215 S. Lake of the Woods Rd., Mahomet
 2175867775
 
-It’ll Do 2
+It'll Do 2
 600 S. Washington St., Tuscola
 2172534500
 
-Joe’s Brewery
+Joe's Brewery
 706 S. Fifth St, Champaign
 2173841790
 joesbrewery.com
 
-JT Walker’s Restaurant & Brewery
+JT Walker's Restaurant & Brewery
 401 E. Main St, Mahomet
 2175861100
 jtwalkers.com
@@ -765,7 +764,7 @@ Monarch Brewing Company
 2176311141
 monarchbrewingco.com
 
-Murphy’s Pub
+Murphy's Pub
 604 E. Green St., Champaign
 2173444372
 murphyspubuofi.com
@@ -784,12 +783,12 @@ Rantoul Public House
 108 N. Garrard St, Rantoul
 2172829537
 
-Roch’s Place
+Roch's Place
 101 N. Main St, St. Joseph
 2174692660
 rochsplace.com
 
-Scotty’s Brew House
+Scotty's Brew House
 2001 S. Neil St, Champaign
 2175304394
 scottysbrewhouse.com
@@ -812,7 +811,7 @@ Tin Roof Tavern
 604 N. Cunningham Ave, Urbana
 2173375000
 
-TK’s Cheesesteak
+TK's Cheesesteak
 112 E. Congress Ave, Ranotul
 2172829812
 tkscheesesteaks.com
@@ -821,7 +820,7 @@ Traxside Bar & Grill
 4 E. Holden St, Tolono
 2173900501
 
-Watson’s Shack & Rail
+Watson's Shack & Rail
 211 N. Neil St., Champaign
 2176070168
 watsonschicken.com
@@ -842,7 +841,7 @@ BBQ Chicken
 2176007939
 bbdotqchicken.com
 
-Billy Bob’s BBQ
+Billy Bob's BBQ
 105 E. Broadway, Ogden
 2175822277
 billybobsunderthewatertower.com
@@ -856,7 +855,7 @@ blackdogsmoke.com
 2179540465
 blackdogsmoke.com
 
-Bobo’s Barbecue
+Bobo's Barbecue
 1511 W Springfield Ave, Champaign
 2173552271
 bobosbbqchampaign.com
@@ -866,12 +865,12 @@ Hickory River Smokehouse
 2173371656
 hickoryriver.com
 
-Lil Porgy’s BBQ
+Lil Porgy's BBQ
 1917 W Springfield Ave, Champaign
 2173986811
 lilporgysbbq.com
 
-Pauly’s BBQ
+Pauly's BBQ
 310 E. Columbia St, Arthur
 2175437400
 paulysbbq.com
@@ -890,12 +889,12 @@ Q Smokehouse
 617 E. Green St.,Champaign
 2173445849
 
-Smoky’s House BBQ
+Smoky's House BBQ
 1333 Savoy Plaza Ln, Savoy
 2173552272
 smokyshousebbq.com
 
-Wood N’ Hog BBQ
+Wood N' Hog BBQ
 904 N. Fourth St, Champaign
 2176070120
 woodnhogbarbecue.com
@@ -904,7 +903,7 @@ woodnhogbarbecue.com
 
 -- BREAKFAST --
 
-Bergie’s Place
+Bergie's Place
 10 6 S. Charter St., Monticello
 2176488020
 bookbergies.com
@@ -926,7 +925,7 @@ Le Peep
 2173527599
 lepeep.com
 
-Merry Ann’s Diner
+Merry Ann's Diner
 1510 S. Neil St., Champaign
 2173525399
 merry-anns.com
@@ -939,11 +938,11 @@ Original Pancake House
 2173528866
 originalpancakehouse.com
 
-Sam’s Cafe
+Sam's Cafe
 115 N. Walnut St., Champaign
 2173527102
 
-Sammy’s Pancake House
+Sammy's Pancake House
 1206 N. Mattis Ave., Champaign
 2173553403
 
@@ -981,17 +980,17 @@ Insomnia Cookies
 2173280203
 insomniacookies.com
 
-Jarling’s Custard Cup
+Jarling's Custard Cup
 309 W Kirby Ave, Champaign
 2173522273
 jarlingscustardcup.com
 
-Judy’s Sweets
+Judy's Sweets
 307 N. Long Street, Tolono
 2178286767
 judyssweetsandtreats.com
 
-Lenny’s Ice Cream Gallery
+Lenny's Ice Cream Gallery
 308 S. Main St, Gifford
 2175687400
 
@@ -1000,7 +999,7 @@ Lucky Moon Pies
 2174022319
 luckymoonpies.com
 
-MeMe’s Treat Boutique
+MeMe's Treat Boutique
 228 1/2 E. Lincoln St, St. Joseph
 2179188492
 memestreatboutique.com
@@ -1032,7 +1031,7 @@ thenewsweetindulgence.biz
 
 TCBY
 1731 W Kirby Ave, Champaign
-21776075090
+2176075090
 tcby.com
 
 YoYos
@@ -1050,7 +1049,7 @@ Butcher Boy Burgers
 422 S. Garrard, Rantoul
 2178415458
 
-Charlie’s Grub & Suds
+Charlie's Grub & Suds
 102 N. Main, Homer
 2178962073
 
@@ -1080,14 +1079,14 @@ krispykrunchychampaign.com
 1000 E. Southline Rd., Tuscola
 2172533116
 
-Niro’s Gyros
+Niro's Gyros
 1007 W University Ave, Urbana
 2173286476
 nirosgyrosuniversityave.com
 2001 W Springfield Ave, Champaign
 2173563700 | champaignnirosgyros.com
 
-Super Niro’s Gyros
+Super Niro's Gyros
 608 W Town Center Blvd, Champaign
 7733195353 | supernirosgyros.com
 
@@ -1096,7 +1095,7 @@ Windy City
 2173449404
 windycityexpressil.com
 
-Zorba’s
+Zorba's
 627 E. Green St, Champaign
 2173440710
 zorbaschampaignil.com
@@ -1106,7 +1105,7 @@ zorbaschampaignil.com
 Miga
 301 N. Neil St, Champaign
 2173981020
-miga-restaurantcom
+miga-restaurant.com
 
 Nando Milano Trattoria
 204N. Neil St, Champaign
@@ -1123,7 +1122,7 @@ Silvercreek
 2173283402
 couriersilvercreek.com/silvercreek
 
-Timpone’s
+Timpone's
 710 S. Goodwin Ave, Urbana
 2173447619
 timpones-urbana.com
@@ -1173,7 +1172,7 @@ Jerusalem Middle Eastern Cuisine
 
 Kohinoor Indian Restaurant
 6 E. Columbia Ave, Champaign
-21755271384
+2175521384
 kohinoorchampaign.com
 
 Sitara Indian Restaurant & Lounge
@@ -1200,12 +1199,12 @@ Top Food Restaurant
 
 -- ITALIAN --
 
-Baldarotta’s Porketta & Sicilian Sausage
+Baldarotta's Porketta & Sicilian Sausage
 Lincoln Square, Urbana
 3092874455
 baldarottas.com
 
-Biaggi’s Ristorante Italiano
+Biaggi's Ristorante Italiano
 2235 S. Neil St, Champaign
 2173564300
 biaggis.com
@@ -1215,7 +1214,7 @@ Manzella's Italian Patio
 2173527624
 manzellasitalianrestaurant.com
 
-Mia Za’s
+Mia Za's
 629 E. Green St.,Champaign
 2172983198
 miazas.com
@@ -1286,7 +1285,7 @@ Empanadas House
 2179541871
 theempanadashouse.com
 
-Fernando’s
+Fernando's
 612 E. Daniel St, Champaign
 2172550210
 fernandosfoodtruck.weebly.com
@@ -1300,7 +1299,7 @@ Huaraches Moroleon
 805 S. Philo Rd., Urbana
 2173446772
 
-Juanito’s Tacos
+Juanito's Tacos
 1600 N. Market St, Champaign
 2176211394
 
@@ -1318,7 +1317,7 @@ La Mixteca
 2175521544
 lamixtecarestaurant.com
 
-Las Maria’s Mexican Restaurant
+Las Maria's Mexican Restaurant
 112 S. Charter St, Monticello
 2177622800
 mariasauthenticmexicanrestaurante.com
@@ -1342,7 +1341,7 @@ Mi Veracruz Mexican Grill
 208 N. Parke St, Tuscola
 2175997001
 
-Moe’s Southwest Grill
+Moe's Southwest Grill
 2041 S. Neil St, Champaign
 2173526637
 moes.com
@@ -1372,12 +1371,12 @@ eltororestaurante.com
 
 -- PIZZA --
 
-Filippo’s of Mahomet
+Filippo's of Mahomet
 2012-A Tin Cup Rd., Mahomet
 2175864657
 filipposofmahomet.com
 
-Filippo’s of Monticello
+Filippo's of Monticello
 200 S. Market St, Monticello
 2177622921
 
@@ -1385,12 +1384,12 @@ Fire House Chicago Style
 326 S. Century Boulevard, Rantoul
 2178929990
 
-Garcia’s Pizza in a Pan
+Garcia's Pizza in a Pan
 313 N. Mattis Ave, Champaign
 2173521212
 garciaspizzainapanchampaign.com
 
-Giordano’s
+Giordano's
 2000 N. Neil St, Champaign
 2179534299
 giordanos.com
@@ -1400,21 +1399,21 @@ Itsa Pizza
 2175433531
 arthuritsapizza.com
 
-Joe’s Pizza
+Joe's Pizza
 102 W Sale St, Tuscola
 2172536500
 
-Jupiter’s At The Crossing
+Jupiter's At The Crossing
 2511 Village Green Pl, Champaign
 2173668300
 jupitersatcrossing.com
 
-Jupiter’s Pizzeria and Billiards
+Jupiter's Pizzeria and Billiards
 39 Main St., Champaign
 2173985988
 jupiterspizza.com
 
-Manolo’s Pizza & Empanadas
+Manolo's Pizza & Empanadas
 1115 W Oregon St., Urbana
 2173650110
 manolospizza.com
@@ -1424,16 +1423,16 @@ Old Orchard Lanes
 2173595281
 oldorchardinc.com
 
-Padano’s Pizza Co.
+Padano's Pizza Co.
 209 N. Main St, St. Joseph
 2174699016
 
-Papa Del’s
+Papa Del's
 1201 N. Neil St, Champaign
 2173597700
 papadels.com
 
-Pie’s the Limit
+Pie's the Limit
 2510 Village Green Pl, Champaign
 2176075263
 piesthelimit.com
@@ -1451,14 +1450,14 @@ Rantoul Pizza Pub
 114 E. Congress Ave, Rantoul
 2178934974
 
-Vinny’s East Coast Pizzeria
+Vinny's East Coast Pizzeria
 50 E. Green St, Champaign
 2173554500
 vinnyseastcoastpizzeria.com
 
 -- PUBS & BARS --
 
-25 O’clock Brewing Company
+25 O'clock Brewing Company
 208W Griggs St, Urbana | 25oclock.net
 
 51 Main
@@ -1470,7 +1469,7 @@ Analog
 129 N. Race St, Urbana
 analogurbana.com
 
-Angela’s Place
+Angela's Place
 210 E. Logan St, Longview
 2178343220
 
@@ -1479,7 +1478,7 @@ Barrelhouse 34
 2172394677
 barrelhouse34.com
 
-Bentley’s Pub
+Bentley's Pub
 419 N. Neil St, Champaign
 2173597977
 bentleyspub.com
@@ -1503,11 +1502,11 @@ Brass Rail
 15 E. University Ave, Champaign
 2173527512
 
-Bridget’s Blarney Stone
+Bridget's Blarney Stone
 207 Chapin, Ivesdale
 2175649994
 
-Buford’s
+Buford's
 109 E. Market Street, Sadorus
 2175982313
 
@@ -1525,7 +1524,7 @@ Crude Wine Bar
 2179541448
 crudowine.com
 
-Duly’s Sports Bar
+Duly's Sports Bar
 116W Washington, Philo
 2175864061
 
@@ -1545,7 +1544,7 @@ Hub Sports Bar
 601 S. First Street, Ste. 10 2, Champaign
 2172397080
 
-Huber’s
+Huber's
 1312 W Church St, Champaign
 2173520606
 
@@ -1562,18 +1561,18 @@ Ivesdale Tavern Inc.
 203 Chapin, Ivesdale
 2175642206
 
-Jack’s Tavern
+Jack's Tavern
 106 E. Main St., Tolono
 2174855706
 
-Kam’s
+Kam's
 2173373300
 
 Lincoln Street Lounge
 112 S. Lincoln, PO. Box 290, Broadlands
 2178343010
 
-Logan’s Pub
+Logan's Pub
 424 S. Century Blvd, Rantoul
 2178931221
 
@@ -1582,7 +1581,7 @@ Loose Cobra
 2174858201
 loosecobra.com
 
-Lu & Denny’s
+Lu & Denny's
 105 N. Long, Tolono
 2174858201
 
@@ -1598,12 +1597,12 @@ Office II
 302 S. Country Fair Dr., Champaign
 2173986332
 
-Pia’s Sports Bar & Grill
+Pia's Sports Bar & Grill
 1609 W Springfield Ave, Champaign
 2173511993
 piassportspub.com
 
-Pipa’s Pub
+Pipa's Pub
 604 S. Country Fair Dr., Champaign
 2173560888
 
@@ -1638,7 +1637,7 @@ Route 45 Wayside
 1018. Chestnut, Pesoturn
 2178672000
 
-Senator’s Inn & Pub
+Senator's Inn & Pub
 801 N Dunlap, Savoy
 2173520002
 senatorsinn.com
@@ -1705,19 +1704,19 @@ Main Street Belly Deli
 2178967651
 mainstreetbellydeli.com
 
-Po Boy’s
+Po Boy's
 202 E. University Ave, Urbana
 2173672255
 poboysurbana.com
 
 -- STEAKHOUSE --
 
-Alexander’s Steakhouse
+Alexander's Steakhouse
 202 W Anthony Dr, Champaign
 2173591789
 alexanderssteak.com
 
-Hamilton Walker’s
+Hamilton Walker's
 201 N. Neil St, Champaign
 2173500363
 hamiltonwalkers.com

@@ -9,8 +9,10 @@ def parse_record(record):
     record = {
         'name': '',
         'img_url': '',
-        'address': '',
-        'phone_number': ''
+        'address': [],
+        'phone_number': [],
+        'website': [],
+        'cuisine': ''
     }
     location_container = soup.findAll('div', {'class': 'location-container'})
     if location_container:
@@ -23,10 +25,10 @@ def parse_record(record):
         if p_tag.string:
             contact_info += p_tag.string + ' '
     if contact_info[-6] == '-' and contact_info[-10] == '-':
-        record['address'] = contact_info[:-14]
-        record['phone_number'] = contact_info[-13:-1]
+        record['address'].append(contact_info[:-14])
+        record['phone_number'].append(contact_info[-13:-1])
     else:
-        record['address'] = contact_info[:-1]
+        record['address'].append(contact_info[:-1])
     return record
 
 
@@ -57,10 +59,36 @@ def get_records_from_web(location_area):
 
 def get_records_from_file(location_area):
     records = []
-    with open('campus_food_edited.txt', 'r') as f:
+    file_content = ''
+    with open('campus_food_edited.txt') as f:
         lines = f.readlines()
-        for line in readlines:
-            print(line)
+        for line in lines:
+            file_content += line
+    entries = file_content.split('\n\n')
+    current_cuisine = ''
+    for entry in entries:
+        if entry[:2] == '--':
+            current_cuisine = entry[3:-3].title()
+            continue
+        lines = entry.split('\n')
+        record = {
+            'name': '',
+            'img_url': '',
+            'address': [],
+            'phone_number': [],
+            'website': [],
+            'cuisine': current_cuisine
+        }
+        record['name'] = lines[0]
+        for line in lines[1:]:
+            if ',' in line:
+                record['address'].append(line)
+            elif len(line) == 10 and '.' not in line:
+                record['phone_number'].append(line)
+            elif '.' in line:
+                record['website'].append(line)
+        records.append(record)
+    return records
 
 
 def get_records(location_area, source):
@@ -91,4 +119,4 @@ def build_food_and_drink_dataset(source):
 
 
 if __name__ == '__main__':
-    build_food_and_drink_dataset('web')
+    build_food_and_drink_dataset('file')
