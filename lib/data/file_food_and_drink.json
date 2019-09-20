@@ -6,8 +6,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Urbana",
-            "Downtown Champaign",
             "Urbana"
         ],
         "name": "Apple Dumplin'",
@@ -23,7 +21,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Downtown Champaign",
             "Downtown Champaign"
         ],
         "name": "Big Grove Tavern",
@@ -41,7 +38,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Downtown Urbana",
             "Downtown Urbana"
         ],
         "name": "Courier Cafe",
@@ -59,7 +55,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Downtown Urbana",
             "Downtown Urbana"
         ],
         "name": "Dancing Dog Eatery & Juicery",
@@ -77,7 +72,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Other",
             "Other"
         ],
         "name": "Flesor's Candy Kitchen",
@@ -95,7 +89,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Downtown Champaign",
             "Downtown Champaign"
         ],
         "name": "Hank's Table",
@@ -111,7 +104,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Campustown",
             "Other"
         ],
         "name": "Irma Lou's Kitchen",
@@ -127,7 +119,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Other",
             "Campustown"
         ],
         "name": "J. Gumbo's",
@@ -145,8 +136,6 @@
         "cuisine": "American",
         "img_url": "",
         "location_areas": [
-            "Campustown",
-            "Downtown Urbana",
             "Other"
         ],
         "name": "Jo's Country Diner",
@@ -181,7 +170,7 @@
         "location_areas": [
             "Other"
         ],
-        "name": "Orr's Drive-In",
+        "name": "Ott's Drive-In",
         "phone_number": [
             "2178931100"
         ],
@@ -195,8 +184,10 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
-        "name": "R&l Restaurant",
+        "location_areas": [
+            "Other"
+        ],
+        "name": "R&I Restaurant",
         "phone_number": [
             "2175432011"
         ],
@@ -208,7 +199,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Red Herring Restaurant",
         "phone_number": [
             "2173672340"
@@ -219,24 +212,17 @@
     },
     {
         "address": [
-            "741 Broadmeadow Rd., Rantoul"
+            "741 Broadmeadow Rd., Rantoul",
+            "1724 E. Grove Avenue, Rantoul"
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Red Wheel Restaurant",
         "phone_number": [
-            "2178930471"
-        ],
-        "website": []
-    },
-    {
-        "address": [],
-        "cuisine": "American",
-        "img_url": "",
-        "location_areas": [],
-        "name": "1724 E. Grove Avenue, Rantoul",
-        "phone_number": [
+            "2178930471",
             "2178921100"
         ],
         "website": []
@@ -247,7 +233,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Rich's Family Restaurant",
         "phone_number": [
             "2175822777"
@@ -260,7 +248,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Salad Meister",
         "phone_number": [
             "2177277227"
@@ -275,7 +265,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Scratch",
         "phone_number": [
             "2174696230"
@@ -290,7 +282,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Sun Singer Wine & Spirits",
         "phone_number": [
             "2173511115"
@@ -305,7 +299,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Urbana's Garden Restaurant",
         "phone_number": [
             "2173281514"
@@ -320,7 +316,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Vault",
         "phone_number": [
             "2175824000"
@@ -335,7 +333,9 @@
         ],
         "cuisine": "American",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Yoder's Kitchen",
         "phone_number": [
             "2176432714"
@@ -350,7 +350,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "A-Ri\u2014Rang",
         "phone_number": [
             "2173595569"
@@ -363,7 +365,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Asian Noodles & Sushi",
         "phone_number": [
             "2178199699"
@@ -376,7 +380,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Asian Taste",
         "phone_number": [
             "2173846070"
@@ -391,7 +397,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Aunlie Lee's Chinese Kitchen",
         "phone_number": [
             "2176937928"
@@ -406,7 +414,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "B Won",
         "phone_number": [
             "2173522966"
@@ -421,8 +431,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
-        "name": "Bub Plus Korean",
+        "location_areas": [
+            "Campustown"
+        ],
+        "name": "Bab Plus Korean",
         "phone_number": [
             "2176075906"
         ],
@@ -437,7 +449,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown",
+            "Other"
+        ],
         "name": "Bangkok Thai & Pho 911",
         "phone_number": [
             "2179541641",
@@ -451,7 +466,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Basil Thai",
         "phone_number": [
             "2173448662"
@@ -464,7 +481,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Best Wok",
         "phone_number": [
             "2173565757"
@@ -479,7 +498,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "BoBo's China",
         "phone_number": [
             "2173522272"
@@ -494,7 +515,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "China Express",
         "phone_number": [
             "2178928321"
@@ -507,7 +530,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "China Garden",
         "phone_number": [
             "2173676588"
@@ -521,7 +546,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other",
+            "Champaign"
+        ],
         "name": "China King",
         "phone_number": [
             "2174699966",
@@ -537,7 +565,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Chinatown Buffet",
         "phone_number": [
             "2173989888"
@@ -550,7 +580,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Chinatown Restaurant",
         "phone_number": [
             "2172534173"
@@ -563,7 +595,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Chopstix",
         "phone_number": [],
         "website": [
@@ -576,7 +610,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Cravings",
         "phone_number": [],
         "website": [
@@ -589,7 +625,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Dumpling Noodle BBQ",
         "phone_number": [
             "2172810880"
@@ -602,7 +640,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "First Wok",
         "phone_number": [
             "2173444500"
@@ -615,7 +655,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Golden Harbor",
         "phone_number": [
             "2173988988"
@@ -630,7 +672,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Golden Kitchen",
         "phone_number": [
             "2177625678"
@@ -643,7 +687,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Golden Wok",
         "phone_number": [
             "2173568383"
@@ -658,7 +704,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Good Fella Korean Bistro",
         "phone_number": [
             "2172395959"
@@ -673,7 +721,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Green Jade",
         "phone_number": [
             "2173555988"
@@ -688,7 +738,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Green Onion Asian Market",
         "phone_number": [
             "2173595370"
@@ -701,7 +753,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Home of Gourmet Chinese & Thai",
         "phone_number": [
             "2173447483"
@@ -714,7 +768,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Hot Wok Express",
         "phone_number": [
             "2173847170"
@@ -727,7 +783,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "I Wok",
         "phone_number": [
             "2173519888"
@@ -742,7 +800,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Jip Bap",
         "phone_number": [
             "2175521688"
@@ -755,7 +815,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "K-Bowl",
         "phone_number": [
             "2173446022"
@@ -769,7 +831,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown",
+            "Downtown Champaign"
+        ],
         "name": "Ko Fusion",
         "phone_number": [
             "2179541572",
@@ -786,7 +851,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Kung Fu BBQ",
         "phone_number": [
             "2173591888"
@@ -799,7 +866,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Lai Lai Wok",
         "phone_number": [
             "2173281888"
@@ -814,7 +883,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Lao Sze Chuan Chinese Restaurant",
         "phone_number": [
             "2176890031"
@@ -829,7 +900,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "LL Sushi",
         "phone_number": [
             "2179540031"
@@ -842,7 +915,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Mandarin Wok",
         "phone_number": [
             "2173845088"
@@ -857,7 +932,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Masijta Grill",
         "phone_number": [
             "2175521188"
@@ -872,7 +949,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Mid-Summer Lounge",
         "phone_number": [
             "2176071434"
@@ -887,7 +966,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Ming Garden",
         "phone_number": [
             "2173520056"
@@ -900,7 +981,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Moki Sushi",
         "phone_number": [
             "2175521600"
@@ -915,7 +998,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Mr. Crab",
         "phone_number": [
             "2173989999"
@@ -928,7 +1013,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "My Thai",
         "phone_number": [
             "2173518424"
@@ -943,7 +1030,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Naniing Bistro",
         "phone_number": [
             "2176078117"
@@ -958,7 +1047,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Oishi",
         "phone_number": [
             "2173986888"
@@ -973,7 +1064,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Ozu Ramen",
         "phone_number": [
             "3127990784"
@@ -986,7 +1079,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Peking Garden",
         "phone_number": [
             "2173558888"
@@ -1001,7 +1096,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Peking House",
         "phone_number": [
             "2175862316"
@@ -1014,7 +1111,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Pho Cafe",
         "phone_number": [
             "2175521106"
@@ -1027,7 +1126,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Poke Lab",
         "phone_number": [
             "2175521880"
@@ -1041,7 +1142,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign",
+            "Urbana"
+        ],
         "name": "Rainbow Garden",
         "phone_number": [
             "2173982670",
@@ -1058,7 +1162,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Red Cape Hot",
         "phone_number": [
             "2179540545"
@@ -1071,7 +1177,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Sakanaya",
         "phone_number": [
             "2173441400"
@@ -1086,8 +1194,10 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
-        "name": "Sun Maru",
+        "location_areas": [
+            "Champaign"
+        ],
+        "name": "San Maru",
         "phone_number": [
             "2173522119"
         ],
@@ -1101,7 +1211,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Shiquan Wonton",
         "phone_number": [
             "2176072635"
@@ -1114,7 +1226,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Siam Terrace",
         "phone_number": [
             "2173678424"
@@ -1129,7 +1243,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "South China Restaurant",
         "phone_number": [
             "2173529008"
@@ -1144,7 +1260,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Spicy Tang",
         "phone_number": [
             "2174196676"
@@ -1159,7 +1277,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Spoon House Korean Kitchen",
         "phone_number": [
             "2173443483"
@@ -1172,7 +1292,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Star BBQ Restaurant",
         "phone_number": [
             "2173567777"
@@ -1187,7 +1309,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Sunny China Buffet",
         "phone_number": [
             "2173678883"
@@ -1202,7 +1326,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Super Wok",
         "phone_number": [
             "2173980111"
@@ -1217,7 +1343,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Sushi Ichiban",
         "phone_number": [
             "2179540493"
@@ -1232,7 +1360,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Sushi Kame",
         "phone_number": [
             "2173563366"
@@ -1245,7 +1375,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Sushi Rock",
         "phone_number": [
             "2173374285"
@@ -1260,7 +1392,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Sushi San",
         "phone_number": [
             "2173281886"
@@ -1273,7 +1407,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Szechuan China",
         "phone_number": [
             "2173989999"
@@ -1288,7 +1424,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Thara Thai",
         "phone_number": [
             "2173781986"
@@ -1303,7 +1441,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "The Wok",
         "phone_number": [
             "2175861588"
@@ -1316,7 +1456,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Xinh Xinh Cafe",
         "phone_number": [
             "2173377600"
@@ -1331,7 +1473,9 @@
         ],
         "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Y Eatery",
         "phone_number": [
             "2173371500"
@@ -1344,7 +1488,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Aroma Caf\u00e9",
         "phone_number": [
             "2173563200"
@@ -1359,7 +1505,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Bossa Nova Caf\u00e9",
         "phone_number": [
             "2176076359"
@@ -1374,7 +1522,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "BrewLab Coffee",
         "phone_number": [
             "2179797123"
@@ -1389,7 +1539,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Caf\u00e9 Kopi",
         "phone_number": [
             "2173594266"
@@ -1404,7 +1556,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Cafeteria & Company",
         "phone_number": [],
         "website": [
@@ -1418,7 +1572,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Caffe Bene",
         "phone_number": [
             "2176072611",
@@ -1432,7 +1588,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Caffe Paradiso",
         "phone_number": [
             "2173846066"
@@ -1447,7 +1605,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Carmella's Creme",
         "phone_number": [
             "2175310224"
@@ -1460,7 +1620,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Clever Moose Caf\u00e9",
         "phone_number": [
             "2176078126"
@@ -1475,7 +1637,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Common Ground Food Co\u2014op",
         "phone_number": [
             "2173523347"
@@ -1496,7 +1660,11 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown",
+            "Urbana",
+            "Champaign"
+        ],
         "name": "Espresso Royale",
         "phone_number": [
             "2173376160",
@@ -1515,10 +1683,12 @@
         "address": [
             "711 S. Sixth St., Champaign"
         ],
-        "cuisine": "Bakeries & Cafes",
+        "cuisine": "Asian",
         "img_url": "",
-        "location_areas": [],
-        "name": "Evo Caf\u00e9",
+        "location_areas": [
+            "Campustown"
+        ],
+        "name": "Evo Cafe",
         "phone_number": [
             "2173287688"
         ],
@@ -1532,7 +1702,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Flying Machine Avionics",
         "phone_number": [
             "2176007949"
@@ -1545,7 +1717,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Geschenk Boutique Coffee & Tea Haus",
         "phone_number": [
             "2174696034"
@@ -1558,7 +1732,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Greenhouse Caf\u00e9",
         "phone_number": [
             "2173333287"
@@ -1573,7 +1749,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Hopscotch Bakery + Market",
         "phone_number": [
             "2176076436"
@@ -1588,7 +1766,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "I Caf\u00e9",
         "phone_number": [
             "2178195005"
@@ -1601,7 +1781,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Industrial Donut",
         "phone_number": [
             "2176071323"
@@ -1616,7 +1798,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Kung Fu Tea",
         "phone_number": [
             "2175521668"
@@ -1631,7 +1815,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Latea Lounge",
         "phone_number": [
             "2179541855"
@@ -1646,7 +1832,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Pandamonium Doughnuts",
         "phone_number": [
             "6309464306"
@@ -1663,7 +1851,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Pekara Bakery & Bistro",
         "phone_number": [
             "2173594500",
@@ -1680,7 +1870,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "PVP Bakery",
         "phone_number": [
             "2178191265"
@@ -1693,7 +1885,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Rick's Bakery",
         "phone_number": [
             "2173449383"
@@ -1708,7 +1902,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Roselen's Coffees & Delights",
         "phone_number": [
             "2175433106"
@@ -1723,7 +1919,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Strawberry Fields Natural Food Store & Cafe",
         "phone_number": [
             "2173281655"
@@ -1738,7 +1936,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Steeple Coffee House and Gallery",
         "phone_number": [
             "2177622924"
@@ -1751,7 +1951,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Taipei Caf\u00e9",
         "phone_number": [
             "3127990784"
@@ -1764,7 +1966,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Teamoji",
         "phone_number": [
             "2176076339"
@@ -1779,7 +1983,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "The Bread Company",
         "phone_number": [
             "2173831007"
@@ -1794,7 +2000,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "The Second Cup",
         "phone_number": [
             "2178925579"
@@ -1807,7 +2015,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Worker's Cuf\u00e9 G",
         "phone_number": [
             "2176376333"
@@ -1820,7 +2030,9 @@
         ],
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Ye Olde Donut Shoppe",
         "phone_number": [
             "2173593311"
@@ -1833,7 +2045,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "3 Ravens",
         "phone_number": [
             "2177623333"
@@ -1848,7 +2062,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Angela's Food & Spirits",
         "phone_number": [
             "2175434059"
@@ -1861,7 +2077,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Attie's Bur & Grill",
         "phone_number": [
             "2173679876"
@@ -1876,7 +2094,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Baxter's American Grille",
         "phone_number": [
             "2172399299"
@@ -1891,7 +2111,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Billy Barooz Pub & Grill",
         "phone_number": [
             "2173558030"
@@ -1906,7 +2128,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Blue Star Family Restaurant",
         "phone_number": [
             "2178971345"
@@ -1919,7 +2143,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Boomerangs Bar & Grill",
         "phone_number": [
             "2172397264"
@@ -1934,7 +2160,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Brothers Bar & Grill",
         "phone_number": [
             "2173285531"
@@ -1949,7 +2177,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Bud's Bar",
         "phone_number": [
             "2178929655"
@@ -1964,7 +2194,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Bunny's Tavern",
         "phone_number": [
             "2173678175"
@@ -1979,7 +2211,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Buzzard's Place",
         "phone_number": [
             "2178976158"
@@ -1992,7 +2226,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Cactus Grill",
         "phone_number": [
             "2173518226"
@@ -2007,7 +2243,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Clark Bar",
         "phone_number": [
             "2173550510"
@@ -2022,7 +2260,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Cowboy Monkey",
         "phone_number": [
             "2173982688"
@@ -2037,7 +2277,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Crane Alley",
         "phone_number": [
             "2173847526"
@@ -2052,7 +2294,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Destihl Restaurant & Brew Works",
         "phone_number": [
             "2173560301"
@@ -2067,7 +2311,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Esquire Lounge",
         "phone_number": [
             "2173985858"
@@ -2082,7 +2328,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Farren's Pub & Eatery",
         "phone_number": [
             "2173596977"
@@ -2097,7 +2345,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "ET's Downtown Runroul",
         "phone_number": [
             "2178930222"
@@ -2112,7 +2362,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Fat City Bar & Grill",
         "phone_number": [
             "2179540556"
@@ -2127,7 +2379,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Fieldhouse 219",
         "phone_number": [
             "2176311155"
@@ -2142,7 +2396,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Freeman's Tavern",
         "phone_number": [
             "2175833220"
@@ -2155,7 +2411,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Goldy's Bar & Grill",
         "phone_number": [
             "2173592177"
@@ -2168,7 +2426,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Guido's Bur & Grill",
         "phone_number": [
             "2173593148"
@@ -2183,7 +2443,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Gulliver's",
         "phone_number": [
             "2173551480"
@@ -2196,7 +2458,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Houlihan's",
         "phone_number": [
             "2178195005"
@@ -2212,7 +2476,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "It'll Do",
         "phone_number": [
             "2174855500",
@@ -2228,7 +2494,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "It'll Do 2",
         "phone_number": [
             "2172534500"
@@ -2241,7 +2509,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Joe's Brewery",
         "phone_number": [
             "2173841790"
@@ -2256,7 +2526,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "JT Walker's Restaurant & Brewery",
         "phone_number": [
             "2175861100"
@@ -2271,7 +2543,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Keefers",
         "phone_number": [
             "2178930183"
@@ -2284,7 +2558,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Legends Bar & Grill",
         "phone_number": [
             "2173557674"
@@ -2299,7 +2575,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Monarch Brewing Company",
         "phone_number": [
             "2176311141"
@@ -2314,7 +2592,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Murphy's Pub",
         "phone_number": [
             "2173444372"
@@ -2329,7 +2609,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Neil Sr. Blues",
         "phone_number": [
             "2175311150"
@@ -2344,7 +2626,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Philo Tavern",
         "phone_number": [
             "2176842117"
@@ -2359,7 +2643,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Rantoul Public House",
         "phone_number": [
             "2172829537"
@@ -2372,7 +2658,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Roch's Place",
         "phone_number": [
             "2174692660"
@@ -2387,7 +2675,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Scotty's Brew House",
         "phone_number": [
             "2175304394"
@@ -2402,7 +2692,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Seven Saints",
         "phone_number": [
             "2173517775"
@@ -2417,7 +2709,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Shooters Bar & Grill",
         "phone_number": [
             "2178930077"
@@ -2430,7 +2724,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Signature Grill",
         "phone_number": [
             "2176070893"
@@ -2445,7 +2741,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Tin Roof Tavern",
         "phone_number": [
             "2173375000"
@@ -2458,7 +2756,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "TK's Cheesesteak",
         "phone_number": [
             "2172829812"
@@ -2473,7 +2773,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Traxside Bar & Grill",
         "phone_number": [
             "2173900501"
@@ -2486,7 +2788,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Watson's Shack & Rail",
         "phone_number": [
             "2176070168"
@@ -2501,7 +2805,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Wild Hare Bar and Grill",
         "phone_number": [
             "2178970081"
@@ -2514,7 +2820,9 @@
         ],
         "cuisine": "Bar & Grill",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Wingin Out",
         "phone_number": [
             "2176071864"
@@ -2529,7 +2837,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "BBQ Chicken",
         "phone_number": [
             "2176007939"
@@ -2544,7 +2854,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Billy Bob's BBQ",
         "phone_number": [
             "2175822277"
@@ -2559,7 +2871,10 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana",
+            "Downtown Champaign"
+        ],
         "name": "Black Dog Smoke & Ale House",
         "phone_number": [
             "2173449334"
@@ -2572,7 +2887,9 @@
         "address": [],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "320 N. Chestnut St, Champaign",
         "phone_number": [
             "2179540465"
@@ -2587,7 +2904,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Bobo's Barbecue",
         "phone_number": [
             "2173552271"
@@ -2602,7 +2921,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Hickory River Smokehouse",
         "phone_number": [
             "2173371656"
@@ -2617,7 +2938,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Lil Porgy's BBQ",
         "phone_number": [
             "2173986811"
@@ -2632,7 +2955,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Pauly's BBQ",
         "phone_number": [
             "2175437400"
@@ -2647,7 +2972,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Pink Pig",
         "phone_number": [
             "2175828026"
@@ -2662,7 +2989,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Project 47 Smokehouse",
         "phone_number": [
             "2175863456"
@@ -2677,7 +3006,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Q Smokehouse",
         "phone_number": [
             "2173445849"
@@ -2690,7 +3021,9 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Smoky's House BBQ",
         "phone_number": [
             "2173552272"
@@ -2707,7 +3040,10 @@
         ],
         "cuisine": "Barbecue",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign",
+            "Urbana"
+        ],
         "name": "Wood N' Hog BBQ",
         "phone_number": [
             "2176070120"
@@ -2722,7 +3058,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Bergie's Place",
         "phone_number": [
             "2176488020"
@@ -2737,7 +3075,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Country Kitchen",
         "phone_number": [],
         "website": []
@@ -2748,7 +3088,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Cracked: The Egg Came First",
         "phone_number": [
             "2179540361"
@@ -2763,7 +3105,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Four Breakfast and More",
         "phone_number": [
             "2179541126"
@@ -2776,7 +3120,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Le Peep",
         "phone_number": [
             "2173527599"
@@ -2792,7 +3138,10 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign",
+            "Campustown"
+        ],
         "name": "Merry Ann's Diner",
         "phone_number": [
             "2173525399",
@@ -2809,7 +3158,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Original Pancake House",
         "phone_number": [
             "2173528866"
@@ -2824,7 +3175,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Sam's Cafe",
         "phone_number": [
             "2173527102"
@@ -2837,7 +3190,9 @@
         ],
         "cuisine": "Breakfast",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Sammy's Pancake House",
         "phone_number": [
             "2173553403"
@@ -2850,7 +3205,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Cocomero",
         "phone_number": [
             "2173283888"
@@ -2863,7 +3220,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Cookies by Design",
         "phone_number": [
             "2173443911"
@@ -2878,7 +3237,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Cream & Flutter",
         "phone_number": [
             "2173555400"
@@ -2893,7 +3254,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Double Dip",
         "phone_number": [
             "2176215858"
@@ -2906,7 +3269,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "El Oasis",
         "phone_number": [
             "2179540215"
@@ -2919,7 +3284,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Froyo Factory",
         "phone_number": [
             "2177622233"
@@ -2934,7 +3301,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Insomnia Cookies",
         "phone_number": [
             "2173280203"
@@ -2949,7 +3318,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Jarling's Custard Cup",
         "phone_number": [
             "2173522273"
@@ -2964,7 +3335,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Judy's Sweets",
         "phone_number": [
             "2178286767"
@@ -2979,7 +3352,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Lenny's Ice Cream Gallery",
         "phone_number": [
             "2175687400"
@@ -2992,7 +3367,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Lucky Moon Pies",
         "phone_number": [
             "2174022319"
@@ -3007,7 +3384,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "MeMe's Treat Boutique",
         "phone_number": [
             "2179188492"
@@ -3022,7 +3401,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Paris Super Crepes",
         "phone_number": [
             "2177601404"
@@ -3037,7 +3418,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Pies by Inge",
         "phone_number": [
             "2177780200"
@@ -3052,7 +3435,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Red Bicycle Ice Cream",
         "phone_number": [
             "2176071233"
@@ -3067,7 +3452,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Sidney Dairy Burn",
         "phone_number": [
             "2176883700"
@@ -3082,7 +3469,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Sweet Indulgence",
         "phone_number": [
             "2173522433"
@@ -3097,7 +3486,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "TCBY",
         "phone_number": [
             "2176075090"
@@ -3112,7 +3503,9 @@
         ],
         "cuisine": "Dessert",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "YoYos",
         "phone_number": [
             "2175862520"
@@ -3125,7 +3518,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Big JJ Fish & Chicken",
         "phone_number": [
             "2173514005"
@@ -3140,7 +3535,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Butcher Boy Burgers",
         "phone_number": [
             "2178415458"
@@ -3153,7 +3550,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Charlie's Grub & Suds",
         "phone_number": [
             "2178962073"
@@ -3166,7 +3565,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "CoreLife Eatery",
         "phone_number": [
             "2176936993"
@@ -3181,7 +3582,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Garbanzo Mediterranean Fresh",
         "phone_number": [
             "2172394737"
@@ -3196,7 +3599,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Howdy Burger",
         "phone_number": [
             "2176071548"
@@ -3209,7 +3614,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Jurassic Grill",
         "phone_number": [
             "2173909294"
@@ -3225,7 +3632,10 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign",
+            "Other"
+        ],
         "name": "Krispy Krunchy Chicken",
         "phone_number": [
             "2175521800",
@@ -3242,7 +3652,10 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana",
+            "Champaign"
+        ],
         "name": "Niro's Gyros",
         "phone_number": [
             "2173286476"
@@ -3258,7 +3671,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Super Niro's Gyros",
         "phone_number": [],
         "website": [
@@ -3271,7 +3686,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Windy City",
         "phone_number": [
             "2173449404"
@@ -3286,7 +3703,9 @@
         ],
         "cuisine": "Fast Food",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Zorba's",
         "phone_number": [
             "2173440710"
@@ -3301,7 +3720,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Miga",
         "phone_number": [
             "2173981020"
@@ -3316,7 +3737,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Nando Milano Trattoria",
         "phone_number": [
             "2179541439"
@@ -3331,7 +3754,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "NAYA",
         "phone_number": [
             "2177297430"
@@ -3346,7 +3771,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Silvercreek",
         "phone_number": [
             "2173283402"
@@ -3361,7 +3788,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Timpone's",
         "phone_number": [
             "2173447619"
@@ -3376,7 +3805,9 @@
         ],
         "cuisine": "Fine Dining",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "The Wheelhouse",
         "phone_number": [
             "2174696252"
@@ -3391,7 +3822,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Amaravati Indian Cuisine",
         "phone_number": [
             "2179541012"
@@ -3406,7 +3839,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Ambar India",
         "phone_number": [
             "2173441500"
@@ -3421,7 +3856,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Ba'get",
         "phone_number": [
             "2176937961"
@@ -3434,7 +3871,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Bombay Indian Grill",
         "phone_number": [
             "2173443380"
@@ -3449,7 +3888,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Broadway Food Hall (King Kuma | Nation | Muchacho | La Royals | Eighty-Three Vietnamese Cuisine)",
         "phone_number": [],
         "website": [
@@ -3462,7 +3903,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Caribbean Grill",
         "phone_number": [
             "2179605375"
@@ -3477,7 +3920,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Himalayan Chimney",
         "phone_number": [
             "2175521834"
@@ -3490,7 +3935,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Jerusalem Middle Eastern Cuisine",
         "phone_number": [
             "2173448760"
@@ -3503,7 +3950,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Kohinoor Indian Restaurant",
         "phone_number": [
             "2175521384"
@@ -3518,7 +3967,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Sitara Indian Restaurant & Lounge",
         "phone_number": [
             "2173446440"
@@ -3533,7 +3984,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Stango Cuisine",
         "phone_number": [
             "8444976835"
@@ -3548,7 +4001,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Sticky Rice",
         "phone_number": [
             "2179541929"
@@ -3561,7 +4016,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Taste of Thai",
         "phone_number": [
             "2172829358"
@@ -3574,7 +4031,9 @@
         ],
         "cuisine": "International",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Top Food Restaurant",
         "phone_number": [
             "2173784272"
@@ -3587,7 +4046,9 @@
         ],
         "cuisine": "Italian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Baldarotta's Porketta & Sicilian Sausage",
         "phone_number": [
             "3092874455"
@@ -3602,7 +4063,9 @@
         ],
         "cuisine": "Italian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Biaggi's Ristorante Italiano",
         "phone_number": [
             "2173564300"
@@ -3617,7 +4080,9 @@
         ],
         "cuisine": "Italian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Manzella's Italian Patio",
         "phone_number": [
             "2173527624"
@@ -3632,7 +4097,9 @@
         ],
         "cuisine": "Italian",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Mia Za's",
         "phone_number": [
             "2172983198"
@@ -3647,7 +4114,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Agave",
         "phone_number": [
             "2178932880"
@@ -3660,7 +4129,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Breaking Taco",
         "phone_number": [
             "2175866938"
@@ -3675,7 +4146,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Burrito King Mexican Grill",
         "phone_number": [
             "2176070073"
@@ -3690,7 +4163,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Casa Del Mar",
         "phone_number": [
             "2175521525"
@@ -3703,7 +4178,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Casa Fiesta Grill",
         "phone_number": [
             "2178928541"
@@ -3716,7 +4193,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Casa Real",
         "phone_number": [
             "2177624762"
@@ -3729,7 +4208,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Dos Reales",
         "phone_number": [
             "2173516879"
@@ -3742,7 +4223,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "El Patio",
         "phone_number": [
             "2176007683"
@@ -3759,7 +4242,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "El Toro",
         "phone_number": [
             "2175900501",
@@ -3776,7 +4261,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "El Toro at the Fields",
         "phone_number": [
             "2179034002"
@@ -3791,7 +4278,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "El Toro Bravo",
         "phone_number": [
             "2173517024"
@@ -3806,7 +4295,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "El Toro II",
         "phone_number": [
             "2173787807"
@@ -3821,7 +4312,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Empanadas House",
         "phone_number": [
             "2179541871"
@@ -3836,7 +4329,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Fernando's",
         "phone_number": [
             "2172550210"
@@ -3851,7 +4346,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Fiesta Cafe",
         "phone_number": [
             "2173525902"
@@ -3866,7 +4363,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Huaraches Moroleon",
         "phone_number": [
             "2173446772"
@@ -3879,7 +4378,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Juanito's Tacos",
         "phone_number": [
             "2176211394"
@@ -3892,7 +4393,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "La Bamba Mexican Restaurant",
         "phone_number": [
             "2173556600"
@@ -3907,7 +4410,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "La Cascuda Mexican Grill",
         "phone_number": [
             "2175433131"
@@ -3920,7 +4425,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "La Mixteca",
         "phone_number": [
             "2175521544"
@@ -3935,7 +4442,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Las Maria's Mexican Restaurant",
         "phone_number": [
             "2177622800"
@@ -3950,7 +4459,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Los Zarapes",
         "phone_number": [
             "2175863735"
@@ -3964,7 +4475,10 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign",
+            "Campustown"
+        ],
         "name": "Maize Mexican Grill",
         "phone_number": [
             "2173553611",
@@ -3980,7 +4494,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Mas Amigos",
         "phone_number": [
             "2173562100"
@@ -3993,7 +4509,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Mi Veracruz Mexican Grill",
         "phone_number": [
             "2175997001"
@@ -4006,7 +4524,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Moe's Southwest Grill",
         "phone_number": [
             "2173526637"
@@ -4021,7 +4541,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Sol Del Mar Mexican Bar & Grill",
         "phone_number": [
             "2175991012"
@@ -4034,7 +4556,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Super Taco",
         "phone_number": [
             "2173558226"
@@ -4049,7 +4573,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Taco Loco",
         "phone_number": [
             "2173558226"
@@ -4064,7 +4590,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Tienda Guatemala",
         "phone_number": [
             "2173442770"
@@ -4077,7 +4605,9 @@
         ],
         "cuisine": "Mexican",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Toro Loco",
         "phone_number": [
             "2173447855"
@@ -4092,7 +4622,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Filippo's of Mahomet",
         "phone_number": [
             "2175864657"
@@ -4107,7 +4639,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Filippo's of Monticello",
         "phone_number": [
             "2177622921"
@@ -4120,7 +4654,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Fire House Chicago Style",
         "phone_number": [
             "2178929990"
@@ -4133,7 +4669,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Garcia's Pizza in a Pan",
         "phone_number": [
             "2173521212"
@@ -4148,7 +4686,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Giordano's",
         "phone_number": [
             "2179534299"
@@ -4163,7 +4703,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Itsa Pizza",
         "phone_number": [
             "2175433531"
@@ -4178,7 +4720,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Joe's Pizza",
         "phone_number": [
             "2172536500"
@@ -4191,7 +4735,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Jupiter's At The Crossing",
         "phone_number": [
             "2173668300"
@@ -4206,7 +4752,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Jupiter's Pizzeria and Billiards",
         "phone_number": [
             "2173985988"
@@ -4221,7 +4769,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Manolo's Pizza & Empanadas",
         "phone_number": [
             "2173650110"
@@ -4236,7 +4786,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Old Orchard Lanes",
         "phone_number": [
             "2173595281"
@@ -4251,7 +4803,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Padano's Pizza Co.",
         "phone_number": [
             "2174699016"
@@ -4264,7 +4818,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Papa Del's",
         "phone_number": [
             "2173597700"
@@ -4279,7 +4835,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Pie's the Limit",
         "phone_number": [
             "2176075263"
@@ -4294,7 +4852,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Pizza Roma",
         "phone_number": [
             "2178976776"
@@ -4307,7 +4867,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Pizzeria Antica",
         "phone_number": [
             "2175304137"
@@ -4322,7 +4884,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Rantoul Pizza Pub",
         "phone_number": [
             "2178934974"
@@ -4335,7 +4899,9 @@
         ],
         "cuisine": "Pizza",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Vinny's East Coast Pizzeria",
         "phone_number": [
             "2173554500"
@@ -4350,7 +4916,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "25 O'clock Brewing Company",
         "phone_number": [],
         "website": []
@@ -4361,7 +4929,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "51 Main",
         "phone_number": [
             "2175906007"
@@ -4376,7 +4946,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Analog",
         "phone_number": [],
         "website": [
@@ -4389,7 +4961,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Angela's Place",
         "phone_number": [
             "2178343220"
@@ -4402,7 +4976,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Barrelhouse 34",
         "phone_number": [
             "2172394677"
@@ -4417,7 +4993,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Bentley's Pub",
         "phone_number": [
             "2173597977"
@@ -4432,7 +5010,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Blackbird",
         "phone_number": [
             "2175311453"
@@ -4447,7 +5027,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Blind Pig Brewery",
         "phone_number": [
             "2173985133"
@@ -4462,7 +5044,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Blind Pig Co.",
         "phone_number": [
             "2173981532"
@@ -4477,7 +5061,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Brass Rail",
         "phone_number": [
             "2173527512"
@@ -4490,7 +5076,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Bridget's Blarney Stone",
         "phone_number": [
             "2175649994"
@@ -4503,7 +5091,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Buford's",
         "phone_number": [
             "2175982313"
@@ -4516,7 +5106,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Central Tavern",
         "phone_number": [
             "2176437300"
@@ -4529,7 +5121,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Collective Pour",
         "phone_number": [
             "2176075292"
@@ -4544,7 +5138,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Crude Wine Bar",
         "phone_number": [
             "2179541448"
@@ -4559,7 +5155,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Duly's Sports Bar",
         "phone_number": [
             "2175864061"
@@ -4572,7 +5170,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "East End Tavern",
         "phone_number": [
             "2177629087"
@@ -4585,7 +5185,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Game On Sports Tavern",
         "phone_number": [
             "2175982955"
@@ -4598,7 +5200,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Green Street Cafe",
         "phone_number": [
             "2173676844"
@@ -4611,7 +5215,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Hub Sports Bar",
         "phone_number": [
             "2172397080"
@@ -4624,7 +5230,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Huber's",
         "phone_number": [
             "2173520606"
@@ -4637,7 +5245,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Illini Inn",
         "phone_number": [
             "2179541465"
@@ -4652,7 +5262,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Iron Post",
         "phone_number": [
             "2173377678"
@@ -4665,7 +5277,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Ivesdale Tavern Inc.",
         "phone_number": [
             "2175642206"
@@ -4678,7 +5292,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Jack's Tavern",
         "phone_number": [
             "2174855706"
@@ -4689,7 +5305,9 @@
         "address": [],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Kam's",
         "phone_number": [
             "2173373300"
@@ -4702,7 +5320,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Lincoln Street Lounge",
         "phone_number": [
             "2178343010"
@@ -4715,7 +5335,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Logan's Pub",
         "phone_number": [
             "2178931221"
@@ -4728,7 +5350,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Loose Cobra",
         "phone_number": [
             "2174858201"
@@ -4743,7 +5367,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Lu & Denny's",
         "phone_number": [
             "2174858201"
@@ -4756,7 +5382,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Main Street Pub",
         "phone_number": [
             "2177629414"
@@ -4769,7 +5397,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "North Forty",
         "phone_number": [
             "2175687721"
@@ -4782,7 +5412,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Office II",
         "phone_number": [
             "2173986332"
@@ -4795,7 +5427,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Pia's Sports Bar & Grill",
         "phone_number": [
             "2173511993"
@@ -4810,7 +5444,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Pipa's Pub",
         "phone_number": [
             "2173560888"
@@ -4823,7 +5459,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Pour Bros. Craft Taproom",
         "phone_number": [
             "2179541881"
@@ -4838,7 +5476,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Punch",
         "phone_number": [
             "2175312800"
@@ -4851,8 +5491,10 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
-        "name": "Qualify Bar",
+        "location_areas": [
+            "Downtown Champaign"
+        ],
+        "name": "Quality Bar",
         "phone_number": [
             "2173593425"
         ],
@@ -4864,7 +5506,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Red Lion",
         "phone_number": [
             "2173679915"
@@ -4879,7 +5523,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Riggs Beer Company",
         "phone_number": [
             "2177185345"
@@ -4894,7 +5540,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Urbana"
+        ],
         "name": "Rose Bowl Tavern",
         "phone_number": [
             "2173677031"
@@ -4907,7 +5555,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Route 45 Wayside",
         "phone_number": [
             "2178672000"
@@ -4920,7 +5570,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Senator's Inn & Pub",
         "phone_number": [
             "2173520002"
@@ -4935,7 +5587,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Sidney Saloon",
         "phone_number": [
             "2176883161"
@@ -4950,7 +5604,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Soma",
         "phone_number": [
             "2173597662"
@@ -4963,7 +5619,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Star Karaoke",
         "phone_number": [
             "2173563333"
@@ -4978,7 +5636,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "T & T Tavern",
         "phone_number": [
             "2178939531"
@@ -4991,7 +5651,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "The Homestead",
         "phone_number": [
             "2175687554"
@@ -5004,7 +5666,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "The Icehouse",
         "phone_number": [
             "2173985760"
@@ -5017,7 +5681,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Triptych Brewery",
         "phone_number": [
             "7792323376"
@@ -5032,7 +5698,9 @@
         ],
         "cuisine": "Pubs & Bars",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Tumble Inn",
         "phone_number": [
             "2173560012"
@@ -5045,7 +5713,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Brown Bag Deli",
         "phone_number": [
             "2177629221"
@@ -5060,7 +5730,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Cheese & Crackers",
         "phone_number": [
             "2176158531"
@@ -5075,7 +5747,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Campustown"
+        ],
         "name": "Fat Sandwich Company",
         "phone_number": [
             "2173285035"
@@ -5090,7 +5764,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Great Harvest Bread Company",
         "phone_number": [
             "2173985623"
@@ -5105,7 +5781,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Main Street Belly Deli",
         "phone_number": [
             "2178967651"
@@ -5120,7 +5798,9 @@
         ],
         "cuisine": "Sandwiches",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Urbana"
+        ],
         "name": "Po Boy's",
         "phone_number": [
             "2173672255"
@@ -5135,7 +5815,9 @@
         ],
         "cuisine": "Steakhouse",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "Alexander's Steakhouse",
         "phone_number": [
             "2173591789"
@@ -5150,7 +5832,9 @@
         ],
         "cuisine": "Steakhouse",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Downtown Champaign"
+        ],
         "name": "Hamilton Walker's",
         "phone_number": [
             "2173500363"
@@ -5165,7 +5849,9 @@
         ],
         "cuisine": "Steakhouse",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Other"
+        ],
         "name": "Longbranch",
         "phone_number": [
             "2175687722"
@@ -5178,7 +5864,9 @@
         ],
         "cuisine": "Steakhouse",
         "img_url": "",
-        "location_areas": [],
+        "location_areas": [
+            "Champaign"
+        ],
         "name": "The Ribeye",
         "phone_number": [
             "2173519115"

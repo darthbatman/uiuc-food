@@ -18,15 +18,15 @@ def manually_input_location_areas(filename, start=0):
             print(record['name'])
             for address in record['address']:
                 print(address)
-                did_enter_location_area = False
-                while not did_enter_location_area:
-                    ri = input('Enter location areas (comma separated): ')
-                    for la in ri.split(','):
-                        if la in location_areas:
-                            did_enter_location_area = True
-                            record['location_areas'].append(location_areas[la])
-                        else:
-                            print('\'' + ri + '\' is not a location area.')
+            did_enter_location_area = False
+            while not did_enter_location_area:
+                ri = input('Enter location areas (comma separated): ')
+                for la in ri.split(','):
+                    if la in location_areas:
+                        did_enter_location_area = True
+                        record['location_areas'].append(location_areas[la])
+                    else:
+                        print('\'' + ri + '\' is not a location area.')
             records[i] = record
             save_records_to_file(records, filename)
             manually_input_location_areas(filename, start + 1)

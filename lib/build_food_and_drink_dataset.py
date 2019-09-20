@@ -125,4 +125,4 @@ def build_food_and_drink_dataset(source):
 
 
 if __name__ == '__main__':
-    build_food_and_drink_dataset('web')
+    build_food_and_drink_dataset('file')
