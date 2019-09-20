@@ -4,7 +4,7 @@ import requests
 import urllib.request
 
 
-def parse_record(record):
+def parse_record(record, location_area):
     soup = BeautifulSoup(record, 'html.parser')
     record = {
         'name': '',
@@ -12,7 +12,8 @@ def parse_record(record):
         'address': [],
         'phone_number': [],
         'website': [],
-        'cuisine': ''
+        'cuisine': '',
+        'location_areas': [location_area]
     }
     location_container = soup.findAll('div', {'class': 'location-container'})
     if location_container:
@@ -51,13 +52,13 @@ def get_records_from_web(location_area):
                 remaining_listings = data['total_listings']
             next_start_at = data['nextStartAt']
             for listing in data['listings']:
-                record = parse_record(listing)
+                record = parse_record(listing, location_area)
                 records.append(record)
                 remaining_listings -= 1
     return records
 
 
-def get_records_from_file(location_area):
+def get_records_from_file():
     records = []
     file_content = ''
     with open('campus_food_edited.txt') as f:
@@ -77,7 +78,8 @@ def get_records_from_file(location_area):
             'address': [],
             'phone_number': [],
             'website': [],
-            'cuisine': current_cuisine
+            'cuisine': current_cuisine,
+            'location_areas': []
         }
         record['name'] = lines[0]
         for line in lines[1:]:
@@ -91,11 +93,11 @@ def get_records_from_file(location_area):
     return records
 
 
-def get_records(location_area, source):
+def get_records(source, location_area='Campustown'):
     if source == 'web':
         return get_records_from_web(location_area)
     elif source == 'file':
-        return get_records_from_file(location_area)
+        return get_records_from_file()
     else:
         return []
 
@@ -110,13 +112,17 @@ def save_records_to_file(records, filename):
 
 
 def build_food_and_drink_dataset(source):
-    location_areas = ['Campustown', 'Champaign', 'Urbana',
-                      'Downtown Champaign', 'Downtown Urbana']
-    for location_area in location_areas:
-        records = get_records(location_area, source)
-        filename = get_filename_from_location_area(location_area)
-        save_records_to_file(records, 'data/' + filename)
+    if source == 'file':
+        records = get_records(source)
+        save_records_to_file(records, 'data/' + 'file_food_and_drink.json')
+    else:
+        location_areas = ['Campustown', 'Champaign', 'Urbana',
+                          'Downtown Champaign', 'Downtown Urbana']
+        for location_area in location_areas:
+            records = get_records(source, location_area)
+            filename = get_filename_from_location_area(location_area)
+            save_records_to_file(records, 'data/' + filename)
 
 
 if __name__ == '__main__':
-    build_food_and_drink_dataset('file')
+    build_food_and_drink_dataset('web')
