@@ -204,6 +204,12 @@
         "phone_number": "217-344-8760"
     },
     {
+        "address": "601 S 6th St Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/28ef19f8-44e1-491d-bf2b-db10c8ea212f.jpg",
+        "name": "Jip Bap",
+        "phone_number": "217-552-1688"
+    },
+    {
         "address": "706 S. Fifth St. Champaign, IL 61820",
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b97cdb77-2128-43ba-b2be-48713d53c4f0.jpg",
         "name": "Joe's Brewery",
@@ -240,10 +246,22 @@
         "phone_number": "217-355-1888"
     },
     {
+        "address": "707 S. Sixth St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/8fadeaf6-f5be-44c8-8af9-fa93938e0dcf.jpg",
+        "name": "Kung Fu Tea",
+        "phone_number": "217-552-1668"
+    },
+    {
         "address": "402 E. Green St., Ste. A Champaign, IL 61820",
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/2fa9bfbf-6bb7-4ec3-b93a-0a383c7afbf5.jpg",
         "name": "Lai Lai Wok",
         "phone_number": "217-328-1888"
+    },
+    {
+        "address": "608 E. University Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/dc0cf4a6-8c7c-4eb8-a0b1-6b45fc6fca1f.jfif",
+        "name": "Lao Sze Chuan Chinese Restaurant and Bar",
+        "phone_number": "217-689-0031"
     },
     {
         "address": "601 S. Sixth St. Champaign, IL 61820",
@@ -300,6 +318,12 @@
         "phone_number": "217-344-4372"
     },
     {
+        "address": "508 E Green St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3ed3ad49-cd08-4ccb-8851-cafddf79af8b.jpg",
+        "name": "Nanjing Bistro",
+        "phone_number": "217-607-8117"
+    },
+    {
         "address": "601 S. Sixth St. Champaign, IL 61820",
         "img_url": "/img/VCC_logo.png",
         "name": "Ozu Ramen",
@@ -330,6 +354,18 @@
         "phone_number": "217-344-5601"
     },
     {
+        "address": "611 E Green St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d4c141dd-0ce0-4730-858b-e1f2655cf7e6.jfif",
+        "name": "PvP Bakery",
+        "phone_number": "217-819-1265"
+    },
+    {
+        "address": "112 E Green St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d366680b-f59d-4d81-9081-f363a88e8866.jfif",
+        "name": "Red Cape Hot Pot",
+        "phone_number": "217-954-0545"
+    },
+    {
         "address": "1209 W. Oregon St. Urbana, IL 61801",
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/23a35b3e-6b35-4b42-8342-311fe5fa486f.jpg",
         "name": "Red Herring Vegetarian Restaurant",
@@ -352,6 +388,12 @@
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/effa9e9b-3870-4a37-9e1c-c00d943c6ac1.jpg",
         "name": "Salad Meister",
         "phone_number": "217-727-7227"
+    },
+    {
+        "address": "212 E Green St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3d743c75-25d0-4de5-ae4e-a86a9c4e863c.jfif",
+        "name": "Shiquan Wonton",
+        "phone_number": "217-607-2635"
     },
     {
         "address": "25 E. Springfield Ave. Champaign, IL 61820",
@@ -378,13 +420,19 @@
         "phone_number": "217-398-9999"
     },
     {
+        "address": "617 E. Green St Champaign, IL 61820",
+        "img_url": "/img/VCC_logo.png",
+        "name": "Teamoji",
+        "phone_number": "217-607-5339"
+    },
+    {
         "address": "706 S. Goodwin Ave. Urbana, IL 61801",
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/cef599eb-2ef6-4fde-9b4d-7700bb2a2b95.jpg",
         "name": "The Bread Company",
         "phone_number": "217-383-1007"
     },
     {
-        "address": "601 S. First St. Champaign, IL 61820",
+        "address": "601 S. First St. Champaign, IL 61820 \u00a0",
         "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/26d1c46b-2b03-4e8f-8151-07ab8a618db8.jpg",
         "name": "The Hub Sports Bar",
         "phone_number": ""

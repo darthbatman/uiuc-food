@@ -1,0 +1,794 @@
+[
+    {
+        "address": "1807 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/8a5ac78f-dbb0-4ff9-8179-0bd6c5996102.jpg",
+        "name": "Clever Moose Cafe",
+        "phone_number": "217-607-8126"
+    },
+    {
+        "address": "1807 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c6053a14-6683-467a-aee5-ae5e7ef808b6.jpg",
+        "name": "Everyday Kitchen Restaurant & Bar",
+        "phone_number": "217-607-8126"
+    },
+    {
+        "address": "202 W. Anthony Dr. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/37eaad7e-b0ab-412c-b4a1-65df6dfcd6ba.jpg",
+        "name": "Alexander's Steakhouse",
+        "phone_number": "217-359-1789"
+    },
+    {
+        "address": "4210 N. Duncan Rd. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/4f21fb79-23fa-4010-add9-43cf10f8ede3.jpg",
+        "name": "Alto Vineyards",
+        "phone_number": "217-356-4784"
+    },
+    {
+        "address": "2501 Village Green Place Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/09679a61-376f-4e3b-94ca-17b90b345d14.jpg",
+        "name": "Amaravati Indian Cuisine",
+        "phone_number": "217-954-1012"
+    },
+    {
+        "address": "1502 N. Prospect Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/cbf0ba3d-f87b-4120-aa48-c6f3d763e7bd.jpg",
+        "name": "Arby's",
+        "phone_number": "217-359-0026"
+    },
+    {
+        "address": "305 Cedar Street Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6e047cef-3408-476c-be27-bc570cd33560.jfif",
+        "name": "Asian Noodles & Sushi",
+        "phone_number": "217-819-9699"
+    },
+    {
+        "address": "2000 N. Neil St. Champaign, IL 61820",
+        "img_url": "/img/VCC_logo.png",
+        "name": "Auntie Anne's",
+        "phone_number": "217-378-4070"
+    },
+    {
+        "address": "2006 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/72d0b81e-22bb-4695-90e3-136b14094cff.jpg",
+        "name": "B Won",
+        "phone_number": "217-352-2966"
+    },
+    {
+        "address": "100 Trade Centre Dr.",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e519a095-f613-40bb-8783-b97c5703ed91.jpg",
+        "name": "Baxter's American Grille",
+        "phone_number": "217-239-9299"
+    },
+    {
+        "address": "907 W. Marketview Dr., #8 Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/373849b6-e12b-4b4b-b31c-0cf78e1add09.jpg",
+        "name": "Best Wok",
+        "phone_number": "217-356-5757"
+    },
+    {
+        "address": "2235 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/47621576-9a4f-41df-a674-86950d9a2399.jpg",
+        "name": "Biaggi's Ristorante Italiano",
+        "phone_number": "217-356-4300"
+    },
+    {
+        "address": "1 E. Main St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5235a5d4-6c5c-4797-90e9-7461c0a826cf.jpg",
+        "name": "Big Grove Tavern",
+        "phone_number": "217-239-3505"
+    },
+    {
+        "address": "1114 N. Market St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/2cf8e51e-4679-4af5-90db-270401c1db38.jpg",
+        "name": "Big JJ Fish & Chicken",
+        "phone_number": "217-351-4005"
+    },
+    {
+        "address": "401 S. Mattis Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/663754d3-4575-4c91-8c58-4d1c3f265eea.jpg",
+        "name": "Biggby Coffee",
+        "phone_number": "217-607-0098"
+    },
+    {
+        "address": "2521 Village Green Pl. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0b1dd752-793b-4fdf-9cfa-40700ecba266.jpg",
+        "name": "Billy Barooz Pub & Grill",
+        "phone_number": "217-355-8030"
+    },
+    {
+        "address": "2506 N Prospect Ave Cha, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/acae8f91-5e1e-4daf-9e42-aeb641bfacd6.jpg",
+        "name": "Blaze Pizza",
+        "phone_number": "217-560-3088"
+    },
+    {
+        "address": "1813 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6b74e890-e99f-40be-8d03-669e0baec4d3.jpg",
+        "name": "Bob Evans",
+        "phone_number": "217-356-1006"
+    },
+    {
+        "address": "1511 W. Springfield Champaign, IL 61821 (217) 355-2271",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0edeea27-efee-494d-b3ee-e8fbe6561bfe.jpg",
+        "name": "Bobo's BBQ",
+        "phone_number": ""
+    },
+    {
+        "address": "1 E. Main Street Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/60726349-3749-4e5c-838b-fb8e57ed2a5a.jfif",
+        "name": "Bossa Nova Cafe",
+        "phone_number": "217-607-5359"
+    },
+    {
+        "address": "2110 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/819c0502-b256-4c2f-8018-e9391b3d8e52.jpg",
+        "name": "Burger King",
+        "phone_number": "217-398-7801"
+    },
+    {
+        "address": "1405 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6ee18f0a-1f47-428e-af55-1a5cc20bb612.jpg",
+        "name": "Cactus Grill",
+        "phone_number": "217-351-8226"
+    },
+    {
+        "address": "22 Greencroft Dr. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/fa43b02e-1c09-4558-962c-31f5a8825997.jpg",
+        "name": "Cameron's Catering",
+        "phone_number": "217-359-8661"
+    },
+    {
+        "address": "1611 W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/bfef5c07-5374-4f61-b4f2-680294ebe4fd.jpg",
+        "name": "Carmella's Creme",
+        "phone_number": "217-531-0224"
+    },
+    {
+        "address": "302 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/28ac7050-3d63-412b-a976-6ad310ee6fbc.jpg",
+        "name": "Chester's BBQ",
+        "phone_number": "217-417-6985"
+    },
+    {
+        "address": "1905 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/1245dc38-50f6-4af6-842e-d3d4b52b25f5.jpg",
+        "name": "Chili's Bar & Grill",
+        "phone_number": "217-398-2161"
+    },
+    {
+        "address": "2145 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a4b6ff42-e196-497c-b963-4d4e4d744b53.jpg",
+        "name": "China King",
+        "phone_number": "217-351-8885"
+    },
+    {
+        "address": "713 Marketview Dr. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5b605e57-3330-4a1b-913a-55ff4ecf31b1.jpg",
+        "name": "Chinatown Buffet",
+        "phone_number": "217-398-9888"
+    },
+    {
+        "address": "903 W. Anthony Dr.",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b947ead1-93a5-44a7-beb3-8b5792ad2b4a.jpg",
+        "name": "Chipotle",
+        "phone_number": "217-398-0997"
+    },
+    {
+        "address": "902 Meijer Dr. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/34fdd0e7-de9b-4d41-8329-781b9f9208e6.jpg",
+        "name": "Cookies by Design",
+        "phone_number": "217-344-3911"
+    },
+    {
+        "address": "1506 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/23d1d296-edb7-401f-8002-bb019e01e557.jpg",
+        "name": "Cool Bliss Popped Bliss",
+        "phone_number": "217-607-5397"
+    },
+    {
+        "address": "2512 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a05bfc29-786e-40da-839a-881f98bc7fe6.jpg",
+        "name": "CoreLife Eatery",
+        "phone_number": "217-693-6993"
+    },
+    {
+        "address": "903 W. Marketview Dr. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/db50a8d6-0b98-4106-9f59-54bba9bb6167.jpg",
+        "name": "Culver's",
+        "phone_number": "217-356-8132"
+    },
+    {
+        "address": "702 W. Town Center Blvd. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/2493fb14-9d3b-4aab-8f0c-b5b46efbbeda.jpg",
+        "name": "Denny's Restaurant",
+        "phone_number": "217-359-7044"
+    },
+    {
+        "address": "1407 N. Prospect Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5852fff3-4791-40a4-af50-abd4ff7ec123.jpg",
+        "name": "Dos Reales",
+        "phone_number": "217-351-6879"
+    },
+    {
+        "address": "Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/14118476-3842-4953-959a-cb46c3175ff6.jpg",
+        "name": "Dragon Fire Pizza",
+        "phone_number": "217-649-2433"
+    },
+    {
+        "address": "2506 Village Green Pl. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/65985fc9-1762-4010-8c8d-ecfe53b786a3.jpg",
+        "name": "El Patio",
+        "phone_number": "217-600-7683"
+    },
+    {
+        "address": "3401 Fields South Dr. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/1220edcb-bfa5-4654-a4ed-253f5d22b6ed.jpg",
+        "name": "El Toro at the Fields",
+        "phone_number": "217-903-4002"
+    },
+    {
+        "address": "2561 W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c6db824e-45f0-4615-9e04-2fc38e978ce6.jpg",
+        "name": "El Toro Bravo",
+        "phone_number": "217-351-7024"
+    },
+    {
+        "address": "723 S. Neil St Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/10dbf3c3-ccae-40ec-aac8-696d61eff363.jpg",
+        "name": "El Toro II",
+        "phone_number": "217-378-7807"
+    },
+    {
+        "address": "402 S. Neil St.",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a724d629-5037-4d79-9253-65c60aa63d9f.jpg",
+        "name": "Fannie May Fine Chocolates",
+        "phone_number": "217-355-5628"
+    },
+    {
+        "address": "2029 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/05908c8a-7a8e-4fb3-a583-1b55f75f5dbd.jpg",
+        "name": "Fazoli's",
+        "phone_number": "217-356-4820"
+    },
+    {
+        "address": "216 S. First St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a4d1354c-163d-40c9-baa1-c8e41d81389d.jpg",
+        "name": "Fiesta Cafe",
+        "phone_number": "217-352-5902"
+    },
+    {
+        "address": "803 W. Anthony Dr. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/61457a32-5efb-46b8-b5a8-58be05cf9d2f.jpg",
+        "name": "Firehouse Subs",
+        "phone_number": "217-355-5580"
+    },
+    {
+        "address": "901 B W. Anthony Dr. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e0cb51cf-a04d-4421-8a17-786ff8ed9660.jpg",
+        "name": "Five Guys Burger & Fries",
+        "phone_number": "217-398-0869"
+    },
+    {
+        "address": "202. S. First St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6700ea5c-f6cb-4f95-b044-10df429386f6.jpg",
+        "name": "Flying Machine Avionics",
+        "phone_number": "217-600-7949"
+    },
+    {
+        "address": "313 N. Mattis Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/40e5b51b-9b90-4001-9cfe-4f7b125fbc4c.jpg",
+        "name": "Garcia's Pizza in a Pan",
+        "phone_number": "217-352-1212"
+    },
+    {
+        "address": "505 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d9721998-8024-44f4-a5ea-a26f6b5e8944.jpg",
+        "name": "Golden Harbor",
+        "phone_number": "217-398-8988"
+    },
+    {
+        "address": "405 E. University Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/07a56182-fb58-45c4-83ff-9aebe808994d.jpg",
+        "name": "Golden Wok",
+        "phone_number": "217-356-8383"
+    },
+    {
+        "address": "123 S. Mattis Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/dcb3f3f4-b65f-4adf-88c9-e331d6e2a8fc.jpg",
+        "name": "Goldy's Bar & Grill",
+        "phone_number": "217-359-2177"
+    },
+    {
+        "address": "905 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5805cdba-add9-4789-9cc0-233703900734.jpg",
+        "name": "Good Fella Korean Bistro",
+        "phone_number": "217-239-5959"
+    },
+    {
+        "address": "2000 N. Neil Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/428f9082-f0af-436c-af8c-068cfe2ecdd2.jpg",
+        "name": "Great Steak & Potato Co.",
+        "phone_number": "217-352-6280"
+    },
+    {
+        "address": "1109 W. Windsor Rd. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/70198d75-79ce-4cdd-953b-b78e62c4c0e2.jpg",
+        "name": "Green Jade",
+        "phone_number": "217-355-5988"
+    },
+    {
+        "address": "2 E. Main St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/cc7c38b3-06bb-4221-a8a9-efb02fb61ead.jpg",
+        "name": "Guido's Bar & Grill",
+        "phone_number": "217-359-3148"
+    },
+    {
+        "address": "122 N Neil St Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e11dc8a2-4855-4998-a778-da3f174c6741.jpg",
+        "name": "Hank's Table",
+        "phone_number": "217-351-9463"
+    },
+    {
+        "address": "1706 S. State St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6ea77ff6-c458-4bd3-b524-89f57f0faeb9.jpg",
+        "name": "Hooters",
+        "phone_number": "217-355-7682"
+    },
+    {
+        "address": "802 W. John St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/47137dbd-140b-493f-981f-480d08a58b80.jpg",
+        "name": "Hopscotch",
+        "phone_number": "217-607-5436"
+    },
+    {
+        "address": "1902 S. First St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/01e55369-ef8a-44cc-bafa-1c364a3719d3.jpg",
+        "name": "Houlihan's",
+        "phone_number": "217-819-5005"
+    },
+    {
+        "address": "1312 W. Church St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/149e701c-cf6c-4bf4-83bd-3fdcc0d2d6bb.jpg",
+        "name": "Huber's",
+        "phone_number": "217-352-0606"
+    },
+    {
+        "address": "1900 S. First St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a7d1eb3b-4a29-4809-90c2-f315ed0edba5.jpg",
+        "name": "I Cafe",
+        "phone_number": "217-819-5005"
+    },
+    {
+        "address": "",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3375ad3a-9e33-4be1-beec-21e5eaeb9d46.png",
+        "name": "Ice Daddy's",
+        "phone_number": "217-721-9744"
+    },
+    {
+        "address": "309 W. Kirby Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/34f7c4c4-5c21-4f42-b542-e63af6bb7b5e.jpg",
+        "name": "Jarling's Custard Cup",
+        "phone_number": "217-352-2273"
+    },
+    {
+        "address": "",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3d4431c7-a2e8-443c-bcdc-9320084eccd5.jpg",
+        "name": "Jenkins Catering",
+        "phone_number": "217-232-1103"
+    },
+    {
+        "address": "1907 W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/4297eb55-196e-4e8e-a80f-3e0571069f17.jpg",
+        "name": "Jet's Pizza",
+        "phone_number": "217-352-9992"
+    },
+    {
+        "address": "1600 N. Market St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/23e784a7-7c85-48af-b2f3-70971c06e553.jpg",
+        "name": "Juanito's Tacos",
+        "phone_number": "217-621-1394"
+    },
+    {
+        "address": "2028 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5e4292d4-5d73-4eb8-afeb-620d8408dc8c.jpg",
+        "name": "Jumbo Crab",
+        "phone_number": "217-607-7108"
+    },
+    {
+        "address": "2511 Village Green Pl. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/09e50513-5408-47d2-b54f-308caff0c76e.jpg",
+        "name": "Jupiter's At The Crossing",
+        "phone_number": "217-366-8300"
+    },
+    {
+        "address": "922 W. Bradley Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/f9bbc818-82af-48f5-9df5-a11b9af9af09.jpg",
+        "name": "Krispy Krunchy Chicken",
+        "phone_number": "217-552-1800"
+    },
+    {
+        "address": "1905 Glenn Park Dr. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0a1f5867-ecf9-4fd4-b8c6-3f4f10d23511.jpg",
+        "name": "La Bamba Mexican Restaurant",
+        "phone_number": "217-355-6600"
+    },
+    {
+        "address": "2209 S. Neil St., Ste. W Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0b36d7cb-caab-403f-bbbd-48686c9c7752.jpg",
+        "name": "Le Peep",
+        "phone_number": "217-352-7599"
+    },
+    {
+        "address": "1901 S. Philo Rd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b2105259-c542-4d27-8763-42f0fa86a03d.jpg",
+        "name": "Little Caesar's",
+        "phone_number": "217-328-9360"
+    },
+    {
+        "address": "1217 N. Prospect Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/ee1743c5-b164-4099-8cd8-e9d9dd3a3076.jpg",
+        "name": "Long John Silver's",
+        "phone_number": "217-351-2913"
+    },
+    {
+        "address": "2101 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/566a172d-40a6-4a57-a63e-2d92b62b2ff6.jpg",
+        "name": "Longhorn Steakhouse",
+        "phone_number": "217-352-9189"
+    },
+    {
+        "address": "115 S. First St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7ddd937d-dd5b-448c-bd27-49393fc02856.png",
+        "name": "Manzella's Italian Patio",
+        "phone_number": "217-352-7624"
+    },
+    {
+        "address": "1211 Savoy Plaza Ln. Savoy, IL 61874",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c3c8749a-847d-4730-a764-52b5955778a9.jpg",
+        "name": "Marble Slab Creamery",
+        "phone_number": "217-359-5950"
+    },
+    {
+        "address": "705 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c144913f-210f-467e-acad-af06c60b5867.jpg",
+        "name": "Mas Amigos Taco Truck",
+        "phone_number": "217-356-2100"
+    },
+    {
+        "address": "421 W. Town Center Blvd Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c284233c-2fd0-444d-ae60-5fc233c1027d.jpg",
+        "name": "McAlister's Deli",
+        "phone_number": "217-355-6480"
+    },
+    {
+        "address": "1305 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/42835257-c081-4155-a72a-a20d838bc710.jpg",
+        "name": "Meatheads Burgers & Fries",
+        "phone_number": "217-325-5555"
+    },
+    {
+        "address": "1510 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/f0ffb1a7-d152-4f1a-a1ef-888fa8138e2c.jpg",
+        "name": "Merry Ann's Diner",
+        "phone_number": "217-352-5399"
+    },
+    {
+        "address": "720 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e5e169a1-98b8-4128-bf05-259b563be55a.jpg",
+        "name": "Michael's Catering",
+        "phone_number": "217-351-2500"
+    },
+    {
+        "address": "1804 Sangamon Dr. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/599dddad-4f7d-4d8a-bdb4-f2cdc03cac3f.jpg",
+        "name": "Ming Garden",
+        "phone_number": "217-352-0056"
+    },
+    {
+        "address": "2041 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/682f2e3b-84be-47f0-b06b-3923e5b75ace.jpg",
+        "name": "Moe's Southwest Grill",
+        "phone_number": "217-352-6637"
+    },
+    {
+        "address": "2017 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/40f61172-64e5-4ace-a1e6-91ecb0cff8cb.jpg",
+        "name": "Moki Sushi",
+        "phone_number": "217-552-1600"
+    },
+    {
+        "address": "205 N. Mattis Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/8a84f8d2-1a71-4e8f-a638-e6e4a794fce2.jpg",
+        "name": "Monical's",
+        "phone_number": "217-359-3514"
+    },
+    {
+        "address": "401 S. 1st St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b977aaec-3ea6-4551-9de4-30fddf09d721.jpg",
+        "name": "Mr. Crab",
+        "phone_number": "217-398-9999"
+    },
+    {
+        "address": "301 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/eba5cd43-6ae9-4a04-8c2f-e34db7196ea7.jpg",
+        "name": "Neil St. Blues",
+        "phone_number": "217-531-1150"
+    },
+    {
+        "address": "2001 W. Springfield Ave. Champaign, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/edac7cd6-30ad-4046-87b7-44aaee383bb7.jpg",
+        "name": "Niro's Gyros",
+        "phone_number": "217-356-3700"
+    },
+    {
+        "address": "730 W. Town Center Blvd Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/1b1c0ffb-7256-4efc-9722-f511d54ba771.jpg",
+        "name": "O'Charley's",
+        "phone_number": "217-355-3901"
+    },
+    {
+        "address": "905 S Neil St Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/8c02cbe9-26f2-4384-ad11-8dab98b9c2d5.jpg",
+        "name": "Oberweis",
+        "phone_number": "217-568-6444"
+    },
+    {
+        "address": "2501 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b822a3ce-9382-4bfb-be81-657345ead480.jpg",
+        "name": "Oishi",
+        "phone_number": "217-398-6888"
+    },
+    {
+        "address": "1901 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/ca6b05c1-f4cd-4a1f-9a43-1e3de730f55f.jpg",
+        "name": "Old Chicago Pizza",
+        "phone_number": "217-607-1489"
+    },
+    {
+        "address": "30 E. Anthony Dr. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7afbb94e-a876-4d47-9984-362d0131e219.jpg",
+        "name": "Olive Garden",
+        "phone_number": "217-351-6339"
+    },
+    {
+        "address": "1909 W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/1b1f3535-c364-49a6-b4f9-d5aa6bd7dde9.jpg",
+        "name": "Original Pancake House",
+        "phone_number": "217-352-8866"
+    },
+    {
+        "address": "2402 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/ae5f4246-6b0e-42e9-a80d-d4615eb60b56.png",
+        "name": "Outback Steakhouse",
+        "phone_number": "217-398-3322"
+    },
+    {
+        "address": "",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5ed3aaf4-9496-4909-b7e6-91235f4b0384.jpg",
+        "name": "Pandamonium Doughnuts",
+        "phone_number": "630-946-4306"
+    },
+    {
+        "address": "1201 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7f3665dd-6ee7-4d7f-9315-9628514347e5.jpg",
+        "name": "Papa Del's",
+        "phone_number": "217-359-7700"
+    },
+    {
+        "address": "2104-A.W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5ee318f3-b116-4a14-98ae-28cb7d7accac.png",
+        "name": "Papa John's",
+        "phone_number": "217-351-7272"
+    },
+    {
+        "address": "2150 CR 1000 E Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6b3c6794-51df-47fc-a545-f5d6b3336251.jpg",
+        "name": "Pear Tree Estate / LA Gourmet",
+        "phone_number": "217-643-7205"
+    },
+    {
+        "address": "811 W. Springfield Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c57d4078-5702-4284-9206-7c044ca35eb7.jpg",
+        "name": "Pekara Bakery & Bistro - Springfield",
+        "phone_number": "217-954-1002"
+    },
+    {
+        "address": "906 WeSt.Town Center Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/711459a4-1ed1-4782-b27a-3d5785bdd66d.jpg",
+        "name": "Penn Station",
+        "phone_number": "217-403-1990"
+    },
+    {
+        "address": "1609 W. Springfield Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/bc0b9881-c843-4a81-b79a-020cf069c554.jpg",
+        "name": "Pia's Sports Bar & Grill",
+        "phone_number": "217-351-1993"
+    },
+    {
+        "address": "604 S. Country Fair Dr. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/875019f7-12e8-437d-9439-363ad1d620c0.jpg",
+        "name": "Pipa's Pub",
+        "phone_number": "217-356-0888"
+    },
+    {
+        "address": "605 S 6th St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6c10528a-dbec-437c-8bff-f2e5a57b7a36.jfif",
+        "name": "Pokelab",
+        "phone_number": "217-552-1880"
+    },
+    {
+        "address": "910 W. Bloomington Rd. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/077a17fa-836b-45b9-9024-358647c1b7ad.jpg",
+        "name": "Popeye's Louisiana Kitchen",
+        "phone_number": "217-954-1650"
+    },
+    {
+        "address": "Market Place Mall Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/498a8ca9-2d98-4b9c-a8f9-c872792e72fc.png",
+        "name": "Quencher's Smoothies & Ice Cream",
+        "phone_number": "217-531-5352"
+    },
+    {
+        "address": "1402 S. Neil St. Champaign, IL 61820",
+        "img_url": "/img/VCC_logo.png",
+        "name": "Rainbow Garden",
+        "phone_number": "217-398-2670"
+    },
+    {
+        "address": "1901 N. Prospect Ave. Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/fcf5d5da-e68b-46e8-bd11-5034984aad5e.png",
+        "name": "Red Lobster",
+        "phone_number": "217-352-7375"
+    },
+    {
+        "address": "2010 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a09e500b-e10f-48f9-902f-779d81990102.jpg",
+        "name": "Red Robin Gourmet Burgers and Brews",
+        "phone_number": "217-480-3001"
+    },
+    {
+        "address": "1206 N. Mattis Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/486803d9-40fe-43d1-88bf-c8084ffb1c23.jpg",
+        "name": "Sammy's Pancake House",
+        "phone_number": "217-355-3403"
+    },
+    {
+        "address": "2504 Village Green Pl Champaign, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6ad30bc7-a709-47fa-8865-4e5fa112fd66.jpg",
+        "name": "San Maru",
+        "phone_number": "217-352-2119"
+    },
+    {
+        "address": "2000 N. Neil St., #710 Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/25d59b83-fd58-4f72-b17c-f8b76ba56ea5.jpg",
+        "name": "Sarku Japan",
+        "phone_number": "217-378-8028"
+    },
+    {
+        "address": "2001 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/fd8ec7a6-0f5a-4779-90ad-ccc92854856b.jpg",
+        "name": "Scotty's Brew House",
+        "phone_number": "217-530-4394"
+    },
+    {
+        "address": "2037 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/bf45424a-83b9-4dcd-b38b-7f9c0b169990.jpg",
+        "name": "Slim Chickens",
+        "phone_number": "217-356-7546"
+    },
+    {
+        "address": "616 E. Green St., Ste. B Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/11cd91cc-a11e-401d-a8a2-b21d0e91c044.jpg",
+        "name": "Spoon House Korean Kitchen",
+        "phone_number": "217-344-3483"
+    },
+    {
+        "address": "1115 W. Windsor Rd. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6afcd138-f700-435d-bb87-85fcd7f0b69f.jpg",
+        "name": "Sun Singer Wine & Spirits",
+        "phone_number": "217-351-1115"
+    },
+    {
+        "address": "1737 W. Kirby Ave. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/45fa4ede-d371-4b2f-8cef-c8846511a44f.jpg",
+        "name": "Super Wok",
+        "phone_number": "217-398-0111"
+    },
+    {
+        "address": "1731 W. Kirby Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/89891d69-7f04-4be8-bd48-e0ae9c7af547.jpg",
+        "name": "TCBY",
+        "phone_number": "217-607-5090"
+    },
+    {
+        "address": "204 N. Country Fair Dr. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5a8037ec-4cc9-4f99-a0bb-eaa92f1ae4ef.jpg",
+        "name": "Texas Roadhouse",
+        "phone_number": "217-355-9901"
+    },
+    {
+        "address": "103 W. Marketview Dr.",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7ea70048-faf6-4bae-9629-566309d38995.jpg",
+        "name": "TGI Friday's",
+        "phone_number": "217-352-8443"
+    },
+    {
+        "address": "912-1/2 Bloomington Rd. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7713a6cb-e7cc-41b1-8458-fc3b2f71c442.jpg",
+        "name": "Thara Thai",
+        "phone_number": "217-378-1986"
+    },
+    {
+        "address": "1905 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/4c7af3b4-cee5-46dd-848c-9bd33c578392.jpg",
+        "name": "That Burger Joint",
+        "phone_number": "217-568-6444"
+    },
+    {
+        "address": "207 W. Clark St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/605b09fa-92be-467e-9ddb-6a5d1d18323f.jpg",
+        "name": "The Clark Bar",
+        "phone_number": "217-355-0510"
+    },
+    {
+        "address": "703 N. Prospect Ave. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/05562581-10f9-4ceb-b197-7c274eaa05f9.jpg",
+        "name": "The Icehouse",
+        "phone_number": "217-398-5760"
+    },
+    {
+        "address": "1121 Windsor Rd. Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/31a4ea6d-5f77-4d3b-aff3-17dd1722b655.jpg",
+        "name": "The New Sweet Indulgence",
+        "phone_number": "217-352-2433"
+    },
+    {
+        "address": "1701 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d85a71be-10d1-42ab-9a97-121f10707dd6.png",
+        "name": "The Ribeye",
+        "phone_number": "217-351-9115"
+    },
+    {
+        "address": "Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a74332d2-f502-4a2d-bc42-9c0dc97812aa.jpg",
+        "name": "The Snack Shack",
+        "phone_number": "217-232-1103"
+    },
+    {
+        "address": "302 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0ae59fdf-723b-4a29-9210-ccb5299a4f99.jpg",
+        "name": "Tumble Inn",
+        "phone_number": "217-356-0012"
+    },
+    {
+        "address": "2000 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/9252cde2-260d-4fa8-a903-9a5133c484f3.jpg",
+        "name": "Villa Italian Kitchen",
+        "phone_number": "217-351-3115"
+    },
+    {
+        "address": "2000 N. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e6e39ddf-0b5a-472c-9650-5169b66923d3.jpg",
+        "name": "Wetzel's Pretzels",
+        "phone_number": "217-398-0790"
+    },
+    {
+        "address": "2102 W. Springfield Champaign, IL 61821",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d3823d6d-fc9e-4213-9589-f7a58f1e6565.jpg",
+        "name": "Wienerschnitzel/Tastee Freez",
+        "phone_number": "217-378-5100"
+    },
+    {
+        "address": "512 S. Neil St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/f9448563-4c81-4bb9-83a5-d3207f228bbe.jfif",
+        "name": "Wing Stop",
+        "phone_number": "217-690-9464"
+    },
+    {
+        "address": "904 N. Fourth St. Champaign, IL 61820",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/aeab6219-1ae1-4b04-b7f4-7dea77ca2ce7.jpg",
+        "name": "Wood N' Hog BBQ",
+        "phone_number": "217-607-0120"
+    }
+]

@@ -1,0 +1,4 @@
+1. Downloaded 'The Greater Champaign County Experience Guide' PDF from https://www.visitchampaigncounty.org
+2. Edited PDF in Preview to remove all non-food-and-drink pages from PDF.
+3. Used https://www.pdf2go.com/ to convert PDF to TXT file (campus_food.txt)
+4. 

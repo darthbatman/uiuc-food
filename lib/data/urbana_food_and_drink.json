@@ -1,0 +1,272 @@
+[
+    {
+        "address": "2014 N. High Cross Rd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/9d7d16a4-3c3f-4730-8ed5-d9860c014d03.jpg",
+        "name": "Apple Dumpling",
+        "phone_number": "217-344-0076"
+    },
+    {
+        "address": "2600 S. Stone Creek Blvd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c098ae20-93c4-4fb0-a63c-5a42c2498289.jpg",
+        "name": "Attie's Bar & Grill",
+        "phone_number": "217-367-9876"
+    },
+    {
+        "address": "300 S. Broadway Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b2e0cb54-30b0-4ba8-8fba-f24663d0a053.jpg",
+        "name": "Baldarotta's Porketta & Sicilian Sausage",
+        "phone_number": "309-287-4455"
+    },
+    {
+        "address": "1104 N. Cunningham Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/54305a19-f87e-411f-852a-9b8b67bada2c.jpg",
+        "name": "Bangkok Thai and Pho",
+        "phone_number": "217-607-5828"
+    },
+    {
+        "address": "404 W. University Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7661e53d-a3ca-4630-8644-286290cbdea9.jpg",
+        "name": "Baskin Robbins",
+        "phone_number": "217-328-3513"
+    },
+    {
+        "address": "801 W. Killarney Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/654eece6-7802-446d-97a2-cff1bb536665.jpg",
+        "name": "Betsy's Bistro",
+        "phone_number": "217-418-7139"
+    },
+    {
+        "address": "905 S. Goodwin Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/62dfc054-2567-44a7-9a32-bca1e30c7eff.jpg",
+        "name": "Bevier Cafe",
+        "phone_number": "217-333-8469"
+    },
+    {
+        "address": "1309 E. Washington St. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e602193c-db4b-46b5-99c9-b4cb696dc7d6.jpg",
+        "name": "Boomerangs Bar & Grill",
+        "phone_number": "217-239-7264"
+    },
+    {
+        "address": "401 N. Broadway Ave. Urbana, IL 61801 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e8e7e7bc-9e20-49f6-9663-44e005f6677c.jpg",
+        "name": "Broadway Food Hall",
+        "phone_number": ""
+    },
+    {
+        "address": "208 W. Main St. Urbana, IL 61801 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/7b601b0b-ba54-409f-8fe6-6c2cee70e806.jpg",
+        "name": "Cafeteria & Company",
+        "phone_number": ""
+    },
+    {
+        "address": "2870 S. Philo Road Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/85242a67-57e8-4526-80d0-0c315d60c9b2.jfif",
+        "name": "Casa Del Mar",
+        "phone_number": "217-552-1525"
+    },
+    {
+        "address": "114 N. Vine St. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c49cf544-cb3a-4119-a9f7-39a1b4fd489c.jpg",
+        "name": "China Garden",
+        "phone_number": "217-367-6588"
+    },
+    {
+        "address": "2560 Stone Creek Blvd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/07b431c7-3f7a-4d6f-8d6e-394c03ecef09.jpg",
+        "name": "Classic Events Catering",
+        "phone_number": "217-367-7118"
+    },
+    {
+        "address": "2101 N. Kenyon Rd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c7ac7e1e-4c28-4012-aeb8-9c4e979ec0ad.jpg",
+        "name": "Cracker Barrel",
+        "phone_number": "217-344-9087"
+    },
+    {
+        "address": "510 N. Cunninghave Ave. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5886af7c-b584-4683-84c3-4501ed860ffc.jpg",
+        "name": "El Oasis",
+        "phone_number": "217-954-0215"
+    },
+    {
+        "address": "1815-A S. Philo Rd. Urbana, IL 61802",
+        "img_url": "/img/VCC_logo.png",
+        "name": "First Wok",
+        "phone_number": "217-344-4500"
+    },
+    {
+        "address": "1706 N. Cunningham Urbana, IL 61822",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6c813bc6-8dad-4184-8aec-9498bacb76b1.jpg",
+        "name": "Hickory River Smokehouse",
+        "phone_number": "217-337-1656"
+    },
+    {
+        "address": "1102 W. University Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b2de124e-40ec-44cd-9b38-6d4180c2e7d3.jpg",
+        "name": "Hot Wok Express",
+        "phone_number": "217-384-7170"
+    },
+    {
+        "address": "805 S. Philo Rd. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/fec27121-e953-4b9f-af51-6e8f49040b98.jpg",
+        "name": "Huaraches Moroleon",
+        "phone_number": "217-344-6772"
+    },
+    {
+        "address": "500 S. Goodwin Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/420a08f4-6352-469f-9682-005a77de1155.jpg",
+        "name": "Intermezzo Cafe at Krannert",
+        "phone_number": "217-333-8412"
+    },
+    {
+        "address": "410 W. University Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/d084aead-f703-43dc-9a02-b8328f87ae1c.jpg",
+        "name": "Kentucky Fried Chicken",
+        "phone_number": "217-328-3379"
+    },
+    {
+        "address": "510 N. Cunningham Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/86a05ee8-7e69-4f91-a26f-9d2b2048dea2.jpg",
+        "name": "La Mixteca",
+        "phone_number": "217-552-1544"
+    },
+    {
+        "address": "",
+        "img_url": "/img/VCC_logo.png",
+        "name": "Lil Porgy's BBQ",
+        "phone_number": "217-367-1018"
+    },
+    {
+        "address": "510 N Cunningham Ave. Urbana, IL 61802",
+        "img_url": "/img/VCC_logo.png",
+        "name": "LL Sushi",
+        "phone_number": "217-954-0031"
+    },
+    {
+        "address": "202 N. Race St., Ste. A Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/4b2e4eb0-aae5-407a-8531-e0c104f983ed.jpg",
+        "name": "Masijta Grill",
+        "phone_number": "217-552-1188"
+    },
+    {
+        "address": "601 N. Cunningham Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/471668da-786a-4ef8-b6d9-df8d362c135b.jpg",
+        "name": "McDonald's",
+        "phone_number": "217-367-3722"
+    },
+    {
+        "address": "2720 S. Philo Rd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c1af061e-2dbb-46cf-92c3-311c1053d10c.jpg",
+        "name": "Monical's",
+        "phone_number": "217-367-5781"
+    },
+    {
+        "address": "102 E. University Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3f23b2b9-ba72-4102-968f-f75f857cc73e.jpg",
+        "name": "Panchero's Mexican Grill",
+        "phone_number": "217-367-4000"
+    },
+    {
+        "address": "114 N. Vine St., Ste. C Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/3c50be2a-dee4-4652-b7e8-c8510e49ec71.jpg",
+        "name": "Papa Murphy's",
+        "phone_number": "217-344-7700"
+    },
+    {
+        "address": "1214 W. University Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/ef1bbd9e-049c-482e-8fbc-6d14929f091c.jpg",
+        "name": "Perkin's Restaurant & Bakery",
+        "phone_number": "217-328-3000"
+    },
+    {
+        "address": "804 E. Main St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/a4d033b5-0489-4229-b037-d0bb19b5dc87.jpg",
+        "name": "Piato",
+        "phone_number": "217-344-9015"
+    },
+    {
+        "address": "2740 Philo Rd. Urbana, IL 61802 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/ed19b44d-b4cc-4f25-9f28-d61832157ee0.jpg",
+        "name": "Red Bicycle Ice Cream",
+        "phone_number": ""
+    },
+    {
+        "address": "124 W Main St Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/f6f7e342-e301-4be7-ba26-9a1a1b44048d.jfif",
+        "name": "Rick's Bakery",
+        "phone_number": "217-344-9383"
+    },
+    {
+        "address": "1901 S. High Cross Road Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6921faa3-ea47-4f83-8e32-00f75c2f8b20.jpg",
+        "name": "Riggs Beer Company",
+        "phone_number": "808-292-1413"
+    },
+    {
+        "address": "701 S. Gregory St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/e13aaf1e-65a4-46b9-8f10-f3824f3ead31.jpg",
+        "name": "Rosati's Pizza",
+        "phone_number": "217-328-2408"
+    },
+    {
+        "address": "402 N. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c223f227-1bd0-4e3e-9825-d78b2c4aa4b1.jpg",
+        "name": "Silvercreek",
+        "phone_number": "217-328-3402"
+    },
+    {
+        "address": "1703 S. Philo Rd. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/84468e51-dd40-46e9-9edf-a45b916be847.jpg",
+        "name": "Sunny China Buffet",
+        "phone_number": "217-367-8883"
+    },
+    {
+        "address": "607 N. Cunningham Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/afedd617-b5ad-4e30-afa3-7119234b285a.jpg",
+        "name": "Taco Motorizado",
+        "phone_number": "217-637-1974"
+    },
+    {
+        "address": "403-B N. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/430af41f-bd1e-4c3a-88d4-d971e48e0493.jpg",
+        "name": "Tienda Guatemala",
+        "phone_number": "217-344-2770"
+    },
+    {
+        "address": "710 S. Goodwin Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/39564e79-72e7-43ce-af44-e91e818077f6.jpg",
+        "name": "Timpone's",
+        "phone_number": "217-344-7619"
+    },
+    {
+        "address": "1601 N. Cunningham Ave. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/aea0b399-7f73-4c1b-b894-a2fd703d7286.jpg",
+        "name": "Toro Loco",
+        "phone_number": "217-344-7855"
+    },
+    {
+        "address": "810 W. Killarney St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/87891ced-9b5e-4d42-b7d9-8a9bb06c7673.jpg",
+        "name": "Urbana Garden Restaurant",
+        "phone_number": "217-328-1514"
+    },
+    {
+        "address": "505 N. Cunningham Ave. Urbana, IL 61802",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/2abec9f0-b174-4ca9-aab2-463baa90e371.jpg",
+        "name": "Wendy's",
+        "phone_number": "217-344-2899"
+    },
+    {
+        "address": "410 N. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/76d2d5bb-7538-49ff-95d9-9078dc32b605.jpg",
+        "name": "Windy City Express",
+        "phone_number": "217-344-9404"
+    },
+    {
+        "address": "114 N. Vine, Ste. H Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/44866b7b-6669-41b3-88c3-ecb32387f417.png",
+        "name": "Xinh Xinh Cafe",
+        "phone_number": "217-337-7600"
+    }
+]

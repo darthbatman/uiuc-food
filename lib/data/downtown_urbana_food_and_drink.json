@@ -1,0 +1,92 @@
+[
+    {
+        "address": "208 W. Griggs St. Urbana, IL 61801 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/0fd7cf77-797c-4cda-a282-6056f71b254e.jpg",
+        "name": "25 O'Clock Brewing Company",
+        "phone_number": ""
+    },
+    {
+        "address": "129 N. Race St. Urbana, IL 61801 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/79ba739c-4f88-47e8-ad15-0b6cdffca820.jpg",
+        "name": "Analog",
+        "phone_number": ""
+    },
+    {
+        "address": "201 N. Broadway Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b091a88f-6933-4edd-bb0b-10ab14600ca1.jpg",
+        "name": "Black Dog Smoke & Ale House",
+        "phone_number": "217-344-9334"
+    },
+    {
+        "address": "119 W. Main St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/10d5985c-d3e3-45e9-892c-a6dfb0d25bf1.jpg",
+        "name": "Blackbird",
+        "phone_number": "217-531-1453"
+    },
+    {
+        "address": "119 W. Water St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/8b2fc2bd-3183-4457-a1eb-aec152e9eb34.jpg",
+        "name": "Bunny's Tavern",
+        "phone_number": "217-367-8175"
+    },
+    {
+        "address": "300 S. Broadway Ave., Suite 166 Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/42d3c698-204c-43d3-9c88-56ba3ac57461.jpg",
+        "name": "Common Ground Food Co-op",
+        "phone_number": "217-352-3347"
+    },
+    {
+        "address": "111 N. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/deac9483-6123-4d30-b8a1-35fb6a8ec418.jpg",
+        "name": "Courier Cafe",
+        "phone_number": "217-328-1811"
+    },
+    {
+        "address": "115 W. Main St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/441f70dd-d86f-46e0-bbcc-c7795deb8fe3.jpg",
+        "name": "Crane Alley",
+        "phone_number": "217-384-7526"
+    },
+    {
+        "address": "126 W. Main St.",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/f16cb801-975c-4594-af50-5933e013aca0.JPG",
+        "name": "Dancing Dog Eatery & Juicery",
+        "phone_number": "217-552-1344"
+    },
+    {
+        "address": "120 S. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/b836c66f-ae6a-4212-9863-ba9baec8485a.jpg",
+        "name": "Iron Post",
+        "phone_number": "217-337-7678"
+    },
+    {
+        "address": "106 N. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/c582dacb-be37-4edc-a4f6-927be47a5674.jpg",
+        "name": "Rose Bowl Tavern",
+        "phone_number": "217-367-7031"
+    },
+    {
+        "address": "212 W. Main St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/dc530958-db0d-45ce-a7f3-54fa059a8044.jpg",
+        "name": "Siam Terrace",
+        "phone_number": "217-367-8424"
+    },
+    {
+        "address": "204 W. Main St. Urbana, IL 61801 \u00a0",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/5393e0aa-6583-4872-82ce-2c025389c108.jpg",
+        "name": "Sipyard",
+        "phone_number": ""
+    },
+    {
+        "address": "114 S. Race St. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/4fe98fb7-7fd7-47db-b494-882697151592.jpg",
+        "name": "Sitara Indian Restaurant & Lounge",
+        "phone_number": "217-607-0378"
+    },
+    {
+        "address": "306 W. Springfield Ave. Urbana, IL 61801",
+        "img_url": "https://files.idss.com/C245/10a8ce78-2dd2-46eb-a0dc-8bfa22326a34/6c4d98df-97a0-489f-a5b6-a5831a22bef1.jpg",
+        "name": "Strawberry Fields Natural Food Store & Cafe",
+        "phone_number": "217-328-1655"
+    }
+]
