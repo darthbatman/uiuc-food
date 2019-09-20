@@ -22,7 +22,7 @@ dancingdogeatery.com
 Flesor's Candy Kitchen
 101 W Sale St, Tuscola
 2172533753
-ﬂesorscandy.com
+flesorscandy.com
 
 Hank's Table
 122 N. Neil Street, Champaign
@@ -102,7 +102,7 @@ yoderskitchen.com
 
 -- ASIAN --
 
-A-Ri—Rang
+A-Ri-Rang
 607 S. Wright St, Champaign
 2173595569
 
@@ -431,12 +431,12 @@ Y Eatery
 
 -- BAKERIES & CAFES --
 
-Aroma Café
+Aroma Cafe
 118 N. Neil St, Champaign
 2173563200
 aromarcafe.com
 
-Bossa Nova Café
+Bossa Nova Cafe
 1 E. Main Street, Champaign
 2176076359
 bossanovacoffeehouse.com
@@ -446,7 +446,7 @@ BrewLab Coffee
 2179797123
 brewlab.coffee
 
-Café Kopi
+Cafe Kopi
 109 N. Walnut St, Champaign
 2173594266
 cafe-kopi.com
@@ -470,12 +470,12 @@ Carmella's Creme
 1611 W Springfield Ave, Champaign
 2175310224
 
-Clever Moose Café
+Clever Moose Cafe
 1807 S. Neil St, Champaign
 2176078126
 lodgic.org/cleveremooseecafe
 
-Common Ground Food Co—op
+Common Ground Food Co-op
 300 S. Broadway Ave, Suite 166, Urbana
 2173523347
 commonground.coop
@@ -497,7 +497,7 @@ Espresso Royale
 2173337074
 espressoroyalecoffee.com
 
-Evo Café
+Evo Cafe
 711 S. Sixth St., Champaign
 2173287688
 evomenu.com
@@ -510,7 +510,7 @@ Geschenk Boutique Coffee & Tea Haus
 228 E. Lincoln Street, St. Joseph
 2174696034
 
-Greenhouse Café
+Greenhouse Cafe
 515 Old Timber Rd., Monticello
 2173333287
 allerton.illinois.edu/greenhouse-cafe
@@ -520,7 +520,7 @@ Hopscotch Bakery + Market
 2176076436
 hopscotchcakes.com
 
-I Café
+I Cafe
 1900 S. First St, Champaign
 2178195005
 
@@ -576,7 +576,7 @@ Steeple Coffee House and Gallery
 102 E. Lafayette St, Monticello
 2177622924
 
-Taipei Café
+Taipei Cafe
 512 E. Green St, Champaign
 3127990784
 
@@ -594,7 +594,7 @@ The Second Cup
 336 S. Century Blvd., Rantoul
 2178925579
 
-Worker's Cufé G
+Worker's Cufe G
 2410 N. Fifth St, Champaign
 2176376333
 
@@ -704,7 +704,7 @@ citycenterchampaign.com
 Fieldhouse 219
 219 W Washington St., Monticello
 2176311155
-ﬂeldhouse219.com
+fieldhouse219.com
 
 Freeman's Tavern
 108 W Main, Royal
@@ -959,7 +959,7 @@ cookiesbydesign.com
 Cream & Flutter
 114 N. Walnut St., Champaign
 2173555400
-creamandﬂutter.com
+creamandflutter.com
 
 Double Dip
 307 N. Long, Tolono
@@ -1668,7 +1668,7 @@ The Icehouse
 2173985760
 
 Triptych Brewery
-1703 Woodﬂeld Dr, Savoy
+1703 Woodfield Dr, Savoy
 7792323376
 triptychbrewing.com
 
