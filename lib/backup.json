@@ -11,9 +11,7 @@
                 "coordinate": {
                     "lat": 40.133411,
                     "lng": -88.162975
-                },
-                "rating": 4.5,
-                "reviews": 490
+                }
             }
         ],
         "name": "Apple Dumplin'",
@@ -34,9 +32,7 @@
                 "coordinate": {
                     "lat": 40.118161,
                     "lng": -88.243282
-                },
-                "rating": 4.1,
-                "reviews": 474
+                }
             }
         ],
         "name": "Big Grove Tavern",
@@ -59,9 +55,7 @@
                 "coordinate": {
                     "lat": 40.1129564,
                     "lng": -88.2093752
-                },
-                "rating": 4.5,
-                "reviews": 1069
+                }
             }
         ],
         "name": "Courier Cafe",
@@ -84,9 +78,7 @@
                 "coordinate": {
                     "lat": 40.1125878,
                     "lng": -88.2085126
-                },
-                "rating": 4.6,
-                "reviews": 232
+                }
             }
         ],
         "name": "Dancing Dog Eatery & Juicery",
@@ -109,9 +101,7 @@
                 "coordinate": {
                     "lat": 39.7996394,
                     "lng": -88.2878215
-                },
-                "rating": 4.8,
-                "reviews": 346
+                }
             }
         ],
         "name": "Flesor's Candy Kitchen",
@@ -134,9 +124,7 @@
                 "coordinate": {
                     "lat": 40.117173,
                     "lng": -88.243411
-                },
-                "rating": 4.0,
-                "reviews": 24
+                }
             }
         ],
         "name": "Hank's Table",
@@ -157,9 +145,7 @@
                 "coordinate": {
                     "lat": 39.799722,
                     "lng": -88.2882403
-                },
-                "rating": 5.0,
-                "reviews": 1
+                }
             }
         ],
         "name": "Irma Lou's Kitchen",
@@ -180,9 +166,7 @@
                 "coordinate": {
                     "lat": 40.106998,
                     "lng": -88.221531
-                },
-                "rating": 4.5,
-                "reviews": 191
+                }
             }
         ],
         "name": "J. Gumbo's",
@@ -205,9 +189,7 @@
                 "coordinate": {
                     "lat": 39.717463,
                     "lng": -88.476452
-                },
-                "rating": 4.4,
-                "reviews": 237
+                }
             }
         ],
         "name": "Jo's Country Diner",
@@ -228,9 +210,7 @@
                 "coordinate": {
                     "lat": 40.1864948,
                     "lng": -88.3798032
-                },
-                "rating": 4.3,
-                "reviews": 201
+                }
             }
         ],
         "name": "Mahomet Family Restaurant",
@@ -253,9 +233,7 @@
                 "coordinate": {
                     "lat": 40.306263,
                     "lng": -88.155891
-                },
-                "rating": 4.5,
-                "reviews": 225
+                }
             }
         ],
         "name": "Ott's Drive-In",
@@ -278,9 +256,7 @@
                 "coordinate": {
                     "lat": 39.7163505,
                     "lng": -88.4725457
-                },
-                "rating": 4.0,
-                "reviews": 47
+                }
             }
         ],
         "name": "R&I Restaurant",
@@ -301,9 +277,7 @@
                 "coordinate": {
                     "lat": 40.106909,
                     "lng": -88.223954
-                },
-                "rating": 4.5,
-                "reviews": 142
+                }
             }
         ],
         "name": "Red Herring Restaurant",
@@ -326,18 +300,14 @@
                 "coordinate": {
                     "lat": 40.3070831,
                     "lng": -88.1733073
-                },
-                "rating": 4.1,
-                "reviews": 493
+                }
             },
             {
                 "address": "1724 E Grove Avenue, Rantoul, Illinois",
                 "coordinate": {
                     "lat": 40.3120551,
                     "lng": -88.1242541
-                },
-                "rating": 4.1,
-                "reviews": 493
+                }
             }
         ],
         "name": "Red Wheel Restaurant",
@@ -359,9 +329,7 @@
                 "coordinate": {
                     "lat": 40.116747,
                     "lng": -87.959362
-                },
-                "rating": 4.4,
-                "reviews": 284
+                }
             }
         ],
         "name": "Rich's Family Restaurant",
@@ -382,9 +350,7 @@
                 "coordinate": {
                     "lat": 40.1113787,
                     "lng": -88.230584
-                },
-                "rating": 4.7,
-                "reviews": 80
+                }
             }
         ],
         "name": "Salad Meister",
@@ -407,9 +373,7 @@
                 "coordinate": {
                     "lat": 40.1113415,
                     "lng": -88.0413817
-                },
-                "rating": 4.6,
-                "reviews": 63
+                }
             }
         ],
         "name": "Scratch",
@@ -432,9 +396,7 @@
                 "coordinate": {
                     "lat": 40.0832094,
                     "lng": -88.2644318
-                },
-                "rating": 4.6,
-                "reviews": 339
+                }
             }
         ],
         "name": "Sun Singer Wine & Spirits",
@@ -457,9 +419,7 @@
                 "coordinate": {
                     "lat": 40.1324865,
                     "lng": -88.2192426
-                },
-                "rating": 4.3,
-                "reviews": 724
+                }
             }
         ],
         "name": "Urbana's Garden Restaurant",
@@ -482,9 +442,7 @@
                 "coordinate": {
                     "lat": 40.113134,
                     "lng": -87.956234
-                },
-                "rating": 4.2,
-                "reviews": 70
+                }
             }
         ],
         "name": "Vault",
@@ -507,9 +465,7 @@
                 "coordinate": {
                     "lat": 39.709607,
                     "lng": -88.458551
-                },
-                "rating": 4.6,
-                "reviews": 1769
+                }
             }
         ],
         "name": "Yoder's Kitchen",
@@ -532,9 +488,7 @@
                 "coordinate": {
                     "lat": 40.1113691,
                     "lng": -88.2290013
-                },
-                "rating": 4.5,
-                "reviews": 108
+                }
             }
         ],
         "name": "A-Ri-Rang",
@@ -555,12 +509,10 @@
                 "coordinate": {
                     "lat": 40.0989163,
                     "lng": -88.2468513
-                },
-                "rating": 4.6,
-                "reviews": 75
+                }
             }
         ],
-        "name": "Asian Noodle & Sushi",
+        "name": "Asian Noodles & Sushi",
         "phone_number": [
             "2178199699"
         ],
@@ -578,9 +530,7 @@
                 "coordinate": {
                     "lat": 40.1091862,
                     "lng": -88.2316942
-                },
-                "rating": 3.7,
-                "reviews": 59
+                }
             }
         ],
         "name": "Asian Taste",
@@ -603,9 +553,7 @@
                 "coordinate": {
                     "lat": 40.110122,
                     "lng": -88.240425
-                },
-                "rating": 3.0,
-                "reviews": 42
+                }
             }
         ],
         "name": "Aunlie Lee's Chinese Kitchen",
@@ -628,9 +576,7 @@
                 "coordinate": {
                     "lat": 40.0923593,
                     "lng": -88.245423
-                },
-                "rating": 4.3,
-                "reviews": 140
+                }
             }
         ],
         "name": "B Won",
@@ -653,9 +599,7 @@
                 "coordinate": {
                     "lat": 40.1063145,
                     "lng": -88.2213205
-                },
-                "rating": 4.2,
-                "reviews": 104
+                }
             }
         ],
         "name": "Bab Plus Korean",
@@ -679,18 +623,14 @@
                 "coordinate": {
                     "lat": 40.1103465,
                     "lng": -88.2332646
-                },
-                "rating": 4.5,
-                "reviews": 405
+                }
             },
             {
                 "address": "1104 N Cunningham Ave, Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.123704,
                     "lng": -88.201063
-                },
-                "rating": 4.4,
-                "reviews": 107
+                }
             }
         ],
         "name": "Bangkok Thai & Pho 911",
@@ -712,9 +652,7 @@
                 "coordinate": {
                     "lat": 40.1068667,
                     "lng": -88.2217175
-                },
-                "rating": 3.8,
-                "reviews": 153
+                }
             }
         ],
         "name": "Basil Thai",
@@ -735,9 +673,7 @@
                 "coordinate": {
                     "lat": 40.1377839,
                     "lng": -88.2606908
-                },
-                "rating": 4.1,
-                "reviews": 64
+                }
             }
         ],
         "name": "Best Wok",
@@ -760,9 +696,7 @@
                 "coordinate": {
                     "lat": 40.1103981,
                     "lng": -88.2331124
-                },
-                "rating": 3.8,
-                "reviews": 82
+                }
             }
         ],
         "name": "BoBo's China",
@@ -785,9 +719,7 @@
                 "coordinate": {
                     "lat": 40.3121922,
                     "lng": -88.1383864
-                },
-                "rating": 3.1,
-                "reviews": 68
+                }
             }
         ],
         "name": "China Express",
@@ -808,9 +740,7 @@
                 "coordinate": {
                     "lat": 40.1131957,
                     "lng": -88.2030928
-                },
-                "rating": 4.1,
-                "reviews": 73
+                }
             }
         ],
         "name": "China Garden",
@@ -832,18 +762,14 @@
                 "coordinate": {
                     "lat": 40.0893479,
                     "lng": -88.2461131
-                },
-                "rating": 3.7,
-                "reviews": 76
+                }
             },
             {
                 "address": "205 E Warren, St. Joseph, Illinois",
                 "coordinate": {
                     "lat": 40.1129997,
                     "lng": -88.0444056
-                },
-                "rating": 4.2,
-                "reviews": 31
+                }
             }
         ],
         "name": "China King",
@@ -867,9 +793,7 @@
                 "coordinate": {
                     "lat": 40.1373385,
                     "lng": -88.2560649
-                },
-                "rating": 3.8,
-                "reviews": 856
+                }
             }
         ],
         "name": "Chinatown Buffet",
@@ -890,9 +814,7 @@
                 "coordinate": {
                     "lat": 39.791634,
                     "lng": -88.2828599
-                },
-                "rating": 3.7,
-                "reviews": 164
+                }
             }
         ],
         "name": "Chinatown Restaurant",
@@ -913,9 +835,7 @@
                 "coordinate": {
                     "lat": 40.1103401,
                     "lng": -88.2366394
-                },
-                "rating": 3.5,
-                "reviews": 127
+                }
             }
         ],
         "name": "Chopstix",
@@ -936,9 +856,7 @@
                 "coordinate": {
                     "lat": 40.1113797,
                     "lng": -88.2290018
-                },
-                "rating": 4,
-                "reviews": 171
+                }
             }
         ],
         "name": "Cravings",
@@ -959,9 +877,7 @@
                 "coordinate": {
                     "lat": 40.1076829,
                     "lng": -88.2439217
-                },
-                "rating": 3.6,
-                "reviews": 28
+                }
             }
         ],
         "name": "Dumpling Noodle BBQ",
@@ -982,9 +898,7 @@
                 "coordinate": {
                     "lat": 40.0968226,
                     "lng": -88.1908253
-                },
-                "rating": 4.3,
-                "reviews": 121
+                }
             }
         ],
         "name": "First Wok",
@@ -1005,9 +919,7 @@
                 "coordinate": {
                     "lat": 40.1114493,
                     "lng": -88.2435837
-                },
-                "rating": 4.6,
-                "reviews": 773
+                }
             }
         ],
         "name": "Golden Harbor",
@@ -1030,9 +942,7 @@
                 "coordinate": {
                     "lat": 40.0279758,
                     "lng": -88.5742401
-                },
-                "rating": 3.9,
-                "reviews": 48
+                }
             }
         ],
         "name": "Golden Kitchen",
@@ -1053,9 +963,7 @@
                 "coordinate": {
                     "lat": 40.1162692,
                     "lng": -88.2333661
-                },
-                "rating": 4.2,
-                "reviews": 150
+                }
             }
         ],
         "name": "Golden Wok",
@@ -1078,9 +986,7 @@
                 "coordinate": {
                     "lat": 40.1056925,
                     "lng": -88.2435059
-                },
-                "rating": 4.4,
-                "reviews": 78
+                }
             }
         ],
         "name": "Good Fella Korean Bistro",
@@ -1103,9 +1009,7 @@
                 "coordinate": {
                     "lat": 40.0832018,
                     "lng": -88.2642054
-                },
-                "rating": 4.3,
-                "reviews": 70
+                }
             }
         ],
         "name": "Green Jade",
@@ -1128,9 +1032,7 @@
                 "coordinate": {
                     "lat": 40.091054,
                     "lng": -88.245626
-                },
-                "rating": 4.5,
-                "reviews": 117
+                }
             }
         ],
         "name": "Green Onion Asian Market",
@@ -1151,9 +1053,7 @@
                 "coordinate": {
                     "lat": 40.1080534,
                     "lng": -88.2301372
-                },
-                "rating": 3.8,
-                "reviews": 57
+                }
             }
         ],
         "name": "Home of Gourmet Chinese & Thai",
@@ -1174,9 +1074,7 @@
                 "coordinate": {
                     "lat": 40.116488,
                     "lng": -88.222541
-                },
-                "rating": 3.8,
-                "reviews": 178
+                }
             }
         ],
         "name": "Hot Wok Express",
@@ -1197,9 +1095,7 @@
                 "coordinate": {
                     "lat": 40.058952,
                     "lng": -88.253177
-                },
-                "rating": 4.5,
-                "reviews": 186
+                }
             }
         ],
         "name": "I Wok",
@@ -1222,9 +1118,7 @@
                 "coordinate": {
                     "lat": 40.1113787,
                     "lng": -88.230584
-                },
-                "rating": 4.5,
-                "reviews": 163
+                }
             }
         ],
         "name": "Jip Bap",
@@ -1245,9 +1139,7 @@
                 "coordinate": {
                     "lat": 40.1101204,
                     "lng": -88.2406731
-                },
-                "rating": 4.7,
-                "reviews": 15
+                }
             }
         ],
         "name": "K-Bowl",
@@ -1269,18 +1161,14 @@
                 "coordinate": {
                     "lat": 40.10416,
                     "lng": -88.22868
-                },
-                "rating": 4.3,
-                "reviews": 132
+                }
             },
             {
                 "address": "1 E Main St., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.118161,
                     "lng": -88.243282
-                },
-                "rating": 4.4,
-                "reviews": 475
+                }
             }
         ],
         "name": "Ko Fusion",
@@ -1305,9 +1193,7 @@
                 "coordinate": {
                     "lat": 40.1091508,
                     "lng": -88.2317231
-                },
-                "rating": 3.3,
-                "reviews": 113
+                }
             }
         ],
         "name": "Kung Fu BBQ",
@@ -1328,9 +1214,7 @@
                 "coordinate": {
                     "lat": 40.1104581,
                     "lng": -88.2333092
-                },
-                "rating": 4.1,
-                "reviews": 197
+                }
             }
         ],
         "name": "Lai Lai Wok",
@@ -1353,9 +1237,7 @@
                 "coordinate": {
                     "lat": 40.1165489,
                     "lng": -88.229189
-                },
-                "rating": 3.9,
-                "reviews": 192
+                }
             }
         ],
         "name": "Lao Sze Chuan Chinese Restaurant",
@@ -1370,6 +1252,27 @@
         "cuisine": "Asian",
         "img_url": "",
         "location_areas": [
+            "Urbana"
+        ],
+        "locations": [
+            {
+                "address": "510 N Cunningham Avenue, Urbana, Illinois",
+                "coordinate": {
+                    "lat": 40.1165477,
+                    "lng": -88.2047815
+                }
+            }
+        ],
+        "name": "LL Sushi",
+        "phone_number": [
+            "2179540031"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Asian",
+        "img_url": "",
+        "location_areas": [
             "Campustown"
         ],
         "locations": [
@@ -1378,9 +1281,7 @@
                 "coordinate": {
                     "lat": 40.1101812,
                     "lng": -88.2333562
-                },
-                "rating": 4.1,
-                "reviews": 114
+                }
             }
         ],
         "name": "Mandarin Wok",
@@ -1403,9 +1304,7 @@
                 "coordinate": {
                     "lat": 40.1138425,
                     "lng": -88.2087186
-                },
-                "rating": 4.3,
-                "reviews": 238
+                }
             }
         ],
         "name": "Masijta Grill",
@@ -1428,9 +1327,7 @@
                 "coordinate": {
                     "lat": 40.1102142,
                     "lng": -88.2299587
-                },
-                "rating": 4.2,
-                "reviews": 152
+                }
             }
         ],
         "name": "Mid-Summer Lounge",
@@ -1453,9 +1350,7 @@
                 "coordinate": {
                     "lat": 40.1024328,
                     "lng": -88.2767662
-                },
-                "rating": 4.2,
-                "reviews": 103
+                }
             }
         ],
         "name": "Ming Garden",
@@ -1476,9 +1371,7 @@
                 "coordinate": {
                     "lat": 40.0924854,
                     "lng": -88.2456193
-                },
-                "rating": 4.1,
-                "reviews": 207
+                }
             }
         ],
         "name": "Moki Sushi",
@@ -1501,9 +1394,7 @@
                 "coordinate": {
                     "lat": 40.1128066,
                     "lng": -88.239191
-                },
-                "rating": 4.5,
-                "reviews": 8
+                }
             }
         ],
         "name": "Mr. Crab",
@@ -1524,9 +1415,7 @@
                 "coordinate": {
                     "lat": 40.1129945,
                     "lng": -88.2850854
-                },
-                "rating": 4.3,
-                "reviews": 207
+                }
             }
         ],
         "name": "My Thai",
@@ -1549,9 +1438,7 @@
                 "coordinate": {
                     "lat": 40.1104504,
                     "lng": -88.231656
-                },
-                "rating": 3.8,
-                "reviews": 4
+                }
             }
         ],
         "name": "Naniing Bistro",
@@ -1574,9 +1461,7 @@
                 "coordinate": {
                     "lat": 40.1451067,
                     "lng": -88.2585316
-                },
-                "rating": 4.3,
-                "reviews": 374
+                }
             }
         ],
         "name": "Oishi",
@@ -1599,9 +1484,7 @@
                 "coordinate": {
                     "lat": 40.1113787,
                     "lng": -88.230584
-                },
-                "rating": 4.3,
-                "reviews": 264
+                }
             }
         ],
         "name": "Ozu Ramen",
@@ -1622,9 +1505,7 @@
                 "coordinate": {
                     "lat": 40.1180507,
                     "lng": -88.2448957
-                },
-                "rating": 4.3,
-                "reviews": 149
+                }
             }
         ],
         "name": "Peking Garden",
@@ -1647,9 +1528,7 @@
                 "coordinate": {
                     "lat": 40.1948155,
                     "lng": -88.3961884
-                },
-                "rating": 4.6,
-                "reviews": 54
+                }
             }
         ],
         "name": "Peking House",
@@ -1670,9 +1549,7 @@
                 "coordinate": {
                     "lat": 40.1102113,
                     "lng": -88.2301051
-                },
-                "rating": 4.2,
-                "reviews": 145
+                }
             }
         ],
         "name": "Pho Cafe",
@@ -1693,9 +1570,7 @@
                 "coordinate": {
                     "lat": 40.111118,
                     "lng": -88.2302962
-                },
-                "rating": 3.8,
-                "reviews": 83
+                }
             }
         ],
         "name": "Poke Lab",
@@ -1717,18 +1592,14 @@
                 "coordinate": {
                     "lat": 40.1006313,
                     "lng": -88.2439226
-                },
-                "rating": 4.2,
-                "reviews": 260
+                }
             },
             {
                 "address": "202 E University Ave, Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.1177173,
                     "lng": -88.2058577
-                },
-                "rating": 4.0,
-                "reviews": 146
+                }
             }
         ],
         "name": "Rainbow Garden",
@@ -1753,9 +1624,7 @@
                 "coordinate": {
                     "lat": 40.1103785,
                     "lng": -88.2372133
-                },
-                "rating": 3.6,
-                "reviews": 52
+                }
             }
         ],
         "name": "Red Cape Hot",
@@ -1776,9 +1645,7 @@
                 "coordinate": {
                     "lat": 40.1101552,
                     "lng": -88.2330881
-                },
-                "rating": 4.7,
-                "reviews": 662
+                }
             }
         ],
         "name": "Sakanaya",
@@ -1801,9 +1668,7 @@
                 "coordinate": {
                     "lat": 40.0822237,
                     "lng": -88.2962491
-                },
-                "rating": 4.5,
-                "reviews": 125
+                }
             }
         ],
         "name": "San Maru",
@@ -1822,13 +1687,11 @@
         ],
         "locations": [
             {
-                "address": "212 E Green St., Champaign, Illinois",
+                "address": "212 E Green St.,Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1103163,
                     "lng": -88.2367212
-                },
-                "rating": 4.7,
-                "reviews": 52
+                }
             }
         ],
         "name": "Shiquan Wonton",
@@ -1849,9 +1712,7 @@
                 "coordinate": {
                     "lat": 40.1125742,
                     "lng": -88.2095509
-                },
-                "rating": 4.4,
-                "reviews": 260
+                }
             }
         ],
         "name": "Siam Terrace",
@@ -1874,9 +1735,7 @@
                 "coordinate": {
                     "lat": 40.1125397,
                     "lng": -88.240438
-                },
-                "rating": 3.5,
-                "reviews": 33
+                }
             }
         ],
         "name": "South China Restaurant",
@@ -1899,9 +1758,7 @@
                 "coordinate": {
                     "lat": 40.1106842,
                     "lng": -88.2305667
-                },
-                "rating": 3.5,
-                "reviews": 84
+                }
             }
         ],
         "name": "Spicy Tang",
@@ -1924,9 +1781,7 @@
                 "coordinate": {
                     "lat": 40.1104271,
                     "lng": -88.2294153
-                },
-                "rating": 4.3,
-                "reviews": 128
+                }
             }
         ],
         "name": "Spoon House Korean Kitchen",
@@ -1947,9 +1802,7 @@
                 "coordinate": {
                     "lat": 40.0703891,
                     "lng": -88.2515366
-                },
-                "rating": 4.4,
-                "reviews": 68
+                }
             }
         ],
         "name": "Star BBQ Restaurant",
@@ -1972,9 +1825,7 @@
                 "coordinate": {
                     "lat": 40.0976723,
                     "lng": -88.1912145
-                },
-                "rating": 4.0,
-                "reviews": 301
+                }
             }
         ],
         "name": "Sunny China Buffet",
@@ -1997,9 +1848,7 @@
                 "coordinate": {
                     "lat": 40.0972455,
                     "lng": -88.2752514
-                },
-                "rating": 4.1,
-                "reviews": 56
+                }
             }
         ],
         "name": "Super Wok",
@@ -2022,9 +1871,7 @@
                 "coordinate": {
                     "lat": 40.1113373,
                     "lng": -88.229
-                },
-                "rating": 3.9,
-                "reviews": 212
+                }
             }
         ],
         "name": "Sushi Ichiban",
@@ -2047,9 +1894,7 @@
                 "coordinate": {
                     "lat": 40.1183573,
                     "lng": -88.2441267
-                },
-                "rating": 4.4,
-                "reviews": 239
+                }
             }
         ],
         "name": "Sushi Kame",
@@ -2070,9 +1915,7 @@
                 "coordinate": {
                     "lat": 40.1102137,
                     "lng": -88.2299831
-                },
-                "rating": 4.2,
-                "reviews": 92
+                }
             }
         ],
         "name": "Sushi Rock",
@@ -2095,9 +1938,7 @@
                 "coordinate": {
                     "lat": 40.1093924,
                     "lng": -88.2272187
-                },
-                "rating": 4.2,
-                "reviews": 92
+                }
             }
         ],
         "name": "Sushi San",
@@ -2118,9 +1959,7 @@
                 "coordinate": {
                     "lat": 40.1128066,
                     "lng": -88.239191
-                },
-                "rating": 3.7,
-                "reviews": 121
+                }
             }
         ],
         "name": "Szechuan China",
@@ -2143,9 +1982,7 @@
                 "coordinate": {
                     "lat": 40.160386,
                     "lng": -88.314752
-                },
-                "rating": 4.7,
-                "reviews": 413
+                }
             }
         ],
         "name": "Thara Thai",
@@ -2168,9 +2005,7 @@
                 "coordinate": {
                     "lat": 40.1957377,
                     "lng": -88.3979442
-                },
-                "rating": 4.4,
-                "reviews": 51
+                }
             }
         ],
         "name": "The Wok",
@@ -2191,9 +2026,7 @@
                 "coordinate": {
                     "lat": 40.112633,
                     "lng": -88.205049
-                },
-                "rating": 4.5,
-                "reviews": 149
+                }
             }
         ],
         "name": "Xinh Xinh Cafe",
@@ -2216,9 +2049,7 @@
                 "coordinate": {
                     "lat": 40.106721,
                     "lng": -88.228936
-                },
-                "rating": 4.1,
-                "reviews": 16
+                }
             }
         ],
         "name": "Y Eatery",
@@ -2239,9 +2070,7 @@
                 "coordinate": {
                     "lat": 40.1171072,
                     "lng": -88.2434106
-                },
-                "rating": 4.6,
-                "reviews": 251
+                }
             }
         ],
         "name": "Aroma Cafe",
@@ -2264,9 +2093,7 @@
                 "coordinate": {
                     "lat": 40.118161,
                     "lng": -88.243282
-                },
-                "rating": 4.9,
-                "reviews": 29
+                }
             }
         ],
         "name": "Bossa Nova Cafe",
@@ -2289,9 +2116,7 @@
                 "coordinate": {
                     "lat": 40.1106709,
                     "lng": -88.2318214
-                },
-                "rating": 4.7,
-                "reviews": 180
+                }
             }
         ],
         "name": "BrewLab Coffee",
@@ -2314,9 +2139,7 @@
                 "coordinate": {
                     "lat": 40.1167198,
                     "lng": -88.242607
-                },
-                "rating": 4.6,
-                "reviews": 380
+                }
             }
         ],
         "name": "Cafe Kopi",
@@ -2339,9 +2162,7 @@
                 "coordinate": {
                     "lat": 40.1125815,
                     "lng": -88.2093952
-                },
-                "rating": 4.5,
-                "reviews": 54
+                }
             }
         ],
         "name": "Cafeteria & Company",
@@ -2362,18 +2183,14 @@
                 "coordinate": {
                     "lat": 40.1104252,
                     "lng": -88.2309368
-                },
-                "rating": 4.4,
-                "reviews": 176
+                }
             },
             {
                 "address": "700 S Gregory St, Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.1063145,
                     "lng": -88.2213205
-                },
-                "rating": 4.3,
-                "reviews": 178
+                }
             }
         ],
         "name": "Caffe Bene",
@@ -2395,9 +2212,7 @@
                 "coordinate": {
                     "lat": 40.1057621,
                     "lng": -88.2194361
-                },
-                "rating": 4.5,
-                "reviews": 216
+                }
             }
         ],
         "name": "Caffe Paradiso",
@@ -2420,9 +2235,7 @@
                 "coordinate": {
                     "lat": 40.1125934,
                     "lng": -88.2741019
-                },
-                "rating": 4.4,
-                "reviews": 82
+                }
             }
         ],
         "name": "Carmella's Creme",
@@ -2443,9 +2256,7 @@
                 "coordinate": {
                     "lat": 40.0944676,
                     "lng": -88.2451767
-                },
-                "rating": 4.1,
-                "reviews": 10
+                }
             }
         ],
         "name": "Clever Moose Cafe",
@@ -2468,9 +2279,7 @@
                 "coordinate": {
                     "lat": 40.110901,
                     "lng": -88.2067709
-                },
-                "rating": 4.7,
-                "reviews": 339
+                }
             }
         ],
         "name": "Common Ground Food Co-op",
@@ -2495,63 +2304,49 @@
                 "coordinate": {
                     "lat": 40.106921,
                     "lng": -88.22182
-                },
-                "rating": 4.5,
-                "reviews": 244
+                }
             },
             {
                 "address": "1301 W Springfield Ave., Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.1124752,
                     "lng": -88.2268584
-                },
-                "rating": 3.2,
-                "reviews": 16
+                }
             },
             {
                 "address": "1402 W Gregory Dr, Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.1047306,
                     "lng": -88.2271776
-                },
-                "rating": 2.7,
-                "reviews": 11
+                }
             },
             {
                 "address": "1411 S Neil St, Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.0995347,
                     "lng": -88.2447961
-                },
-                "rating": 4.4,
-                "reviews": 174
+                }
             },
             {
                 "address": "2401 Village Green Pl, Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.0836561,
                     "lng": -88.2964708
-                },
-                "rating": 4.4,
-                "reviews": 152
+                }
             },
             {
                 "address": "500 E Peabody Dr., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1015561,
                     "lng": -88.2317856
-                },
-                "rating": 3.7,
-                "reviews": 6
+                }
             },
             {
                 "address": "515 E Gregory Dr., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1035815,
                     "lng": -88.2305751
-                },
-                "rating": 4.1,
-                "reviews": 9
+                }
             }
         ],
         "name": "Espresso Royale",
@@ -2580,9 +2375,7 @@
                 "coordinate": {
                     "lat": 40.109696,
                     "lng": -88.230481
-                },
-                "rating": 4.0,
-                "reviews": 110
+                }
             }
         ],
         "name": "Evo Cafe",
@@ -2605,9 +2398,7 @@
                 "coordinate": {
                     "lat": 40.1151976,
                     "lng": -88.2385343
-                },
-                "rating": 4.8,
-                "reviews": 144
+                }
             }
         ],
         "name": "Flying Machine Avionics",
@@ -2628,9 +2419,7 @@
                 "coordinate": {
                     "lat": 40.1115065,
                     "lng": -88.041277
-                },
-                "rating": 4.7,
-                "reviews": 25
+                }
             }
         ],
         "name": "Geschenk Boutique Coffee & Tea Haus",
@@ -2651,9 +2440,7 @@
                 "coordinate": {
                     "lat": 39.999887,
                     "lng": -88.657932
-                },
-                "rating": 4.5,
-                "reviews": 35
+                }
             }
         ],
         "name": "Greenhouse Cafe",
@@ -2676,9 +2463,7 @@
                 "coordinate": {
                     "lat": 40.109107,
                     "lng": -88.2560485
-                },
-                "rating": 4.5,
-                "reviews": 169
+                }
             }
         ],
         "name": "Hopscotch Bakery + Market",
@@ -2693,6 +2478,27 @@
         "cuisine": "Bakeries & Cafes",
         "img_url": "",
         "location_areas": [
+            "Champaign"
+        ],
+        "locations": [
+            {
+                "address": "1900 S First St, Champaign, Illinois",
+                "coordinate": {
+                    "lat": 40.0937411,
+                    "lng": -88.2373136
+                }
+            }
+        ],
+        "name": "I Cafe",
+        "phone_number": [
+            "2178195005"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Bakeries & Cafes",
+        "img_url": "",
+        "location_areas": [
             "Other"
         ],
         "locations": [
@@ -2701,9 +2507,7 @@
                 "coordinate": {
                     "lat": 40.138316,
                     "lng": -87.606971
-                },
-                "rating": 4.7,
-                "reviews": 102
+                }
             }
         ],
         "name": "Industrial Donut",
@@ -2726,9 +2530,7 @@
                 "coordinate": {
                     "lat": 40.1096492,
                     "lng": -88.2328647
-                },
-                "rating": 4.4,
-                "reviews": 170
+                }
             }
         ],
         "name": "Kung Fu Tea",
@@ -2751,9 +2553,7 @@
                 "coordinate": {
                     "lat": 40.1113787,
                     "lng": -88.230584
-                },
-                "rating": 4.1,
-                "reviews": 189
+                }
             }
         ],
         "name": "Latea Lounge",
@@ -2776,9 +2576,7 @@
                 "coordinate": {
                     "lat": 40.0840604,
                     "lng": -88.3016138
-                },
-                "rating": 4.5,
-                "reviews": 150
+                }
             }
         ],
         "name": "Pandamonium Doughnuts",
@@ -2802,18 +2600,14 @@
                 "coordinate": {
                     "lat": 40.1170743,
                     "lng": -88.2434103
-                },
-                "rating": 4.1,
-                "reviews": 115
+                }
             },
             {
                 "address": "811 W Springfield Ave., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1125573,
                     "lng": -88.2568443
-                },
-                "rating": 4.1,
-                "reviews": 115
+                }
             }
         ],
         "name": "Pekara Bakery & Bistro",
@@ -2838,9 +2632,7 @@
                 "coordinate": {
                     "lat": 40.110202,
                     "lng": -88.046651
-                },
-                "rating": 4.4,
-                "reviews": 18
+                }
             }
         ],
         "name": "PVP Bakery",
@@ -2861,9 +2653,7 @@
                 "coordinate": {
                     "lat": 40.1125283,
                     "lng": -88.2084248
-                },
-                "rating": 4.6,
-                "reviews": 145
+                }
             }
         ],
         "name": "Rick's Bakery",
@@ -2886,9 +2676,7 @@
                 "coordinate": {
                     "lat": 39.710308,
                     "lng": -88.4604423
-                },
-                "rating": 4.7,
-                "reviews": 102
+                }
             }
         ],
         "name": "Roselen's Coffees & Delights",
@@ -2911,9 +2699,7 @@
                 "coordinate": {
                     "lat": 40.1124948,
                     "lng": -88.2114574
-                },
-                "rating": 4.4,
-                "reviews": 136
+                }
             }
         ],
         "name": "Strawberry Fields Natural Food Store & Cafe",
@@ -2936,9 +2722,7 @@
                 "coordinate": {
                     "lat": 40.0240523,
                     "lng": -88.571324
-                },
-                "rating": 4.7,
-                "reviews": 42
+                }
             }
         ],
         "name": "Steeple Coffee House and Gallery",
@@ -2959,9 +2743,7 @@
                 "coordinate": {
                     "lat": 40.1104259,
                     "lng": -88.2314504
-                },
-                "rating": 4.3,
-                "reviews": 39
+                }
             }
         ],
         "name": "Taipei Cafe",
@@ -2982,9 +2764,7 @@
                 "coordinate": {
                     "lat": 40.1102128,
                     "lng": -88.2300319
-                },
-                "rating": 4.5,
-                "reviews": 139
+                }
             }
         ],
         "name": "Teamoji",
@@ -3007,9 +2787,7 @@
                 "coordinate": {
                     "lat": 40.1068135,
                     "lng": -88.223744
-                },
-                "rating": 4.6,
-                "reviews": 364
+                }
             }
         ],
         "name": "The Bread Company",
@@ -3032,9 +2810,7 @@
                 "coordinate": {
                     "lat": 40.306842,
                     "lng": -88.155897
-                },
-                "rating": 5,
-                "reviews": 1
+                }
             }
         ],
         "name": "The Second Cup",
@@ -3055,9 +2831,7 @@
                 "coordinate": {
                     "lat": 40.12516,
                     "lng": -88.232135
-                },
-                "rating": 4.6,
-                "reviews": 380
+                }
             }
         ],
         "name": "Worker's Cufe G",
@@ -3078,9 +2852,7 @@
                 "coordinate": {
                     "lat": 40.0997323,
                     "lng": -88.2447646
-                },
-                "rating": 4.1,
-                "reviews": 8
+                }
             }
         ],
         "name": "Ye Olde Donut Shoppe",
@@ -3101,9 +2873,7 @@
                 "coordinate": {
                     "lat": 40.0250149,
                     "lng": -88.5728654
-                },
-                "rating": 4.4,
-                "reviews": 230
+                }
             }
         ],
         "name": "3 Ravens",
@@ -3126,9 +2896,7 @@
                 "coordinate": {
                     "lat": 39.7200018,
                     "lng": -88.4735011
-                },
-                "rating": 4.4,
-                "reviews": 54
+                }
             }
         ],
         "name": "Angela's Food & Spirits",
@@ -3149,9 +2917,7 @@
                 "coordinate": {
                     "lat": 40.0862658,
                     "lng": -88.1697392
-                },
-                "rating": 4.3,
-                "reviews": 109
+                }
             }
         ],
         "name": "Attie's Bur & Grill",
@@ -3174,9 +2940,7 @@
                 "coordinate": {
                     "lat": 40.0973878,
                     "lng": -88.2461136
-                },
-                "rating": 4.4,
-                "reviews": 338
+                }
             }
         ],
         "name": "Baxter's American Grille",
@@ -3199,9 +2963,7 @@
                 "coordinate": {
                     "lat": 40.0820098,
                     "lng": -88.2962496
-                },
-                "rating": 4.5,
-                "reviews": 523
+                }
             }
         ],
         "name": "Billy Barooz Pub & Grill",
@@ -3224,9 +2986,7 @@
                 "coordinate": {
                     "lat": 40.310704,
                     "lng": -88.347987
-                },
-                "rating": 4.1,
-                "reviews": 31
+                }
             }
         ],
         "name": "Blue Star Family Restaurant",
@@ -3247,9 +3007,7 @@
                 "coordinate": {
                     "lat": 40.1055751,
                     "lng": -88.1930277
-                },
-                "rating": 4.5,
-                "reviews": 226
+                }
             }
         ],
         "name": "Boomerangs Bar & Grill",
@@ -3272,9 +3030,7 @@
                 "coordinate": {
                     "lat": 40.1102118,
                     "lng": -88.2300807
-                },
-                "rating": 4.0,
-                "reviews": 173
+                }
             }
         ],
         "name": "Brothers Bar & Grill",
@@ -3297,9 +3053,7 @@
                 "coordinate": {
                     "lat": 40.3108293,
                     "lng": -88.1590318
-                },
-                "rating": 4.6,
-                "reviews": 45
+                }
             }
         ],
         "name": "Bud's Bar",
@@ -3322,9 +3076,7 @@
                 "coordinate": {
                     "lat": 40.1132078,
                     "lng": -88.2082966
-                },
-                "rating": 4.6,
-                "reviews": 392
+                }
             }
         ],
         "name": "Bunny's Tavern",
@@ -3339,6 +3091,27 @@
         "cuisine": "Bar & Grill",
         "img_url": "",
         "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
+                "address": "111-1/2 S Third St., Fisher, Illinois",
+                "coordinate": {
+                    "lat": 40.317752,
+                    "lng": -88.349669
+                }
+            }
+        ],
+        "name": "Buzzard's Place",
+        "phone_number": [
+            "2178976158"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Bar & Grill",
+        "img_url": "",
+        "location_areas": [
             "Champaign"
         ],
         "locations": [
@@ -3347,9 +3120,7 @@
                 "coordinate": {
                     "lat": 40.0996477,
                     "lng": -88.244778
-                },
-                "rating": 4.6,
-                "reviews": 136
+                }
             }
         ],
         "name": "Cactus Grill",
@@ -3372,9 +3143,7 @@
                 "coordinate": {
                     "lat": 40.1150441,
                     "lng": -88.2461404
-                },
-                "rating": 4.6,
-                "reviews": 217
+                }
             }
         ],
         "name": "Clark Bar",
@@ -3397,9 +3166,7 @@
                 "coordinate": {
                     "lat": 40.1175386,
                     "lng": -88.2453217
-                },
-                "rating": 4.1,
-                "reviews": 191
+                }
             }
         ],
         "name": "Cowboy Monkey",
@@ -3422,9 +3189,7 @@
                 "coordinate": {
                     "lat": 40.1121737,
                     "lng": -88.2081071
-                },
-                "rating": 4.6,
-                "reviews": 671
+                }
             }
         ],
         "name": "Crane Alley",
@@ -3447,9 +3212,7 @@
                 "coordinate": {
                     "lat": 40.1184918,
                     "lng": -88.2437783
-                },
-                "rating": 4.5,
-                "reviews": 596
+                }
             }
         ],
         "name": "Destihl Restaurant & Brew Works",
@@ -3472,9 +3235,7 @@
                 "coordinate": {
                     "lat": 40.1166611,
                     "lng": -88.2424063
-                },
-                "rating": 4.4,
-                "reviews": 787
+                }
             }
         ],
         "name": "Esquire Lounge",
@@ -3497,9 +3258,7 @@
                 "coordinate": {
                     "lat": 40.1167506,
                     "lng": -88.242594
-                },
-                "rating": 4.6,
-                "reviews": 779
+                }
             }
         ],
         "name": "Farren's Pub & Eatery",
@@ -3522,9 +3281,7 @@
                 "coordinate": {
                     "lat": 40.3105089,
                     "lng": -88.1606206
-                },
-                "rating": 4.5,
-                "reviews": 75
+                }
             }
         ],
         "name": "ET's Downtown Runroul",
@@ -3547,9 +3304,7 @@
                 "coordinate": {
                     "lat": 40.1107411,
                     "lng": -88.2426419
-                },
-                "rating": 4.4,
-                "reviews": 131
+                }
             }
         ],
         "name": "Fat City Bar & Grill",
@@ -3572,9 +3327,7 @@
                 "coordinate": {
                     "lat": 40.025396,
                     "lng": -88.5729772
-                },
-                "rating": 4.8,
-                "reviews": 107
+                }
             }
         ],
         "name": "Fieldhouse 219",
@@ -3597,9 +3350,7 @@
                 "coordinate": {
                     "lat": 40.1929289,
                     "lng": -87.9753097
-                },
-                "rating": 4.5,
-                "reviews": 14
+                }
             }
         ],
         "name": "Freeman's Tavern",
@@ -3620,9 +3371,7 @@
                 "coordinate": {
                     "lat": 40.1161626,
                     "lng": -88.2769346
-                },
-                "rating": 4.4,
-                "reviews": 82
+                }
             }
         ],
         "name": "Goldy's Bar & Grill",
@@ -3643,9 +3392,7 @@
                 "coordinate": {
                     "lat": 40.118028,
                     "lng": -88.243408
-                },
-                "rating": 4.2,
-                "reviews": 558
+                }
             }
         ],
         "name": "Guido's Bur & Grill",
@@ -3664,13 +3411,32 @@
         ],
         "locations": [
             {
+                "address": "2400 W Bradley Ave, Champaign, Illinois",
+                "coordinate": {
+                    "lat": 40.1276085,
+                    "lng": -88.286174
+                }
+            }
+        ],
+        "name": "Gulliver's",
+        "phone_number": [
+            "2173551480"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Bar & Grill",
+        "img_url": "",
+        "location_areas": [
+            "Champaign"
+        ],
+        "locations": [
+            {
                 "address": "1902 S First St, Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.0943211,
                     "lng": -88.2384427
-                },
-                "rating": 4.1,
-                "reviews": 266
+                }
             }
         ],
         "name": "Houlihan's",
@@ -3693,18 +3459,14 @@
                 "coordinate": {
                     "lat": 39.9845778,
                     "lng": -88.2634982
-                },
-                "rating": 4.2,
-                "reviews": 46
+                }
             },
             {
                 "address": "215 S Lake of the Woods Rd., Mahomet, Illinois",
                 "coordinate": {
                     "lat": 40.191732,
                     "lng": -88.391643
-                },
-                "rating": 4.2,
-                "reviews": 46
+                }
             }
         ],
         "name": "It'll Do",
@@ -3728,9 +3490,7 @@
                 "coordinate": {
                     "lat": 39.793409,
                     "lng": -88.289436
-                },
-                "rating": 4.4,
-                "reviews": 43
+                }
             }
         ],
         "name": "It'll Do 2",
@@ -3751,9 +3511,7 @@
                 "coordinate": {
                     "lat": 40.1101036,
                     "lng": -88.2319433
-                },
-                "rating": 4.1,
-                "reviews": 316
+                }
             }
         ],
         "name": "Joe's Brewery",
@@ -3776,9 +3534,7 @@
                 "coordinate": {
                     "lat": 40.1950047,
                     "lng": -88.4039758
-                },
-                "rating": 4.3,
-                "reviews": 178
+                }
             }
         ],
         "name": "JT Walker's Restaurant & Brewery",
@@ -3793,6 +3549,27 @@
         "cuisine": "Bar & Grill",
         "img_url": "",
         "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
+                "address": "1243 E Grove Ave, Rantoul, Illinois",
+                "coordinate": {
+                    "lat": 40.3121925,
+                    "lng": -88.1383029
+                }
+            }
+        ],
+        "name": "Keefers",
+        "phone_number": [
+            "2178930183"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Bar & Grill",
+        "img_url": "",
+        "location_areas": [
             "Campustown"
         ],
         "locations": [
@@ -3801,9 +3578,7 @@
                 "coordinate": {
                     "lat": 40.1103677,
                     "lng": -88.2315951
-                },
-                "rating": 4.2,
-                "reviews": 409
+                }
             }
         ],
         "name": "Legends Bar & Grill",
@@ -3826,9 +3601,7 @@
                 "coordinate": {
                     "lat": 40.0241479,
                     "lng": -88.5712403
-                },
-                "rating": 4.4,
-                "reviews": 182
+                }
             }
         ],
         "name": "Monarch Brewing Company",
@@ -3851,9 +3624,7 @@
                 "coordinate": {
                     "lat": 40.1104224,
                     "lng": -88.2300402
-                },
-                "rating": 4.3,
-                "reviews": 650
+                }
             }
         ],
         "name": "Murphy's Pub",
@@ -3876,9 +3647,7 @@
                 "coordinate": {
                     "lat": 40.1184918,
                     "lng": -88.2437783
-                },
-                "rating": 4.4,
-                "reviews": 238
+                }
             }
         ],
         "name": "Neil Sr. Blues",
@@ -3901,9 +3670,7 @@
                 "coordinate": {
                     "lat": 40.006909,
                     "lng": -88.159776
-                },
-                "rating": 4.5,
-                "reviews": 152
+                }
             }
         ],
         "name": "Philo Tavern",
@@ -3926,9 +3693,7 @@
                 "coordinate": {
                     "lat": 40.3108698,
                     "lng": -88.1572696
-                },
-                "rating": 3.8,
-                "reviews": 27
+                }
             }
         ],
         "name": "Rantoul Public House",
@@ -3949,9 +3714,7 @@
                 "coordinate": {
                     "lat": 40.116456,
                     "lng": -88.041708
-                },
-                "rating": 4.4,
-                "reviews": 120
+                }
             }
         ],
         "name": "Roch's Place",
@@ -3974,9 +3737,7 @@
                 "coordinate": {
                     "lat": 40.0922873,
                     "lng": -88.246241
-                },
-                "rating": 4.2,
-                "reviews": 841
+                }
             }
         ],
         "name": "Scotty's Brew House",
@@ -3999,9 +3760,7 @@
                 "coordinate": {
                     "lat": 40.1165593,
                     "lng": -88.2419939
-                },
-                "rating": 4.6,
-                "reviews": 1104
+                }
             }
         ],
         "name": "Seven Saints",
@@ -4024,9 +3783,7 @@
                 "coordinate": {
                     "lat": 40.3091583,
                     "lng": -88.1588001
-                },
-                "rating": 4.3,
-                "reviews": 77
+                }
             }
         ],
         "name": "Shooters Bar & Grill",
@@ -4047,9 +3804,7 @@
                 "coordinate": {
                     "lat": 40.1101242,
                     "lng": -88.2315244
-                },
-                "rating": 4.4,
-                "reviews": 304
+                }
             }
         ],
         "name": "Signature Grill",
@@ -4072,9 +3827,7 @@
                 "coordinate": {
                     "lat": 40.1178509,
                     "lng": -88.2040375
-                },
-                "rating": 4.1,
-                "reviews": 50
+                }
             }
         ],
         "name": "Tin Roof Tavern",
@@ -4095,9 +3848,7 @@
                 "coordinate": {
                     "lat": 40.309418,
                     "lng": -88.154097
-                },
-                "rating": 4.5,
-                "reviews": 71
+                }
             }
         ],
         "name": "TK's Cheesesteak",
@@ -4120,9 +3871,7 @@
                 "coordinate": {
                     "lat": 39.9863273,
                     "lng": -88.2607591
-                },
-                "rating": 4.2,
-                "reviews": 58
+                }
             }
         ],
         "name": "Traxside Bar & Grill",
@@ -4143,9 +3892,7 @@
                 "coordinate": {
                     "lat": 40.1177377,
                     "lng": -88.2438971
-                },
-                "rating": 4.5,
-                "reviews": 625
+                }
             }
         ],
         "name": "Watson's Shack & Rail",
@@ -4168,9 +3915,7 @@
                 "coordinate": {
                     "lat": 40.317667,
                     "lng": -88.349743
-                },
-                "rating": 4.3,
-                "reviews": 74
+                }
             }
         ],
         "name": "Wild Hare Bar and Grill",
@@ -4191,9 +3936,7 @@
                 "coordinate": {
                     "lat": 40.1099576,
                     "lng": -88.2351344
-                },
-                "rating": 2.7,
-                "reviews": 96
+                }
             }
         ],
         "name": "Wingin Out",
@@ -4216,9 +3959,7 @@
                 "coordinate": {
                     "lat": 40.1063145,
                     "lng": -88.2213205
-                },
-                "rating": 4.0,
-                "reviews": 62
+                }
             }
         ],
         "name": "BBQ Chicken",
@@ -4241,9 +3982,7 @@
                 "coordinate": {
                     "lat": 40.1130921,
                     "lng": -87.956329
-                },
-                "rating": 4.5,
-                "reviews": 149
+                }
             }
         ],
         "name": "Billy Bob's BBQ",
@@ -4267,9 +4006,7 @@
                 "coordinate": {
                     "lat": 40.113616,
                     "lng": -88.207555
-                },
-                "rating": 4.7,
-                "reviews": 1021
+                }
             }
         ],
         "name": "Black Dog Smoke & Ale House",
@@ -4307,9 +4044,7 @@
                 "coordinate": {
                     "lat": 40.1125225,
                     "lng": -88.2715843
-                },
-                "rating": 4.4,
-                "reviews": 241
+                }
             }
         ],
         "name": "Bobo's Barbecue",
@@ -4332,9 +4067,7 @@
                 "coordinate": {
                     "lat": 40.128709,
                     "lng": -88.198652
-                },
-                "rating": 4.3,
-                "reviews": 628
+                }
             }
         ],
         "name": "Hickory River Smokehouse",
@@ -4357,9 +4090,7 @@
                 "coordinate": {
                     "lat": 40.112573,
                     "lng": -88.2800287
-                },
-                "rating": 4.4,
-                "reviews": 388
+                }
             }
         ],
         "name": "Lil Porgy's BBQ",
@@ -4382,9 +4113,7 @@
                 "coordinate": {
                     "lat": 39.7104503,
                     "lng": -88.4690487
-                },
-                "rating": 4.7,
-                "reviews": 343
+                }
             }
         ],
         "name": "Pauly's BBQ",
@@ -4407,9 +4136,7 @@
                 "coordinate": {
                     "lat": 40.111431,
                     "lng": -87.960546
-                },
-                "rating": 4.2,
-                "reviews": 194
+                }
             }
         ],
         "name": "Pink Pig",
@@ -4432,9 +4159,7 @@
                 "coordinate": {
                     "lat": 40.191871,
                     "lng": -88.401165
-                },
-                "rating": 4.2,
-                "reviews": 174
+                }
             }
         ],
         "name": "Project 47 Smokehouse",
@@ -4453,13 +4178,11 @@
         ],
         "locations": [
             {
-                "address": "617 E Green St., Champaign, Illinois",
+                "address": "617 E Green St.,Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1102128,
                     "lng": -88.2300319
-                },
-                "rating": 2,
-                "reviews": 2
+                }
             }
         ],
         "name": "Q Smokehouse",
@@ -4480,9 +4203,7 @@
                 "coordinate": {
                     "lat": 40.0714919,
                     "lng": -88.2513368
-                },
-                "rating": 4.5,
-                "reviews": 142
+                }
             }
         ],
         "name": "Smoky's House BBQ",
@@ -4506,27 +4227,21 @@
                 "coordinate": {
                     "lat": 40.1242842,
                     "lng": -88.2336693
-                },
-                "rating": 4.5,
-                "reviews": 208
+                }
             },
             {
                 "address": "500 Walnut St., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.302822,
                     "lng": -88.160613
-                },
-                "rating": 4.5,
-                "reviews": 208
+                }
             },
             {
                 "address": "101 W University Ave., Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.116345,
                     "lng": -88.207709
-                },
-                "rating": 4.5,
-                "reviews": 208
+                }
             }
         ],
         "name": "Wood N' Hog BBQ",
@@ -4549,9 +4264,7 @@
                 "coordinate": {
                     "lat": 40.0217396,
                     "lng": -88.5732951
-                },
-                "rating": 4.7,
-                "reviews": 38
+                }
             }
         ],
         "name": "Bergie's Place",
@@ -4574,9 +4287,7 @@
                 "coordinate": {
                     "lat": 39.710281,
                     "lng": -88.465264
-                },
-                "rating": 4.6,
-                "reviews": 1769
+                }
             }
         ],
         "name": "Country Kitchen",
@@ -4595,9 +4306,7 @@
                 "coordinate": {
                     "lat": 40.1102132,
                     "lng": -88.2300075
-                },
-                "rating": 4.5,
-                "reviews": 113
+                }
             }
         ],
         "name": "Cracked: The Egg Came First",
@@ -4620,9 +4329,7 @@
                 "coordinate": {
                     "lat": 40.110181,
                     "lng": -88.23338
-                },
-                "rating": 4.4,
-                "reviews": 64
+                }
             }
         ],
         "name": "Four Breakfast and More",
@@ -4643,9 +4350,7 @@
                 "coordinate": {
                     "lat": 40.0889535,
                     "lng": -88.2461758
-                },
-                "rating": 4.4,
-                "reviews": 511
+                }
             }
         ],
         "name": "Le Peep",
@@ -4669,18 +4374,14 @@
                 "coordinate": {
                     "lat": 40.0983917,
                     "lng": -88.244247
-                },
-                "rating": 4.3,
-                "reviews": 712
+                }
             },
             {
                 "address": "701 S Gregory St, Ste. C, Urbana, Illinois",
                 "coordinate": {
                     "lat": 40.1068667,
                     "lng": -88.2217175
-                },
-                "rating": 4.4,
-                "reviews": 423
+                }
             }
         ],
         "name": "Merry Ann's Diner",
@@ -4705,9 +4406,7 @@
                 "coordinate": {
                     "lat": 40.1127818,
                     "lng": -88.2784189
-                },
-                "rating": 4.7,
-                "reviews": 792
+                }
             }
         ],
         "name": "Original Pancake House",
@@ -4730,9 +4429,7 @@
                 "coordinate": {
                     "lat": 40.1167429,
                     "lng": -88.2425973
-                },
-                "rating": 4.6,
-                "reviews": 260
+                }
             }
         ],
         "name": "Sam's Cafe",
@@ -4753,9 +4450,7 @@
                 "coordinate": {
                     "lat": 40.1286157,
                     "lng": -88.2766301
-                },
-                "rating": 4.4,
-                "reviews": 588
+                }
             }
         ],
         "name": "Sammy's Pancake House",
@@ -4776,9 +4471,7 @@
                 "coordinate": {
                     "lat": 40.109995,
                     "lng": -88.2312987
-                },
-                "rating": 4.5,
-                "reviews": 349
+                }
             }
         ],
         "name": "Cocomero",
@@ -4799,9 +4492,7 @@
                 "coordinate": {
                     "lat": 40.1465972,
                     "lng": -88.2582888
-                },
-                "rating": 5.0,
-                "reviews": 18
+                }
             }
         ],
         "name": "Cookies by Design",
@@ -4824,9 +4515,7 @@
                 "coordinate": {
                     "lat": 40.1168349,
                     "lng": -88.2421783
-                },
-                "rating": 4.4,
-                "reviews": 120
+                }
             }
         ],
         "name": "Cream & Flutter",
@@ -4841,6 +4530,27 @@
         "cuisine": "Dessert",
         "img_url": "",
         "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
+                "address": "307 N Long, Tolono, Illinois",
+                "coordinate": {
+                    "lat": 39.990102,
+                    "lng": -88.262452
+                }
+            }
+        ],
+        "name": "Double Dip",
+        "phone_number": [
+            "2176215858"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Dessert",
+        "img_url": "",
+        "location_areas": [
             "Urbana"
         ],
         "locations": [
@@ -4849,9 +4559,7 @@
                 "coordinate": {
                     "lat": 40.1173824,
                     "lng": -88.2050092
-                },
-                "rating": 4.9,
-                "reviews": 257
+                }
             }
         ],
         "name": "El Oasis",
@@ -4872,9 +4580,7 @@
                 "coordinate": {
                     "lat": 40.0250967,
                     "lng": -88.5738226
-                },
-                "rating": 4.9,
-                "reviews": 28
+                }
             }
         ],
         "name": "Froyo Factory",
@@ -4897,9 +4603,7 @@
                 "coordinate": {
                     "lat": 40.1091862,
                     "lng": -88.2316942
-                },
-                "rating": 3.5,
-                "reviews": 126
+                }
             }
         ],
         "name": "Insomnia Cookies",
@@ -4922,9 +4626,7 @@
                 "coordinate": {
                     "lat": 40.0980044,
                     "lng": -88.2468826
-                },
-                "rating": 4.7,
-                "reviews": 1051
+                }
             }
         ],
         "name": "Jarling's Custard Cup",
@@ -4943,13 +4645,34 @@
         ],
         "locations": [
             {
+                "address": "307 N Long Street, Tolono, Illinois",
+                "coordinate": {
+                    "lat": 39.9889704,
+                    "lng": -88.2619324
+                }
+            }
+        ],
+        "name": "Judy's Sweets",
+        "phone_number": [
+            "2178286767"
+        ],
+        "website": [
+            "judyssweetsandtreats.com"
+        ]
+    },
+    {
+        "cuisine": "Dessert",
+        "img_url": "",
+        "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
                 "address": "308 S Main St, Gifford, Illinois",
                 "coordinate": {
                     "lat": 40.3053295,
                     "lng": -88.0214735
-                },
-                "rating": 4.9,
-                "reviews": 8
+                }
             }
         ],
         "name": "Lenny's Ice Cream Gallery",
@@ -4970,9 +4693,7 @@
                 "coordinate": {
                     "lat": 40.191837,
                     "lng": -88.403208
-                },
-                "rating": 4.5,
-                "reviews": 17
+                }
             }
         ],
         "name": "Lucky Moon Pies",
@@ -4987,6 +4708,29 @@
         "cuisine": "Dessert",
         "img_url": "",
         "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
+                "address": "228 1/2 E Lincoln St, St. Joseph, Illinois",
+                "coordinate": {
+                    "lat": 40.1113892,
+                    "lng": -88.0338027
+                }
+            }
+        ],
+        "name": "MeMe's Treat Boutique",
+        "phone_number": [
+            "2179188492"
+        ],
+        "website": [
+            "memestreatboutique.com"
+        ]
+    },
+    {
+        "cuisine": "Dessert",
+        "img_url": "",
+        "location_areas": [
             "Campustown"
         ],
         "locations": [
@@ -4995,9 +4739,7 @@
                 "coordinate": {
                     "lat": 40.1112889,
                     "lng": -88.2327795
-                },
-                "rating": 4.5,
-                "reviews": 232
+                }
             }
         ],
         "name": "Paris Super Crepes",
@@ -5020,9 +4762,7 @@
                 "coordinate": {
                     "lat": 40.0255564,
                     "lng": -88.5729129
-                },
-                "rating": 4.9,
-                "reviews": 8
+                }
             }
         ],
         "name": "Pies by Inge",
@@ -5045,9 +4785,7 @@
                 "coordinate": {
                     "lat": 40.092884,
                     "lng": -88.190658
-                },
-                "rating": 4.5,
-                "reviews": 149
+                }
             }
         ],
         "name": "Red Bicycle Ice Cream",
@@ -5070,9 +4808,7 @@
                 "coordinate": {
                     "lat": 40.192668,
                     "lng": -87.982699
-                },
-                "rating": 4.8,
-                "reviews": 319
+                }
             }
         ],
         "name": "Sidney Dairy Burn",
@@ -5095,9 +4831,7 @@
                 "coordinate": {
                     "lat": 40.0840604,
                     "lng": -88.3016138
-                },
-                "rating": 4.0,
-                "reviews": 29
+                }
             }
         ],
         "name": "Sweet Indulgence",
@@ -5120,9 +4854,7 @@
                 "coordinate": {
                     "lat": 40.0972455,
                     "lng": -88.2750033
-                },
-                "rating": 4.4,
-                "reviews": 67
+                }
             }
         ],
         "name": "TCBY",
@@ -5145,9 +4877,7 @@
                 "coordinate": {
                     "lat": 40.1929515,
                     "lng": -88.4005791
-                },
-                "rating": 4.6,
-                "reviews": 171
+                }
             }
         ],
         "name": "YoYos",
@@ -5168,9 +4898,7 @@
                 "coordinate": {
                     "lat": 40.1262901,
                     "lng": -88.2387013
-                },
-                "rating": 4.3,
-                "reviews": 257
+                }
             }
         ],
         "name": "Big JJ Fish & Chicken",
@@ -5193,9 +4921,7 @@
                 "coordinate": {
                     "lat": 40.306106,
                     "lng": -88.157401
-                },
-                "rating": 4.3,
-                "reviews": 276
+                }
             }
         ],
         "name": "Butcher Boy Burgers",
@@ -5216,9 +4942,7 @@
                 "coordinate": {
                     "lat": 40.036204,
                     "lng": -87.958117
-                },
-                "rating": 4.7,
-                "reviews": 105
+                }
             }
         ],
         "name": "Charlie's Grub & Suds",
@@ -5239,9 +4963,7 @@
                 "coordinate": {
                     "lat": 40.1470235,
                     "lng": -88.2578748
-                },
-                "rating": 4.2,
-                "reviews": 308
+                }
             }
         ],
         "name": "CoreLife Eatery",
@@ -5264,9 +4986,7 @@
                 "coordinate": {
                     "lat": 40.1093924,
                     "lng": -88.2272187
-                },
-                "rating": 3.9,
-                "reviews": 13
+                }
             }
         ],
         "name": "Garbanzo Mediterranean Fresh",
@@ -5289,9 +5009,7 @@
                 "coordinate": {
                     "lat": 40.1102146,
                     "lng": -88.2299343
-                },
-                "rating": 4.4,
-                "reviews": 78
+                }
             }
         ],
         "name": "Howdy Burger",
@@ -5312,9 +5030,7 @@
                 "coordinate": {
                     "lat": 40.1103981,
                     "lng": -88.2331124
-                },
-                "rating": 4.3,
-                "reviews": 173
+                }
             }
         ],
         "name": "Jurassic Grill",
@@ -5338,18 +5054,14 @@
                 "coordinate": {
                     "lat": 40.127287,
                     "lng": -88.260498
-                },
-                "rating": 4.6,
-                "reviews": 106
+                }
             },
             {
                 "address": "1000 E Southline Rd., Tuscola, Illinois",
                 "coordinate": {
                     "lat": 39.791683,
                     "lng": -88.272932
-                },
-                "rating": 4.1,
-                "reviews": 13
+                }
             }
         ],
         "name": "Krispy Krunchy Chicken",
@@ -5374,18 +5086,14 @@
                 "coordinate": {
                     "lat": 40.1163344,
                     "lng": -88.2209694
-                },
-                "rating": 4.2,
-                "reviews": 282
+                }
             },
             {
                 "address": "2001 W Springfield Ave, Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1125515,
                     "lng": -88.2804357
-                },
-                "rating": 4.0,
-                "reviews": 192
+                }
             }
         ],
         "name": "Niro's Gyros",
@@ -5409,9 +5117,7 @@
                 "coordinate": {
                     "lat": 40.1425441,
                     "lng": -88.2574377
-                },
-                "rating": 4.3,
-                "reviews": 452
+                }
             }
         ],
         "name": "Super Niro's Gyros",
@@ -5432,9 +5138,7 @@
                 "coordinate": {
                     "lat": 40.1097266,
                     "lng": -88.2087623
-                },
-                "rating": 4.4,
-                "reviews": 299
+                }
             }
         ],
         "name": "Windy City",
@@ -5457,9 +5161,7 @@
                 "coordinate": {
                     "lat": 40.1102151,
                     "lng": -88.22991
-                },
-                "rating": 3.9,
-                "reviews": 237
+                }
             }
         ],
         "name": "Zorba's",
@@ -5482,9 +5184,7 @@
                 "coordinate": {
                     "lat": 40.1184918,
                     "lng": -88.2437783
-                },
-                "rating": 4.5,
-                "reviews": 197
+                }
             }
         ],
         "name": "Miga",
@@ -5507,9 +5207,7 @@
                 "coordinate": {
                     "lat": 40.1175277,
                     "lng": -88.2455397
-                },
-                "rating": 4.4,
-                "reviews": 230
+                }
             }
         ],
         "name": "Nando Milano Trattoria",
@@ -5532,9 +5230,7 @@
                 "coordinate": {
                     "lat": 40.1103163,
                     "lng": -88.2367212
-                },
-                "rating": 4.7,
-                "reviews": 112
+                }
             }
         ],
         "name": "NAYA",
@@ -5557,9 +5253,7 @@
                 "coordinate": {
                     "lat": 40.115479,
                     "lng": -88.2087366
-                },
-                "rating": 4.5,
-                "reviews": 476
+                }
             }
         ],
         "name": "Silvercreek",
@@ -5582,9 +5276,7 @@
                 "coordinate": {
                     "lat": 40.1067818,
                     "lng": -88.223744
-                },
-                "rating": 4.3,
-                "reviews": 161
+                }
             }
         ],
         "name": "Timpone's",
@@ -5607,9 +5299,7 @@
                 "coordinate": {
                     "lat": 40.1121321,
                     "lng": -88.0422956
-                },
-                "rating": 4.6,
-                "reviews": 204
+                }
             }
         ],
         "name": "The Wheelhouse",
@@ -5632,9 +5322,7 @@
                 "coordinate": {
                     "lat": 40.0822614,
                     "lng": -88.296249
-                },
-                "rating": 3.9,
-                "reviews": 228
+                }
             }
         ],
         "name": "Amaravati Indian Cuisine",
@@ -5657,9 +5345,7 @@
                 "coordinate": {
                     "lat": 40.1113744,
                     "lng": -88.2290016
-                },
-                "rating": 3.9,
-                "reviews": 306
+                }
             }
         ],
         "name": "Ambar India",
@@ -5682,9 +5368,7 @@
                 "coordinate": {
                     "lat": 40.0976015,
                     "lng": -88.2746667
-                },
-                "rating": 4.9,
-                "reviews": 31
+                }
             }
         ],
         "name": "Ba'get",
@@ -5705,9 +5389,7 @@
                 "coordinate": {
                     "lat": 40.110202,
                     "lng": -88.046651
-                },
-                "rating": 4.0,
-                "reviews": 125
+                }
             }
         ],
         "name": "Bombay Indian Grill",
@@ -5730,9 +5412,7 @@
                 "coordinate": {
                     "lat": 40.117583,
                     "lng": -88.207549
-                },
-                "rating": 4.6,
-                "reviews": 176
+                }
             }
         ],
         "name": "Broadway Food Hall (King Kuma | Nation | Muchacho | La Royals | Eighty-Three Vietnamese Cuisine)",
@@ -5753,9 +5433,7 @@
                 "coordinate": {
                     "lat": 40.0875524,
                     "lng": -88.2475664
-                },
-                "rating": 4.5,
-                "reviews": 199
+                }
             }
         ],
         "name": "Caribbean Grill",
@@ -5778,9 +5456,7 @@
                 "coordinate": {
                     "lat": 40.1183572,
                     "lng": -88.2441538
-                },
-                "rating": 4.3,
-                "reviews": 523
+                }
             }
         ],
         "name": "Himalayan Chimney",
@@ -5801,9 +5477,7 @@
                 "coordinate": {
                     "lat": 40.111385,
                     "lng": -88.229002
-                },
-                "rating": 4.2,
-                "reviews": 107
+                }
             }
         ],
         "name": "Jerusalem Middle Eastern Cuisine",
@@ -5824,9 +5498,7 @@
                 "coordinate": {
                     "lat": 40.1211875,
                     "lng": -88.2432218
-                },
-                "rating": 4.5,
-                "reviews": 644
+                }
             }
         ],
         "name": "Kohinoor Indian Restaurant",
@@ -5849,9 +5521,7 @@
                 "coordinate": {
                     "lat": 40.1119449,
                     "lng": -88.2086683
-                },
-                "rating": 4.2,
-                "reviews": 225
+                }
             }
         ],
         "name": "Sitara Indian Restaurant & Lounge",
@@ -5874,9 +5544,7 @@
                 "coordinate": {
                     "lat": 40.1109133,
                     "lng": -88.2073785
-                },
-                "rating": 4.6,
-                "reviews": 27
+                }
             }
         ],
         "name": "Stango Cuisine",
@@ -5899,9 +5567,7 @@
                 "coordinate": {
                     "lat": 40.1198394,
                     "lng": -88.2437618
-                },
-                "rating": 4.6,
-                "reviews": 152
+                }
             }
         ],
         "name": "Sticky Rice",
@@ -5922,9 +5588,7 @@
                 "coordinate": {
                     "lat": 40.3105182,
                     "lng": -88.1584504
-                },
-                "rating": 4.6,
-                "reviews": 82
+                }
             }
         ],
         "name": "Taste of Thai",
@@ -5945,9 +5609,7 @@
                 "coordinate": {
                     "lat": 40.0979882,
                     "lng": -88.2447754
-                },
-                "rating": 4.2,
-                "reviews": 20
+                }
             }
         ],
         "name": "Top Food Restaurant",
@@ -5968,9 +5630,7 @@
                 "coordinate": {
                     "lat": 40.1105926,
                     "lng": -88.2072068
-                },
-                "rating": 5.0,
-                "reviews": 2
+                }
             }
         ],
         "name": "Baldarotta's Porketta & Sicilian Sausage",
@@ -5993,9 +5653,7 @@
                 "coordinate": {
                     "lat": 40.0887933,
                     "lng": -88.2462013
-                },
-                "rating": 4.3,
-                "reviews": 739
+                }
             }
         ],
         "name": "Biaggi's Ristorante Italiano",
@@ -6018,9 +5676,7 @@
                 "coordinate": {
                     "lat": 40.1158474,
                     "lng": -88.2389717
-                },
-                "rating": 4.5,
-                "reviews": 218
+                }
             }
         ],
         "name": "Manzella's Italian Patio",
@@ -6039,13 +5695,11 @@
         ],
         "locations": [
             {
-                "address": "629 E Green St., Champaign, Illinois",
+                "address": "629 E Green St.,Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1101957,
                     "lng": -88.2292323
-                },
-                "rating": 4.4,
-                "reviews": 434
+                }
             }
         ],
         "name": "Mia Za's",
@@ -6068,9 +5722,7 @@
                 "coordinate": {
                     "lat": 40.3062238,
                     "lng": -88.1556757
-                },
-                "rating": 4.5,
-                "reviews": 218
+                }
             }
         ],
         "name": "Agave",
@@ -6091,9 +5743,7 @@
                 "coordinate": {
                     "lat": 40.194475,
                     "lng": -88.401174
-                },
-                "rating": 4.5,
-                "reviews": 133
+                }
             }
         ],
         "name": "Breaking Taco",
@@ -6116,9 +5766,7 @@
                 "coordinate": {
                     "lat": 40.110428,
                     "lng": -88.2325805
-                },
-                "rating": 4.0,
-                "reviews": 304
+                }
             }
         ],
         "name": "Burrito King Mexican Grill",
@@ -6141,9 +5789,7 @@
                 "coordinate": {
                     "lat": 40.0815674,
                     "lng": -88.1903394
-                },
-                "rating": 4.5,
-                "reviews": 246
+                }
             }
         ],
         "name": "Casa Del Mar",
@@ -6164,9 +5810,7 @@
                 "coordinate": {
                     "lat": 40.3106917,
                     "lng": -88.1570399
-                },
-                "rating": 4.7,
-                "reviews": 98
+                }
             }
         ],
         "name": "Casa Fiesta Grill",
@@ -6187,9 +5831,7 @@
                 "coordinate": {
                     "lat": 40.0103381,
                     "lng": -88.5758582
-                },
-                "rating": 4.7,
-                "reviews": 41
+                }
             }
         ],
         "name": "Casa Real",
@@ -6210,9 +5852,7 @@
                 "coordinate": {
                     "lat": 40.129902,
                     "lng": -88.2605017
-                },
-                "rating": 4.5,
-                "reviews": 1220
+                }
             }
         ],
         "name": "Dos Reales",
@@ -6233,9 +5873,7 @@
                 "coordinate": {
                     "lat": 40.0821985,
                     "lng": -88.2962492
-                },
-                "rating": 4.3,
-                "reviews": 150
+                }
             }
         ],
         "name": "El Patio",
@@ -6258,18 +5896,21 @@
                 "coordinate": {
                     "lat": 40.312071,
                     "lng": -88.1302248
-                },
-                "rating": 4.3,
-                "reviews": 196
+                }
             },
             {
                 "address": "221 E Lincoln St., St. Joseph, Illinois",
                 "coordinate": {
                     "lat": 40.1113413,
                     "lng": -88.0414414
-                },
-                "rating": 4.5,
-                "reviews": 231
+                }
+            },
+            {
+                "address": "703 Eastwood Center Dr., Mahomet, Illinois",
+                "coordinate": {
+                    "lat": 40.196205,
+                    "lng": -88.398791
+                }
             }
         ],
         "name": "El Toro",
@@ -6294,9 +5935,7 @@
                 "coordinate": {
                     "lat": 40.0824472,
                     "lng": -88.3086099
-                },
-                "rating": 4.5,
-                "reviews": 78
+                }
             }
         ],
         "name": "El Toro at the Fields",
@@ -6319,9 +5958,7 @@
                 "coordinate": {
                     "lat": 40.1128723,
                     "lng": -88.2889696
-                },
-                "rating": 4.2,
-                "reviews": 559
+                }
             }
         ],
         "name": "El Toro Bravo",
@@ -6344,9 +5981,7 @@
                 "coordinate": {
                     "lat": 40.1070936,
                     "lng": -88.243905
-                },
-                "rating": 4.1,
-                "reviews": 316
+                }
             }
         ],
         "name": "El Toro II",
@@ -6369,9 +6004,7 @@
                 "coordinate": {
                     "lat": 40.1103981,
                     "lng": -88.2331124
-                },
-                "rating": 4.1,
-                "reviews": 17
+                }
             }
         ],
         "name": "Empanadas House",
@@ -6394,9 +6027,7 @@
                 "coordinate": {
                     "lat": 40.1080541,
                     "lng": -88.2300417
-                },
-                "rating": 4.8,
-                "reviews": 49
+                }
             }
         ],
         "name": "Fernando's",
@@ -6419,9 +6050,7 @@
                 "coordinate": {
                     "lat": 40.1147731,
                     "lng": -88.2384771
-                },
-                "rating": 4.3,
-                "reviews": 449
+                }
             }
         ],
         "name": "Fiesta Cafe",
@@ -6444,9 +6073,7 @@
                 "coordinate": {
                     "lat": 40.1067191,
                     "lng": -88.1957771
-                },
-                "rating": 4.6,
-                "reviews": 913
+                }
             }
         ],
         "name": "Huaraches Moroleon",
@@ -6467,9 +6094,7 @@
                 "coordinate": {
                     "lat": 40.1337676,
                     "lng": -88.2387896
-                },
-                "rating": 3.5,
-                "reviews": 12
+                }
             }
         ],
         "name": "Juanito's Tacos",
@@ -6490,9 +6115,7 @@
                 "coordinate": {
                     "lat": 40.1195641,
                     "lng": -88.2778037
-                },
-                "rating": 4.2,
-                "reviews": 447
+                }
             }
         ],
         "name": "La Bamba Mexican Restaurant",
@@ -6515,9 +6138,7 @@
                 "coordinate": {
                     "lat": 39.710308,
                     "lng": -88.4604196
-                },
-                "rating": 4.4,
-                "reviews": 171
+                }
             }
         ],
         "name": "La Cascuda Mexican Grill",
@@ -6538,9 +6159,7 @@
                 "coordinate": {
                     "lat": 40.1165477,
                     "lng": -88.2047815
-                },
-                "rating": 4.5,
-                "reviews": 125
+                }
             }
         ],
         "name": "La Mixteca",
@@ -6563,9 +6182,7 @@
                 "coordinate": {
                     "lat": 40.0250293,
                     "lng": -88.5728631
-                },
-                "rating": 4.3,
-                "reviews": 44
+                }
             }
         ],
         "name": "Las Maria's Mexican Restaurant",
@@ -6588,9 +6205,7 @@
                 "coordinate": {
                     "lat": 40.1967693,
                     "lng": -88.3961211
-                },
-                "rating": 4.4,
-                "reviews": 250
+                }
             }
         ],
         "name": "Los Zarapes",
@@ -6612,18 +6227,14 @@
                 "coordinate": {
                     "lat": 40.388168,
                     "lng": -88.127324
-                },
-                "rating": 4.6,
-                "reviews": 825
+                }
             },
             {
                 "address": "60 E Green St., Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1104203,
                     "lng": -88.2389625
-                },
-                "rating": 4.6,
-                "reviews": 825
+                }
             }
         ],
         "name": "Maize Mexican Grill",
@@ -6647,9 +6258,7 @@
                 "coordinate": {
                     "lat": 40.1226985,
                     "lng": -88.243655
-                },
-                "rating": 4.4,
-                "reviews": 25
+                }
             }
         ],
         "name": "Mas Amigos",
@@ -6670,9 +6279,7 @@
                 "coordinate": {
                     "lat": 39.8003947,
                     "lng": -88.2894876
-                },
-                "rating": 4.5,
-                "reviews": 196
+                }
             }
         ],
         "name": "Mi Veracruz Mexican Grill",
@@ -6693,9 +6300,7 @@
                 "coordinate": {
                     "lat": 40.0901812,
                     "lng": -88.2464817
-                },
-                "rating": 4.1,
-                "reviews": 353
+                }
             }
         ],
         "name": "Moe's Southwest Grill",
@@ -6718,9 +6323,7 @@
                 "coordinate": {
                     "lat": 39.791639,
                     "lng": -88.290574
-                },
-                "rating": 4.4,
-                "reviews": 313
+                }
             }
         ],
         "name": "Sol Del Mar Mexican Bar & Grill",
@@ -6741,9 +6344,7 @@
                 "coordinate": {
                     "lat": 40.1425368,
                     "lng": -88.2571235
-                },
-                "rating": 4.1,
-                "reviews": 207
+                }
             }
         ],
         "name": "Super Taco",
@@ -6766,9 +6367,7 @@
                 "coordinate": {
                     "lat": 40.1425372,
                     "lng": -88.2571377
-                },
-                "rating": 4.1,
-                "reviews": 207
+                }
             }
         ],
         "name": "Taco Loco",
@@ -6791,9 +6390,7 @@
                 "coordinate": {
                     "lat": 40.1152253,
                     "lng": -88.2089057
-                },
-                "rating": 5.0,
-                "reviews": 2
+                }
             }
         ],
         "name": "Tienda Guatemala",
@@ -6814,9 +6411,7 @@
                 "coordinate": {
                     "lat": 40.127545,
                     "lng": -88.199438
-                },
-                "rating": 4.3,
-                "reviews": 659
+                }
             }
         ],
         "name": "Toro Loco",
@@ -6839,9 +6434,7 @@
                 "coordinate": {
                     "lat": 40.1965507,
                     "lng": -88.3655214
-                },
-                "rating": 4.8,
-                "reviews": 219
+                }
             }
         ],
         "name": "Filippo's of Mahomet",
@@ -6864,9 +6457,7 @@
                 "coordinate": {
                     "lat": 40.02434,
                     "lng": -88.573945
-                },
-                "rating": 4.6,
-                "reviews": 149
+                }
             }
         ],
         "name": "Filippo's of Monticello",
@@ -6887,9 +6478,7 @@
                 "coordinate": {
                     "lat": 40.3071862,
                     "lng": -88.1558992
-                },
-                "rating": 3.0,
-                "reviews": 44
+                }
             }
         ],
         "name": "Fire House Chicago Style",
@@ -6910,9 +6499,7 @@
                 "coordinate": {
                     "lat": 40.1185746,
                     "lng": -88.2769902
-                },
-                "rating": 4.0,
-                "reviews": 202
+                }
             }
         ],
         "name": "Garcia's Pizza in a Pan",
@@ -6935,9 +6522,7 @@
                 "coordinate": {
                     "lat": 40.142697,
                     "lng": -88.242566
-                },
-                "rating": 4.0,
-                "reviews": 400
+                }
             }
         ],
         "name": "Giordano's",
@@ -6960,9 +6545,7 @@
                 "coordinate": {
                     "lat": 39.7220456,
                     "lng": -88.472622
-                },
-                "rating": 4.6,
-                "reviews": 60
+                }
             }
         ],
         "name": "Itsa Pizza",
@@ -6985,9 +6568,7 @@
                 "coordinate": {
                     "lat": 39.7998878,
                     "lng": -88.2878856
-                },
-                "rating": 4.5,
-                "reviews": 179
+                }
             }
         ],
         "name": "Joe's Pizza",
@@ -7008,9 +6589,7 @@
                 "coordinate": {
                     "lat": 40.0819148,
                     "lng": -88.2967223
-                },
-                "rating": 4.1,
-                "reviews": 920
+                }
             }
         ],
         "name": "Jupiter's At The Crossing",
@@ -7033,9 +6612,7 @@
                 "coordinate": {
                     "lat": 40.1178875,
                     "lng": -88.2414231
-                },
-                "rating": 4.3,
-                "reviews": 466
+                }
             }
         ],
         "name": "Jupiter's Pizzeria and Billiards",
@@ -7058,9 +6635,7 @@
                 "coordinate": {
                     "lat": 40.1069133,
                     "lng": -88.2219766
-                },
-                "rating": 4.4,
-                "reviews": 239
+                }
             }
         ],
         "name": "Manolo's Pizza & Empanadas",
@@ -7083,9 +6658,7 @@
                 "coordinate": {
                     "lat": 40.0651544,
                     "lng": -88.2506718
-                },
-                "rating": 4.5,
-                "reviews": 590
+                }
             }
         ],
         "name": "Old Orchard Lanes",
@@ -7108,9 +6681,7 @@
                 "coordinate": {
                     "lat": 40.113052,
                     "lng": -88.041802
-                },
-                "rating": 4.7,
-                "reviews": 49
+                }
             }
         ],
         "name": "Padano's Pizza Co.",
@@ -7131,9 +6702,7 @@
                 "coordinate": {
                     "lat": 40.127331,
                     "lng": -88.243696
-                },
-                "rating": 4.1,
-                "reviews": 1232
+                }
             }
         ],
         "name": "Papa Del's",
@@ -7156,9 +6725,7 @@
                 "coordinate": {
                     "lat": 40.0821482,
                     "lng": -88.2962493
-                },
-                "rating": 4.6,
-                "reviews": 251
+                }
             }
         ],
         "name": "Pie's the Limit",
@@ -7181,9 +6748,7 @@
                 "coordinate": {
                     "lat": 40.3108805,
                     "lng": -88.3523572
-                },
-                "rating": 4.7,
-                "reviews": 66
+                }
             }
         ],
         "name": "Pizza Roma",
@@ -7204,9 +6769,7 @@
                 "coordinate": {
                     "lat": 40.1168682,
                     "lng": -88.2430077
-                },
-                "rating": 4.5,
-                "reviews": 271
+                }
             }
         ],
         "name": "Pizzeria Antica",
@@ -7229,9 +6792,7 @@
                 "coordinate": {
                     "lat": 40.3093063,
                     "lng": -88.1585727
-                },
-                "rating": 4.0,
-                "reviews": 58
+                }
             }
         ],
         "name": "Rantoul Pizza Pub",
@@ -7252,9 +6813,7 @@
                 "coordinate": {
                     "lat": 40.1105116,
                     "lng": -88.2399968
-                },
-                "rating": 4.4,
-                "reviews": 114
+                }
             }
         ],
         "name": "Vinny's East Coast Pizzeria",
@@ -7277,9 +6836,7 @@
                 "coordinate": {
                     "lat": 40.1146127,
                     "lng": -88.2121651
-                },
-                "rating": 4.8,
-                "reviews": 38
+                }
             }
         ],
         "name": "25 O'clock Brewing Company",
@@ -7298,9 +6855,7 @@
                 "coordinate": {
                     "lat": 40.127323,
                     "lng": -88.268886
-                },
-                "rating": 3.8,
-                "reviews": 59
+                }
             }
         ],
         "name": "51 Main",
@@ -7323,9 +6878,7 @@
                 "coordinate": {
                     "lat": 40.1128345,
                     "lng": -88.208843
-                },
-                "rating": 4.9,
-                "reviews": 7
+                }
             }
         ],
         "name": "Analog",
@@ -7333,6 +6886,27 @@
         "website": [
             "analogurbana.com"
         ]
+    },
+    {
+        "cuisine": "Pubs & Bars",
+        "img_url": "",
+        "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
+                "address": "210 E Logan St, Longview, Illinois",
+                "coordinate": {
+                    "lat": 39.8849113,
+                    "lng": -88.0674892
+                }
+            }
+        ],
+        "name": "Angela's Place",
+        "phone_number": [
+            "2178343220"
+        ],
+        "website": []
     },
     {
         "cuisine": "Pubs & Bars",
@@ -7346,9 +6920,7 @@
                 "coordinate": {
                     "lat": 40.117659,
                     "lng": -88.241934
-                },
-                "rating": 4.5,
-                "reviews": 310
+                }
             }
         ],
         "name": "Barrelhouse 34",
@@ -7371,9 +6943,7 @@
                 "coordinate": {
                     "lat": 40.1194328,
                     "lng": -88.2436678
-                },
-                "rating": 4.6,
-                "reviews": 141
+                }
             }
         ],
         "name": "Bentley's Pub",
@@ -7396,9 +6966,7 @@
                 "coordinate": {
                     "lat": 40.1121921,
                     "lng": -88.2083097
-                },
-                "rating": 4.5,
-                "reviews": 90
+                }
             }
         ],
         "name": "Blackbird",
@@ -7421,9 +6989,7 @@
                 "coordinate": {
                     "lat": 40.1171401,
                     "lng": -88.2434108
-                },
-                "rating": 4.7,
-                "reviews": 175
+                }
             }
         ],
         "name": "Blind Pig Brewery",
@@ -7446,9 +7012,7 @@
                 "coordinate": {
                     "lat": 40.1167149,
                     "lng": -88.2423836
-                },
-                "rating": 4.7,
-                "reviews": 379
+                }
             }
         ],
         "name": "Blind Pig Co.",
@@ -7471,9 +7035,7 @@
                 "coordinate": {
                     "lat": 40.116227,
                     "lng": -88.242824
-                },
-                "rating": 4.3,
-                "reviews": 64
+                }
             }
         ],
         "name": "Brass Rail",
@@ -7494,9 +7056,7 @@
                 "coordinate": {
                     "lat": 39.9443101,
                     "lng": -88.4561016
-                },
-                "rating": 4.7,
-                "reviews": 44
+                }
             }
         ],
         "name": "Bridget's Blarney Stone",
@@ -7517,9 +7077,7 @@
                 "coordinate": {
                     "lat": 39.9665606,
                     "lng": -88.3459534
-                },
-                "rating": 4.4,
-                "reviews": 44
+                }
             }
         ],
         "name": "Buford's",
@@ -7540,9 +7098,7 @@
                 "coordinate": {
                     "lat": 40.24362,
                     "lng": -88.185474
-                },
-                "rating": 4.5,
-                "reviews": 31
+                }
             }
         ],
         "name": "Central Tavern",
@@ -7563,9 +7119,7 @@
                 "coordinate": {
                     "lat": 40.1186919,
                     "lng": -88.2434444
-                },
-                "rating": 4.6,
-                "reviews": 114
+                }
             }
         ],
         "name": "Collective Pour",
@@ -7588,9 +7142,7 @@
                 "coordinate": {
                     "lat": 40.1166996,
                     "lng": -88.24239
-                },
-                "rating": 4.2,
-                "reviews": 36
+                }
             }
         ],
         "name": "Crude Wine Bar",
@@ -7613,9 +7165,7 @@
                 "coordinate": {
                     "lat": 40.0070031,
                     "lng": -88.1565881
-                },
-                "rating": 4.7,
-                "reviews": 46
+                }
             }
         ],
         "name": "Duly's Sports Bar",
@@ -7636,9 +7186,7 @@
                 "coordinate": {
                     "lat": 40.0253968,
                     "lng": -88.5712022
-                },
-                "rating": 4.1,
-                "reviews": 19
+                }
             }
         ],
         "name": "East End Tavern",
@@ -7659,9 +7207,7 @@
                 "coordinate": {
                     "lat": 39.9667151,
                     "lng": -88.3469738
-                },
-                "rating": 4.7,
-                "reviews": 34
+                }
             }
         ],
         "name": "Game On Sports Tavern",
@@ -7682,9 +7228,7 @@
                 "coordinate": {
                     "lat": 40.1098751,
                     "lng": -88.2410343
-                },
-                "rating": 4.4,
-                "reviews": 62
+                }
             }
         ],
         "name": "Green Street Cafe",
@@ -7705,9 +7249,7 @@
                 "coordinate": {
                     "lat": 40.1110859,
                     "lng": -88.2391412
-                },
-                "rating": 3.3,
-                "reviews": 101
+                }
             }
         ],
         "name": "Hub Sports Bar",
@@ -7728,9 +7270,7 @@
                 "coordinate": {
                     "lat": 40.1185118,
                     "lng": -88.2684968
-                },
-                "rating": 4.6,
-                "reviews": 115
+                }
             }
         ],
         "name": "Huber's",
@@ -7751,9 +7291,7 @@
                 "coordinate": {
                     "lat": 40.107825,
                     "lng": -88.233605
-                },
-                "rating": 4.3,
-                "reviews": 99
+                }
             }
         ],
         "name": "Illini Inn",
@@ -7776,9 +7314,7 @@
                 "coordinate": {
                     "lat": 40.1117804,
                     "lng": -88.2087283
-                },
-                "rating": 4.4,
-                "reviews": 132
+                }
             }
         ],
         "name": "Iron Post",
@@ -7799,9 +7335,7 @@
                 "coordinate": {
                     "lat": 39.9442787,
                     "lng": -88.4560912
-                },
-                "rating": 4.5,
-                "reviews": 19
+                }
             }
         ],
         "name": "Ivesdale Tavern Inc.",
@@ -7822,9 +7356,7 @@
                 "coordinate": {
                     "lat": 39.9854892,
                     "lng": -88.2592163
-                },
-                "rating": 3.8,
-                "reviews": 21
+                }
             }
         ],
         "name": "Jack's Tavern",
@@ -7858,9 +7390,7 @@
                 "coordinate": {
                     "lat": 39.909858,
                     "lng": -87.996241
-                },
-                "rating": 4.4,
-                "reviews": 30
+                }
             }
         ],
         "name": "Lincoln Street Lounge",
@@ -7877,13 +7407,32 @@
         ],
         "locations": [
             {
+                "address": "424 S Century Blvd, Rantoul, Illinois",
+                "coordinate": {
+                    "lat": 40.3060229,
+                    "lng": -88.155891
+                }
+            }
+        ],
+        "name": "Logan's Pub",
+        "phone_number": [
+            "2178931221"
+        ],
+        "website": []
+    },
+    {
+        "cuisine": "Pubs & Bars",
+        "img_url": "",
+        "location_areas": [
+            "Other"
+        ],
+        "locations": [
+            {
                 "address": "113 E Main, Tolono, Illinois",
                 "coordinate": {
                     "lat": 39.9850855,
                     "lng": -88.2622422
-                },
-                "rating": 4.5,
-                "reviews": 39
+                }
             }
         ],
         "name": "Loose Cobra",
@@ -7906,9 +7455,7 @@
                 "coordinate": {
                     "lat": 39.9857938,
                     "lng": -88.2653784
-                },
-                "rating": 4.1,
-                "reviews": 36
+                }
             }
         ],
         "name": "Lu & Denny's",
@@ -7929,9 +7476,7 @@
                 "coordinate": {
                     "lat": 40.0247184,
                     "lng": -88.5722324
-                },
-                "rating": 4.5,
-                "reviews": 132
+                }
             }
         ],
         "name": "Main Street Pub",
@@ -7952,9 +7497,7 @@
                 "coordinate": {
                     "lat": 40.305679,
                     "lng": -88.0238617
-                },
-                "rating": 4.5,
-                "reviews": 22
+                }
             }
         ],
         "name": "North Forty",
@@ -7975,9 +7518,7 @@
                 "coordinate": {
                     "lat": 40.1142263,
                     "lng": -88.2820484
-                },
-                "rating": 4.3,
-                "reviews": 59
+                }
             }
         ],
         "name": "Office II",
@@ -7998,9 +7539,7 @@
                 "coordinate": {
                     "lat": 40.1127168,
                     "lng": -88.2727333
-                },
-                "rating": 4.1,
-                "reviews": 143
+                }
             }
         ],
         "name": "Pia's Sports Bar & Grill",
@@ -8023,9 +7562,7 @@
                 "coordinate": {
                     "lat": 40.1102153,
                     "lng": -88.2827265
-                },
-                "rating": 4.2,
-                "reviews": 88
+                }
             }
         ],
         "name": "Pipa's Pub",
@@ -8046,9 +7583,7 @@
                 "coordinate": {
                     "lat": 40.1165837,
                     "lng": -88.2415861
-                },
-                "rating": 4.7,
-                "reviews": 174
+                }
             }
         ],
         "name": "Pour Bros. Craft Taproom",
@@ -8071,9 +7606,7 @@
                 "coordinate": {
                     "lat": 40.1176677,
                     "lng": -88.2436462
-                },
-                "rating": 5.0,
-                "reviews": 12
+                }
             }
         ],
         "name": "Punch",
@@ -8094,9 +7627,7 @@
                 "coordinate": {
                     "lat": 40.1169757,
                     "lng": -88.2434097
-                },
-                "rating": 4.5,
-                "reviews": 237
+                }
             }
         ],
         "name": "Quality Bar",
@@ -8117,9 +7648,7 @@
                 "coordinate": {
                     "lat": 40.1101511,
                     "lng": -88.2367465
-                },
-                "rating": 3.4,
-                "reviews": 294
+                }
             }
         ],
         "name": "Red Lion",
@@ -8142,9 +7671,7 @@
                 "coordinate": {
                     "lat": 40.0936729,
                     "lng": -88.1624519
-                },
-                "rating": 4.8,
-                "reviews": 229
+                }
             }
         ],
         "name": "Riggs Beer Company",
@@ -8167,9 +7694,7 @@
                 "coordinate": {
                     "lat": 40.1128891,
                     "lng": -88.2087609
-                },
-                "rating": 4.6,
-                "reviews": 85
+                }
             }
         ],
         "name": "Rose Bowl Tavern",
@@ -8190,9 +7715,7 @@
                 "coordinate": {
                     "lat": 39.914219,
                     "lng": -88.2760077
-                },
-                "rating": 4.5,
-                "reviews": 67
+                }
             }
         ],
         "name": "Route 45 Wayside",
@@ -8213,9 +7736,7 @@
                 "coordinate": {
                     "lat": 40.06608,
                     "lng": -88.249677
-                },
-                "rating": 4.6,
-                "reviews": 49
+                }
             }
         ],
         "name": "Senator's Inn & Pub",
@@ -8238,9 +7759,7 @@
                 "coordinate": {
                     "lat": 40.0239351,
                     "lng": -88.0731965
-                },
-                "rating": 4.2,
-                "reviews": 68
+                }
             }
         ],
         "name": "Sidney Saloon",
@@ -8263,9 +7782,7 @@
                 "coordinate": {
                     "lat": 40.1185504,
                     "lng": -88.2434418
-                },
-                "rating": 2.7,
-                "reviews": 42
+                }
             }
         ],
         "name": "Soma",
@@ -8286,9 +7803,7 @@
                 "coordinate": {
                     "lat": 40.0741761,
                     "lng": -88.251275
-                },
-                "rating": 4.2,
-                "reviews": 121
+                }
             }
         ],
         "name": "Star Karaoke",
@@ -8311,9 +7826,7 @@
                 "coordinate": {
                     "lat": 40.311426,
                     "lng": -88.155943
-                },
-                "rating": 4.1,
-                "reviews": 71
+                }
             }
         ],
         "name": "T & T Tavern",
@@ -8334,9 +7847,7 @@
                 "coordinate": {
                     "lat": 40.3053487,
                     "lng": -88.023803
-                },
-                "rating": 4.6,
-                "reviews": 19
+                }
             }
         ],
         "name": "The Homestead",
@@ -8357,9 +7868,7 @@
                 "coordinate": {
                     "lat": 40.1225201,
                     "lng": -88.2582137
-                },
-                "rating": 4.5,
-                "reviews": 34
+                }
             }
         ],
         "name": "The Icehouse",
@@ -8380,9 +7889,7 @@
                 "coordinate": {
                     "lat": 40.0768564,
                     "lng": -88.2492759
-                },
-                "rating": 4.8,
-                "reviews": 214
+                }
             }
         ],
         "name": "Triptych Brewery",
@@ -8401,13 +7908,11 @@
         ],
         "locations": [
             {
-                "address": "302 S Neil St., Champaign, Illinois",
+                "address": "302 S Neil St.,Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.1138186,
                     "lng": -88.2433839
-                },
-                "rating": 4.4,
-                "reviews": 126
+                }
             }
         ],
         "name": "Tumble Inn",
@@ -8428,9 +7933,7 @@
                 "coordinate": {
                     "lat": 40.0256315,
                     "lng": -88.5721972
-                },
-                "rating": 4.7,
-                "reviews": 153
+                }
             }
         ],
         "name": "Brown Bag Deli",
@@ -8453,9 +7956,7 @@
                 "coordinate": {
                     "lat": 40.0975418,
                     "lng": -88.2746621
-                },
-                "rating": 4.8,
-                "reviews": 73
+                }
             }
         ],
         "name": "Cheese & Crackers",
@@ -8478,9 +7979,7 @@
                 "coordinate": {
                     "lat": 40.1091862,
                     "lng": -88.2316942
-                },
-                "rating": 4.0,
-                "reviews": 123
+                }
             }
         ],
         "name": "Fat Sandwich Company",
@@ -8503,9 +8002,7 @@
                 "coordinate": {
                     "lat": 40.0893232,
                     "lng": -88.246117
-                },
-                "rating": 4.4,
-                "reviews": 39
+                }
             }
         ],
         "name": "Great Harvest Bread Company",
@@ -8528,9 +8025,7 @@
                 "coordinate": {
                     "lat": 40.0353966,
                     "lng": -87.9581637
-                },
-                "rating": 4.6,
-                "reviews": 10
+                }
             }
         ],
         "name": "Main Street Belly Deli",
@@ -8553,9 +8048,7 @@
                 "coordinate": {
                     "lat": 40.1177173,
                     "lng": -88.2058577
-                },
-                "rating": 4.6,
-                "reviews": 127
+                }
             }
         ],
         "name": "Po Boy's",
@@ -8578,9 +8071,7 @@
                 "coordinate": {
                     "lat": 40.1359853,
                     "lng": -88.2455101
-                },
-                "rating": 4.4,
-                "reviews": 517
+                }
             }
         ],
         "name": "Alexander's Steakhouse",
@@ -8603,9 +8094,7 @@
                 "coordinate": {
                     "lat": 40.11758,
                     "lng": -88.243638
-                },
-                "rating": 4.4,
-                "reviews": 444
+                }
             }
         ],
         "name": "Hamilton Walker's",
@@ -8628,9 +8117,7 @@
                 "coordinate": {
                     "lat": 40.3053144,
                     "lng": -88.0214734
-                },
-                "rating": 4.6,
-                "reviews": 42
+                }
             }
         ],
         "name": "Longbranch",
@@ -8647,13 +8134,11 @@
         ],
         "locations": [
             {
-                "address": "1701 S Neil St, Champaign, Illinois",
+                "address": "1701 S Neil St,Champaign, Illinois",
                 "coordinate": {
                     "lat": 40.0961586,
                     "lng": -88.245412
-                },
-                "rating": 4.5,
-                "reviews": 625
+                }
             }
         ],
         "name": "The Ribeye",
