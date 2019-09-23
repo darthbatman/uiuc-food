@@ -1,4 +1,8 @@
 1. Downloaded 'The Greater Champaign County Experience Guide' PDF from https://www.visitchampaigncounty.org
-2. Edited PDF in Preview to remove all non-food-and-drink pages from PDF.
+2. Edited PDF in Preview to remove all non-food-and-drink pages from PDF
 3. Used https://www.pdf2go.com/ to convert PDF to TXT file (campus_food.txt)
-4. 
+4. Manually edited TXT file to fix typos
+5. Used Python script to format data as JSON
+6. Added state (Illinois) to each address
+7. Geocoded each address
+8. Manually entered coordinate for geocoding that resulted in error and incorrect addresses with Google Maps search

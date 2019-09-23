@@ -111,7 +111,7 @@ def save_records_to_file(records, filename):
         json.dump(records, indent=4, sort_keys=True, fp=f)
 
 
-def build_food_and_drink_dataset(source):
+def build_food_and_drink_raw_dataset(source):
     if source == 'file':
         records = get_records(source)
         save_records_to_file(records, 'data/' + 'file_food_and_drink.json')
@@ -125,4 +125,4 @@ def build_food_and_drink_dataset(source):
 
 
 if __name__ == '__main__':
-    build_food_and_drink_dataset('file')
+    build_food_and_drink_raw_dataset('file')
