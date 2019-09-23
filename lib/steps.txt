@@ -9,3 +9,4 @@
 9. Updated eateries with Google ratings and reviews
 10. If Google reviews did not exist, used Yelp/GrubHub/Facebook
 11. If no reviews or closed, removed eatery from list
+12. Match location areas to location for 1 to 1, manually edited remainder
