@@ -10,6 +10,7 @@
                     "lng": -88.162975
                 },
                 "phone_number": "2173440076",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 490
             }
@@ -27,6 +28,7 @@
                     "lng": -88.243282
                 },
                 "phone_number": "2172393505",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 474,
                 "website": "biggrovetavern.com"
@@ -45,6 +47,7 @@
                     "lng": -88.2093752
                 },
                 "phone_number": "2173281811",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 1069,
                 "website": "couriersilvercreek.com"
@@ -63,6 +66,7 @@
                     "lng": -88.2085126
                 },
                 "phone_number": "2175521344",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 232,
                 "website": "dancingdogeatery.com"
@@ -81,6 +85,7 @@
                     "lng": -88.2878215
                 },
                 "phone_number": "2172533753",
+                "price": 10,
                 "rating": 4.8,
                 "reviews": 346,
                 "website": "flesorscandy.com"
@@ -99,6 +104,7 @@
                     "lng": -88.243411
                 },
                 "phone_number": "2173519463",
+                "price": 10,
                 "rating": 4.0,
                 "reviews": 24
             }
@@ -115,6 +121,7 @@
                     "lat": 39.799722,
                     "lng": -88.2882403
                 },
+                "price": 10,
                 "rating": 5.0,
                 "reviews": 1,
                 "website": "Irmalous.com"
@@ -133,6 +140,7 @@
                     "lng": -88.221531
                 },
                 "phone_number": "2173374840",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 191,
                 "website": "jgumbos.com"
@@ -151,6 +159,7 @@
                     "lng": -88.476452
                 },
                 "phone_number": "2175432457",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 237
             }
@@ -168,6 +177,7 @@
                     "lng": -88.3798032
                 },
                 "phone_number": "2175862700",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 201,
                 "website": "mahometfamilyrestaurantil.com"
@@ -186,6 +196,7 @@
                     "lng": -88.155891
                 },
                 "phone_number": "2178931100",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 225,
                 "website": "ottsdrivein.com"
@@ -204,6 +215,7 @@
                     "lng": -88.4725457
                 },
                 "phone_number": "2175432011",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 47
             }
@@ -221,6 +233,7 @@
                     "lng": -88.223954
                 },
                 "phone_number": "2173672340",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 142,
                 "website": "channingmurray.org/redherring"
@@ -239,6 +252,7 @@
                     "lng": -88.1733073
                 },
                 "phone_number": "2178930471",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 493
             },
@@ -249,6 +263,7 @@
                     "lng": -88.1242541
                 },
                 "phone_number": "2178921100",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 493
             }
@@ -266,6 +281,7 @@
                     "lng": -87.959362
                 },
                 "phone_number": "2175822777",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 284
             }
@@ -283,6 +299,7 @@
                     "lng": -88.230584
                 },
                 "phone_number": "2177277227",
+                "price": 10,
                 "rating": 4.7,
                 "reviews": 80,
                 "website": "saladmeister.com"
@@ -301,6 +318,7 @@
                     "lng": -88.0413817
                 },
                 "phone_number": "2174696230",
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 63,
                 "website": "scratchmadestjoe.com"
@@ -319,6 +337,7 @@
                     "lng": -88.2644318
                 },
                 "phone_number": "2173511115",
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 339,
                 "website": "sunsingerwines.com"
@@ -337,30 +356,13 @@
                     "lng": -88.2192426
                 },
                 "phone_number": "2173281514",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 724,
                 "website": "urbanagardenrestaurant.com"
             }
         ],
         "name": "Urbana's Garden Restaurant"
-    },
-    {
-        "cuisine": "American",
-        "locations": [
-            {
-                "address": "121 S East Avenue, Ogden, Illinois",
-                "area": "Other",
-                "coordinate": {
-                    "lat": 40.113134,
-                    "lng": -87.956234
-                },
-                "phone_number": "2175824000",
-                "rating": 4.2,
-                "reviews": 70,
-                "website": "ogdenvault.com"
-            }
-        ],
-        "name": "Vault"
     },
     {
         "cuisine": "American",
@@ -373,6 +375,7 @@
                     "lng": -88.458551
                 },
                 "phone_number": "2176432714",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 1769,
                 "website": "yoderskitchen.com"
@@ -391,6 +394,7 @@
                     "lng": -88.2290013
                 },
                 "phone_number": "2173595569",
+                "price": 17,
                 "rating": 4.5,
                 "reviews": 108
             }
@@ -408,6 +412,7 @@
                     "lng": -88.2468513
                 },
                 "phone_number": "2178199699",
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 75
             }
@@ -425,6 +430,7 @@
                     "lng": -88.2316942
                 },
                 "phone_number": "2173846070",
+                "price": 1,
                 "rating": 3.7,
                 "reviews": 59,
                 "website": "asiantastechampaign.com"
@@ -443,6 +449,7 @@
                     "lng": -88.240425
                 },
                 "phone_number": "2176937928",
+                "price": 18,
                 "rating": 3.0,
                 "reviews": 42,
                 "website": "auntieleechampaign.com"
@@ -461,6 +468,7 @@
                     "lng": -88.245423
                 },
                 "phone_number": "2173522966",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 140,
                 "website": "bwonkorean.com"
@@ -479,6 +487,7 @@
                     "lng": -88.2213205
                 },
                 "phone_number": "2176075906",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 104,
                 "website": "babpluskorean.com"
@@ -497,6 +506,7 @@
                     "lng": -88.2332646
                 },
                 "phone_number": "2179541641",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 405
             },
@@ -508,6 +518,7 @@
                     "lng": -88.201063
                 },
                 "phone_number": "2176075828",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 107
             }
@@ -525,6 +536,7 @@
                     "lng": -88.2217175
                 },
                 "phone_number": "2173448662",
+                "price": 2,
                 "rating": 3.8,
                 "reviews": 153
             }
@@ -542,6 +554,7 @@
                     "lng": -88.2606908
                 },
                 "phone_number": "2173565757",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 64,
                 "website": "bestwokchampaign.com"
@@ -560,6 +573,7 @@
                     "lng": -88.2331124
                 },
                 "phone_number": "2173522272",
+                "price": 1,
                 "rating": 3.8,
                 "reviews": 82,
                 "website": "bobochinail.com"
@@ -578,6 +592,7 @@
                     "lng": -88.1383864
                 },
                 "phone_number": "2178928321",
+                "price": 2,
                 "rating": 3.1,
                 "reviews": 68
             }
@@ -595,6 +610,7 @@
                     "lng": -88.2030928
                 },
                 "phone_number": "2173676588",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 73
             }
@@ -612,6 +628,7 @@
                     "lng": -88.2461131
                 },
                 "phone_number": "2174699966",
+                "price": 2,
                 "rating": 3.7,
                 "reviews": 76,
                 "website": "chinakingchampaign.com"
@@ -624,6 +641,7 @@
                     "lng": -88.0444056
                 },
                 "phone_number": "2173518885",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 31,
                 "website": "chinakingchampaign.com"
@@ -642,6 +660,7 @@
                     "lng": -88.2560649
                 },
                 "phone_number": "2173989888",
+                "price": 2,
                 "rating": 3.8,
                 "reviews": 856
             }
@@ -659,6 +678,7 @@
                     "lng": -88.2828599
                 },
                 "phone_number": "2172534173",
+                "price": 1,
                 "rating": 3.7,
                 "reviews": 164
             }
@@ -675,6 +695,7 @@
                     "lat": 40.1103401,
                     "lng": -88.2366394
                 },
+                "price": 1,
                 "rating": 3.5,
                 "reviews": 127,
                 "website": "21735972222 | chopstix.carry-out.com"
@@ -692,6 +713,7 @@
                     "lat": 40.1113797,
                     "lng": -88.2290018
                 },
+                "price": 1,
                 "rating": 4,
                 "reviews": 171,
                 "website": "2173282538 | cravingscu.com"
@@ -710,6 +732,7 @@
                     "lng": -88.2439217
                 },
                 "phone_number": "2172810880",
+                "price": 10,
                 "rating": 3.6,
                 "reviews": 28
             }
@@ -727,6 +750,7 @@
                     "lng": -88.1908253
                 },
                 "phone_number": "2173444500",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 121
             }
@@ -744,6 +768,7 @@
                     "lng": -88.2435837
                 },
                 "phone_number": "2173988988",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 773,
                 "website": "goldenharboronline.com"
@@ -762,6 +787,7 @@
                     "lng": -88.5742401
                 },
                 "phone_number": "2177625678",
+                "price": 18,
                 "rating": 3.9,
                 "reviews": 48
             }
@@ -779,6 +805,7 @@
                     "lng": -88.2333661
                 },
                 "phone_number": "2173568383",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 150,
                 "website": "goldenwokcu.com"
@@ -797,6 +824,7 @@
                     "lng": -88.2435059
                 },
                 "phone_number": "2172395959",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 78,
                 "website": "goodfellakoreanbistro.com"
@@ -815,6 +843,7 @@
                     "lng": -88.2642054
                 },
                 "phone_number": "2173555988",
+                "price": 18,
                 "rating": 4.3,
                 "reviews": 70,
                 "website": "greenjadechampaign.com"
@@ -833,6 +862,7 @@
                     "lng": -88.245626
                 },
                 "phone_number": "2173595370",
+                "price": 13,
                 "rating": 4.5,
                 "reviews": 117
             }
@@ -850,6 +880,7 @@
                     "lng": -88.2301372
                 },
                 "phone_number": "2173447483",
+                "price": 1,
                 "rating": 3.8,
                 "reviews": 57
             }
@@ -867,6 +898,7 @@
                     "lng": -88.222541
                 },
                 "phone_number": "2173847170",
+                "price": 1,
                 "rating": 3.8,
                 "reviews": 178
             }
@@ -884,6 +916,7 @@
                     "lng": -88.253177
                 },
                 "phone_number": "2173519888",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 186,
                 "website": "iwoksavoy.com"
@@ -902,6 +935,7 @@
                     "lng": -88.230584
                 },
                 "phone_number": "2175521688",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 163
             }
@@ -919,6 +953,7 @@
                     "lng": -88.2406731
                 },
                 "phone_number": "2173446022",
+                "price": 10,
                 "rating": 4.7,
                 "reviews": 15
             }
@@ -936,6 +971,7 @@
                     "lng": -88.22868
                 },
                 "phone_number": "2179541572",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 132,
                 "website": "kofusion.com"
@@ -948,6 +984,7 @@
                     "lng": -88.243282
                 },
                 "phone_number": "2175311166",
+                "price": 3,
                 "rating": 4.4,
                 "reviews": 475,
                 "website": "kofusion.com"
@@ -966,6 +1003,7 @@
                     "lng": -88.2317231
                 },
                 "phone_number": "2173591888",
+                "price": 19,
                 "rating": 3.3,
                 "reviews": 113
             }
@@ -983,6 +1021,7 @@
                     "lng": -88.2333092
                 },
                 "phone_number": "2173281888",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 197,
                 "website": "lailaiwokchampaign.com"
@@ -1001,6 +1040,7 @@
                     "lng": -88.229189
                 },
                 "phone_number": "2176890031",
+                "price": 2,
                 "rating": 3.9,
                 "reviews": 192,
                 "website": "laoszechuanchinese.com"
@@ -1019,6 +1059,7 @@
                     "lng": -88.2333562
                 },
                 "phone_number": "2173845088",
+                "price": 18,
                 "rating": 4.1,
                 "reviews": 114,
                 "website": "mandarinwokonline.com"
@@ -1037,6 +1078,7 @@
                     "lng": -88.2087186
                 },
                 "phone_number": "2175521188",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 238,
                 "website": "masijtagrill.com"
@@ -1055,6 +1097,7 @@
                     "lng": -88.2299587
                 },
                 "phone_number": "2176071434",
+                "price": 10,
                 "rating": 4.2,
                 "reviews": 152,
                 "website": "midsummerlounge.com"
@@ -1073,6 +1116,7 @@
                     "lng": -88.2767662
                 },
                 "phone_number": "2173520056",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 103
             }
@@ -1090,6 +1134,7 @@
                     "lng": -88.2456193
                 },
                 "phone_number": "2175521600",
+                "price": 16,
                 "rating": 4.1,
                 "reviews": 207,
                 "website": "mokisushibar.com"
@@ -1108,6 +1153,7 @@
                     "lng": -88.239191
                 },
                 "phone_number": "2173989999",
+                "price": 18,
                 "rating": 4.5,
                 "reviews": 8
             }
@@ -1125,6 +1171,7 @@
                     "lng": -88.2850854
                 },
                 "phone_number": "2173518424",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 207,
                 "website": "mythaichampaign.com"
@@ -1143,6 +1190,7 @@
                     "lng": -88.231656
                 },
                 "phone_number": "2176078117",
+                "price": 18,
                 "rating": 3.8,
                 "reviews": 4,
                 "website": "nanjingbistrochampaign.com"
@@ -1161,6 +1209,7 @@
                     "lng": -88.2585316
                 },
                 "phone_number": "2173986888",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 374,
                 "website": "oishiasiancuisine.com"
@@ -1179,6 +1228,7 @@
                     "lng": -88.230584
                 },
                 "phone_number": "3127990784",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 264
             }
@@ -1196,6 +1246,7 @@
                     "lng": -88.2448957
                 },
                 "phone_number": "2173558888",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 149,
                 "website": "pekinggardenchampaign.com"
@@ -1214,6 +1265,7 @@
                     "lng": -88.3961884
                 },
                 "phone_number": "2175862316",
+                "price": 18,
                 "rating": 4.6,
                 "reviews": 54
             }
@@ -1231,6 +1283,7 @@
                     "lng": -88.2301051
                 },
                 "phone_number": "2175521106",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 145
             }
@@ -1248,6 +1301,7 @@
                     "lng": -88.2302962
                 },
                 "phone_number": "2175521880",
+                "price": 19,
                 "rating": 3.8,
                 "reviews": 83
             }
@@ -1265,6 +1319,7 @@
                     "lng": -88.2439226
                 },
                 "phone_number": "2173982670",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 260,
                 "website": "rainbowgarden.com"
@@ -1277,6 +1332,7 @@
                     "lng": -88.2058577
                 },
                 "phone_number": "2173441888",
+                "price": 2,
                 "rating": 4.0,
                 "reviews": 146,
                 "website": "rainbow7garden.com"
@@ -1295,6 +1351,7 @@
                     "lng": -88.2372133
                 },
                 "phone_number": "2179540545",
+                "price": 18,
                 "rating": 3.6,
                 "reviews": 52
             }
@@ -1312,6 +1369,7 @@
                     "lng": -88.2330881
                 },
                 "phone_number": "2173441400",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 662,
                 "website": "sakanayaerestaurant.com"
@@ -1330,6 +1388,7 @@
                     "lng": -88.2962491
                 },
                 "phone_number": "2173522119",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 125,
                 "website": "sanmarucu.com"
@@ -1348,6 +1407,7 @@
                     "lng": -88.2367212
                 },
                 "phone_number": "2176072635",
+                "price": 18,
                 "rating": 4.7,
                 "reviews": 52
             }
@@ -1365,6 +1425,7 @@
                     "lng": -88.2095509
                 },
                 "phone_number": "2173678424",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 260,
                 "website": "siamterrace.com"
@@ -1383,6 +1444,7 @@
                     "lng": -88.240438
                 },
                 "phone_number": "2173529008",
+                "price": 2,
                 "rating": 3.5,
                 "reviews": 33,
                 "website": "southchinachampaign.com"
@@ -1401,6 +1463,7 @@
                     "lng": -88.2305667
                 },
                 "phone_number": "2174196676",
+                "price": 2,
                 "rating": 3.5,
                 "reviews": 84,
                 "website": "spicytangrestaurant.com"
@@ -1419,6 +1482,7 @@
                     "lng": -88.2294153
                 },
                 "phone_number": "2173443483",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 128
             }
@@ -1436,6 +1500,7 @@
                     "lng": -88.2515366
                 },
                 "phone_number": "2173567777",
+                "price": 19,
                 "rating": 4.4,
                 "reviews": 68,
                 "website": "starbbquiuc.com"
@@ -1454,6 +1519,7 @@
                     "lng": -88.1912145
                 },
                 "phone_number": "2173678883",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 301,
                 "website": "sunnychinabuffet.com"
@@ -1472,6 +1538,7 @@
                     "lng": -88.2752514
                 },
                 "phone_number": "2173980111",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 56,
                 "website": "gosuperwok.com"
@@ -1490,6 +1557,7 @@
                     "lng": -88.229
                 },
                 "phone_number": "2179540493",
+                "price": 1,
                 "rating": 3.9,
                 "reviews": 212,
                 "website": "sushiichibanchampaign.com"
@@ -1508,6 +1576,7 @@
                     "lng": -88.2441267
                 },
                 "phone_number": "2173563366",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 239
             }
@@ -1525,6 +1594,7 @@
                     "lng": -88.2299831
                 },
                 "phone_number": "2173374285",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 92,
                 "website": "sushirockchampaign.com"
@@ -1543,6 +1613,7 @@
                     "lng": -88.2272187
                 },
                 "phone_number": "2173281886",
+                "price": 16,
                 "rating": 4.2,
                 "reviews": 92
             }
@@ -1560,6 +1631,7 @@
                     "lng": -88.239191
                 },
                 "phone_number": "2173989999",
+                "price": 2,
                 "rating": 3.7,
                 "reviews": 121,
                 "website": "szechuanchina.com"
@@ -1578,6 +1650,7 @@
                     "lng": -88.314752
                 },
                 "phone_number": "2173781986",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 413,
                 "website": "tharathairestaurant.com"
@@ -1596,6 +1669,7 @@
                     "lng": -88.3979442
                 },
                 "phone_number": "2175861588",
+                "price": 18,
                 "rating": 4.4,
                 "reviews": 51
             }
@@ -1613,6 +1687,7 @@
                     "lng": -88.205049
                 },
                 "phone_number": "2173377600",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 149,
                 "website": "xinhxinhecafe.com"
@@ -1631,6 +1706,7 @@
                     "lng": -88.228936
                 },
                 "phone_number": "2173371500",
+                "price": 15,
                 "rating": 4.1,
                 "reviews": 16
             }
@@ -1648,6 +1724,7 @@
                     "lng": -88.2434106
                 },
                 "phone_number": "2173563200",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 251,
                 "website": "aromarcafe.com"
@@ -1666,6 +1743,7 @@
                     "lng": -88.243282
                 },
                 "phone_number": "2176076359",
+                "price": 4,
                 "rating": 4.9,
                 "reviews": 29,
                 "website": "bossanovacoffeehouse.com"
@@ -1684,6 +1762,7 @@
                     "lng": -88.2318214
                 },
                 "phone_number": "2179797123",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 180,
                 "website": "brewlab.coffee"
@@ -1702,6 +1781,7 @@
                     "lng": -88.242607
                 },
                 "phone_number": "2173594266",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 380,
                 "website": "cafe-kopi.com"
@@ -1719,6 +1799,7 @@
                     "lat": 40.1125815,
                     "lng": -88.2093952
                 },
+                "price": 11,
                 "rating": 4.5,
                 "reviews": 54,
                 "website": "cafeteriaandcompany.com"
@@ -1737,6 +1818,7 @@
                     "lng": -88.2309368
                 },
                 "phone_number": "2176072611",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 176
             },
@@ -1748,6 +1830,7 @@
                     "lng": -88.2213205
                 },
                 "phone_number": "2179178000",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 178
             }
@@ -1765,6 +1848,7 @@
                     "lng": -88.2194361
                 },
                 "phone_number": "2173846066",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 216,
                 "website": "enjoyparadiso.com"
@@ -1783,6 +1867,7 @@
                     "lng": -88.2741019
                 },
                 "phone_number": "2175310224",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 82
             }
@@ -1800,6 +1885,7 @@
                     "lng": -88.2451767
                 },
                 "phone_number": "2176078126",
+                "price": 4,
                 "rating": 4.1,
                 "reviews": 10,
                 "website": "lodgic.org/cleveremooseecafe"
@@ -1818,6 +1904,7 @@
                     "lng": -88.2067709
                 },
                 "phone_number": "2173523347",
+                "price": 13,
                 "rating": 4.7,
                 "reviews": 339,
                 "website": "commonground.coop"
@@ -1836,6 +1923,7 @@
                     "lng": -88.22182
                 },
                 "phone_number": "2173376160",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 244,
                 "website": "espressoroyalecoffee.com"
@@ -1848,6 +1936,7 @@
                     "lng": -88.2268584
                 },
                 "phone_number": "2173284335",
+                "price": 1,
                 "rating": 3.2,
                 "reviews": 16,
                 "website": "espressoroyalecoffee.com"
@@ -1860,6 +1949,7 @@
                     "lng": -88.2271776
                 },
                 "phone_number": "2173337799",
+                "price": 1,
                 "rating": 2.7,
                 "reviews": 11,
                 "website": "espressoroyalecoffee.com"
@@ -1872,6 +1962,7 @@
                     "lng": -88.2447961
                 },
                 "phone_number": "2173510928",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 174,
                 "website": "espressoroyalecoffee.com"
@@ -1884,6 +1975,7 @@
                     "lng": -88.2964708
                 },
                 "phone_number": "2173521998",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 152,
                 "website": "espressoroyalecoffee.com"
@@ -1896,6 +1988,7 @@
                     "lng": -88.2317856
                 },
                 "phone_number": "2172443194",
+                "price": 1,
                 "rating": 3.7,
                 "reviews": 6,
                 "website": "espressoroyalecoffee.com"
@@ -1908,6 +2001,7 @@
                     "lng": -88.2305751
                 },
                 "phone_number": "2173337074",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 9,
                 "website": "espressoroyalecoffee.com"
@@ -1926,6 +2020,7 @@
                     "lng": -88.230481
                 },
                 "phone_number": "2173287688",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 110,
                 "website": "evomenu.com"
@@ -1944,6 +2039,7 @@
                     "lng": -88.2385343
                 },
                 "phone_number": "2176007949",
+                "price": 11,
                 "rating": 4.8,
                 "reviews": 144
             }
@@ -1961,6 +2057,7 @@
                     "lng": -88.041277
                 },
                 "phone_number": "2174696034",
+                "price": 4,
                 "rating": 4.7,
                 "reviews": 25
             }
@@ -1978,6 +2075,7 @@
                     "lng": -88.657932
                 },
                 "phone_number": "2173333287",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 35,
                 "website": "allerton.illinois.edu/greenhouse-cafe"
@@ -1996,6 +2094,7 @@
                     "lng": -88.2560485
                 },
                 "phone_number": "2176076436",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 169,
                 "website": "hopscotchcakes.com"
@@ -2014,6 +2113,7 @@
                     "lng": -87.606971
                 },
                 "phone_number": "2176071323",
+                "price": 10,
                 "rating": 4.7,
                 "reviews": 102,
                 "website": "industrialdonut.com"
@@ -2032,6 +2132,7 @@
                     "lng": -88.2328647
                 },
                 "phone_number": "2175521668",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 170,
                 "website": "kungfutea.com"
@@ -2050,6 +2151,7 @@
                     "lng": -88.230584
                 },
                 "phone_number": "2179541855",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 189,
                 "website": "latealounge.com"
@@ -2068,6 +2170,7 @@
                     "lng": -88.3016138
                 },
                 "phone_number": "6309464306",
+                "price": 6,
                 "rating": 4.5,
                 "reviews": 150,
                 "website": "pandamoniumdoughnuts.wixsite.com/pandamoniumdoughnuts"
@@ -2086,6 +2189,7 @@
                     "lng": -88.2434103
                 },
                 "phone_number": "2173594500",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 115,
                 "website": "pekarabakery.com"
@@ -2098,6 +2202,7 @@
                     "lng": -88.2568443
                 },
                 "phone_number": "2179541002",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 115,
                 "website": "pekarabakery.com"
@@ -2116,6 +2221,7 @@
                     "lng": -88.046651
                 },
                 "phone_number": "2178191265",
+                "price": 12,
                 "rating": 4.4,
                 "reviews": 18
             }
@@ -2133,6 +2239,7 @@
                     "lng": -88.2084248
                 },
                 "phone_number": "2173449383",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 145,
                 "website": "ricksbakeryurbana.com"
@@ -2151,6 +2258,7 @@
                     "lng": -88.4604423
                 },
                 "phone_number": "2175433106",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 102,
                 "website": "roselenscoffeesanddelights.com"
@@ -2169,6 +2277,7 @@
                     "lng": -88.2114574
                 },
                 "phone_number": "2173281655",
+                "price": 4,
                 "rating": 4.4,
                 "reviews": 136,
                 "website": "strawberryfields.com"
@@ -2187,6 +2296,7 @@
                     "lng": -88.571324
                 },
                 "phone_number": "2177622924",
+                "price": 4,
                 "rating": 4.7,
                 "reviews": 42
             }
@@ -2204,6 +2314,7 @@
                     "lng": -88.2314504
                 },
                 "phone_number": "3127990784",
+                "price": 16,
                 "rating": 4.3,
                 "reviews": 39
             }
@@ -2221,6 +2332,7 @@
                     "lng": -88.2300319
                 },
                 "phone_number": "2176076339",
+                "price": 16,
                 "rating": 4.5,
                 "reviews": 139,
                 "website": "teamoji.business.site"
@@ -2239,46 +2351,13 @@
                     "lng": -88.223744
                 },
                 "phone_number": "2173831007",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 364,
                 "website": "thebread.co"
             }
         ],
         "name": "The Bread Company"
-    },
-    {
-        "cuisine": "Bakeries & Cafes",
-        "locations": [
-            {
-                "address": "336 S Century Blvd., Rantoul, Illinois",
-                "area": "Other",
-                "coordinate": {
-                    "lat": 40.306842,
-                    "lng": -88.155897
-                },
-                "phone_number": "2178925579",
-                "rating": 5,
-                "reviews": 1
-            }
-        ],
-        "name": "The Second Cup"
-    },
-    {
-        "cuisine": "Bakeries & Cafes",
-        "locations": [
-            {
-                "address": "2410 N Fifth St, Champaign, Illinois",
-                "area": "Campustown",
-                "coordinate": {
-                    "lat": 40.12516,
-                    "lng": -88.232135
-                },
-                "phone_number": "2176376333",
-                "rating": 4.6,
-                "reviews": 380
-            }
-        ],
-        "name": "Worker's Cufe G"
     },
     {
         "cuisine": "Bakeries & Cafes",
@@ -2291,6 +2370,7 @@
                     "lng": -88.2447646
                 },
                 "phone_number": "2173593311",
+                "price": 10,
                 "rating": 4.1,
                 "reviews": 8
             }
@@ -2308,6 +2388,7 @@
                     "lng": -88.5728654
                 },
                 "phone_number": "2177623333",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 230,
                 "website": "3ravens.pub"
@@ -2326,6 +2407,7 @@
                     "lng": -88.4735011
                 },
                 "phone_number": "2175434059",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 54
             }
@@ -2343,6 +2425,7 @@
                     "lng": -88.1697392
                 },
                 "phone_number": "2173679876",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 109,
                 "website": "atties.net"
@@ -2361,6 +2444,7 @@
                     "lng": -88.2461136
                 },
                 "phone_number": "2172399299",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 338,
                 "website": "baxtersgrille.com"
@@ -2379,6 +2463,7 @@
                     "lng": -88.2962496
                 },
                 "phone_number": "2173558030",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 523,
                 "website": "billybarooz.com"
@@ -2397,6 +2482,7 @@
                     "lng": -88.347987
                 },
                 "phone_number": "2178971345",
+                "price": 5,
                 "rating": 4.1,
                 "reviews": 31
             }
@@ -2414,6 +2500,7 @@
                     "lng": -88.1930277
                 },
                 "phone_number": "2172397264",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 226,
                 "website": "boomerangsbarandgrill.com"
@@ -2432,6 +2519,7 @@
                     "lng": -88.2300807
                 },
                 "phone_number": "2173285531",
+                "price": 15,
                 "rating": 4.0,
                 "reviews": 173,
                 "website": "brothersbar.com/champaign"
@@ -2450,6 +2538,7 @@
                     "lng": -88.1590318
                 },
                 "phone_number": "2178929655",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 45,
                 "website": "budsbar.business.site"
@@ -2468,6 +2557,7 @@
                     "lng": -88.2082966
                 },
                 "phone_number": "2173678175",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 392,
                 "website": "bunnystavern.com"
@@ -2486,6 +2576,7 @@
                     "lng": -88.244778
                 },
                 "phone_number": "2173518226",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 136,
                 "website": "cactusgrillchampaign.com"
@@ -2504,6 +2595,7 @@
                     "lng": -88.2461404
                 },
                 "phone_number": "2173550510",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 217,
                 "website": "theclarkbar.com"
@@ -2522,6 +2614,7 @@
                     "lng": -88.2453217
                 },
                 "phone_number": "2173982688",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 191,
                 "website": "cowboy-monkey.com"
@@ -2540,6 +2633,7 @@
                     "lng": -88.2081071
                 },
                 "phone_number": "2173847526",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 671,
                 "website": "crane-alley.com"
@@ -2558,6 +2652,7 @@
                     "lng": -88.2437783
                 },
                 "phone_number": "2173560301",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 596,
                 "website": "destihl.com"
@@ -2576,6 +2671,7 @@
                     "lng": -88.2424063
                 },
                 "phone_number": "2173985858",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 787,
                 "website": "esquirelounge.com"
@@ -2594,6 +2690,7 @@
                     "lng": -88.242594
                 },
                 "phone_number": "2173596977",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 779,
                 "website": "farrenspub.com"
@@ -2612,6 +2709,7 @@
                     "lng": -88.1606206
                 },
                 "phone_number": "2178930222",
+                "price": 10,
                 "rating": 4.5,
                 "reviews": 75,
                 "website": "etsdowntown.com"
@@ -2630,6 +2728,7 @@
                     "lng": -88.2426419
                 },
                 "phone_number": "2179540556",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 131,
                 "website": "citycenterchampaign.com"
@@ -2648,6 +2747,7 @@
                     "lng": -88.5729772
                 },
                 "phone_number": "2176311155",
+                "price": 10,
                 "rating": 4.8,
                 "reviews": 107,
                 "website": "fieldhouse219.com"
@@ -2666,6 +2766,7 @@
                     "lng": -87.9753097
                 },
                 "phone_number": "2175833220",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 14
             }
@@ -2683,6 +2784,7 @@
                     "lng": -88.2769346
                 },
                 "phone_number": "2173592177",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 82
             }
@@ -2700,6 +2802,7 @@
                     "lng": -88.243408
                 },
                 "phone_number": "2173593148",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 558,
                 "website": "guidosbar.com"
@@ -2718,42 +2821,13 @@
                     "lng": -88.2384427
                 },
                 "phone_number": "2178195005",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 266,
                 "website": "houlihans.com"
             }
         ],
         "name": "Houlihan's"
-    },
-    {
-        "cuisine": "Bar & Grill",
-        "locations": [
-            {
-                "address": "102 N Long St., Tolono, Illinois",
-                "area": "Other",
-                "coordinate": {
-                    "lat": 39.9845778,
-                    "lng": -88.2634982
-                },
-                "phone_number": "2174855500",
-                "rating": 4.2,
-                "reviews": 46,
-                "website": "itlldo2.net"
-            },
-            {
-                "address": "215 S Lake of the Woods Rd., Mahomet, Illinois",
-                "area": "Other",
-                "coordinate": {
-                    "lat": 40.191732,
-                    "lng": -88.391643
-                },
-                "phone_number": "2175867775",
-                "rating": 4.2,
-                "reviews": 46,
-                "website": "itlldo2.net"
-            }
-        ],
-        "name": "It'll Do"
     },
     {
         "cuisine": "Bar & Grill",
@@ -2766,6 +2840,7 @@
                     "lng": -88.289436
                 },
                 "phone_number": "2172534500",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 43
             }
@@ -2783,6 +2858,7 @@
                     "lng": -88.2319433
                 },
                 "phone_number": "2173841790",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 316,
                 "website": "joesbrewery.com"
@@ -2801,6 +2877,7 @@
                     "lng": -88.4039758
                 },
                 "phone_number": "2175861100",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 178,
                 "website": "jtwalkers.com"
@@ -2819,6 +2896,7 @@
                     "lng": -88.2315951
                 },
                 "phone_number": "2173557674",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 409,
                 "website": "legendsbarchampaign.com"
@@ -2837,6 +2915,7 @@
                     "lng": -88.5712403
                 },
                 "phone_number": "2176311141",
+                "price": 7,
                 "rating": 4.4,
                 "reviews": 182,
                 "website": "monarchbrewingco.com"
@@ -2855,6 +2934,7 @@
                     "lng": -88.2300402
                 },
                 "phone_number": "2173444372",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 650,
                 "website": "murphyspubuofi.com"
@@ -2873,6 +2953,7 @@
                     "lng": -88.2437783
                 },
                 "phone_number": "2175311150",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 238,
                 "website": "neilstblues.com"
@@ -2891,6 +2972,7 @@
                     "lng": -88.159776
                 },
                 "phone_number": "2176842117",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 152,
                 "website": "thephilotavern.com"
@@ -2909,6 +2991,7 @@
                     "lng": -88.1572696
                 },
                 "phone_number": "2172829537",
+                "price": 19,
                 "rating": 3.8,
                 "reviews": 27
             }
@@ -2926,6 +3009,7 @@
                     "lng": -88.041708
                 },
                 "phone_number": "2174692660",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 120,
                 "website": "rochsplace.com"
@@ -2944,6 +3028,7 @@
                     "lng": -88.246241
                 },
                 "phone_number": "2175304394",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 841,
                 "website": "scottysbrewhouse.com"
@@ -2962,6 +3047,7 @@
                     "lng": -88.2419939
                 },
                 "phone_number": "2173517775",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 1104,
                 "website": "sevensaintsbar.com"
@@ -2980,6 +3066,7 @@
                     "lng": -88.1588001
                 },
                 "phone_number": "2178930077",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 77
             }
@@ -2997,6 +3084,7 @@
                     "lng": -88.2315244
                 },
                 "phone_number": "2176070893",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 304,
                 "website": "thesignaturegrill.com"
@@ -3015,6 +3103,7 @@
                     "lng": -88.2040375
                 },
                 "phone_number": "2173375000",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 50
             }
@@ -3032,6 +3121,7 @@
                     "lng": -88.154097
                 },
                 "phone_number": "2172829812",
+                "price": 10,
                 "rating": 4.5,
                 "reviews": 71,
                 "website": "tkscheesesteaks.com"
@@ -3050,6 +3140,7 @@
                     "lng": -88.2607591
                 },
                 "phone_number": "2173900501",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 58
             }
@@ -3067,6 +3158,7 @@
                     "lng": -88.2438971
                 },
                 "phone_number": "2176070168",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 625,
                 "website": "watsonschicken.com"
@@ -3085,6 +3177,7 @@
                     "lng": -88.349743
                 },
                 "phone_number": "2178970081",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 74
             }
@@ -3102,6 +3195,7 @@
                     "lng": -88.2351344
                 },
                 "phone_number": "2176071864",
+                "price": 2,
                 "rating": 2.7,
                 "reviews": 96,
                 "website": "winginout.com"
@@ -3120,6 +3214,7 @@
                     "lng": -88.2213205
                 },
                 "phone_number": "2176007939",
+                "price": 18,
                 "rating": 4.0,
                 "reviews": 62,
                 "website": "bbdotqchicken.com"
@@ -3138,6 +3233,7 @@
                     "lng": -87.956329
                 },
                 "phone_number": "2175822277",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 149,
                 "website": "billybobsunderthewatertower.com"
@@ -3156,6 +3252,7 @@
                     "lng": -88.207555
                 },
                 "phone_number": "2173449334",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 1021,
                 "website": "blackdogsmoke.com"
@@ -3168,6 +3265,7 @@
                     "lng": -88.2424122
                 },
                 "phone_number": "2173449334",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 1823,
                 "website": "blackdogsmoke.com"
@@ -3186,6 +3284,7 @@
                     "lng": -88.2715843
                 },
                 "phone_number": "2173552271",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 241,
                 "website": "bobosbbqchampaign.com"
@@ -3204,6 +3303,7 @@
                     "lng": -88.198652
                 },
                 "phone_number": "2173371656",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 628,
                 "website": "hickoryriver.com"
@@ -3222,6 +3322,7 @@
                     "lng": -88.2800287
                 },
                 "phone_number": "2173986811",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 388,
                 "website": "lilporgysbbq.com"
@@ -3240,6 +3341,7 @@
                     "lng": -88.4690487
                 },
                 "phone_number": "2175437400",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 343,
                 "website": "paulysbbq.com"
@@ -3258,6 +3360,7 @@
                     "lng": -87.960546
                 },
                 "phone_number": "2175828026",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 194,
                 "website": "pinkpigrestaurant.com"
@@ -3276,29 +3379,13 @@
                     "lng": -88.401165
                 },
                 "phone_number": "2175863456",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 174,
                 "website": "project47smokehouse.com"
             }
         ],
         "name": "Project 47 Smokehouse"
-    },
-    {
-        "cuisine": "Barbecue",
-        "locations": [
-            {
-                "address": "617 E Green St., Champaign, Illinois",
-                "area": "Campustown",
-                "coordinate": {
-                    "lat": 40.1102128,
-                    "lng": -88.2300319
-                },
-                "phone_number": "2173445849",
-                "rating": 2,
-                "reviews": 2
-            }
-        ],
-        "name": "Q Smokehouse"
     },
     {
         "cuisine": "Barbecue",
@@ -3311,6 +3398,7 @@
                     "lng": -88.2513368
                 },
                 "phone_number": "2173552272",
+                "price": 19,
                 "rating": 4.5,
                 "reviews": 142,
                 "website": "smokyshousebbq.com"
@@ -3329,6 +3417,7 @@
                     "lng": -88.2336693
                 },
                 "phone_number": "2176070120",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 208,
                 "website": "woodnhogbarbecue.com"
@@ -3341,6 +3430,7 @@
                     "lng": -88.160613
                 },
                 "phone_number": "2176070120",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 208,
                 "website": "woodnhogbarbecue.com"
@@ -3353,6 +3443,7 @@
                     "lng": -88.207709
                 },
                 "phone_number": "2176070120",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 208,
                 "website": "woodnhogbarbecue.com"
@@ -3371,6 +3462,7 @@
                     "lng": -88.5732951
                 },
                 "phone_number": "2176488020",
+                "price": 17,
                 "rating": 4.7,
                 "reviews": 38,
                 "website": "bookbergies.com"
@@ -3388,6 +3480,7 @@
                     "lat": 39.710281,
                     "lng": -88.465264
                 },
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 1769
             }
@@ -3405,6 +3498,7 @@
                     "lng": -88.2300075
                 },
                 "phone_number": "2179540361",
+                "price": 20,
                 "rating": 4.5,
                 "reviews": 113,
                 "website": "crackedongreen.com"
@@ -3423,6 +3517,7 @@
                     "lng": -88.23338
                 },
                 "phone_number": "2179541126",
+                "price": 20,
                 "rating": 4.4,
                 "reviews": 64
             }
@@ -3440,6 +3535,7 @@
                     "lng": -88.2461758
                 },
                 "phone_number": "2173527599",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 511,
                 "website": "lepeep.com"
@@ -3458,6 +3554,7 @@
                     "lng": -88.244247
                 },
                 "phone_number": "2173525399",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 712,
                 "website": "merry-anns.com"
@@ -3470,6 +3567,7 @@
                     "lng": -88.2217175
                 },
                 "phone_number": "2173447455",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 423,
                 "website": "merry-anns.com"
@@ -3488,6 +3586,7 @@
                     "lng": -88.2784189
                 },
                 "phone_number": "2173528866",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 792,
                 "website": "originalpancakehouse.com"
@@ -3506,6 +3605,7 @@
                     "lng": -88.2425973
                 },
                 "phone_number": "2173527102",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 260
             }
@@ -3523,6 +3623,7 @@
                     "lng": -88.2766301
                 },
                 "phone_number": "2173553403",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 588
             }
@@ -3540,6 +3641,7 @@
                     "lng": -88.2312987
                 },
                 "phone_number": "2173283888",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 349
             }
@@ -3557,6 +3659,7 @@
                     "lng": -88.2582888
                 },
                 "phone_number": "2173443911",
+                "price": 2,
                 "rating": 5.0,
                 "reviews": 18,
                 "website": "cookiesbydesign.com"
@@ -3575,6 +3678,7 @@
                     "lng": -88.2421783
                 },
                 "phone_number": "2173555400",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 120,
                 "website": "creamandflutter.com"
@@ -3593,6 +3697,7 @@
                     "lng": -88.2050092
                 },
                 "phone_number": "2179540215",
+                "price": 1,
                 "rating": 4.9,
                 "reviews": 257
             }
@@ -3610,6 +3715,7 @@
                     "lng": -88.5738226
                 },
                 "phone_number": "2177622233",
+                "price": 18,
                 "rating": 4.9,
                 "reviews": 28,
                 "website": "froyofactorymonticello.com"
@@ -3628,6 +3734,7 @@
                     "lng": -88.2316942
                 },
                 "phone_number": "2173280203",
+                "price": 11,
                 "rating": 3.5,
                 "reviews": 126,
                 "website": "insomniacookies.com"
@@ -3646,6 +3753,7 @@
                     "lng": -88.2468826
                 },
                 "phone_number": "2173522273",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 1051,
                 "website": "jarlingscustardcup.com"
@@ -3664,6 +3772,7 @@
                     "lng": -88.0214735
                 },
                 "phone_number": "2175687400",
+                "price": 10,
                 "rating": 4.9,
                 "reviews": 8
             }
@@ -3681,6 +3790,7 @@
                     "lng": -88.403208
                 },
                 "phone_number": "2174022319",
+                "price": 6,
                 "rating": 4.5,
                 "reviews": 17,
                 "website": "luckymoonpies.com"
@@ -3699,6 +3809,7 @@
                     "lng": -88.2327795
                 },
                 "phone_number": "2177601404",
+                "price": 18,
                 "rating": 4.5,
                 "reviews": 232,
                 "website": "paris-super-crepes.business.site"
@@ -3717,6 +3828,7 @@
                     "lng": -88.5729129
                 },
                 "phone_number": "2177780200",
+                "price": 6,
                 "rating": 4.9,
                 "reviews": 8,
                 "website": "piesbyinge.com"
@@ -3735,6 +3847,7 @@
                     "lng": -88.190658
                 },
                 "phone_number": "2176071233",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 149,
                 "website": "redbicycleicecream.com"
@@ -3753,6 +3866,7 @@
                     "lng": -87.982699
                 },
                 "phone_number": "2176883700",
+                "price": 1,
                 "rating": 4.8,
                 "reviews": 319,
                 "website": "sidneydairybarn.com"
@@ -3771,6 +3885,7 @@
                     "lng": -88.3016138
                 },
                 "phone_number": "2173522433",
+                "price": 6,
                 "rating": 4.0,
                 "reviews": 29,
                 "website": "thenewsweetindulgence.biz"
@@ -3789,6 +3904,7 @@
                     "lng": -88.2750033
                 },
                 "phone_number": "2176075090",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 67,
                 "website": "tcby.com"
@@ -3807,6 +3923,7 @@
                     "lng": -88.4005791
                 },
                 "phone_number": "2175862520",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 171
             }
@@ -3824,6 +3941,7 @@
                     "lng": -88.2387013
                 },
                 "phone_number": "2173514005",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 257,
                 "website": "jjfishandchickenchampaign.com"
@@ -3842,6 +3960,7 @@
                     "lng": -88.157401
                 },
                 "phone_number": "2178415458",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 276
             }
@@ -3859,6 +3978,7 @@
                     "lng": -87.958117
                 },
                 "phone_number": "2178962073",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 105
             }
@@ -3876,6 +3996,7 @@
                     "lng": -88.2578748
                 },
                 "phone_number": "2176936993",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 308,
                 "website": "corelifeeatery.com"
@@ -3894,6 +4015,7 @@
                     "lng": -88.2272187
                 },
                 "phone_number": "2172394737",
+                "price": 1,
                 "rating": 3.9,
                 "reviews": 13,
                 "website": "eatgarbanzo.com"
@@ -3912,6 +4034,7 @@
                     "lng": -88.2299343
                 },
                 "phone_number": "2176071548",
+                "price": 20,
                 "rating": 4.4,
                 "reviews": 78
             }
@@ -3929,6 +4052,7 @@
                     "lng": -88.2331124
                 },
                 "phone_number": "2173909294",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 173,
                 "website": "jurassicgrill.com"
@@ -3947,6 +4071,7 @@
                     "lng": -88.260498
                 },
                 "phone_number": "2175521800",
+                "price": 18,
                 "rating": 4.6,
                 "reviews": 106,
                 "website": "krispykrunchychampaign.com"
@@ -3959,6 +4084,7 @@
                     "lng": -88.272932
                 },
                 "phone_number": "2172533116",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 13,
                 "website": "krispykrunchychampaign.com"
@@ -3977,6 +4103,7 @@
                     "lng": -88.2209694
                 },
                 "phone_number": "2173286476",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 282,
                 "website": "nirosgyrosuniversityave.com"
@@ -3989,6 +4116,7 @@
                     "lng": -88.2804357
                 },
                 "phone_number": "2173563700",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 192,
                 "website": "champaignnirosgyros.com"
@@ -4006,6 +4134,7 @@
                     "lat": 40.1425441,
                     "lng": -88.2574377
                 },
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 452,
                 "website": "7733195353 | supernirosgyros.com"
@@ -4024,6 +4153,7 @@
                     "lng": -88.2087623
                 },
                 "phone_number": "2173449404",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 299,
                 "website": "windycityexpressil.com"
@@ -4042,6 +4172,7 @@
                     "lng": -88.22991
                 },
                 "phone_number": "2173440710",
+                "price": 1,
                 "rating": 3.9,
                 "reviews": 237,
                 "website": "zorbaschampaignil.com"
@@ -4060,6 +4191,7 @@
                     "lng": -88.2437783
                 },
                 "phone_number": "2173981020",
+                "price": 3,
                 "rating": 4.5,
                 "reviews": 197,
                 "website": "miga-restaurant.com"
@@ -4078,6 +4210,7 @@
                     "lng": -88.2455397
                 },
                 "phone_number": "2179541439",
+                "price": 18,
                 "rating": 4.4,
                 "reviews": 230,
                 "website": "nandomilanochampaign.com"
@@ -4096,6 +4229,7 @@
                     "lng": -88.2367212
                 },
                 "phone_number": "2177297430",
+                "price": 18,
                 "rating": 4.7,
                 "reviews": 112,
                 "website": "nayarestaurant.com"
@@ -4114,6 +4248,7 @@
                     "lng": -88.2087366
                 },
                 "phone_number": "2173283402",
+                "price": 3,
                 "rating": 4.5,
                 "reviews": 476,
                 "website": "couriersilvercreek.com/silvercreek"
@@ -4132,6 +4267,7 @@
                     "lng": -88.223744
                 },
                 "phone_number": "2173447619",
+                "price": 3,
                 "rating": 4.3,
                 "reviews": 161,
                 "website": "timpones-urbana.com"
@@ -4150,6 +4286,7 @@
                     "lng": -88.0422956
                 },
                 "phone_number": "2174696252",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 204,
                 "website": "wheelhousesjo.com"
@@ -4168,6 +4305,7 @@
                     "lng": -88.296249
                 },
                 "phone_number": "2179541012",
+                "price": 2,
                 "rating": 3.9,
                 "reviews": 228,
                 "website": "amaravatiindianroyalcuisineil.com"
@@ -4186,6 +4324,7 @@
                     "lng": -88.2290016
                 },
                 "phone_number": "2173441500",
+                "price": 17,
                 "rating": 3.9,
                 "reviews": 306,
                 "website": "ambarindianchampaign.com"
@@ -4204,6 +4343,7 @@
                     "lng": -88.2746667
                 },
                 "phone_number": "2176937961",
+                "price": 1,
                 "rating": 4.9,
                 "reviews": 31
             }
@@ -4221,6 +4361,7 @@
                     "lng": -88.046651
                 },
                 "phone_number": "2173443380",
+                "price": 2,
                 "rating": 4.0,
                 "reviews": 125,
                 "website": "bombayindiangrillchampaign.com"
@@ -4238,6 +4379,7 @@
                     "lat": 40.117583,
                     "lng": -88.207549
                 },
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 176,
                 "website": "broadwayfoodhall.com"
@@ -4256,6 +4398,7 @@
                     "lng": -88.2475664
                 },
                 "phone_number": "2179605375",
+                "price": 20,
                 "rating": 4.5,
                 "reviews": 199,
                 "website": "caribbeangrill.net"
@@ -4274,6 +4417,7 @@
                     "lng": -88.2441538
                 },
                 "phone_number": "2175521834",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 523
             }
@@ -4291,6 +4435,7 @@
                     "lng": -88.229002
                 },
                 "phone_number": "2173448760",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 107
             }
@@ -4308,6 +4453,7 @@
                     "lng": -88.2432218
                 },
                 "phone_number": "2175521384",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 644,
                 "website": "kohinoorchampaign.com"
@@ -4326,6 +4472,7 @@
                     "lng": -88.2086683
                 },
                 "phone_number": "2173446440",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 225,
                 "website": "sitaraindian.com"
@@ -4344,6 +4491,7 @@
                     "lng": -88.2073785
                 },
                 "phone_number": "8444976835",
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 27,
                 "website": "stangocu.com"
@@ -4362,6 +4510,7 @@
                     "lng": -88.2437618
                 },
                 "phone_number": "2179541929",
+                "price": 10,
                 "rating": 4.6,
                 "reviews": 152
             }
@@ -4379,6 +4528,7 @@
                     "lng": -88.1584504
                 },
                 "phone_number": "2172829358",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 82
             }
@@ -4396,6 +4546,7 @@
                     "lng": -88.2447754
                 },
                 "phone_number": "2173784272",
+                "price": 10,
                 "rating": 4.2,
                 "reviews": 20
             }
@@ -4413,6 +4564,7 @@
                     "lng": -88.2072068
                 },
                 "phone_number": "3092874455",
+                "price": 13,
                 "rating": 5.0,
                 "reviews": 2,
                 "website": "baldarottas.com"
@@ -4431,6 +4583,7 @@
                     "lng": -88.2462013
                 },
                 "phone_number": "2173564300",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 739,
                 "website": "biaggis.com"
@@ -4449,6 +4602,7 @@
                     "lng": -88.2389717
                 },
                 "phone_number": "2173527624",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 218,
                 "website": "manzellasitalianrestaurant.com"
@@ -4467,6 +4621,7 @@
                     "lng": -88.2292323
                 },
                 "phone_number": "2172983198",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 434,
                 "website": "miazas.com"
@@ -4485,6 +4640,7 @@
                     "lng": -88.1556757
                 },
                 "phone_number": "2178932880",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 218
             }
@@ -4502,6 +4658,7 @@
                     "lng": -88.401174
                 },
                 "phone_number": "2175866938",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 133,
                 "website": "breakingtaco.com"
@@ -4520,6 +4677,7 @@
                     "lng": -88.2325805
                 },
                 "phone_number": "2176070073",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 304,
                 "website": "burritokingchampaign.com"
@@ -4538,6 +4696,7 @@
                     "lng": -88.1903394
                 },
                 "phone_number": "2175521525",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 246
             }
@@ -4555,6 +4714,7 @@
                     "lng": -88.1570399
                 },
                 "phone_number": "2178928541",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 98
             }
@@ -4572,6 +4732,7 @@
                     "lng": -88.5758582
                 },
                 "phone_number": "2177624762",
+                "price": 15,
                 "rating": 4.7,
                 "reviews": 41
             }
@@ -4589,6 +4750,7 @@
                     "lng": -88.2605017
                 },
                 "phone_number": "2173516879",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 1220
             }
@@ -4606,6 +4768,7 @@
                     "lng": -88.2962492
                 },
                 "phone_number": "2176007683",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 150,
                 "website": "elpatiochampaign.com"
@@ -4624,6 +4787,7 @@
                     "lng": -88.1302248
                 },
                 "phone_number": "2175900501",
+                "price": 18,
                 "rating": 4.3,
                 "reviews": 196,
                 "website": "eltororestaurante.com"
@@ -4636,6 +4800,7 @@
                     "lng": -88.0414414
                 },
                 "phone_number": "2175900501",
+                "price": 18,
                 "rating": 4.5,
                 "reviews": 231,
                 "website": "eltororestaurante.com"
@@ -4654,6 +4819,7 @@
                     "lng": -88.3086099
                 },
                 "phone_number": "2179034002",
+                "price": 10,
                 "rating": 4.5,
                 "reviews": 78,
                 "website": "eltororestaurante.com"
@@ -4672,6 +4838,7 @@
                     "lng": -88.2889696
                 },
                 "phone_number": "2173517024",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 559,
                 "website": "eltororestaurante.com"
@@ -4690,6 +4857,7 @@
                     "lng": -88.243905
                 },
                 "phone_number": "2173787807",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 316,
                 "website": "eltororestaurante.com"
@@ -4708,6 +4876,7 @@
                     "lng": -88.2331124
                 },
                 "phone_number": "2179541871",
+                "price": 25,
                 "rating": 4.1,
                 "reviews": 17,
                 "website": "theempanadashouse.com"
@@ -4726,6 +4895,7 @@
                     "lng": -88.2300417
                 },
                 "phone_number": "2172550210",
+                "price": 10,
                 "rating": 4.8,
                 "reviews": 49,
                 "website": "fernandosfoodtruck.weebly.com"
@@ -4744,6 +4914,7 @@
                     "lng": -88.2384771
                 },
                 "phone_number": "2173525902",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 449,
                 "website": "fiestacafe.com"
@@ -4762,6 +4933,7 @@
                     "lng": -88.1957771
                 },
                 "phone_number": "2173446772",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 913
             }
@@ -4779,6 +4951,7 @@
                     "lng": -88.2387896
                 },
                 "phone_number": "2176211394",
+                "price": 2,
                 "rating": 3.5,
                 "reviews": 12
             }
@@ -4796,6 +4969,7 @@
                     "lng": -88.2778037
                 },
                 "phone_number": "2173556600",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 447,
                 "website": "labambaburritos.com"
@@ -4814,6 +4988,7 @@
                     "lng": -88.4604196
                 },
                 "phone_number": "2175433131",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 171
             }
@@ -4831,6 +5006,7 @@
                     "lng": -88.2047815
                 },
                 "phone_number": "2175521544",
+                "price": 10,
                 "rating": 4.5,
                 "reviews": 125,
                 "website": "lamixtecarestaurant.com"
@@ -4849,6 +5025,7 @@
                     "lng": -88.5728631
                 },
                 "phone_number": "2177622800",
+                "price": 10,
                 "rating": 4.3,
                 "reviews": 44,
                 "website": "mariasauthenticmexicanrestaurante.com"
@@ -4867,6 +5044,7 @@
                     "lng": -88.3961211
                 },
                 "phone_number": "2175863735",
+                "price": 18,
                 "rating": 4.4,
                 "reviews": 250
             }
@@ -4884,6 +5062,7 @@
                     "lng": -88.127324
                 },
                 "phone_number": "2173553611",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 825,
                 "website": "maizemexicangrill.com"
@@ -4896,6 +5075,7 @@
                     "lng": -88.2389625
                 },
                 "phone_number": "2173556400",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 825,
                 "website": "maizemexicangrill.com"
@@ -4914,6 +5094,7 @@
                     "lng": -88.243655
                 },
                 "phone_number": "2173562100",
+                "price": 18,
                 "rating": 4.4,
                 "reviews": 25
             }
@@ -4931,6 +5112,7 @@
                     "lng": -88.2894876
                 },
                 "phone_number": "2175997001",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 196
             }
@@ -4948,6 +5130,7 @@
                     "lng": -88.2464817
                 },
                 "phone_number": "2173526637",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 353,
                 "website": "moes.com"
@@ -4966,6 +5149,7 @@
                     "lng": -88.290574
                 },
                 "phone_number": "2175991012",
+                "price": 2,
                 "rating": 4.4,
                 "reviews": 313
             }
@@ -4983,6 +5167,7 @@
                     "lng": -88.2571235
                 },
                 "phone_number": "2173558226",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 207,
                 "website": "champaignsupertaco.com"
@@ -5001,6 +5186,7 @@
                     "lng": -88.2571377
                 },
                 "phone_number": "2173558226",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 207,
                 "website": "tacoloco.com"
@@ -5019,6 +5205,7 @@
                     "lng": -88.2089057
                 },
                 "phone_number": "2173442770",
+                "price": 17,
                 "rating": 5.0,
                 "reviews": 2
             }
@@ -5036,6 +5223,7 @@
                     "lng": -88.199438
                 },
                 "phone_number": "2173447855",
+                "price": 18,
                 "rating": 4.3,
                 "reviews": 659,
                 "website": "eltororestaurante.com"
@@ -5054,6 +5242,7 @@
                     "lng": -88.3655214
                 },
                 "phone_number": "2175864657",
+                "price": 2,
                 "rating": 4.8,
                 "reviews": 219,
                 "website": "filipposofmahomet.com"
@@ -5072,6 +5261,7 @@
                     "lng": -88.573945
                 },
                 "phone_number": "2177622921",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 149
             }
@@ -5089,6 +5279,7 @@
                     "lng": -88.1558992
                 },
                 "phone_number": "2178929990",
+                "price": 10,
                 "rating": 3.0,
                 "reviews": 44
             }
@@ -5106,30 +5297,13 @@
                     "lng": -88.2769902
                 },
                 "phone_number": "2173521212",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 202,
                 "website": "garciaspizzainapanchampaign.com"
             }
         ],
         "name": "Garcia's Pizza in a Pan"
-    },
-    {
-        "cuisine": "Pizza",
-        "locations": [
-            {
-                "address": "2000 N Neil St, Champaign, Illinois",
-                "area": "Champaign",
-                "coordinate": {
-                    "lat": 40.142697,
-                    "lng": -88.242566
-                },
-                "phone_number": "2179534299",
-                "rating": 4.0,
-                "reviews": 400,
-                "website": "giordanos.com"
-            }
-        ],
-        "name": "Giordano's"
     },
     {
         "cuisine": "Pizza",
@@ -5142,6 +5316,7 @@
                     "lng": -88.472622
                 },
                 "phone_number": "2175433531",
+                "price": 16,
                 "rating": 4.6,
                 "reviews": 60,
                 "website": "arthuritsapizza.com"
@@ -5160,6 +5335,7 @@
                     "lng": -88.2878856
                 },
                 "phone_number": "2172536500",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 179
             }
@@ -5177,6 +5353,7 @@
                     "lng": -88.2967223
                 },
                 "phone_number": "2173668300",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 920,
                 "website": "jupitersatcrossing.com"
@@ -5195,6 +5372,7 @@
                     "lng": -88.2414231
                 },
                 "phone_number": "2173985988",
+                "price": 2,
                 "rating": 4.3,
                 "reviews": 466,
                 "website": "jupiterspizza.com"
@@ -5213,6 +5391,7 @@
                     "lng": -88.2219766
                 },
                 "phone_number": "2173650110",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 239,
                 "website": "manolospizza.com"
@@ -5231,6 +5410,7 @@
                     "lng": -88.2506718
                 },
                 "phone_number": "2173595281",
+                "price": 13,
                 "rating": 4.5,
                 "reviews": 590,
                 "website": "oldorchardinc.com"
@@ -5249,6 +5429,7 @@
                     "lng": -88.041802
                 },
                 "phone_number": "2174699016",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 49
             }
@@ -5266,6 +5447,7 @@
                     "lng": -88.243696
                 },
                 "phone_number": "2173597700",
+                "price": 2,
                 "rating": 4.1,
                 "reviews": 1232,
                 "website": "papadels.com"
@@ -5284,6 +5466,7 @@
                     "lng": -88.2962493
                 },
                 "phone_number": "2176075263",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 251,
                 "website": "piesthelimit.com"
@@ -5302,6 +5485,7 @@
                     "lng": -88.3523572
                 },
                 "phone_number": "2178976776",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 66
             }
@@ -5319,6 +5503,7 @@
                     "lng": -88.2430077
                 },
                 "phone_number": "2175304137",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 271,
                 "website": "anticachampaign.com"
@@ -5337,6 +5522,7 @@
                     "lng": -88.1585727
                 },
                 "phone_number": "2178934974",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 58
             }
@@ -5354,6 +5540,7 @@
                     "lng": -88.2399968
                 },
                 "phone_number": "2173554500",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 114,
                 "website": "vinnyseastcoastpizzeria.com"
@@ -5371,6 +5558,7 @@
                     "lat": 40.1146127,
                     "lng": -88.2121651
                 },
+                "price": 7,
                 "rating": 4.8,
                 "reviews": 38
             }
@@ -5388,6 +5576,7 @@
                     "lng": -88.268886
                 },
                 "phone_number": "2175906007",
+                "price": 3,
                 "rating": 3.8,
                 "reviews": 59,
                 "website": "51maincu.com"
@@ -5405,6 +5594,7 @@
                     "lat": 40.1128345,
                     "lng": -88.208843
                 },
+                "price": 8,
                 "rating": 4.9,
                 "reviews": 7,
                 "website": "analogurbana.com"
@@ -5423,6 +5613,7 @@
                     "lng": -88.241934
                 },
                 "phone_number": "2172394677",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 310,
                 "website": "barrelhouse34.com"
@@ -5441,6 +5632,7 @@
                     "lng": -88.2436678
                 },
                 "phone_number": "2173597977",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 141,
                 "website": "bentleyspub.com"
@@ -5459,6 +5651,7 @@
                     "lng": -88.2083097
                 },
                 "phone_number": "2175311453",
+                "price": 3,
                 "rating": 4.5,
                 "reviews": 90,
                 "website": "blackbirdurbana.com"
@@ -5477,6 +5670,7 @@
                     "lng": -88.2434108
                 },
                 "phone_number": "2173985133",
+                "price": 7,
                 "rating": 4.7,
                 "reviews": 175,
                 "website": "blindpigco.com"
@@ -5495,6 +5689,7 @@
                     "lng": -88.2423836
                 },
                 "phone_number": "2173981532",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 379,
                 "website": "blindpigco.com"
@@ -5513,6 +5708,7 @@
                     "lng": -88.242824
                 },
                 "phone_number": "2173527512",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 64
             }
@@ -5530,6 +5726,7 @@
                     "lng": -88.4561016
                 },
                 "phone_number": "2175649994",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 44
             }
@@ -5547,6 +5744,7 @@
                     "lng": -88.3459534
                 },
                 "phone_number": "2175982313",
+                "price": 3,
                 "rating": 4.4,
                 "reviews": 44
             }
@@ -5564,6 +5762,7 @@
                     "lng": -88.185474
                 },
                 "phone_number": "2176437300",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 31
             }
@@ -5581,6 +5780,7 @@
                     "lng": -88.2434444
                 },
                 "phone_number": "2176075292",
+                "price": 3,
                 "rating": 4.6,
                 "reviews": 114,
                 "website": "collectivepour.com"
@@ -5599,6 +5799,7 @@
                     "lng": -88.24239
                 },
                 "phone_number": "2179541448",
+                "price": 8,
                 "rating": 4.2,
                 "reviews": 36,
                 "website": "crudowine.com"
@@ -5617,6 +5818,7 @@
                     "lng": -88.1565881
                 },
                 "phone_number": "2175864061",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 46
             }
@@ -5634,6 +5836,7 @@
                     "lng": -88.5712022
                 },
                 "phone_number": "2177629087",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 19
             }
@@ -5651,6 +5854,7 @@
                     "lng": -88.3469738
                 },
                 "phone_number": "2175982955",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 34
             }
@@ -5668,6 +5872,7 @@
                     "lng": -88.2410343
                 },
                 "phone_number": "2173676844",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 62
             }
@@ -5685,6 +5890,7 @@
                     "lng": -88.2391412
                 },
                 "phone_number": "2172397080",
+                "price": 2,
                 "rating": 3.3,
                 "reviews": 101
             }
@@ -5702,6 +5908,7 @@
                     "lng": -88.2684968
                 },
                 "phone_number": "2173520606",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 115
             }
@@ -5719,6 +5926,7 @@
                     "lng": -88.233605
                 },
                 "phone_number": "2179541465",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 99,
                 "website": "theilliniinn.com"
@@ -5737,6 +5945,7 @@
                     "lng": -88.2087283
                 },
                 "phone_number": "2173377678",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 132
             }
@@ -5754,6 +5963,7 @@
                     "lng": -88.4560912
                 },
                 "phone_number": "2175642206",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 19
             }
@@ -5771,6 +5981,7 @@
                     "lng": -88.2592163
                 },
                 "phone_number": "2174855706",
+                "price": 3,
                 "rating": 3.8,
                 "reviews": 21
             }
@@ -5783,7 +5994,8 @@
             {
                 "address": "618 E Daniel St., Champaign, Illinois",
                 "area": "Campustown",
-                "phone_number": "2173373300"
+                "phone_number": "2173373300",
+                "price": 1
             }
         ],
         "name": "Kam's"
@@ -5799,6 +6011,7 @@
                     "lng": -87.996241
                 },
                 "phone_number": "2178343010",
+                "price": 12,
                 "rating": 4.4,
                 "reviews": 30
             }
@@ -5816,6 +6029,7 @@
                     "lng": -88.2622422
                 },
                 "phone_number": "2174858201",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 39,
                 "website": "loosecobra.com"
@@ -5834,6 +6048,7 @@
                     "lng": -88.2653784
                 },
                 "phone_number": "2174858201",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 36
             }
@@ -5851,6 +6066,7 @@
                     "lng": -88.5722324
                 },
                 "phone_number": "2177629414",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 132
             }
@@ -5868,6 +6084,7 @@
                     "lng": -88.0238617
                 },
                 "phone_number": "2175687721",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 22
             }
@@ -5885,6 +6102,7 @@
                     "lng": -88.2820484
                 },
                 "phone_number": "2173986332",
+                "price": 1,
                 "rating": 4.3,
                 "reviews": 59
             }
@@ -5902,6 +6120,7 @@
                     "lng": -88.2727333
                 },
                 "phone_number": "2173511993",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 143,
                 "website": "piassportspub.com"
@@ -5920,6 +6139,7 @@
                     "lng": -88.2827265
                 },
                 "phone_number": "2173560888",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 88
             }
@@ -5937,6 +6157,7 @@
                     "lng": -88.2415861
                 },
                 "phone_number": "2179541881",
+                "price": 2,
                 "rating": 4.7,
                 "reviews": 174,
                 "website": "pourbroschampaign.com"
@@ -5955,6 +6176,7 @@
                     "lng": -88.2436462
                 },
                 "phone_number": "2175312800",
+                "price": 12,
                 "rating": 5.0,
                 "reviews": 12
             }
@@ -5972,6 +6194,7 @@
                     "lng": -88.2434097
                 },
                 "phone_number": "2173593425",
+                "price": 2,
                 "rating": 4.5,
                 "reviews": 237
             }
@@ -5989,6 +6212,7 @@
                     "lng": -88.2367465
                 },
                 "phone_number": "2173679915",
+                "price": 1,
                 "rating": 3.4,
                 "reviews": 294,
                 "website": "redlionchampaign.com"
@@ -6007,6 +6231,7 @@
                     "lng": -88.1624519
                 },
                 "phone_number": "2177185345",
+                "price": 7,
                 "rating": 4.8,
                 "reviews": 229,
                 "website": "riggsbeer.com"
@@ -6025,6 +6250,7 @@
                     "lng": -88.2087609
                 },
                 "phone_number": "2173677031",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 85
             }
@@ -6042,6 +6268,7 @@
                     "lng": -88.2760077
                 },
                 "phone_number": "2178672000",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 67
             }
@@ -6059,6 +6286,7 @@
                     "lng": -88.249677
                 },
                 "phone_number": "2173520002",
+                "price": 12,
                 "rating": 4.6,
                 "reviews": 49,
                 "website": "senatorsinn.com"
@@ -6077,6 +6305,7 @@
                     "lng": -88.0731965
                 },
                 "phone_number": "2176883161",
+                "price": 1,
                 "rating": 4.2,
                 "reviews": 68,
                 "website": "sidneysaloon.net"
@@ -6095,6 +6324,7 @@
                     "lng": -88.2434418
                 },
                 "phone_number": "2173597662",
+                "price": 2,
                 "rating": 2.7,
                 "reviews": 42
             }
@@ -6112,6 +6342,7 @@
                     "lng": -88.251275
                 },
                 "phone_number": "2173563333",
+                "price": 2,
                 "rating": 4.2,
                 "reviews": 121,
                 "website": "starkaraokeuiuc.com"
@@ -6130,6 +6361,7 @@
                     "lng": -88.155943
                 },
                 "phone_number": "2178939531",
+                "price": 1,
                 "rating": 4.1,
                 "reviews": 71
             }
@@ -6147,6 +6379,7 @@
                     "lng": -88.023803
                 },
                 "phone_number": "2175687554",
+                "price": 1,
                 "rating": 4.6,
                 "reviews": 19
             }
@@ -6164,6 +6397,7 @@
                     "lng": -88.2582137
                 },
                 "phone_number": "2173985760",
+                "price": 1,
                 "rating": 4.5,
                 "reviews": 34
             }
@@ -6181,6 +6415,7 @@
                     "lng": -88.2492759
                 },
                 "phone_number": "7792323376",
+                "price": 7,
                 "rating": 4.8,
                 "reviews": 214,
                 "website": "triptychbrewing.com"
@@ -6199,6 +6434,7 @@
                     "lng": -88.2433839
                 },
                 "phone_number": "2173560012",
+                "price": 1,
                 "rating": 4.4,
                 "reviews": 126
             }
@@ -6216,6 +6452,7 @@
                     "lng": -88.5721972
                 },
                 "phone_number": "2177629221",
+                "price": 1,
                 "rating": 4.7,
                 "reviews": 153,
                 "website": "monticellobrownbag.com"
@@ -6234,6 +6471,7 @@
                     "lng": -88.2746621
                 },
                 "phone_number": "2176158531",
+                "price": 2,
                 "rating": 4.8,
                 "reviews": 73,
                 "website": "crackerscheese.com"
@@ -6252,30 +6490,13 @@
                     "lng": -88.2316942
                 },
                 "phone_number": "2173285035",
+                "price": 1,
                 "rating": 4.0,
                 "reviews": 123,
                 "website": "fatsandwichchampaignil.com"
             }
         ],
         "name": "Fat Sandwich Company"
-    },
-    {
-        "cuisine": "Sandwiches",
-        "locations": [
-            {
-                "address": "2149 S Neil St, Champaign, Illinois",
-                "area": "Champaign",
-                "coordinate": {
-                    "lat": 40.0893232,
-                    "lng": -88.246117
-                },
-                "phone_number": "2173985623",
-                "rating": 4.4,
-                "reviews": 39,
-                "website": "greatharvest.com"
-            }
-        ],
-        "name": "Great Harvest Bread Company"
     },
     {
         "cuisine": "Sandwiches",
@@ -6288,6 +6509,7 @@
                     "lng": -87.9581637
                 },
                 "phone_number": "2178967651",
+                "price": 13,
                 "rating": 4.6,
                 "reviews": 10,
                 "website": "mainstreetbellydeli.com"
@@ -6306,6 +6528,7 @@
                     "lng": -88.2058577
                 },
                 "phone_number": "2173672255",
+                "price": 19,
                 "rating": 4.6,
                 "reviews": 127,
                 "website": "poboysurbana.com"
@@ -6324,6 +6547,7 @@
                     "lng": -88.2455101
                 },
                 "phone_number": "2173591789",
+                "price": 3,
                 "rating": 4.4,
                 "reviews": 517,
                 "website": "alexanderssteak.com"
@@ -6342,6 +6566,7 @@
                     "lng": -88.243638
                 },
                 "phone_number": "2173500363",
+                "price": 3,
                 "rating": 4.4,
                 "reviews": 444,
                 "website": "hamiltonwalkers.com"
@@ -6360,6 +6585,7 @@
                     "lng": -88.0214734
                 },
                 "phone_number": "2175687722",
+                "price": 2,
                 "rating": 4.6,
                 "reviews": 42
             }
@@ -6377,6 +6603,7 @@
                     "lng": -88.245412
                 },
                 "phone_number": "2173519115",
+                "price": 3,
                 "rating": 4.5,
                 "reviews": 625,
                 "website": "theribeyerestaurant.org"

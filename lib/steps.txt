@@ -11,3 +11,5 @@
 11. If no reviews or closed, removed eatery from list
 12. Match location areas to location for 1 to 1, manually edited remainder
 13. Matched phone numbers
+14. Used Google to obtain eatery prices
+15. Manually removed places without price info or closed eateries
