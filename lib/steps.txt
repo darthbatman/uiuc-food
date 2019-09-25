@@ -16,3 +16,7 @@
 16. phone_number renamed to phoneNumber with cleanup
 17. Split each location into its own eatery
 18. Updated Kam's coordinate, review, and rating
+19. Updated Bombay Grill and PVP Bakery addresses and coordinates
+20. Fixed Maize reviews, rating, coordinate
+21. Fixed Wood n Hog Champaign coordinates
+22. Fixed Thara Thai and El Toro at the Fields coordinates
