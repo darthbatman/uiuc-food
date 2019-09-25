@@ -20,3 +20,4 @@
 20. Fixed Maize reviews, rating, coordinate
 21. Fixed Wood n Hog Champaign coordinates
 22. Fixed Thara Thai and El Toro at the Fields coordinates
+23. Replaced all non 1-4 prices with 2

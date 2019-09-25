@@ -68,7 +68,7 @@
         "cuisine": "American",
         "name": "Flesor's Candy Kitchen",
         "phoneNumber": "2172533753",
-        "price": 10,
+        "price": 2,
         "rating": 4.8,
         "reviews": 346,
         "website": "flesorscandy.com"
@@ -83,7 +83,7 @@
         "cuisine": "American",
         "name": "Hank's Table",
         "phoneNumber": "2173519463",
-        "price": 10,
+        "price": 2,
         "rating": 4.0,
         "reviews": 24
     },
@@ -96,7 +96,7 @@
         },
         "cuisine": "American",
         "name": "Irma Lou's Kitchen",
-        "price": 10,
+        "price": 2,
         "rating": 5.0,
         "reviews": 1,
         "website": "Irmalous.com"
@@ -240,7 +240,7 @@
         "cuisine": "American",
         "name": "Salad Meister",
         "phoneNumber": "2177277227",
-        "price": 10,
+        "price": 2,
         "rating": 4.7,
         "reviews": 80,
         "website": "saladmeister.com"
@@ -255,7 +255,7 @@
         "cuisine": "American",
         "name": "Scratch",
         "phoneNumber": "2174696230",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 63,
         "website": "scratchmadestjoe.com"
@@ -270,7 +270,7 @@
         "cuisine": "American",
         "name": "Sun Singer Wine & Spirits",
         "phoneNumber": "2173511115",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 339,
         "website": "sunsingerwines.com"
@@ -315,7 +315,7 @@
         "cuisine": "Asian",
         "name": "A-Ri-Rang",
         "phoneNumber": "2173595569",
-        "price": 17,
+        "price": 2,
         "rating": 4.5,
         "reviews": 108
     },
@@ -329,7 +329,7 @@
         "cuisine": "Asian",
         "name": "Asian Noodle & Sushi",
         "phoneNumber": "2178199699",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 75
     },
@@ -358,7 +358,7 @@
         "cuisine": "Asian",
         "name": "Aunlie Lee's Chinese Kitchen",
         "phoneNumber": "2176937928",
-        "price": 18,
+        "price": 2,
         "rating": 3.0,
         "reviews": 42,
         "website": "auntieleechampaign.com"
@@ -589,7 +589,7 @@
         "cuisine": "Asian",
         "name": "Dumpling Noodle BBQ",
         "phoneNumber": "2172810880",
-        "price": 10,
+        "price": 2,
         "rating": 3.6,
         "reviews": 28
     },
@@ -632,7 +632,7 @@
         "cuisine": "Asian",
         "name": "Golden Kitchen",
         "phoneNumber": "2177625678",
-        "price": 18,
+        "price": 2,
         "rating": 3.9,
         "reviews": 48
     },
@@ -676,7 +676,7 @@
         "cuisine": "Asian",
         "name": "Green Jade",
         "phoneNumber": "2173555988",
-        "price": 18,
+        "price": 2,
         "rating": 4.3,
         "reviews": 70,
         "website": "greenjadechampaign.com"
@@ -691,7 +691,7 @@
         "cuisine": "Asian",
         "name": "Green Onion Asian Market",
         "phoneNumber": "2173595370",
-        "price": 13,
+        "price": 2,
         "rating": 4.5,
         "reviews": 117
     },
@@ -762,7 +762,7 @@
         "cuisine": "Asian",
         "name": "K-Bowl",
         "phoneNumber": "2173446022",
-        "price": 10,
+        "price": 2,
         "rating": 4.7,
         "reviews": 15
     },
@@ -806,7 +806,7 @@
         "cuisine": "Asian",
         "name": "Kung Fu BBQ",
         "phoneNumber": "2173591888",
-        "price": 19,
+        "price": 2,
         "rating": 3.3,
         "reviews": 113
     },
@@ -850,7 +850,7 @@
         "cuisine": "Asian",
         "name": "Mandarin Wok",
         "phoneNumber": "2173845088",
-        "price": 18,
+        "price": 2,
         "rating": 4.1,
         "reviews": 114,
         "website": "mandarinwokonline.com"
@@ -880,7 +880,7 @@
         "cuisine": "Asian",
         "name": "Mid-Summer Lounge",
         "phoneNumber": "2176071434",
-        "price": 10,
+        "price": 2,
         "rating": 4.2,
         "reviews": 152,
         "website": "midsummerlounge.com"
@@ -909,7 +909,7 @@
         "cuisine": "Asian",
         "name": "Moki Sushi",
         "phoneNumber": "2175521600",
-        "price": 16,
+        "price": 2,
         "rating": 4.1,
         "reviews": 207,
         "website": "mokisushibar.com"
@@ -924,7 +924,7 @@
         "cuisine": "Asian",
         "name": "Mr. Crab",
         "phoneNumber": "2173989999",
-        "price": 18,
+        "price": 2,
         "rating": 4.5,
         "reviews": 8
     },
@@ -953,7 +953,7 @@
         "cuisine": "Asian",
         "name": "Naniing Bistro",
         "phoneNumber": "2176078117",
-        "price": 18,
+        "price": 2,
         "rating": 3.8,
         "reviews": 4,
         "website": "nanjingbistrochampaign.com"
@@ -1012,7 +1012,7 @@
         "cuisine": "Asian",
         "name": "Peking House",
         "phoneNumber": "2175862316",
-        "price": 18,
+        "price": 2,
         "rating": 4.6,
         "reviews": 54
     },
@@ -1040,7 +1040,7 @@
         "cuisine": "Asian",
         "name": "Poke Lab",
         "phoneNumber": "2175521880",
-        "price": 19,
+        "price": 2,
         "rating": 3.8,
         "reviews": 83
     },
@@ -1084,7 +1084,7 @@
         "cuisine": "Asian",
         "name": "Red Cape Hot",
         "phoneNumber": "2179540545",
-        "price": 18,
+        "price": 2,
         "rating": 3.6,
         "reviews": 52
     },
@@ -1128,7 +1128,7 @@
         "cuisine": "Asian",
         "name": "Shiquan Wonton",
         "phoneNumber": "2176072635",
-        "price": 18,
+        "price": 2,
         "rating": 4.7,
         "reviews": 52
     },
@@ -1201,7 +1201,7 @@
         "cuisine": "Asian",
         "name": "Star BBQ Restaurant",
         "phoneNumber": "2173567777",
-        "price": 19,
+        "price": 2,
         "rating": 4.4,
         "reviews": 68,
         "website": "starbbquiuc.com"
@@ -1290,7 +1290,7 @@
         "cuisine": "Asian",
         "name": "Sushi San",
         "phoneNumber": "2173281886",
-        "price": 16,
+        "price": 2,
         "rating": 4.2,
         "reviews": 92
     },
@@ -1334,7 +1334,7 @@
         "cuisine": "Asian",
         "name": "The Wok",
         "phoneNumber": "2175861588",
-        "price": 18,
+        "price": 2,
         "rating": 4.4,
         "reviews": 51
     },
@@ -1363,7 +1363,7 @@
         "cuisine": "Asian",
         "name": "Y Eatery",
         "phoneNumber": "2173371500",
-        "price": 15,
+        "price": 2,
         "rating": 4.1,
         "reviews": 16
     },
@@ -1436,7 +1436,7 @@
         },
         "cuisine": "Bakeries & Cafes",
         "name": "Cafeteria & Company",
-        "price": 11,
+        "price": 2,
         "rating": 4.5,
         "reviews": 54,
         "website": "cafeteriaandcompany.com"
@@ -1523,7 +1523,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Common Ground Food Co-op",
         "phoneNumber": "2173523347",
-        "price": 13,
+        "price": 2,
         "rating": 4.7,
         "reviews": 339,
         "website": "commonground.coop"
@@ -1658,7 +1658,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Flying Machine Avionics",
         "phoneNumber": "2176007949",
-        "price": 11,
+        "price": 2,
         "rating": 4.8,
         "reviews": 144
     },
@@ -1716,7 +1716,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Industrial Donut",
         "phoneNumber": "2176071323",
-        "price": 10,
+        "price": 2,
         "rating": 4.7,
         "reviews": 102,
         "website": "industrialdonut.com"
@@ -1761,7 +1761,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Pandamonium Doughnuts",
         "phoneNumber": "6309464306",
-        "price": 6,
+        "price": 2,
         "rating": 4.5,
         "reviews": 150,
         "website": "pandamoniumdoughnuts.wixsite.com/pandamoniumdoughnuts"
@@ -1806,7 +1806,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "PVP Bakery",
         "phoneNumber": "2178191265",
-        "price": 12,
+        "price": 2,
         "rating": 4.4,
         "reviews": 18
     },
@@ -1879,7 +1879,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Taipei Cafe",
         "phoneNumber": "3127990784",
-        "price": 16,
+        "price": 2,
         "rating": 4.3,
         "reviews": 39
     },
@@ -1893,7 +1893,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Teamoji",
         "phoneNumber": "2176076339",
-        "price": 16,
+        "price": 2,
         "rating": 4.5,
         "reviews": 139,
         "website": "teamoji.business.site"
@@ -1923,7 +1923,7 @@
         "cuisine": "Bakeries & Cafes",
         "name": "Ye Olde Donut Shoppe",
         "phoneNumber": "2173593311",
-        "price": 10,
+        "price": 2,
         "rating": 4.1,
         "reviews": 8
     },
@@ -2011,7 +2011,7 @@
         "cuisine": "Bar & Grill",
         "name": "Blue Star Family Restaurant",
         "phoneNumber": "2178971345",
-        "price": 5,
+        "price": 2,
         "rating": 4.1,
         "reviews": 31
     },
@@ -2040,7 +2040,7 @@
         "cuisine": "Bar & Grill",
         "name": "Brothers Bar & Grill",
         "phoneNumber": "2173285531",
-        "price": 15,
+        "price": 2,
         "rating": 4.0,
         "reviews": 173,
         "website": "brothersbar.com/champaign"
@@ -2190,7 +2190,7 @@
         "cuisine": "Bar & Grill",
         "name": "ET's Downtown Runroul",
         "phoneNumber": "2178930222",
-        "price": 10,
+        "price": 2,
         "rating": 4.5,
         "reviews": 75,
         "website": "etsdowntown.com"
@@ -2220,7 +2220,7 @@
         "cuisine": "Bar & Grill",
         "name": "Fieldhouse 219",
         "phoneNumber": "2176311155",
-        "price": 10,
+        "price": 2,
         "rating": 4.8,
         "reviews": 107,
         "website": "fieldhouse219.com"
@@ -2352,7 +2352,7 @@
         "cuisine": "Bar & Grill",
         "name": "Monarch Brewing Company",
         "phoneNumber": "2176311141",
-        "price": 7,
+        "price": 2,
         "rating": 4.4,
         "reviews": 182,
         "website": "monarchbrewingco.com"
@@ -2412,7 +2412,7 @@
         "cuisine": "Bar & Grill",
         "name": "Rantoul Public House",
         "phoneNumber": "2172829537",
-        "price": 19,
+        "price": 2,
         "rating": 3.8,
         "reviews": 27
     },
@@ -2514,7 +2514,7 @@
         "cuisine": "Bar & Grill",
         "name": "TK's Cheesesteak",
         "phoneNumber": "2172829812",
-        "price": 10,
+        "price": 2,
         "rating": 4.5,
         "reviews": 71,
         "website": "tkscheesesteaks.com"
@@ -2587,7 +2587,7 @@
         "cuisine": "Barbecue",
         "name": "BBQ Chicken",
         "phoneNumber": "2176007939",
-        "price": 18,
+        "price": 2,
         "rating": 4.0,
         "reviews": 62,
         "website": "bbdotqchicken.com"
@@ -2737,7 +2737,7 @@
         "cuisine": "Barbecue",
         "name": "Smoky's House BBQ",
         "phoneNumber": "2173552272",
-        "price": 19,
+        "price": 2,
         "rating": 4.5,
         "reviews": 142,
         "website": "smokyshousebbq.com"
@@ -2797,7 +2797,7 @@
         "cuisine": "Breakfast",
         "name": "Bergie's Place",
         "phoneNumber": "2176488020",
-        "price": 17,
+        "price": 2,
         "rating": 4.7,
         "reviews": 38,
         "website": "bookbergies.com"
@@ -2825,7 +2825,7 @@
         "cuisine": "Breakfast",
         "name": "Cracked: The Egg Came First",
         "phoneNumber": "2179540361",
-        "price": 20,
+        "price": 2,
         "rating": 4.5,
         "reviews": 113,
         "website": "crackedongreen.com"
@@ -2840,7 +2840,7 @@
         "cuisine": "Breakfast",
         "name": "Four Breakfast and More",
         "phoneNumber": "2179541126",
-        "price": 20,
+        "price": 2,
         "rating": 4.4,
         "reviews": 64
     },
@@ -3000,7 +3000,7 @@
         "cuisine": "Dessert",
         "name": "Froyo Factory",
         "phoneNumber": "2177622233",
-        "price": 18,
+        "price": 2,
         "rating": 4.9,
         "reviews": 28,
         "website": "froyofactorymonticello.com"
@@ -3015,7 +3015,7 @@
         "cuisine": "Dessert",
         "name": "Insomnia Cookies",
         "phoneNumber": "2173280203",
-        "price": 11,
+        "price": 2,
         "rating": 3.5,
         "reviews": 126,
         "website": "insomniacookies.com"
@@ -3045,7 +3045,7 @@
         "cuisine": "Dessert",
         "name": "Lenny's Ice Cream Gallery",
         "phoneNumber": "2175687400",
-        "price": 10,
+        "price": 2,
         "rating": 4.9,
         "reviews": 8
     },
@@ -3059,7 +3059,7 @@
         "cuisine": "Dessert",
         "name": "Lucky Moon Pies",
         "phoneNumber": "2174022319",
-        "price": 6,
+        "price": 2,
         "rating": 4.5,
         "reviews": 17,
         "website": "luckymoonpies.com"
@@ -3074,7 +3074,7 @@
         "cuisine": "Dessert",
         "name": "Paris Super Crepes",
         "phoneNumber": "2177601404",
-        "price": 18,
+        "price": 2,
         "rating": 4.5,
         "reviews": 232,
         "website": "paris-super-crepes.business.site"
@@ -3089,7 +3089,7 @@
         "cuisine": "Dessert",
         "name": "Pies by Inge",
         "phoneNumber": "2177780200",
-        "price": 6,
+        "price": 2,
         "rating": 4.9,
         "reviews": 8,
         "website": "piesbyinge.com"
@@ -3134,7 +3134,7 @@
         "cuisine": "Dessert",
         "name": "Sweet Indulgence",
         "phoneNumber": "2173522433",
-        "price": 6,
+        "price": 2,
         "rating": 4.0,
         "reviews": 29,
         "website": "thenewsweetindulgence.biz"
@@ -3251,7 +3251,7 @@
         "cuisine": "Fast Food",
         "name": "Howdy Burger",
         "phoneNumber": "2176071548",
-        "price": 20,
+        "price": 2,
         "rating": 4.4,
         "reviews": 78
     },
@@ -3280,7 +3280,7 @@
         "cuisine": "Fast Food",
         "name": "Krispy Krunchy Chicken",
         "phoneNumber": "2175521800",
-        "price": 18,
+        "price": 2,
         "rating": 4.6,
         "reviews": 106,
         "website": "krispykrunchychampaign.com"
@@ -3399,7 +3399,7 @@
         "cuisine": "Fine Dining",
         "name": "Nando Milano Trattoria",
         "phoneNumber": "2179541439",
-        "price": 18,
+        "price": 2,
         "rating": 4.4,
         "reviews": 230,
         "website": "nandomilanochampaign.com"
@@ -3414,7 +3414,7 @@
         "cuisine": "Fine Dining",
         "name": "NAYA",
         "phoneNumber": "2177297430",
-        "price": 18,
+        "price": 2,
         "rating": 4.7,
         "reviews": 112,
         "website": "nayarestaurant.com"
@@ -3489,7 +3489,7 @@
         "cuisine": "International",
         "name": "Ambar India",
         "phoneNumber": "2173441500",
-        "price": 17,
+        "price": 2,
         "rating": 3.9,
         "reviews": 306,
         "website": "ambarindianchampaign.com"
@@ -3532,7 +3532,7 @@
         },
         "cuisine": "International",
         "name": "Broadway Food Hall (King Kuma | Nation | Muchacho | La Royals | Eighty-Three Vietnamese Cuisine)",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 176,
         "website": "broadwayfoodhall.com"
@@ -3547,7 +3547,7 @@
         "cuisine": "International",
         "name": "Caribbean Grill",
         "phoneNumber": "2179605375",
-        "price": 20,
+        "price": 2,
         "rating": 4.5,
         "reviews": 199,
         "website": "caribbeangrill.net"
@@ -3620,7 +3620,7 @@
         "cuisine": "International",
         "name": "Stango Cuisine",
         "phoneNumber": "8444976835",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 27,
         "website": "stangocu.com"
@@ -3635,7 +3635,7 @@
         "cuisine": "International",
         "name": "Sticky Rice",
         "phoneNumber": "2179541929",
-        "price": 10,
+        "price": 2,
         "rating": 4.6,
         "reviews": 152
     },
@@ -3663,7 +3663,7 @@
         "cuisine": "International",
         "name": "Top Food Restaurant",
         "phoneNumber": "2173784272",
-        "price": 10,
+        "price": 2,
         "rating": 4.2,
         "reviews": 20
     },
@@ -3677,7 +3677,7 @@
         "cuisine": "Italian",
         "name": "Baldarotta's Porketta & Sicilian Sausage",
         "phoneNumber": "3092874455",
-        "price": 13,
+        "price": 2,
         "rating": 5.0,
         "reviews": 2,
         "website": "baldarottas.com"
@@ -3809,7 +3809,7 @@
         "cuisine": "Mexican",
         "name": "Casa Real",
         "phoneNumber": "2177624762",
-        "price": 15,
+        "price": 2,
         "rating": 4.7,
         "reviews": 41
     },
@@ -3852,7 +3852,7 @@
         "cuisine": "Mexican",
         "name": "El Toro",
         "phoneNumber": "2175900501",
-        "price": 18,
+        "price": 2,
         "rating": 4.3,
         "reviews": 196,
         "website": "eltororestaurante.com"
@@ -3867,7 +3867,7 @@
         "cuisine": "Mexican",
         "name": "El Toro",
         "phoneNumber": "2175900501",
-        "price": 18,
+        "price": 2,
         "rating": 4.5,
         "reviews": 231,
         "website": "eltororestaurante.com"
@@ -3882,7 +3882,7 @@
         "cuisine": "Mexican",
         "name": "El Toro at the Fields",
         "phoneNumber": "2179034002",
-        "price": 10,
+        "price": 2,
         "rating": 4.5,
         "reviews": 78,
         "website": "eltororestaurante.com"
@@ -3927,7 +3927,7 @@
         "cuisine": "Mexican",
         "name": "Empanadas House",
         "phoneNumber": "2179541871",
-        "price": 25,
+        "price": 2,
         "rating": 4.1,
         "reviews": 17,
         "website": "theempanadashouse.com"
@@ -3942,7 +3942,7 @@
         "cuisine": "Mexican",
         "name": "Fernando's",
         "phoneNumber": "2172550210",
-        "price": 10,
+        "price": 2,
         "rating": 4.8,
         "reviews": 49,
         "website": "fernandosfoodtruck.weebly.com"
@@ -4029,7 +4029,7 @@
         "cuisine": "Mexican",
         "name": "La Mixteca",
         "phoneNumber": "2175521544",
-        "price": 10,
+        "price": 2,
         "rating": 4.5,
         "reviews": 125,
         "website": "lamixtecarestaurant.com"
@@ -4044,7 +4044,7 @@
         "cuisine": "Mexican",
         "name": "Las Maria's Mexican Restaurant",
         "phoneNumber": "2177622800",
-        "price": 10,
+        "price": 2,
         "rating": 4.3,
         "reviews": 44,
         "website": "mariasauthenticmexicanrestaurante.com"
@@ -4059,7 +4059,7 @@
         "cuisine": "Mexican",
         "name": "Los Zarapes",
         "phoneNumber": "2175863735",
-        "price": 18,
+        "price": 2,
         "rating": 4.4,
         "reviews": 250
     },
@@ -4103,7 +4103,7 @@
         "cuisine": "Mexican",
         "name": "Mas Amigos",
         "phoneNumber": "2173562100",
-        "price": 18,
+        "price": 2,
         "rating": 4.4,
         "reviews": 25
     },
@@ -4190,7 +4190,7 @@
         "cuisine": "Mexican",
         "name": "Tienda Guatemala",
         "phoneNumber": "2173442770",
-        "price": 17,
+        "price": 2,
         "rating": 5.0,
         "reviews": 2
     },
@@ -4204,7 +4204,7 @@
         "cuisine": "Mexican",
         "name": "Toro Loco",
         "phoneNumber": "2173447855",
-        "price": 18,
+        "price": 2,
         "rating": 4.3,
         "reviews": 659,
         "website": "eltororestaurante.com"
@@ -4248,7 +4248,7 @@
         "cuisine": "Pizza",
         "name": "Fire House Chicago Style",
         "phoneNumber": "2178929990",
-        "price": 10,
+        "price": 2,
         "rating": 3.0,
         "reviews": 44
     },
@@ -4277,7 +4277,7 @@
         "cuisine": "Pizza",
         "name": "Itsa Pizza",
         "phoneNumber": "2175433531",
-        "price": 16,
+        "price": 2,
         "rating": 4.6,
         "reviews": 60,
         "website": "arthuritsapizza.com"
@@ -4351,7 +4351,7 @@
         "cuisine": "Pizza",
         "name": "Old Orchard Lanes",
         "phoneNumber": "2173595281",
-        "price": 13,
+        "price": 2,
         "rating": 4.5,
         "reviews": 590,
         "website": "oldorchardinc.com"
@@ -4467,7 +4467,7 @@
         },
         "cuisine": "Pubs & Bars",
         "name": "25 O'clock Brewing Company",
-        "price": 7,
+        "price": 2,
         "rating": 4.8,
         "reviews": 38
     },
@@ -4495,7 +4495,7 @@
         },
         "cuisine": "Pubs & Bars",
         "name": "Analog",
-        "price": 8,
+        "price": 2,
         "rating": 4.9,
         "reviews": 7,
         "website": "analogurbana.com"
@@ -4555,7 +4555,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Blind Pig Brewery",
         "phoneNumber": "2173985133",
-        "price": 7,
+        "price": 2,
         "rating": 4.7,
         "reviews": 175,
         "website": "blindpigco.com"
@@ -4656,7 +4656,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Crude Wine Bar",
         "phoneNumber": "2179541448",
-        "price": 8,
+        "price": 2,
         "rating": 4.2,
         "reviews": 36,
         "website": "crudowine.com"
@@ -4826,7 +4826,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Lincoln Street Lounge",
         "phoneNumber": "2178343010",
-        "price": 12,
+        "price": 2,
         "rating": 4.4,
         "reviews": 30
     },
@@ -4955,7 +4955,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Punch",
         "phoneNumber": "2175312800",
-        "price": 12,
+        "price": 2,
         "rating": 5.0,
         "reviews": 12
     },
@@ -4998,7 +4998,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Riggs Beer Company",
         "phoneNumber": "2177185345",
-        "price": 7,
+        "price": 2,
         "rating": 4.8,
         "reviews": 229,
         "website": "riggsbeer.com"
@@ -5041,7 +5041,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Senator's Inn & Pub",
         "phoneNumber": "2173520002",
-        "price": 12,
+        "price": 2,
         "rating": 4.6,
         "reviews": 49,
         "website": "senatorsinn.com"
@@ -5142,7 +5142,7 @@
         "cuisine": "Pubs & Bars",
         "name": "Triptych Brewery",
         "phoneNumber": "7792323376",
-        "price": 7,
+        "price": 2,
         "rating": 4.8,
         "reviews": 214,
         "website": "triptychbrewing.com"
@@ -5216,7 +5216,7 @@
         "cuisine": "Sandwiches",
         "name": "Main Street Belly Deli",
         "phoneNumber": "2178967651",
-        "price": 13,
+        "price": 2,
         "rating": 4.6,
         "reviews": 10,
         "website": "mainstreetbellydeli.com"
@@ -5231,7 +5231,7 @@
         "cuisine": "Sandwiches",
         "name": "Po Boy's",
         "phoneNumber": "2173672255",
-        "price": 19,
+        "price": 2,
         "rating": 4.6,
         "reviews": 127,
         "website": "poboysurbana.com"

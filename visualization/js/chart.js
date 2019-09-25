@@ -113,6 +113,7 @@ const landmarks = [
  * @property {Landmark} landmark - The landmark
  * @property {ColorRange} colorRange - The color range
  * @property {string} area - The area
+ * @property {string} cuisine - The cuisine
  */
 const chartOptions = {
   dimensions: {
@@ -155,9 +156,6 @@ const chartOptions = {
  * @return {number[]} The array
 */
 function stepArray(start, end, step) {
-  console.log(start);
-  console.log(end);
-  console.log(step);
   const arr = [];
   let curr = start;
   arr.push(start);
@@ -295,22 +293,40 @@ function tooltip(eateryLocation, options) {
   const dist = distanceFromLandmark(eateryLocation.coordinate, options.landmark);
   const formattedDist = Number.parseFloat(dist).toPrecision(2);
   return `<div class="tooltip">
-            <div class='tooltip-title'>${eateryLocation.name}</div>
+            <div class='tooltip-title'><strong>${eateryLocation.name}</strong></div>
             <div class="tooltip-content">
               <div class="tooltip-row">
-              <span class="tooltip-data-name">Price</span><br>
-                <span class="tooltip-data-value">$${eateryLocation.price}</span>
+                <div class="tooltip-full">
+                  <span class="tooltip-data-name">Address</span><br>
+                  <span class="tooltip-data-value">${eateryLocation.address}</span>
+                </div>
               </div>
               <div class="tooltip-row">
-                <span class="tooltip-data-name">Distance from ${options.landmark.name}</span><br>
-                <span class="tooltip-data-value">${formattedDist} mi</span>
+                <div class="tooltip-left">
+                  <span class="tooltip-data-name">Area</span><br>
+                  <span class="tooltip-data-value">${eateryLocation.area}</span>
+                </div>
+                <div class="tooltip-right">
+                  <span class="tooltip-data-name">Cuisine</span><br>
+                  <span class="tooltip-data-value">${eateryLocation.cuisine}</span>
+                </div>
               </div>
               <div class="tooltip-row">
-                <div class="rating">
+              <div class="tooltip-left">
+                  <span class="tooltip-data-name">Price</span><br>
+                <span class="tooltip-data-value">$${'$'.repeat(eateryLocation.price)}</span>
+                </div>
+                <div class="tooltip-right">
+                  <span class="tooltip-data-name">Distance from ${options.landmark.name}</span><br>
+                  <span class="tooltip-data-value">${formattedDist} mi</span>
+                </div>
+              </div>
+              <div class="tooltip-row">
+                <div class="tooltip-left">
                   <span class="tooltip-data-name">Rating</span><br>
                   <span class="tooltip-data-value">${eateryLocation.rating}/5</span>
                 </div>
-                <div class="reviews">
+                <div class="tooltip-right">
                   <span class="tooltip-data-name">Reviews</span><br>
                   <span class="tooltip-data-value">${eateryLocation.reviews}</span>
                 </div>
@@ -379,33 +395,32 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
 
   d3.json(options.dataFile)
     .then((eateryLocations) => {
-      console.log(options.area);
+      let eateryLocationsFiltered = eateryLocations;
       if (options.area !== 'All') {
-        eateryLocations = eateryLocations.filter(a => a.area === options.area);
-        console.log(eateryLocations.length);
+        const { area } = options;
+        eateryLocationsFiltered = eateryLocations.filter(e => e.area === area);
       }
       if (options.cuisine !== 'All') {
-        eateryLocations = eateryLocations.filter(a => a.cuisine === options.cuisine);
-        console.log(eateryLocations.length);
+        const { cuisine } = options;
+        eateryLocationsFiltered = eateryLocationsFiltered.filter(e => e.cuisine === cuisine);
       }
-      const maxY = d3.max(eateryLocations, eateryLocation => distanceFromLandmark(eateryLocation.coordinate, options.landmark));
-      console.log(maxY);
-      options.bounds.y.upper = Math.min(yb.maxUpper, maxY);
-      yb = options.bounds.y;
 
-      let step = yb.step;
+      const lmk = options.landmark;
+      const maxY = d3.max(eateryLocationsFiltered, e => distanceFromLandmark(e.coordinate, lmk));
+      yb.upper = Math.min(yb.maxUpper, maxY);
+
+      let { step } = yb;
       if (yb.upper - yb.lower > 10) {
         step = 1.0;
       }
 
       const xTickValues = stepArray(xb.lower, xb.upper, xb.step);
       const yTickValues = stepArray(yb.lower, yb.upper, step);
-      
-      const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
-      const y = d3.scaleLinear().domain([yTickValues[yTickValues.length - 1], yb.lower]).range([height - padding, padding]);
 
-      
- 
+      const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
+      const maxYTick = yTickValues[yTickValues.length - 1];
+      const y = d3.scaleLinear().domain([maxYTick, yb.lower]).range([height - padding, padding]);
+
       const xAxis = d3.axisBottom(x).tickValues(xTickValues);
       const yAxis = d3.axisLeft(y).tickValues(yTickValues).tickFormat(d3.format('.2f'));
 
@@ -439,7 +454,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
         .attr('transform', `translate(${padding}, 0)`)
         .call(yAxis);
       // sort to ensure eateries with smaller radius are drawn later
-      eateryLocations.sort((a, b) => d3.descending(a.reviews, b.reviews));
+      eateryLocationsFiltered.sort((a, b) => d3.descending(a.reviews, b.reviews));
       const minRadius = 2;
       const maxRadius = 10;
 
@@ -450,7 +465,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
       const counterAxisLabelOffset = 20;
 
       const radius = d3.scaleLinear()
-        .domain([0, d3.max(eateryLocations, eateryLocation => (eateryLocation.reviews > -1 ? eateryLocation.reviews : 20))])
+        .domain([0, d3.max(eateryLocationsFiltered, e => (e.reviews > -1 ? e.reviews : 20))])
         .range([minRadius, maxRadius]);
 
       svg.append('text')
@@ -482,7 +497,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
       svg.call(tip);
 
       svg.selectAll('eatery')
-        .data(eateryLocations)
+        .data(eateryLocationsFiltered)
         .enter()
         .append('g')
         .attr('transform', eateryLocation => `translate(${xPosition(eateryLocation, options)}, ${yPosition(eateryLocation, options)})`)
