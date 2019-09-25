@@ -141,6 +141,7 @@ const chartOptions = {
     end: { r: 244, g: 223, b: 66 },
   },
   area: 'Campustown',
+  cuisine: 'All',
 };
 
 /* HELPER METHODS */
@@ -383,6 +384,10 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
         eateryLocations = eateryLocations.filter(a => a.area === options.area);
         console.log(eateryLocations.length);
       }
+      if (options.cuisine !== 'All') {
+        eateryLocations = eateryLocations.filter(a => a.cuisine === options.cuisine);
+        console.log(eateryLocations.length);
+      }
       const maxY = d3.max(eateryLocations, eateryLocation => distanceFromLandmark(eateryLocation.coordinate, options.landmark));
       console.log(maxY);
       options.bounds.y.upper = Math.min(yb.maxUpper, maxY);
@@ -525,6 +530,10 @@ function initializeChart(options) {
     searchable: false,
     width: 300,
   });
+  const cuisineSelector = new Selectr('.cuisine-selector', {
+    searchable: true,
+    width: 300,
+  });
   landmarkSelector.el.addEventListener('change', () => {
     let i;
     for (i = 0; i < landmarks.length; i += 1) {
@@ -537,6 +546,10 @@ function initializeChart(options) {
   });
   areaSelector.el.addEventListener('change', () => {
     chartOptions.area = areaSelector.getValue();
+    drawChart(chartOptions, svg, sizeLegend, colorLegend);
+  });
+  cuisineSelector.el.addEventListener('change', () => {
+    chartOptions.cuisine = cuisineSelector.getValue();
     drawChart(chartOptions, svg, sizeLegend, colorLegend);
   });
   drawChart(options, svg, sizeLegend, colorLegend);
