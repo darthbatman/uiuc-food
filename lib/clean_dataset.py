@@ -52,8 +52,20 @@ def match_websites(filename):
     save_records_to_file(records, filename)
 
 
+def rename_phone_numbers(filename):
+    with open(filename, 'r') as f:
+        records = json.load(f)
+        for i in range(len(records)):
+            for j in range(len(records[i]['locations'])):
+                if 'phone_number' in records[i]['locations'][j]:
+                    records[i]['locations'][j]['phoneNumber'] = records[i]['locations'][j]['phone_number']
+                    del records[i]['locations'][j]['phone_number']
+    save_records_to_file(records, filename)
+
+
 if __name__ == '__main__':
     filename = 'data/file_food_and_drink.json'
     remove_image_urls(filename)
     match_phone_numbers(filename)
     match_websites(filename)
+    rename_phone_numbers(filename)

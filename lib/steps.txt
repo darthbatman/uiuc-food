@@ -13,3 +13,4 @@
 13. Matched phone numbers
 14. Used Google to obtain eatery prices
 15. Manually removed places without price info or closed eateries
+16. phone_number renamed to phoneNumber with cleanup
