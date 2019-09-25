@@ -153,7 +153,7 @@ body {
     background-color: white;
     border: 0.0625rem solid black;
     border-radius: 0.25rem;
-    padding-bottom: 3.0rem;
+    padding-bottom: 0.25rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-align: center;
@@ -173,7 +173,7 @@ body {
 
 .tooltip-row {
     border-top: 0.0625rem dotted black;
-    padding-bottom: 0.5rem;
+    padding-bottom: 5.75rem;
     padding-top: 0.5rem;
     width: 100%;
 }
@@ -186,12 +186,17 @@ body {
     font-size: 1.5rem;
 }
 
-.rating {
+.tooltip-left {
     float: left;
     width: 50%;
 }
 
-.reviews {
+.tooltip-right {
     float: right;
     width: 50%;
+}
+
+.tooltip-full {
+    float: left;
+    width: 100%;
 }
