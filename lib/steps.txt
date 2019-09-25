@@ -14,3 +14,5 @@
 14. Used Google to obtain eatery prices
 15. Manually removed places without price info or closed eateries
 16. phone_number renamed to phoneNumber with cleanup
+17. Split each location into its own eatery
+18. Updated Kam's coordinate, review, and rating

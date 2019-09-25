@@ -63,9 +63,27 @@ def rename_phone_numbers(filename):
     save_records_to_file(records, filename)
 
 
+def split_each_location_into_eatery(in_filename, out_filename):
+    with open(in_filename, 'r') as f:
+        split_records = []
+        records = json.load(f)
+        for i in range(len(records)):
+            for j in range(len(records[i]['locations'])):
+                split_record = {
+                    'name': records[i]['name'],
+                    'cuisine': records[i]['cuisine']
+                }
+                for key in records[i]['locations'][j].keys():
+                    split_record[key] = records[i]['locations'][j][key]
+                split_records.append(split_record)
+    save_records_to_file(split_records, out_filename)
+
+
 if __name__ == '__main__':
     filename = 'data/file_food_and_drink.json'
     remove_image_urls(filename)
     match_phone_numbers(filename)
     match_websites(filename)
     rename_phone_numbers(filename)
+    out_filename = 'data/file_food_and_drink_split.json'
+    split_each_location_into_eatery(filename, out_filename)
