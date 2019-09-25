@@ -3,13 +3,15 @@
 /**
  * A map coordinate
  * @typedef {Object} Coordinate
- * @property {number} latitude - The latitude
- * @property {number} longitude - The longitude
+ * @property {number} lat - The latitude
+ * @property {number} lng - The longitude
  */
 
 /**
  * An eatery location
  * @typedef {Object} EateryLocation
+ * @property {string} name - The name
+ * @property {string} cuisine - The cuisine
  * @property {string} address - The address
  * @property {string} area - The location area
  * @property {Coordinate} coordinate - The coordinate
@@ -18,14 +20,6 @@
  * @property {number} rating - The rating out of 5
  * @property {number} reviews - The number of reviews
  * @property {string} website - The website
- */
-
-/**
- * An eatery
- * @typedef {Object} Eatery
- * @property {string} name - The name
- * @property {string} cuisine - The cuisine
- * @property {EateryLocation[]} locations - An array of eatery locations
  */
 
 /**
@@ -42,29 +36,29 @@ const landmarks = [
   {
     name: 'Main Quad',
     coordinate: {
-      latitude: 40.107544,
-      longitude: -88.22724,
+      lat: 40.107544,
+      lng: -88.22724,
     },
   },
   {
     name: 'Engineering Quad',
     coordinate: {
-      latitude: 40.1119845,
-      longitude: -88.2277056,
+      lat: 40.1119845,
+      lng: -88.2277056,
     },
   },
   {
     name: 'South Quad',
     coordinate: {
-      latitude: 40.1035088,
-      longitude: -88.2295807,
+      lat: 40.1035088,
+      lng: -88.2295807,
     },
   },
   {
     name: 'Illini Union',
     coordinate: {
-      latitude: 40.1092142,
-      longitude: -88.2294112,
+      lat: 40.1092142,
+      lng: -88.2294112,
     },
   },
 ];
@@ -126,12 +120,14 @@ const chartOptions = {
   },
   bounds: {
     x: {
-      lower: 2.4,
+      lower: 2.5,
       upper: 5.0,
+      step: 0.5,
     },
     y: {
       lower: 0.0,
-      upper: 1.75,
+      upper: 40.0,
+      step: 0.25,
     },
   },
   dataFile: './res/dataset_v2.json',
@@ -143,6 +139,24 @@ const chartOptions = {
 };
 
 /* HELPER METHODS */
+
+/**
+ * Creates an array with step size.
+ *
+ * @param {number} start - A starting number
+ * @param {number} end - An ending number
+ * @param {number} step - The step size
+ * @return {number[]} The array
+*/
+function stepArray(start, end, step) {
+  const arr = [];
+  let curr = start;
+  arr.push(start);
+  while (curr !== end) {
+    curr += step;
+    arr.push(curr);
+  }
+}
 
 /**
  * Converts a degree value to radians.
@@ -193,10 +207,10 @@ function gradientColor(start, end, val, min, max) {
  */
 function distanceBetween(c1, c2) {
   const earthMeanRadius = 6378137;
-  const dLat = radians(c2.latitude - c1.latitude);
-  const dLong = radians(c2.longitude - c1.longitude);
+  const dLat = radians(c2.lat - c1.lat);
+  const dLong = radians(c2.lng - c1.lng);
   const a = Math.sin(dLat / 2) * Math.sin(dLat / 2)
-    + Math.cos(radians(c1.latitude)) * Math.cos(radians(c2.latitude))
+    + Math.cos(radians(c1.lat)) * Math.cos(radians(c2.lat))
     * Math.sin(dLong / 2) * Math.sin(dLong / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return earthMeanRadius * c;
@@ -219,63 +233,63 @@ function distanceFromLandmark(c, landmark) {
 /**
  * Calculates the x position of the eatery on the chart.
  *
- * @param {Eatery} eatery - The eatery
+ * @param {EateryLocation} eateryLocation - The eatery location
  * @param {ChartOptions} options - The chart options
  * @return {number} The x position
  */
-function xPosition(eatery, options) {
+function xPosition(eateryLocation, options) {
   const min = options.dimensions.padding;
   const max = options.dimensions.width - options.dimensions.padding;
   const xb = options.bounds.x;
-  return (((eatery.rating - xb.lower) / (xb.upper - xb.lower)) * (max - min) + min);
+  return (((eateryLocation.rating - xb.lower) / (xb.upper - xb.lower)) * (max - min) + min);
 }
 
 /**
  * Calculates the y position of the eatery on the chart.
  *
- * @param {Eatery} eatery - The eatery
+ * @param {EateryLocation} eateryLocation - The eatery location
  * @param {ChartOptions} options - The chart options
  * @return {number} The x position
  */
-function yPosition(eatery, options) {
+function yPosition(eateryLocation, options) {
   const min = options.dimensions.padding;
   const max = options.dimensions.height - options.dimensions.padding;
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, options.landmark);
+  const dist = distanceFromLandmark(eateryLocation.coordinate, options.landmark);
   const yb = options.bounds.y;
   return (((dist) / yb.upper) * (max - min) + min);
 }
 
 /**
- * Gets the color of the eatery on the chart.
+ * Gets the color of the eatery location on the chart.
  *
- * @param {Eatery} eatery - The eatery
+ * @param {EateryLocation} eateryLocation - The eatery location
  * @param {ChartOptions} options - The chart options
  * @return {string} The color as an rgb string
  */
-function color(eatery, options) {
-  const distFromOrigin = Math.sqrt((xPosition(eatery, options) ** 2)
-    + ((chartOptions.dimensions.height - yPosition(eatery, options)) ** 2));
+function color(eateryLocation, options) {
+  const distFromOrigin = Math.sqrt((xPosition(eateryLocation, options) ** 2)
+    + ((chartOptions.dimensions.height - yPosition(eateryLocation, options)) ** 2));
   const distUpperBound = 1000;
   const cr = options.colorRange;
   return gradientColor(cr.start, cr.end, distFromOrigin, 0, distUpperBound);
 }
 
 /**
- * Gets the populated tooltip of the eatery on the chart.
+ * Gets the populated tooltip of the eatery location on the chart.
  *
- * @param {Eatery} eatery - The eatery
+ * @param {EateryLocation} eateryLocation - The eatery location
  * @param {ChartOptions} options - The chart options
  * @return {string} The populated tooltip as HTML
  */
-function tooltip(eatery, options) {
-  const dist = distanceFromLandmark(eatery.locations[0].coordinate, options.landmark);
+function tooltip(eateryLocation, options) {
+  const dist = distanceFromLandmark(eateryLocation.coordinate, options.landmark);
   const formattedDist = Number.parseFloat(dist).toPrecision(2);
   return `<div class="tooltip">
-            <div class='tooltip-title'>${eatery.name}</div>
+            <div class='tooltip-title'>${eateryLocation.name}</div>
             <div class="tooltip-content">
               <div class="tooltip-row">
               <span class="tooltip-data-name">Price</span><br>
-                <span class="tooltip-data-value">$${eatery.price}</span>
+                <span class="tooltip-data-value">$${eateryLocation.price}</span>
               </div>
               <div class="tooltip-row">
                 <span class="tooltip-data-name">Distance from ${options.landmark.name}</span><br>
@@ -283,7 +297,7 @@ function tooltip(eatery, options) {
               </div>
               <div class="tooltip-row">
                 <span class="tooltip-data-name">Rating</span><br>
-                <span class="tooltip-data-value">${eatery.rating}/5</span>
+                <span class="tooltip-data-value">${eateryLocation.rating}/5</span>
               </div>
             </div>
           </div>`;
@@ -350,16 +364,19 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
   const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
   const y = d3.scaleLinear().domain([yb.upper, yb.lower]).range([height - padding, padding]);
 
-  const xAxis = d3.axisBottom(x).tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5]);
-  const yAxis = d3.axisLeft(y).tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]).tickFormat(d3.format('.2f'));
+  const xTickValues = stepArray(xb.lower, xb.upper, xb.step);
+  const yTickValues = stepArray(yb.lower, yb.upper, yb.step);
+
+  const xAxis = d3.axisBottom(x).tickValues(xTickValues);
+  const yAxis = d3.axisLeft(y).tickValues(yTickValues).tickFormat(d3.format('.2f'));
 
   const xGridlines = d3.axisBottom(x)
-    .tickValues([2.5, 3.0, 3.5, 4.0, 4.5, 5])
+    .tickValues(xTickValues)
     .tickFormat('')
     .tickSize(-height + padding + padding);
 
   const yGridlines = d3.axisLeft(y)
-    .tickValues([0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75])
+    .tickValues(yTickValues)
     .tickFormat('')
     .tickSize(-width + padding + padding);
 
@@ -384,9 +401,9 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
     .call(yAxis);
 
   d3.json(options.dataFile)
-    .then((eateries) => {
+    .then((eateryLocations) => {
       // sort to ensure eateries with smaller radius are drawn later
-      eateries.sort((a, b) => d3.ascending(a.price, b.price));
+      eateryLocations.sort((a, b) => d3.ascending(a.reviews, b.reviews));
       const minRadius = 2;
       const maxRadius = 10;
 
@@ -397,7 +414,7 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
       const counterAxisLabelOffset = 20;
 
       const radius = d3.scaleLinear()
-        .domain([0, d3.max(eateries, eatery => (eatery.reviews > -1 ? eatery.reviews : 20))])
+        .domain([0, d3.max(eateryLocations, eateryLocation => (eateryLocation.reviews > -1 ? eateryLocation.reviews : 20))])
         .range([minRadius, maxRadius]);
 
       svg.append('text')
@@ -425,24 +442,24 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
 
       const tip = d3.tip()
         .attr('class', 'd3-tip')
-        .html(eatery => tooltip(eatery, options));
+        .html(eateryLocation => tooltip(eateryLocation, options));
       svg.call(tip);
 
       svg.selectAll('eatery')
-        .data(eateries)
+        .data(eateryLocations)
         .enter()
         .append('g')
-        .attr('transform', eatery => `translate(${xPosition(eatery, options)}, ${yPosition(eatery, options)})`)
+        .attr('transform', eateryLocation => `translate(${xPosition(eateryLocation, options)}, ${yPosition(eateryLocation, options)})`)
         .append('circle')
-        .attr('r', eatery => radius(eatery.reviews > -1 ? 2 * eatery.reviews + 100 : 20))
-        .attr('fill', eatery => color(eatery, options))
+        .attr('r', eateryLocation => radius(eateryLocation.reviews > -1 ? 2 * eateryLocation.reviews + 100 : 20))
+        .attr('fill', eateryLocation => color(eateryLocation, options))
         .attr('class', 'circle')
-        .on('mouseover', (eatery) => {
+        .on('mouseover', (eateryLocation) => {
           tip.direction('e');
-          tip.show(eatery);
+          tip.show(eateryLocation);
         })
-        .on('mouseout', (eatery, i) => {
-          tip.hide(eatery, i);
+        .on('mouseout', (eateryLocation, i) => {
+          tip.hide(eateryLocation, i);
         });
     });
 
