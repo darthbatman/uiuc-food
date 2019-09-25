@@ -1,0 +1,1577 @@
+[
+    {
+        "name": "Zorba's",
+        "locations": [
+            {
+                "address": "627 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102151,
+                    "longitude": -88.22991
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.9
+    },
+    {
+        "name": "The Red Herring Vegetarian Restaurant",
+        "locations": [
+            {
+                "address": "The Red Herring, 1209 West Oregon Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1067707,
+                    "longitude": -88.2252161
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Pekara Bakery & Bistro",
+        "locations": [
+            {
+                "address": "811 West Springfield Avenue, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1125573,
+                    "longitude": -88.2568443
+                }
+            },
+            {
+                "address": "116 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1170743,
+                    "longitude": -88.2434103
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.9
+    },
+    {
+        "name": "Neil St. Blues",
+        "locations": [
+            {
+                "address": "Destihl Restaurant & Brew Works, 301 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1184918,
+                    "longitude": -88.2437783
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 4.1
+    },
+    {
+        "name": "Nando Milano Trattoria",
+        "locations": [
+            {
+                "address": "204 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1176084,
+                    "longitude": -88.2434254
+                }
+            }
+        ],
+        "price": 35,
+        "rating": 0
+    },
+    {
+        "name": "Hamilton Walker's",
+        "locations": [
+            {
+                "address": "201 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.11758,
+                    "longitude": -88.243638
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.9
+    },
+    {
+        "name": "Pizzeria Antica",
+        "locations": [
+            {
+                "address": "10 East Chester Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1166868,
+                    "longitude": -88.24282
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 2.9
+    },
+    {
+        "name": "The Bread Company",
+        "locations": [
+            {
+                "address": "706 South Goodwin Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1068135,
+                    "longitude": -88.223744
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.7
+    },
+    {
+        "name": "Naya",
+        "locations": [
+            {
+                "address": "212 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103163,
+                    "longitude": -88.2367212
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 0
+    },
+    {
+        "name": "Howdy Burger",
+        "locations": [
+            {
+                "address": "625 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102146,
+                    "longitude": -88.2299343
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3
+    },
+    {
+        "name": "Smackin' The Truck",
+        "locations": [
+            {
+                "address": "Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.1164205,
+                    "longitude": -88.2433829
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Blaze Pizza",
+        "locations": [
+            {
+                "address": "Panda Express, 1401 West Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1105736,
+                    "longitude": -88.2291636
+                }
+            },
+            {
+                "address": "2506 North Prospect Avenue, Champaign, IL 61822, United States of America",
+                "coordinate": {
+                    "latitude": 40.1470569,
+                    "longitude": -88.2578753
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Oh, Honey Pie Truck",
+        "locations": [
+            {
+                "address": "101 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.116876,
+                    "longitude": -88.243624
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Cream & Flutter",
+        "locations": [
+            {
+                "address": "Cream & Flutter, 114 North Walnut Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1168349,
+                    "longitude": -88.2421783
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Insomnia Cookies",
+        "locations": [
+            {
+                "address": "Fat Sandwich, 502 East John Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1091862,
+                    "longitude": -88.2316942
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Cold Stone Creamery",
+        "locations": [
+            {
+                "address": "Coldstone Ice Cream, 505 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101242,
+                    "longitude": -88.2315244
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Cocomero",
+        "locations": [
+            {
+                "address": "709 South Wright Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101496,
+                    "longitude": -88.2289947
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.5
+    },
+    {
+        "name": "Baskin Robbins",
+        "locations": [
+            {
+                "address": "Dunkin' Donuts, 404 West University Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1167409,
+                    "longitude": -88.2114576
+                }
+            },
+            {
+                "address": "515 South Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1111121,
+                    "longitude": -88.2435797
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3
+    },
+    {
+        "name": "Bevier Café",
+        "locations": [
+            {
+                "address": "Bevier Bust, 905 South Goodwin Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1047591,
+                    "longitude": -88.2242089
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Rosati's Authentic Chicago Pizza",
+        "locations": [
+            {
+                "address": "Kofusion, 701 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1068667,
+                    "longitude": -88.2217175
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4
+    },
+    {
+        "name": "Potbelly's",
+        "locations": [
+            {
+                "address": "Potbelly Sandwich Shop, 501 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1100816,
+                    "longitude": -88.2318659
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Jupiter's Pizzeria and Billiards",
+        "locations": [
+            {
+                "address": "Jupiter's Pizzeria & Billiards, 39 Main Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1178875,
+                    "longitude": -88.2414231
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.1
+    },
+    {
+        "name": "J. Gumbo's Cajun and Creole Cooking Co.",
+        "locations": [
+            {
+                "address": "bb.q premium chicken, 700 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1063145,
+                    "longitude": -88.2213205
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.9
+    },
+    {
+        "name": "Great Harvest Bread Company",
+        "locations": [
+            {
+                "address": "Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.11642,
+                    "longitude": -88.24338
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Chipotle",
+        "locations": [
+            {
+                "address": "Chipotle, 903 West Anthony Drive, Champaign, IL 61821, United States of America",
+                "coordinate": {
+                    "latitude": 40.137435,
+                    "longitude": -88.2586673
+                }
+            },
+            {
+                "address": "Chipotle, 528 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104224,
+                    "longitude": -88.2307897
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.1
+    },
+    {
+        "name": "Black Dog Smoke & Ale House",
+        "locations": [
+            {
+                "address": "Black Dog, 320 North Chestnut Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1179467,
+                    "longitude": -88.2402927
+                }
+            },
+            {
+                "address": "201 North Broadway Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1149433,
+                    "longitude": -88.207375
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4.9
+    },
+    {
+        "name": "Hendrick House",
+        "locations": [
+            {
+                "address": "904 West Green Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1106586,
+                    "longitude": -88.2194882
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.6
+    },
+    {
+        "name": "Blind Pig Brewery",
+        "locations": [
+            {
+                "address": "120 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1171401,
+                    "longitude": -88.2434108
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.6
+    },
+    {
+        "name": "Timpone's",
+        "locations": [
+            {
+                "address": "710 South Goodwin Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1067818,
+                    "longitude": -88.223744
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.9
+    },
+    {
+        "name": "Cafe Sababa",
+        "locations": [
+            {
+                "address": "503 East John Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1089851,
+                    "longitude": -88.2318309
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Vinny's Pizza",
+        "locations": [
+            {
+                "address": "Vinny's by the slice and More, 50 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1105116,
+                    "longitude": -88.2399968
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.2
+    },
+    {
+        "name": "Maize Mexican Grill",
+        "locations": [
+            {
+                "address": "Maize Mexican Grill, 60 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104203,
+                    "longitude": -88.2389625
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.7
+    },
+    {
+        "name": "Garbanzo Mediterranean Fresh",
+        "locations": [
+            {
+                "address": "Panda Express, 1401 West Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1105736,
+                    "longitude": -88.2291636
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Watson's Shack & Rail",
+        "locations": [
+            {
+                "address": "N Neil St, Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.117329,
+                    "longitude": -88.243593
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 0
+    },
+    {
+        "name": "Miga",
+        "locations": [
+            {
+                "address": "Destihl Restaurant & Brew Works, 301 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1184918,
+                    "longitude": -88.2437783
+                }
+            }
+        ],
+        "price": 70,
+        "rating": 3.3
+    },
+    {
+        "name": "Auntie Lee Chinese Kitchen",
+        "locations": [
+            {
+                "address": "49 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.110122,
+                    "longitude": -88.240425
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 2.5
+    },
+    {
+        "name": "Y Eatery",
+        "locations": [
+            {
+                "address": "1001 South Wright Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.106721,
+                    "longitude": -88.228936
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.6
+    },
+    {
+        "name": "Wingin' Out",
+        "locations": [
+            {
+                "address": "WinginOut, 301 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1099576,
+                    "longitude": -88.2351344
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Szechuan China",
+        "locations": [
+            {
+                "address": "401 South First Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.112815,
+                    "longitude": -88.238824
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 2.9
+    },
+    {
+        "name": "Sushi Rock",
+        "locations": [
+            {
+                "address": "621 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102137,
+                    "longitude": -88.2299831
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.9
+    },
+    {
+        "name": "Sushi Kame",
+        "locations": [
+            {
+                "address": "132 West Church Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1183573,
+                    "longitude": -88.2441267
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4.1
+    },
+    {
+        "name": "Sushi Ichiban",
+        "locations": [
+            {
+                "address": "619 South Wright Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113373,
+                    "longitude": -88.229
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Spoon House Korean Kitchen",
+        "locations": [
+            {
+                "address": "Spoon House, 616 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104271,
+                    "longitude": -88.2294153
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.3
+    },
+    {
+        "name": "South China Restaurant",
+        "locations": [
+            {
+                "address": "25 East Springfield Avenue, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1125397,
+                    "longitude": -88.240438
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.1
+    },
+    {
+        "name": "Kung Fu BBQ",
+        "locations": [
+            {
+                "address": "510 East John Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1091508,
+                    "longitude": -88.2317231
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.6
+    },
+    {
+        "name": "Chopstix",
+        "locations": [
+            {
+                "address": "Chop Stix, 202 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103401,
+                    "longitude": -88.2366394
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.4
+    },
+    {
+        "name": "Pho Cafe",
+        "locations": [
+            {
+                "address": "611 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102113,
+                    "longitude": -88.2301051
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.1
+    },
+    {
+        "name": "Perkin's Restaurant & Bakery",
+        "locations": [
+            {
+                "address": "1214 West University Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1164773,
+                    "longitude": -88.2243934
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 2.6
+    },
+    {
+        "name": "Peking Garden",
+        "locations": [
+            {
+                "address": "Ebbe's Professional Counseling Services, LLC, 206 North Randolph Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1180507,
+                    "longitude": -88.2448957
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.6
+    },
+    {
+        "name": "Ozu Ramen",
+        "locations": [
+            {
+                "address": "Jipbap Taste of Korea, 601 South Sixth Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113787,
+                    "longitude": -88.230584
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 0
+    },
+    {
+        "name": "Noodles & Co.",
+        "locations": [
+            {
+                "address": "Chipotle, 528 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104224,
+                    "longitude": -88.2307897
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Niro's Gyros",
+        "locations": [
+            {
+                "address": "WinginOut, 301 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1099576,
+                    "longitude": -88.2351344
+                }
+            },
+            {
+                "address": "West Springfield Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.112804,
+                    "longitude": -88.2177181
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Murphy's Pub",
+        "locations": [
+            {
+                "address": "Murphy's Pub, 604 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104224,
+                    "longitude": -88.2300402
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.2
+    },
+    {
+        "name": "Mia Za's",
+        "locations": [
+            {
+                "address": "Mia Za's, 629 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101957,
+                    "longitude": -88.2292323
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.6
+    },
+    {
+        "name": "Merry Ann's Diner",
+        "locations": [
+            {
+                "address": "Kofusion, 701 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1068667,
+                    "longitude": -88.2217175
+                }
+            },
+            {
+                "address": "Merry Ann's Diner, 1510 South Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.0983917,
+                    "longitude": -88.244247
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.9
+    },
+    {
+        "name": "Manzella's Italian Patio",
+        "locations": [
+            {
+                "address": "Manzella's, 115 South First Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1158474,
+                    "longitude": -88.2389717
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.8
+    },
+    {
+        "name": "Manolo's Pizza & Empanadas",
+        "locations": [
+            {
+                "address": "1115 West Oregon Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1069133,
+                    "longitude": -88.2219766
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Mandarin Wok",
+        "locations": [
+            {
+                "address": "403 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101812,
+                    "longitude": -88.2333562
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.3
+    },
+    {
+        "name": "Latte Da!",
+        "locations": [
+            {
+                "address": "200 Green Street, Savoy, IL 61874, United States of America",
+                "coordinate": {
+                    "latitude": 40.056481,
+                    "longitude": -88.253195
+                }
+            },
+            {
+                "address": "602 West University Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1165317,
+                    "longitude": -88.2146293
+                }
+            },
+            {
+                "address": "Latte Da!, 210 West Green Street, Urbana, IL 61801-9998, United States of America",
+                "coordinate": {
+                    "latitude": 40.1112515,
+                    "longitude": -88.2091841
+                }
+            },
+            {
+                "address": "Lincoln Hall, 702 South Wright Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.10677,
+                    "longitude": -88.2281835
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 0
+    },
+    {
+        "name": "Lai Lai Wok",
+        "locations": [
+            {
+                "address": "E Green St, Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.110336,
+                    "longitude": -88.23352
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.8
+    },
+    {
+        "name": "Kyoto Sushi",
+        "locations": [
+            {
+                "address": "611 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102113,
+                    "longitude": -88.2301051
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4.1
+    },
+    {
+        "name": "Ko Fusion",
+        "locations": [
+            {
+                "address": "1 Main Street, Dewey, IL 61840, United States of America",
+                "coordinate": {
+                    "latitude": 40.319928,
+                    "longitude": -88.283743
+                }
+            },
+            {
+                "address": "W Gregory Dr, Urbana, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.10416,
+                    "longitude": -88.22868
+                }
+            },
+            {
+                "address": "Illini Union, 1401 West Green Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1093924,
+                    "longitude": -88.2272187
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 4.2
+    },
+    {
+        "name": "Koto Ramen",
+        "locations": [
+            {
+                "address": "Koto Ramen, 508 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104504,
+                    "longitude": -88.231656
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 0
+    },
+    {
+        "name": "Joe's Brewery",
+        "locations": [
+            {
+                "address": "706 South Fifth Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101036,
+                    "longitude": -88.2319433
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Jerusalem Restaurant",
+        "locations": [
+            {
+                "address": "601 South Wright Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.111385,
+                    "longitude": -88.229002
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.4
+    },
+    {
+        "name": "Fat Sandwich Company",
+        "locations": [
+            {
+                "address": "Fat Sandwich, 502 East John Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1091862,
+                    "longitude": -88.2316942
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4
+    },
+    {
+        "name": "Intermezzo Café at Krannert",
+        "locations": [
+            {
+                "address": "Studio Theater, 500 South Goodwin Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1086266,
+                    "longitude": -88.2228056
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.4
+    },
+    {
+        "name": "Hot Wok Express",
+        "locations": [
+            {
+                "address": "1102 West University Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.116488,
+                    "longitude": -88.222541
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.2
+    },
+    {
+        "name": "Home of Gourmet Chinese & Thai",
+        "locations": [
+            {
+                "address": "604 East Daniel Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1080534,
+                    "longitude": -88.2301372
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Fresh International Market",
+        "locations": [
+            {
+                "address": "505 South Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1114493,
+                    "longitude": -88.2435837
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 4.2
+    },
+    {
+        "name": "Cravings",
+        "locations": [
+            {
+                "address": "603 South Wright Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113797,
+                    "longitude": -88.2290018
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.1
+    },
+    {
+        "name": "Espresso Royale",
+        "locations": [
+            {
+                "address": "500 Peabody Drive, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1015561,
+                    "longitude": -88.2317856
+                }
+            },
+            {
+                "address": "College of Business Instructional Facility, 515 East Gregory Drive, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1035815,
+                    "longitude": -88.2305751
+                }
+            },
+            {
+                "address": "E Daniel St, Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.108044,
+                    "longitude": -88.230322
+                }
+            },
+            {
+                "address": "Undergraduate Library, 1402 West Gregory Drive, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1047306,
+                    "longitude": -88.2271776
+                }
+            },
+            {
+                "address": "W Oregon St, Urbana, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.106921,
+                    "longitude": -88.22182
+                }
+            },
+            {
+                "address": "Village Green Place, Champaign, IL 61822, United States of America",
+                "coordinate": {
+                    "latitude": 40.0840034,
+                    "longitude": -88.2964708
+                }
+            },
+            {
+                "address": "Espresso Royale, 1411 South Neil Street, Champaign, IL 61820-6974, United States of America",
+                "coordinate": {
+                    "latitude": 40.0995347,
+                    "longitude": -88.2447961
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.3
+    },
+    {
+        "name": "Caffe Bene",
+        "locations": [
+            {
+                "address": "Caffe Bene, 524 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1104252,
+                    "longitude": -88.2309368
+                }
+            },
+            {
+                "address": "bb.q premium chicken, 700 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1063145,
+                    "longitude": -88.2213205
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3
+    },
+    {
+        "name": "Burrito King",
+        "locations": [
+            {
+                "address": "East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.110205,
+                    "longitude": -88.240265
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Brothers Bar & Grill",
+        "locations": [
+            {
+                "address": "613 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102118,
+                    "longitude": -88.2300807
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 2.5
+    },
+    {
+        "name": "Bo Bo China",
+        "locations": [
+            {
+                "address": "Jurassic Grill, 404 East Green Street, Champaign, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103981,
+                    "longitude": -88.2331124
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 2.9
+    },
+    {
+        "name": "Basil Thai Café",
+        "locations": [
+            {
+                "address": "Kofusion, 701 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1068667,
+                    "longitude": -88.2217175
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.6
+    },
+    {
+        "name": "Bangkok Thai & Pho 911",
+        "locations": [
+            {
+                "address": "410 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103465,
+                    "longitude": -88.2332646
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.3
+    },
+    {
+        "name": "Bab Plus Korean",
+        "locations": [
+            {
+                "address": "bb.q premium chicken, 700 South Gregory Street, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1063145,
+                    "longitude": -88.2213205
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 0
+    },
+    {
+        "name": "BrewLab Coffee",
+        "locations": [
+            {
+                "address": "Campus Mobile Solutions, 630 South Fifth Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1107382,
+                    "longitude": -88.2319178
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 3.1
+    },
+    {
+        "name": "Flying Machine Avionics",
+        "locations": [
+            {
+                "address": "Avionics, 202 South First Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1151976,
+                    "longitude": -88.2385343
+                }
+            }
+        ],
+        "price": 0,
+        "rating": 3.1
+    },
+    {
+        "name": "Jurassic Grill",
+        "locations": [
+            {
+                "address": "East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.110205,
+                    "longitude": -88.240265
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.2
+    },
+    {
+        "name": "Latea Lounge",
+        "locations": [
+            {
+                "address": "Jipbap Taste of Korea, 601 South Sixth Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113787,
+                    "longitude": -88.230584
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 0
+    },
+    {
+        "name": "Mid-Summer Lounge",
+        "locations": [
+            {
+                "address": "625 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102146,
+                    "longitude": -88.2299343
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 0
+    },
+    {
+        "name": "Destihl Brew Works",
+        "locations": [
+            {
+                "address": "Destihl Restaurant & Brew Works, 301 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1184918,
+                    "longitude": -88.2437783
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 4.1
+    },
+    {
+        "name": "Golden Harbor",
+        "locations": [
+            {
+                "address": "505 South Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1114493,
+                    "longitude": -88.2435837
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4.6
+    },
+    {
+        "name": "Fiesta Café",
+        "locations": [
+            {
+                "address": "Fiesta Cafe, 216 South First Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1147731,
+                    "longitude": -88.2384771
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Evo Café",
+        "locations": [
+            {
+                "address": "S 6th St, Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.110158,
+                    "longitude": -88.230465
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.7
+    },
+    {
+        "name": "Esquire Lounge",
+        "locations": [
+            {
+                "address": "106 North Walnut Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1166611,
+                    "longitude": -88.2424063
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.9
+    },
+    {
+        "name": "Empire Chinese Restaurant",
+        "locations": [
+            {
+                "address": "410 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103465,
+                    "longitude": -88.2332646
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.6
+    },
+    {
+        "name": "Dragon Fire",
+        "locations": [
+            {
+                "address": "Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.1164205,
+                    "longitude": -88.2433829
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 0
+    },
+    {
+        "name": "Cracked: The Egg Came First",
+        "locations": [
+            {
+                "address": "619 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1102132,
+                    "longitude": -88.2300075
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 4.1
+    },
+    {
+        "name": "Cowboy Monkey",
+        "locations": [
+            {
+                "address": "Cowboy Monkey, 6 Taylor Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1174716,
+                    "longitude": -88.2431617
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Caffé Paradiso",
+        "locations": [
+            {
+                "address": "Caffe Paradiso, 801 South Lincoln Avenue, Urbana, IL 61801, United States of America",
+                "coordinate": {
+                    "latitude": 40.1057621,
+                    "longitude": -88.2194361
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Bombay Indian Grill",
+        "locations": [
+            {
+                "address": "401 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.110181,
+                    "longitude": -88.23338
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.9
+    },
+    {
+        "name": "Aroma Cafe",
+        "locations": [
+            {
+                "address": "118 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1171072,
+                    "longitude": -88.2434106
+                }
+            }
+        ],
+        "price": 40,
+        "rating": 3.8
+    },
+    {
+        "name": "Ambar India",
+        "locations": [
+            {
+                "address": "605 South Wright Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113744,
+                    "longitude": -88.2290016
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "A-Ri-Rang",
+        "locations": [
+            {
+                "address": "607 South Wright Street, Urbana, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1113691,
+                    "longitude": -88.2290013
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    },
+    {
+        "name": "Seven Saints",
+        "locations": [
+            {
+                "address": "Seven Saints, 32 East Chester Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1165582,
+                    "longitude": -88.2419945
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 4.4
+    },
+    {
+        "name": "The Pop Stop",
+        "locations": [
+            {
+                "address": "Main St, Champaign, IL, United States of America",
+                "coordinate": {
+                    "latitude": 40.118167,
+                    "longitude": -88.243474
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.3
+    },
+    {
+        "name": "Legends Bar & Grill",
+        "locations": [
+            {
+                "address": "522 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1103677,
+                    "longitude": -88.2315951
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.5
+    },
+    {
+        "name": "Sakanaya",
+        "locations": [
+            {
+                "address": "Sakayana, 403 East Green Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1101552,
+                    "longitude": -88.2330881
+                }
+            }
+        ],
+        "price": 25,
+        "rating": 3.7
+    },
+    {
+        "name": "Quality Bar",
+        "locations": [
+            {
+                "address": "110 North Neil Street, Champaign, IL 61820, United States of America",
+                "coordinate": {
+                    "latitude": 40.1169757,
+                    "longitude": -88.2434097
+                }
+            }
+        ],
+        "price": 10,
+        "rating": 3.8
+    }
+]
