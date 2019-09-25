@@ -76,8 +76,9 @@ const landmarks = [
  * A range
  *
  * @typedef {Object} Range
- * @property {number} lower - the lower bound
- * @property {number} upper - the upper bound
+ * @property {number} lower - The lower bound
+ * @property {number} upper - The upper bound
+ * @property {number} maxUpper - The maximum upper bound
  */
 
 /**
@@ -111,6 +112,7 @@ const landmarks = [
  * @property {string} dataFile - The name of the data file
  * @property {Landmark} landmark - The landmark
  * @property {ColorRange} colorRange - The color range
+ * @property {string} area - The area
  */
 const chartOptions = {
   dimensions: {
@@ -122,11 +124,13 @@ const chartOptions = {
     x: {
       lower: 2.5,
       upper: 5.0,
+      maxUpper: 5.0,
       step: 0.5,
     },
     y: {
       lower: 0.0,
-      upper: 40.0,
+      upper: 35.0,
+      maxUpper: 35.0,
       step: 0.25,
     },
   },
@@ -136,6 +140,7 @@ const chartOptions = {
     start: { r: 255, g: 65, b: 66 },
     end: { r: 244, g: 223, b: 66 },
   },
+  area: 'Campustown',
 };
 
 /* HELPER METHODS */
@@ -149,13 +154,17 @@ const chartOptions = {
  * @return {number[]} The array
 */
 function stepArray(start, end, step) {
+  console.log(start);
+  console.log(end);
+  console.log(step);
   const arr = [];
   let curr = start;
   arr.push(start);
-  while (curr !== end) {
+  while (curr < end) {
     curr += step;
     arr.push(curr);
   }
+  return arr;
 }
 
 /**
@@ -296,8 +305,14 @@ function tooltip(eateryLocation, options) {
                 <span class="tooltip-data-value">${formattedDist} mi</span>
               </div>
               <div class="tooltip-row">
-                <span class="tooltip-data-name">Rating</span><br>
-                <span class="tooltip-data-value">${eateryLocation.rating}/5</span>
+                <div class="rating">
+                  <span class="tooltip-data-name">Rating</span><br>
+                  <span class="tooltip-data-value">${eateryLocation.rating}/5</span>
+                </div>
+                <div class="reviews">
+                  <span class="tooltip-data-name">Reviews</span><br>
+                  <span class="tooltip-data-value">${eateryLocation.reviews}</span>
+                </div>
               </div>
             </div>
           </div>`;
@@ -359,51 +374,67 @@ function drawChart(options, svg, sizeLegend, colorLegend) {
   const { padding } = options.dimensions;
 
   const xb = options.bounds.x;
-  const yb = options.bounds.y;
-
-  const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
-  const y = d3.scaleLinear().domain([yb.upper, yb.lower]).range([height - padding, padding]);
-
-  const xTickValues = stepArray(xb.lower, xb.upper, xb.step);
-  const yTickValues = stepArray(yb.lower, yb.upper, yb.step);
-
-  const xAxis = d3.axisBottom(x).tickValues(xTickValues);
-  const yAxis = d3.axisLeft(y).tickValues(yTickValues).tickFormat(d3.format('.2f'));
-
-  const xGridlines = d3.axisBottom(x)
-    .tickValues(xTickValues)
-    .tickFormat('')
-    .tickSize(-height + padding + padding);
-
-  const yGridlines = d3.axisLeft(y)
-    .tickValues(yTickValues)
-    .tickFormat('')
-    .tickSize(-width + padding + padding);
-
-  svg.append('g')
-    .attr('class', 'grid')
-    .attr('transform', `translate(0, ${(height - padding)})`)
-    .call(xGridlines);
-
-  svg.append('g')
-    .attr('class', 'grid')
-    .attr('transform', `translate(${padding}, 0)`)
-    .call(yGridlines);
-
-  svg.append('g')
-    .attr('class', 'axis')
-    .attr('transform', `translate(0, ${(height - padding)})`)
-    .call(xAxis);
-
-  svg.append('g')
-    .attr('class', 'axis')
-    .attr('transform', `translate(${padding}, 0)`)
-    .call(yAxis);
+  let yb = options.bounds.y;
 
   d3.json(options.dataFile)
     .then((eateryLocations) => {
+      console.log(options.area);
+      if (options.area !== 'All') {
+        eateryLocations = eateryLocations.filter(a => a.area === options.area);
+        console.log(eateryLocations.length);
+      }
+      const maxY = d3.max(eateryLocations, eateryLocation => distanceFromLandmark(eateryLocation.coordinate, options.landmark));
+      console.log(maxY);
+      options.bounds.y.upper = Math.min(yb.maxUpper, maxY);
+      yb = options.bounds.y;
+
+      let step = yb.step;
+      if (yb.upper - yb.lower > 10) {
+        step = 1.0;
+      }
+
+      const xTickValues = stepArray(xb.lower, xb.upper, xb.step);
+      const yTickValues = stepArray(yb.lower, yb.upper, step);
+      
+      const x = d3.scaleLinear().domain([xb.lower, xb.upper]).range([padding, width - padding]);
+      const y = d3.scaleLinear().domain([yTickValues[yTickValues.length - 1], yb.lower]).range([height - padding, padding]);
+
+      
+ 
+      const xAxis = d3.axisBottom(x).tickValues(xTickValues);
+      const yAxis = d3.axisLeft(y).tickValues(yTickValues).tickFormat(d3.format('.2f'));
+
+      const xGridlines = d3.axisBottom(x)
+        .tickValues(xTickValues)
+        .tickFormat('')
+        .tickSize(-height + padding + padding);
+
+      const yGridlines = d3.axisLeft(y)
+        .tickValues(yTickValues)
+        .tickFormat('')
+        .tickSize(-width + padding + padding);
+
+      svg.append('g')
+        .attr('class', 'grid')
+        .attr('transform', `translate(0, ${(height - padding)})`)
+        .call(xGridlines);
+
+      svg.append('g')
+        .attr('class', 'grid')
+        .attr('transform', `translate(${padding}, 0)`)
+        .call(yGridlines);
+
+      svg.append('g')
+        .attr('class', 'axis')
+        .attr('transform', `translate(0, ${(height - padding)})`)
+        .call(xAxis);
+
+      svg.append('g')
+        .attr('class', 'axis')
+        .attr('transform', `translate(${padding}, 0)`)
+        .call(yAxis);
       // sort to ensure eateries with smaller radius are drawn later
-      eateryLocations.sort((a, b) => d3.ascending(a.reviews, b.reviews));
+      eateryLocations.sort((a, b) => d3.descending(a.reviews, b.reviews));
       const minRadius = 2;
       const maxRadius = 10;
 
@@ -490,6 +521,10 @@ function initializeChart(options) {
     searchable: false,
     width: 300,
   });
+  const areaSelector = new Selectr('.area-selector', {
+    searchable: false,
+    width: 300,
+  });
   landmarkSelector.el.addEventListener('change', () => {
     let i;
     for (i = 0; i < landmarks.length; i += 1) {
@@ -499,6 +534,10 @@ function initializeChart(options) {
         break;
       }
     }
+  });
+  areaSelector.el.addEventListener('change', () => {
+    chartOptions.area = areaSelector.getValue();
+    drawChart(chartOptions, svg, sizeLegend, colorLegend);
   });
   drawChart(options, svg, sizeLegend, colorLegend);
 }

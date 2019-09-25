@@ -1313,8 +1313,8 @@
         "address": "912-1/2 Bloomington Rd., Champaign, Illinois",
         "area": "Champaign",
         "coordinate": {
-            "lat": 40.160386,
-            "lng": -88.314752
+            "lat": 40.1336631,
+            "lng": -88.2628647
         },
         "cuisine": "Asian",
         "name": "Thara Thai",
@@ -1797,11 +1797,11 @@
         "website": "pekarabakery.com"
     },
     {
-        "address": "611E Green St, Champaign, Illinois",
+        "address": "611 E Green St, Champaign, Illinois",
         "area": "Campustown",
         "coordinate": {
-            "lat": 40.110202,
-            "lng": -88.046651
+            "lat": 40.1100759,
+            "lng": -88.2298011
         },
         "cuisine": "Bakeries & Cafes",
         "name": "PVP Bakery",
@@ -2746,8 +2746,8 @@
         "address": "904 N Fourth St, Champaign, Illinois",
         "area": "Champaign",
         "coordinate": {
-            "lat": 40.1242842,
-            "lng": -88.2336693
+            "lat": 40.12454,
+            "lng": -88.2357657
         },
         "cuisine": "Barbecue",
         "name": "Wood N' Hog BBQ",
@@ -2761,8 +2761,8 @@
         "address": "500 Walnut St., Champaign, Illinois",
         "area": "Champaign",
         "coordinate": {
-            "lat": 40.302822,
-            "lng": -88.160613
+            "lat": 40.1200844,
+            "lng": -88.2431159
         },
         "cuisine": "Barbecue",
         "name": "Wood N' Hog BBQ",
@@ -3509,11 +3509,11 @@
         "reviews": 31
     },
     {
-        "address": "401E Green St, Champaign, Illinois",
+        "address": "401 E Green St, Champaign, Illinois",
         "area": "Campustown",
         "coordinate": {
-            "lat": 40.110202,
-            "lng": -88.046651
+            "lat": 40.1101333,
+            "lng": -88.2353726
         },
         "cuisine": "International",
         "name": "Bombay Indian Grill",
@@ -3876,8 +3876,8 @@
         "address": "3401 Fields South Dr., Champaign, Illinois",
         "area": "Champaign",
         "coordinate": {
-            "lat": 40.0824472,
-            "lng": -88.3086099
+            "lat": 40.0717393,
+            "lng": -88.3121505
         },
         "cuisine": "Mexican",
         "name": "El Toro at the Fields",
@@ -4067,15 +4067,15 @@
         "address": "100 N Chestnut, Champaign, Illinois",
         "area": "Downtown Champaign",
         "coordinate": {
-            "lat": 40.388168,
-            "lng": -88.127324
+            "lat": 40.116854,
+            "lng": -88.240611
         },
         "cuisine": "Mexican",
         "name": "Maize Mexican Grill",
         "phoneNumber": "2173553611",
         "price": 1,
-        "rating": 4.6,
-        "reviews": 825,
+        "rating": 4.5,
+        "reviews": 633,
         "website": "maizemexicangrill.com"
     },
     {

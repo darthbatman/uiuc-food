@@ -153,6 +153,7 @@ body {
     background-color: white;
     border: 0.0625rem solid black;
     border-radius: 0.25rem;
+    padding-bottom: 3.0rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-align: center;
@@ -174,6 +175,7 @@ body {
     border-top: 0.0625rem dotted black;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    width: 100%;
 }
 
 .tooltip-data-name {
@@ -182,4 +184,14 @@ body {
 
 .tooltip-data-value {
     font-size: 1.5rem;
+}
+
+.rating {
+    float: left;
+    width: 50%;
+}
+
+.reviews {
+    float: right;
+    width: 50%;
 }
