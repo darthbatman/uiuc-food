@@ -8,19 +8,24 @@
  */
 
 /**
- * A location
- * @typedef {Object} Location
+ * An eatery location
+ * @typedef {Object} EateryLocation
  * @property {string} address - The address
+ * @property {string} area - The location area
  * @property {Coordinate} coordinate - The coordinate
+ * @property {string} phoneNumber - The phone number
+ * @property {number} price - The price
+ * @property {number} rating - The rating out of 5
+ * @property {number} reviews - The number of reviews
+ * @property {string} website - The website
  */
 
 /**
  * An eatery
  * @typedef {Object} Eatery
  * @property {string} name - The name
- * @property {Location[]} locations - An array of locations
- * @property {number} price - The price
- * @property {number} rating - The rating
+ * @property {string} cuisine - The cuisine
+ * @property {EateryLocation[]} locations - An array of eatery locations
  */
 
 /**
@@ -129,7 +134,7 @@ const chartOptions = {
       upper: 1.75,
     },
   },
-  dataFile: './res/dataset.json',
+  dataFile: './res/dataset_v2.json',
   landmark: landmarks[0],
   colorRange: {
     start: { r: 255, g: 65, b: 66 },
