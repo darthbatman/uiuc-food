@@ -4,4 +4,4 @@ The following is a data exploration of all restaurants, cafes, etc. in and aroun
 ## Dataset
 The dataset used for the visualization portion of this project can be found at `visualization/res/dataset_v2.json`.
 
-The dataset used for this project was compiled through the use of OCR on a PDF to obtain eatery names, addresses, cuisines, phone numbers, areas, and websites. This was followed by geocoding to convert the addresses to coordinates and making automated Google queries to obtain rating, review, and price information.
+The dataset used for this project was compiled through the use of OCR on a [PDF]((https://adobeindd.com/view/publications/abe7ee98-a01b-4424-93ef-565d0e778bf9/1/publication-web-resources/pdf/Experience_Guide_2019.pdf) of a "The Greater Champaign County Area Magazine" issue to obtain eatery names, addresses, cuisines, phone numbers, areas, and websites. This was followed by geocoding to convert the addresses to coordinates and making automated Google queries to obtain rating, review, and price information.
