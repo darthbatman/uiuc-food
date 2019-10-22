@@ -1,4 +1,5 @@
-data/* linguist-vendored
+lib/v1/data/* linguist-vendored
+lib/v2/data/* linguist-vendored
 lib/v1/*.js linguist-language=JavaScript
 lib/v2/*.py linguist-language=Python
 visualization/js/* linguist-language=JavaScript
